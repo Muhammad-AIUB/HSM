@@ -71,7 +71,7 @@ const ContactForm: React.FC = () => {
 
     try {
       const response = await fetch(
-        "https://formsubmit.co/healthsystemsmatter@gmail.com",
+        "https://formsubmit.co/9891567653de0d793191e58899a01f6c",
         {
           method: "POST",
           headers: {
