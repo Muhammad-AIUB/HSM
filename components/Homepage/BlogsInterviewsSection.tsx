@@ -31,7 +31,7 @@ export default function BlogsInterviewsSection() {
           <div className="flex gap-4 items-center">
             <Link
               href="/blog-and-interview"
-              className="text-[30px] font-[1000] text-[#001844] whitespace-nowrap"
+              className="text-[30px] font-[700] text-[#001844] whitespace-nowrap"
             >
               <h2 className="text-center sm:text-left">
                 INTERVIEW <br className="md:hidden" /> AND BLOG

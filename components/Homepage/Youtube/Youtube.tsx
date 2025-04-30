@@ -16,7 +16,7 @@ const Youtube = () => {
               href="/youtube"
               className="text-[30px] font-[1000] text-[#001844] whitespace-nowrap"
             >
-              <h2 className="text-center sm:text-left">YOUTUBE</h2>
+              <h2 className="text-center sm:text-left font-[700]">YOUTUBE</h2>
             </Link>
             <Separator
               orientation="vertical"

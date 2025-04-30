@@ -71,7 +71,7 @@ export default function GiftForm({ image }: GiftFormProps) {
               <input
                 type="hidden"
                 name="_next"
-                value={`https://www.healthsystemsmatter.com/gift-for-u?message=gift-sent&name=${encodeURIComponent(
+                value={`https://healthsystemsmatter.com/gift-for-u?message=gift-sent&name=${encodeURIComponent(
                   fullName
                 )}`}
               />

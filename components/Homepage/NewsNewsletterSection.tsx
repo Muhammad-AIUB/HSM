@@ -33,7 +33,7 @@ export default function NewsNewsletterSection() {
               href="/news-and-newsletter"
               className="text-[30px] font-[1000] text-[#001844] whitespace-nowrap"
             >
-              <h2 className="text-center sm:text-left">
+              <h2 className="text-center sm:text-left font-[700]">
                 NEWS AND <br className="md:hidden" /> NEWSLETTER
               </h2>
             </Link>

@@ -33,7 +33,7 @@ const ContactSection = ({ version = "homepage" }) => {
               href="/contact"
               className="text-[30px] font-[1000] text-[#001844] whitespace-nowrap"
             >
-              <h2 className="text-center sm:text-left">CONTACT</h2>
+              <h2 className="text-center sm:text-left font-[700]">CONTACT</h2>
             </Link>
             <Separator
               orientation="vertical"

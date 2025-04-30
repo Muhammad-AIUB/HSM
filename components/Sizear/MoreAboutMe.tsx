@@ -2,7 +2,7 @@ const MoreAboutMe = () => {
   return (
     <div className=" bg-[#E1F0DB]">
       <div className="max-w-screen-xl mx-auto px-16 py-12">
-        <h2 className="text-3xl font-extrabold w-72 mx-auto py-3  text-center text-white bg-[#001844] ">
+        <h2 className="text-3xl font-[700] w-72 mx-auto py-3  text-center text-white bg-[#001844] ">
           More About Me
         </h2>
 

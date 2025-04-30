@@ -3,7 +3,6 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import AreaOfFocusImg from "@/public/images/sizear/area-of-research.jpeg";
-import { title } from "process";
 
 const AreaOfFocus = () => {
   const focusAreas = [
@@ -16,7 +15,7 @@ const AreaOfFocus = () => {
     { title: "Program Development and Implementation", color: "bg-cyan-100" },
     { title: "Partnership and Collaboration", color: "bg-slate-100" },
     { title: "Knowledge Management", color: "bg-teal-100" },
-    { title: "Implementation Research", color: "bg-pink-100" },
+    { title: "Implementation Research", color: "bg-blue-100" },
   ];
 
   return (
@@ -60,17 +59,23 @@ const AreaOfFocus = () => {
 
         {/* Focus Area Section */}
         <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {focusAreas.map((area, index) => (
-            <motion.div
-              key={index}
-              initial={{ opacity: 0, y: 10 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.3, delay: 0.1 * index }}
-              className={`p-6 rounded-md shadow-md text-center font-semibold text-[#003366] ${area.color}`}
-            >
-              {area.title}
-            </motion.div>
-          ))}
+          {focusAreas.map((area, index) => {
+            const isLastSingleItem =
+              focusAreas.length % 3 === 1 && index === focusAreas.length - 1;
+            return (
+              <motion.div
+                key={index}
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.3, delay: 0.1 * index }}
+                className={`p-6 rounded-md shadow-md text-center font-semibold text-[#003366] mx-auto w-full ${
+                  area.color
+                } ${isLastSingleItem ? "lg:col-start-2" : ""}`}
+              >
+                {area.title}
+              </motion.div>
+            );
+          })}
         </div>
       </div>
     </div>

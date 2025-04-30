@@ -63,7 +63,7 @@ export function AnimatedTestimonialsDemo() {
           <div className="flex gap-4 items-center ">
             <Link
               href="/testimonials"
-              className="text-[30px] font-[1000] text-[#001844] whitespace-nowrap"
+              className="text-[30px] font-[700] text-[#001844] whitespace-nowrap"
             >
               <h2 className="text-center sm:text-left">TESTIMONIALS</h2>
             </Link>
