@@ -2,9 +2,9 @@ import { FaDownload, FaBookOpen } from "react-icons/fa";
 
 import Image from "next/image";
 import NextButton from "@/components/Shared/NextButton";
-import { FeaturedResources } from "../overview/page";
 import { SectionTitleWithoutSub } from "@/components/Shared/SectionTitle/SectionTitle";
 import EssentialReadingListImg from "@/public/images/resource-bookmark/resource/essential-reading-list.webp";
+import Link from "next/link";
 
 const EssentialReadingList = () => {
   // Sample PDF data
@@ -168,3 +168,67 @@ const EssentialReadingList = () => {
 };
 
 export default EssentialReadingList;
+
+const FeaturedResources = function () {
+  return (
+    <div className="bg-[#6BCBD5] p-5 rounded-lg border border-gray-200 shadow-md w-full max-w-md self-start">
+      <h2 className="text-2xl font-bold text-gray-900 mb-6">
+        Featured Resources
+      </h2>
+      <ul className="space-y-1">
+        <li>
+          <Link
+            href="/resources/essential-reading-list"
+            className="flex items-center p-3 border rounded-md bg-white hover:bg-gray-100 transition group"
+          >
+            <span className="text-xl text-blue-700 group-hover:text-[#F18A00]">
+              📖
+            </span>
+            <span className="ml-3 text-base text-gray-800 font-medium group-hover:underline group-hover:text-[#F18A00]">
+              Essential Reading List
+            </span>
+          </Link>
+        </li>
+        <li>
+          <Link
+            href="/resources/reports"
+            className="flex items-center p-3 border rounded-md bg-white hover:bg-gray-100 transition group"
+          >
+            <span className="text-xl text-blue-700 group-hover:text-[#F18A00]">
+              📑
+            </span>
+            <span className="ml-3 text-base text-gray-800 font-medium group-hover:underline group-hover:text-[#F18A00]">
+              Reports
+            </span>
+          </Link>
+        </li>
+        <li>
+          <Link
+            href="/resources/books"
+            className="flex items-center p-3 border rounded-md bg-white hover:bg-gray-100 transition group"
+          >
+            <span className="text-xl text-blue-700 group-hover:text-[#F18A00]">
+              📚
+            </span>
+            <span className="ml-3 text-base text-gray-800 font-medium group-hover:underline group-hover:text-[#F18A00]">
+              Books
+            </span>
+          </Link>
+        </li>
+        <li>
+          <Link
+            href="/resources/interview-and-insights"
+            className="flex items-center p-3 border rounded-md bg-white hover:bg-gray-100 transition group"
+          >
+            <span className="text-xl text-blue-700 group-hover:text-[#F18A00]">
+              🎙️
+            </span>
+            <span className="ml-3 text-base text-gray-800 font-medium group-hover:underline group-hover:text-[#F18A00]">
+              Interview and Insights
+            </span>
+          </Link>
+        </li>
+      </ul>
+    </div>
+  );
+};

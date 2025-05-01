@@ -1,6 +1,6 @@
 import NextButton from "@/components/Shared/NextButton";
+import { PdfCard } from "@/components/Shared/PdfCard";
 import { SectionTitleWithoutSub } from "@/components/Shared/SectionTitle/SectionTitle";
-import { PdfCard } from "../../general-reports/page";
 const pdfs = [
   {
     title: "Bangladesh Urban Health Scenario 2014 BHW",

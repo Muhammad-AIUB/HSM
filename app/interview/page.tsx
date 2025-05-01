@@ -38,7 +38,7 @@ const interviews = [
     description:
       "Dr. Madhukar Pai shares his journey, inspiration, and thoughts on the biggest global health challenges.",
     image: DrMadhukarPaiImg,
-    slug: "public-health-insights",
+    slug: "public-health-insights-1",
   },
   {
     id: 2,
@@ -58,7 +58,7 @@ const interviews = [
     description:
       "Prof. Sharmeen Yasmeen shares insights on public health systems",
     image: SharmeenYasmeenImg,
-    slug: "public-health-insights-with-sharmeen-yasmeen",
+    slug: "public-health-insights-2",
   },
   {
     id: 4,

@@ -171,7 +171,7 @@ function DonateDialog() {
           Donate via Bkash
         </div>
       </DialogTrigger>
-      <DialogContent className="z-[50000] p-4 max-h-[800px] max-w-[400px]">
+      <DialogContent className="z-[50000] p-4 max-w-[400px] max-h-screen overflow-auto ">
         <DialogTitle />
         <DialogDescription />
         <div className="bg-cyan-100 p-4 rounded-md font-roboto text-justify">
@@ -184,7 +184,7 @@ function DonateDialog() {
           in the reference section. <br />{" "}
           <span className="inline-block mt-2">Thank you once again!</span>
         </div>
-        <div className="h-[500px] rounded-2xl overflow-hidden">
+        <div className="h-[450px] rounded-2xl overflow-hidden">
           <Image src={BkashQRCode} className="h-full object-contain" alt="" />
         </div>
       </DialogContent>

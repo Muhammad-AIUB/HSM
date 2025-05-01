@@ -29,48 +29,48 @@ const PublicHealth = () => {
         "Resource Allocation Formula could address our poor health budget utilisation",
       year: "2023",
       link: "https://www.tbsnews.net/thoughts/resource-allocation-formula-could-address-our-poor-health-budget-utilisation-756218", // Replace with the correct link
-      source: "TBS",
+      source: "The Business Standard (TBS)",
     },
     {
       title:
         "Why health budget remains underutilised and how it can be remedied",
       year: "2023",
       link: "https://www.tbsnews.net/thoughts/why-health-budget-remains-underutilised-and-how-it-can-be-remedied-641414", // Replace with the correct link
-      source: "TBS",
+      source: "The Business Standard (TBS)",
     },
     {
       title: "Public health literacy: The key to a healthier society",
       year: "2023",
       link: "https://www.tbsnews.net/thoughts/public-health-literacy-key-healthier-society-697074", // Replace with the correct link
-      source: "TBS",
+      source: "The Business Standard (TBS)",
     },
     {
       title:
         "Breastfeeding: How dubious advertising tricked us into thinking formula is better",
       year: "2023",
       link: "https://www.tbsnews.net/thoughts/breastfeeding-how-dubious-advertising-tricked-us-thinking-formula-better-676906", // Replace with the correct link
-      source: "TBS",
+      source: "The Business Standard (TBS)",
     },
     {
       title:
         "Health for all: An overarching but ultimate goal for World Health Day 2023",
       year: "2023",
       link: "https://www.tbsnews.net/thoughts/health-all-overarching-ultimate-goal-world-health-day-2023-612630", // Replace with the correct link
-      source: "TBS",
+      source: "The Business Standard (TBS)",
     },
     {
       title:
         "Triumphs and challenges of the tuberculosis programme in Bangladesh",
       year: "2023",
       link: "https://www.tbsnews.net/thoughts/triumphs-and-challenges-tuberculosis-programme-bangladesh-604754", // Replace with the correct link
-      source: "TBS",
+      source: "The Business Standard (TBS)",
     },
     {
       title:
         "Learning from Sweden: A contextualised approach to deal with an unprecedented situation",
       year: "2020",
       link: "https://www.tbsnews.net/thoughts/learning-sweden-contextualised-approach-deal-unprecedented-situation-91294", // Replace with the correct link
-      source: "TBS",
+      source: "The Business Standard (TBS)",
     },
   ];
 

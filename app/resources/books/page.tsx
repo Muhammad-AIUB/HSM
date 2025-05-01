@@ -1,9 +1,9 @@
 "use client";
 
 import NextButton from "@/components/Shared/NextButton";
+import { PdfCard } from "@/components/Shared/PdfCard";
 
 import { SectionTitleWithoutSub } from "@/components/Shared/SectionTitle/SectionTitle";
-import { PdfCard } from "../reports/general-reports/page";
 
 const pdfs = [
   {

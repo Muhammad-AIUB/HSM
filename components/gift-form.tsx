@@ -51,7 +51,7 @@ export default function GiftForm({ image }: GiftFormProps) {
             </div>
           ) : (
             <form
-              action="https://formsubmit.co/9891567653de0d793191e58899a01f6c"
+              action="https://formsubmit.co/admin@healthsystemsmatter.com"
               method="POST"
               className="space-y-6"
             >

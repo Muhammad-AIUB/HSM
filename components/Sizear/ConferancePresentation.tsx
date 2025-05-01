@@ -58,7 +58,7 @@ const ConferenceAwards = () => {
           <motion.div
             key={index}
             // whileHover={{ scale: 1.02 }}
-            className={`flex flex-col items-start space-x-6 bg-white shadow-sm rounded-lg p-5 border-l-4 border-blue-500 transition-all duration-300 group ${
+            className={`flex flex-col items-start  bg-white shadow-sm rounded-lg p-5 border-l-4 border-blue-500 transition-all duration-300 group ${
               colors[index % colors.length]
             }`}
           >

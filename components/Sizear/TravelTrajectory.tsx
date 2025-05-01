@@ -15,7 +15,7 @@ import { Globe, Plane } from "lucide-react";
 export default function TravelTrajectory() {
   return (
     <div className="bg-blue-200">
-      <div className="max-w-5xl mx-auto px-16 py-16">
+      <div className="max-w-5xl mx-auto px-16 py-10 pt-0">
         <h3 className="text-2xl md:text-2xl font-bold pt-16 underline underline-offset-[6px] font-roboto text-[#0070c0] decoration-[#FFCE00] flex items-center gap-2">
           <Plane /> Travel Trajectory
         </h3>

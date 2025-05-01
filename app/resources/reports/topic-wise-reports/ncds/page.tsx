@@ -1,5 +1,5 @@
 import NextButton from "@/components/Shared/NextButton";
-import { PdfCard } from "../../general-reports/page";
+import { PdfCard } from "@/components/Shared/PdfCard";
 
 const pdfs = [
   {

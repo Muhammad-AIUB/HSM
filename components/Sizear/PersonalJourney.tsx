@@ -26,7 +26,7 @@ const PersonalJourney = () => {
     {
       year: "2020 – 2025",
       description:
-        "In 2020, I relocated to the Netherlands to pursue my third Master’s degree during the challenging COVID-19 period. Living apart from my family, I developed resilience and selfreliance. This journey inspired me to write and publish a book. Upon returning to Bangladesh, I joined an international organization as a health systems researcher and later transitioned to another global entity, where I’ve worked with pride for over 26 months as a health systems expert. In 2022, the birth of my second daughter brought immense joy to our family. In 2024, I founded Health Systems Matter, a platform to advance my vision for impactful contributions in the health sector.",
+        "In 2020, I relocated to the Netherlands to pursue my third Master’s degree during the challenging COVID-19 period. Living apart from my family, I developed resilience and selfreliance. This journey inspired me to write and publish a book. Upon returning to Bangladesh, I joined an international organization as a health systems researcher and later transitioned to another global entity, where I’ve worked with pride for over 26 months as a health systems expert. In 2022, the birth of my second daughter brought immense joy to our family. In 2024, I founded Health Systems Matter, a knowledge platform to advance my vision for impactful contributions in the health sector.",
     },
   ];
 

@@ -60,7 +60,7 @@ const ResourcesOverview = () => {
 
 export default ResourcesOverview;
 
-export const FeaturedResources = function () {
+const FeaturedResources = function () {
   return (
     <div className="bg-[#6BCBD5] p-5 rounded-lg border border-gray-200 shadow-md w-full max-w-md self-start">
       <h2 className="text-2xl font-bold text-gray-900 mb-6">

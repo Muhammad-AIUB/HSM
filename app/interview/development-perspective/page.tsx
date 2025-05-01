@@ -4,7 +4,7 @@ import Image from "next/image";
 import BioOfZarif from "./BiofOfZarifRasul";
 import { FaLinkedin } from "react-icons/fa";
 import Link from "next/link";
-import DrZarifImg from "@/public/images/blog-interview/interview/Zarif-Rasul.jpg";
+import DrZarifImg from "@/public/images/blog-interview/interview/Zarif-Rasul-2.jpg";
 
 const DevelopmentPerspective = () => {
   return (
@@ -42,7 +42,7 @@ const DevelopmentPerspective = () => {
                 alt="Zarif-Rasul"
                 width={500}
                 height={500}
-                className="object-cover w-full h-full object-right scale-150"
+                className="object-cover w-full h-full object-right"
               />
             </div>
 

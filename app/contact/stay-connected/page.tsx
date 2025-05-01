@@ -27,6 +27,7 @@ export default StayConnectePage;
 
 import NextButton from "@/components/Shared/NextButton";
 import { SectionTitleWithoutSub } from "@/components/Shared/SectionTitle/SectionTitle";
+import { Dialog, DialogContent, DialogDescription, DialogTitle } from "@/components/ui/dialog";
 import React, { useState, ChangeEvent, FormEvent } from "react";
 import { toast } from "sonner";
 
@@ -37,6 +38,7 @@ interface FormData {
 }
 
 const ContactForm: React.FC = () => {
+  const [messageDialogOpen, setMessageDialogOpen] = useState(false);
   const [formData, setFormData] = useState<FormData>({
     name: "",
     email: "",
@@ -71,7 +73,7 @@ const ContactForm: React.FC = () => {
 
     try {
       const response = await fetch(
-        "https://formsubmit.co/9891567653de0d793191e58899a01f6c",
+        "https://formsubmit.co/admin@healthsystemsmatter.com",
         {
           method: "POST",
           headers: {
@@ -90,7 +92,8 @@ const ContactForm: React.FC = () => {
       );
 
       if (response.ok) {
-        toast.success("Message sent! Thank you for reaching out.");
+        // toast.success("");
+        setMessageDialogOpen(true)
         setFormData({ name: "", email: "", message: "" });
       } else {
         toast.error("Something went wrong. Please try again.");
@@ -153,6 +156,25 @@ const ContactForm: React.FC = () => {
           Submit
         </button>
       </form>
+
+      {
+        messageDialogOpen && <StayConnectedMessageDialog open={messageDialogOpen} setOpen={setMessageDialogOpen} />
+      }
     </div>
   );
 };
+
+function StayConnectedMessageDialog({open, setOpen}: {open: boolean, setOpen: any}) {
+  return (
+    <Dialog open={open} onOpenChange={setOpen}>
+      <DialogContent className="z-[50000] max-w-[650px] min-h-72 bg-cyan-100 px-8 flex items-center max-h-screen overflow-auto p-0">
+        <DialogTitle className="hidden" />
+        <DialogDescription className="hidden" />
+        <div className="h-full p-8 rounded-md font-roboto text-justify  text-lg">
+        Message sent! Thank you for reaching out. <br /> <br />
+        We will respond to your inquiry at our earliest convenience.
+        </div>
+      </DialogContent>
+    </Dialog>
+  );
+}

@@ -2,6 +2,7 @@
 import { CircleArrowLeft } from "lucide-react";
 import React, { useState } from "react";
 import { toast } from "sonner";
+import { Dialog, DialogContent, DialogDescription, DialogTitle } from "../ui/dialog";
 
 interface FormData {
   firstName: string;
@@ -10,6 +11,7 @@ interface FormData {
 }
 
 export default function NewsletterForm() {
+  const [messageDialogOpen, setMessageDialogOpen] = useState(false);
   const [formData, setFormData] = useState<FormData>({
     firstName: "",
     lastName: "",
@@ -41,7 +43,7 @@ export default function NewsletterForm() {
     // Submit the form
     try {
       const response = await fetch(
-        "https://formsubmit.co/9891567653de0d793191e58899a01f6c",
+        "https://formsubmit.co/admin@healthsystemsmatter.com",
         {
           method: "POST",
           headers: {
@@ -60,7 +62,8 @@ export default function NewsletterForm() {
       );
 
       if (response.ok) {
-        toast.success("Thank you for subscribing!");
+        // toast.success("Thank you for subscribing!");
+        setMessageDialogOpen(true);
         setFormData({ firstName: "", lastName: "", email: "" });
       } else {
         toast.error("Something went wrong. Please try again.");
@@ -113,6 +116,24 @@ export default function NewsletterForm() {
           </button>
         </form>
       </div>
+      {
+              messageDialogOpen && <MessageDialog open={messageDialogOpen} setOpen={setMessageDialogOpen} />
+            }
     </div>
+  );
+}
+
+function MessageDialog({open, setOpen}: {open: boolean, setOpen: any}) {
+  return (
+    <Dialog open={open} onOpenChange={setOpen}>
+      <DialogContent className="z-[50000] max-w-[650px] min-h-72 bg-cyan-100 px-8 flex items-center max-h-screen overflow-auto p-0">
+        <DialogTitle className="hidden" />
+        <DialogDescription className="hidden" />
+        <div className="h-full p-8 rounded-md font-roboto text-justify text-lg">
+        Thank you for subscribing! <br /> <br />
+        You will receive the updated newsletter at the provided email address once it is published.
+        </div>
+      </DialogContent>
+    </Dialog>
   );
 }

@@ -11,9 +11,9 @@ const ProfessionalJourney = () => {
 
       {/* content */}
       <div>
-        <p className="text-xl text-[#001844] font-semibold text-center pt-4 max-w-2xl mx-auto px-16">
+        <p className="text-[18px] text-[#001844] font-semibold text-center pt-4 max-w-2xl mx-auto px-16">
           Today, I am proud to embrace multiple roles in my life: Public Health
-          Activist, Researcher, Writer, Organizer, Explorer, Son, Husband, and
+          Activist, Researcher, Writer, Organizer, Traveller, Explorer, Son, Husband, and
           Father. Each of these roles shapes me better. And I am grateful and
           happy to carry them all.
         </p>

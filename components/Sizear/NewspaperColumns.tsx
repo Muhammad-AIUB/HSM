@@ -9,14 +9,10 @@ const NewspaperColumns = () => {
           Writing World
         </h3>
 
-        <p className="text-black font-[17px]">
+        <p className="text-black font-[17px] text-justify">
           Beyond academic publications, I regularly contribute columns and
           opinion pieces to newspapers and various platforms, addressing
-          critical public health and social issues.
-        </p>
-
-        <p className="mt-4 text-black font-[17px]">
-          As a passionate traveler, I have also documented my journeys and
+          critical public health and social issues. As a passionate traveler, I have also documented my journeys and
           published a collection of travel essays in book form. My work spans
           the following categories:
         </p>
