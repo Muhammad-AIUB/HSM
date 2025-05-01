@@ -55,7 +55,7 @@ const bookmarkSubLinks = [
     img: CommentariesBlogsImage,
   },
   {
-    title: "Interviews Sites on Global Health and More",
+    title: "Interviews Sites on Global Health",
     href: "/bookmarks/interviews-sites",
     description:
       "This section features in-depth interviews with global health leaders, offering valuable perspectives on innovation, challenges, and personal journeys in public health.",
