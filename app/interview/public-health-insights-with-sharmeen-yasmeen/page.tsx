@@ -21,8 +21,9 @@ const PublicHealthInsightsWithSharmeenYasmeen = () => {
                 <span className="bg-[#FFCE00] px-2 rounded-md underline">
                   PROF. SHARMEEN YASMEEN:
                 </span>
-              </Link>{" "}
-              <br /> Distinguished Academic and Public Health Expert
+              </Link>
+              <br />
+              Distinguished Academic and Public Health Expert
             </h1>
           </div>
         </div>
