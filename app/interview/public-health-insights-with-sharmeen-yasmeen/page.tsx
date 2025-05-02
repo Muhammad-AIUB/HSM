@@ -18,8 +18,8 @@ const PublicHealthInsightsWithSharmeenYasmeen = () => {
             >
               Public Health Insights with{" "}
               <Link href="">
-                <span className="bg-[#FFCE00] rounded-md font-extrabold text-[#001844] underline">
-                  N PROF. SHARMEEN YASMEEN:
+                <span className="bg-[#FFCE00] px-2 rounded-md underline">
+                  PROF. SHARMEEN YASMEEN:
                 </span>
               </Link>{" "}
               <br /> Distinguished Academic and Public Health Expert
