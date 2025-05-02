@@ -13,19 +13,20 @@ const PublicHealthInsightsWithSharmeenYasmeen = () => {
         <div className="bg-gradient-to-b from-[#2D8CBB]/90 to-[#2D8CBB]/30 flex items-center">
           <div className="max-w-screen-xl mx-auto flex justify-center items-center w-full px-12 text-center md:px-16 flex-wrap gap-6 py-4">
             <h1
-              className="text-2xl md:text-[30px] uppercase font-extrabold text-[#001844] leading-9"
+              className="text-2xl md:text-[30px] uppercase font-extrabold text-[#001844] leading-10"
               style={{ wordSpacing: "0.4rem" }}
             >
               Public Health Insights with{" "}
-              <Link href="">
-                <span className="bg-[#FFCE00] px-2 rounded-md">
-                  PROF. SHARMEEN YASMEEN:
-                  <span className="underline" style={{ marginLeft: "-2px" }}>
-                    —
-                  </span>
-                </span>
-              </Link>{" "}
-              <br /> Distinguished Academic and Public Health Expert
+              <a
+                href="https://www.linkedin.com/in/sharmeen-yasmeen-5780453a/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#001844] underline font-extrabold bg-[#FFCE00] px-2 rounded-md"
+              >
+                Prof. Sharmeen Yasmeen:
+              </a>{" "}
+              <br />
+              Distinguished Academic and Public Health Expert
             </h1>
           </div>
         </div>
