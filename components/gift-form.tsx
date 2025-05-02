@@ -162,10 +162,18 @@ function MessageDialog({
               If it's not in your inbox, kindly check your spam or junk folder.
               Alternatively, you may access the Knowledge Gift via the
               link provided below.
-              <span>
-                https://healthsystemsmatter.com/files/Knowledge_Gift_Health_Systems_Matter_2025.pdf
-              </span>
             </p>
+          </div>
+          <div className="flex justify-center items-center ">
+            <a
+              download
+              target="_blank"
+              href="https://healthsystemsmatter.com/files/Knowledge_Gift_Health_Systems_Matter_2025.pdf"
+              className="w-40 block px-4 py-2 bg-[#001844] rounded-md text-white text-center text-base"
+            >
+              Download Gift
+            </a>
+                      
           </div>
         </div>
       </DialogContent>
