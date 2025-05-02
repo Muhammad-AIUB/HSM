@@ -126,7 +126,7 @@ const Footer = () => {
 
             <a
               href="mailto:healthsystemsmatter@gmail.com"
-              className="p-2 mt-2 transition underline"
+              className="p-2 transition underline"
             >
               healthsystemsmatter@gmail.com
             </a>
