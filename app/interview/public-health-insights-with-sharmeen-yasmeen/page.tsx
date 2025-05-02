@@ -19,10 +19,10 @@ const PublicHealthInsightsWithSharmeenYasmeen = () => {
               Public Health Insights with{" "}
               <Link href="">
                 <span className="text-[#001844] underline font-extrabold bg-[#FFCE00] px-2 rounded-md">
-                  Prof. Sharmeen Yasmeen
+                  Prof. Sharmeen Yasmeen:
                 </span>
               </Link>{" "}
-              : <br /> Distinguished Academic and Public Health Expert
+              <br /> Distinguished Academic and Public Health Expert
             </h1>
           </div>
         </div>
