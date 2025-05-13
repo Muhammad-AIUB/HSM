@@ -22,7 +22,7 @@ const BeyondTheSilencePage = () => {
           <div className="bg-[#001844] py-10 px-4 sm:px-8 lg:px-16">
             <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-center sm:items-center gap-8">
               {/* Circular Image */}
-              <div className="w-52 h-52 shrink-0 rounded-full overflow-hidden ">
+              <div className="w-52 h-52 shrink-0 rounded-full overflow-hidden">
                 <Image
                   src={Himika}
                   alt="Dr. Himika"
@@ -30,7 +30,7 @@ const BeyondTheSilencePage = () => {
                   height={500}
                   quality={100}
                   priority
-                  className="object-cover"
+                  className="object-cover object-left w-full h-full"
                 />
               </div>
 
