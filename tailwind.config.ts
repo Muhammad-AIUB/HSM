@@ -82,6 +82,12 @@ export default {
                     },
                 },
 
+                // gift modal
+                "fade-in": {
+                    "0%": { opacity: "0", transform: "scale(0.95)" },
+                    "100%": { opacity: "1", transform: "scale(1)" },
+                },
+
                 // gift button animation
                 blinkScaleColor: {
                     "0%, 100%": {
@@ -103,6 +109,7 @@ export default {
                 "accordion-up": "accordion-up 0.2s ease-out",
                 "blink-scale-color":
                     "blinkScaleColor 1.5s infinite ease-in-out",
+                "fade-in": "fade-in 0.4s ease-out",
             },
         },
     },
