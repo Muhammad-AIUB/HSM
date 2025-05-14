@@ -32,26 +32,16 @@ interface Interview {
 const interviews = [
   {
     id: 1,
-    title:
-      "Development Perspective with Dr. Zarif Rasul: Insights from A Global Water Specialist",
-    date: "May 04, 2025",
+    title: "Public Health Insights with Dr. Madhukar Pai: A Global Leader",
+    date: "May 01, 2025",
     description:
-      "Dr. Zarif shares insights from his inspiring academic and professional journey toward becoming a global development expert.",
-    image: DrZarifImg,
-    slug: "development-perspective",
+      "Dr. Madhukar Pai shares his journey, inspiration, and thoughts on the biggest global health challenges.",
+    image: DrMadhukarPaiImg,
+    slug: "public-health-insights-1",
   },
+
   {
     id: 2,
-    title:
-      "Public Health Insights with Prof. Sharmeen Yasmeen: Distinguished Academic and Public Health Expert",
-    date: "May 03, 2025",
-    description:
-      "Prof. Sharmeen Yasmeen shares insights on public health systems",
-    image: SharmeenYasmeenImg,
-    slug: "public-health-insights-2",
-  },
-  {
-    id: 3,
     title:
       "Public Health Systems Perspective with Prof. Dr. Syed Masud Ahmed: A Global Health System Expert",
     date: "May 02, 2025",
@@ -61,13 +51,24 @@ const interviews = [
     slug: "public-health-system-perspective",
   },
   {
-    id: 4,
-    title: "Public Health Insights with Dr. Madhukar Pai: A Global Leader",
-    date: "May 01, 2025",
+    id: 3,
+    title:
+      "Public Health Insights with Prof. Sharmeen Yasmeen: Distinguished Academic and Public Health Expert",
+    date: "May 03, 2025",
     description:
-      "Dr. Madhukar Pai shares his journey, inspiration, and thoughts on the biggest global health challenges.",
-    image: DrMadhukarPaiImg,
-    slug: "public-health-insights-1",
+      "Prof. Sharmeen Yasmeen shares insights on public health systems",
+    image: SharmeenYasmeenImg,
+    slug: "public-health-insights-2",
+  },
+  {
+    id: 4,
+    title:
+      "Development Perspective with Dr. Zarif Rasul: Insights from A Global Water Specialist",
+    date: "May 04, 2025",
+    description:
+      "Dr. Zarif shares insights from his inspiring academic and professional journey toward becoming a global development expert.",
+    image: DrZarifImg,
+    slug: "development-perspective",
   },
 ];
 

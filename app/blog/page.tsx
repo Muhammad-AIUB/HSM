@@ -19,12 +19,12 @@ import { useEffect, useState } from "react";
 const blogs = [
   {
     title:
-      "Beyond the Silence: Why Bangladesh Needs Comprehensive Sexuality Education Now",
+      "Bridging the Gaps: Strengthening Mental Healthcare to Build a Resilient Health System in Bangladesh",
     description:
-      "To achieve Universal Health Coverage and the Sustainable Development Goals, at least 15% of total budget and 4-5% of gross domestic product (GDP) should be invested in healthcare in Bangladesh. However, t",
-    date: "May 15, 2025",
+      "Mental health remains a critical yet often neglected aspect of Bangladesh’s healthcare system. The country faces significant challenges.",
+    date: "May 01, 2025",
     type: "blog",
-    thumbnail: Himika,
+    thumbnail: TasdipDip,
   },
   {
     title:
@@ -37,12 +37,12 @@ const blogs = [
   },
   {
     title:
-      "Bridging the Gaps: Strengthening Mental Healthcare to Build a Resilient Health System in Bangladesh",
+      "Beyond the Silence: Why Bangladesh Needs Comprehensive Sexuality Education Now",
     description:
-      "Mental health remains a critical yet often neglected aspect of Bangladesh’s healthcare system. The country faces significant challenges.",
-    date: "May 01, 2025",
+      "To achieve Universal Health Coverage and the Sustainable Development Goals, at least 15% of total budget and 4-5% of gross domestic product (GDP) should be invested in healthcare in Bangladesh. However, t",
+    date: "May 15, 2025",
     type: "blog",
-    thumbnail: TasdipDip,
+    thumbnail: Himika,
   },
 ];
 
