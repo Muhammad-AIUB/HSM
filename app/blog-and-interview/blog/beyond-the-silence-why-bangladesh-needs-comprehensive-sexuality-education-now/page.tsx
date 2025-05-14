@@ -1,12 +1,12 @@
 "use client";
 
-import Image from "next/image";
-import { ArrowRight, BookText, BookOpen } from "lucide-react";
 import Himika from "@/public/images/blog-interview/Himika.jpg";
+import { ArrowRight, BookOpen, BookText } from "lucide-react";
+import Image from "next/image";
 
+import NextButton from "@/components/Shared/NextButton";
 import blog3 from "@/public/images/blog-interview/blog3.jpg";
 import { FaLinkedin } from "react-icons/fa";
-import NextButton from "@/components/Shared/NextButton";
 
 const BeyondTheSilencePage = () => {
   return (
@@ -93,15 +93,6 @@ const BeyondTheSilencePage = () => {
           </div>
         </div>
 
-        <Image
-          src={blog3 || "/placeholder.svg"}
-          alt="blog"
-          width={800}
-          height={400}
-          quality={100}
-          className="max-w-screen-lg mx-auto w-full object-cover "
-        />
-
         {/* Call to Action Section */}
         <div className="bg-white p-6 rounded-lg shadow-sm my-6 border-l-4 border-[#3B82F6]">
           <div className="flex items-center mb-4">
@@ -147,6 +138,15 @@ const BeyondTheSilencePage = () => {
                 particularly in education.
               </a>{" "}
             </p>
+
+            <Image
+              src={blog3 || "/placeholder.svg"}
+              alt="blog"
+              width={800}
+              height={400}
+              quality={100}
+              className="max-w-screen-lg mx-auto w-full object-cover "
+            />
 
             <p className=" text-lg text-justify">
               Bangladesh must culturally adapt CSE curricula, invest in teacher

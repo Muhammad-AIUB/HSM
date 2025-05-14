@@ -1,8 +1,6 @@
 "use client";
 
 import { BlogCard } from "@/components/ui/BlogCard";
-import FlanneryImage from "@/public/images/blog-interview/Flannery.png";
-import Image from "next/image";
 import {
   Carousel,
   CarouselApi,
@@ -11,11 +9,13 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import Autoplay from "embla-carousel-autoplay";
-import { useState, useEffect } from "react";
-import TasdipDip from "@/public/images/blog-interview/TasdikDip.jpg";
-import ShahPoran from "@/public/images/blog-interview/ShahParan.jpg";
+import FlanneryImage from "@/public/images/blog-interview/Flannery.png";
 import Himika from "@/public/images/blog-interview/Himika.jpg";
+import ShahPoran from "@/public/images/blog-interview/ShahParan.jpg";
+import TasdipDip from "@/public/images/blog-interview/TasdikDip.jpg";
+import Autoplay from "embla-carousel-autoplay";
+import Image from "next/image";
+import { useEffect, useState } from "react";
 
 const blogs = [
   {
@@ -102,13 +102,14 @@ const BlogPage = () => {
           }}
           plugins={[
             Autoplay({
-              delay: 3000,
+              delay: 2000,
               stopOnInteraction: true,
               stopOnMouseEnter: true,
+              stopOnFocusIn: true,
             }),
           ]}
-          setApi={setApi}
           className="w-full"
+          setApi={setApi}
         >
           <CarouselContent className="-ml-4 pb-10">
             {blogs.map((item, index) => (
