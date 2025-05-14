@@ -13,7 +13,6 @@ import FlanneryImage from "@/public/images/blog-interview/Flannery.png";
 import Himika from "@/public/images/blog-interview/Himika.jpg";
 import ShahPoran from "@/public/images/blog-interview/ShahParan.jpg";
 import TasdipDip from "@/public/images/blog-interview/TasdikDip.jpg";
-import Autoplay from "embla-carousel-autoplay";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
@@ -48,13 +47,19 @@ const blogs = [
 ];
 
 const BlogPage = () => {
-  const [api, setApi] = useState<CarouselApi | null>(null);
+  const [api, setApi] = useState<CarouselApi>();
   const [current, setCurrent] = useState(0);
 
   useEffect(() => {
-    if (!api) return;
+    if (!api) {
+      return;
+    }
+
     setCurrent(api.selectedScrollSnap());
-    api.on("select", () => setCurrent(api.selectedScrollSnap()));
+
+    api.on("select", () => {
+      setCurrent(api.selectedScrollSnap());
+    });
   }, [api]);
 
   return (
@@ -98,16 +103,18 @@ const BlogPage = () => {
         <Carousel
           opts={{
             align: "start",
-            loop: true,
+            // loop: true,
           }}
-          plugins={[
-            Autoplay({
-              delay: 2000,
-              stopOnInteraction: true,
-              stopOnMouseEnter: true,
-              stopOnFocusIn: true,
-            }),
-          ]}
+          plugins={
+            [
+              // Autoplay({
+              //   delay: 2000,
+              //   stopOnInteraction: true,
+              //   stopOnMouseEnter: true,
+              //   stopOnFocusIn: true,
+              // }),
+            ]
+          }
           className="w-full"
           setApi={setApi}
         >
