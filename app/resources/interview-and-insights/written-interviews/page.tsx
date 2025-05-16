@@ -21,7 +21,7 @@ const writtenInterviews = [
   {
     title:
       "Interview with WHO Chief Scientist Dr. Soumya Swaminathan: Mobilizing Evidence in Health Emergencies",
-    url: "https://www.who.int/news/item/07-11-2021-interview-with-who-chief-scientist-dr-soumyaswaminathan-on-mobilizing-evidence-in-health-emergencies?utm_source=chatgpt.com",
+    url: "https://www.who.int/news/item/07-11-2021-interview-with-who-chief-scientist-dr-soumya-swaminathan-on-mobilizing-evidence-in-health-emergencies?utm_source=chatgpt.com",
   },
   {
     title: "The Do’s and Don’ts of a Global Health Experience",
@@ -42,11 +42,11 @@ const writtenInterviews = [
   },
   {
     title: "Interview with Dr. Madhukar Pai",
-    url: "https://healthenews.mcgill.ca/a-face-to-face-with-our-research-leaders-interview-with-drmadhukar-pai/",
+    url: "https://healthenews.mcgill.ca/a-face-to-face-with-our-research-leaders-interview-with-dr-madhukar-pai/",
   },
   {
     title: "Should We Be Panicked About Bird Flu?",
-    url: "https://news.harvard.edu/gazette/story/2025/01/should-we-be-panicked-about-bird-flu-williambill-hanage/",
+    url: "https://news.harvard.edu/gazette/story/2025/01/should-we-be-panicked-about-bird-flu-william-bill-hanage/",
   },
   {
     title:
