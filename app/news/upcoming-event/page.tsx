@@ -25,7 +25,7 @@ const UpcomingEvent = () => {
             </li>
             <li>
               <a
-                href="https://www.pacehospital.com/world-healthdays"
+                href="https://www.pacehospital.com/world-health-days?srsltid=AfmBOoqwPEKPSB9RV73GceK5VIqhvexXHz7t-j6ge6q019NBpehEVnQx"
                 target="_blank"
                 className="text-blue-600 hover:text-[#F18A00]"
               >

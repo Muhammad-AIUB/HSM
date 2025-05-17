@@ -193,7 +193,7 @@ const organizations = {
     { name: "RBM Partnership to End Malaria", url: "https://endmalaria.org/" },
     {
       name: "Every Woman Every Child",
-      url: "https://www.everywomaneverychild.org/",
+      url: "https://sustainabledevelopment.un.org/sdinaction/everywomaneverychild",
     },
     { name: "Health Systems Global", url: "https://healthsystemsglobal.org/" },
     {
