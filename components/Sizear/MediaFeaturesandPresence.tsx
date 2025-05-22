@@ -16,13 +16,6 @@ const mediaFeatures = [
         videoUrl:
             "https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fsomoynews.tv%2Fvideos%2F1720686481865627%2F&show_text=false&width=560&t=0",
     },
-    {
-        title: "বাংলাদেশে স্বাস্থ্যখাতে বরাদ্দ কম কেন? | National Budget | Health Sector | Somoy TV",
-        date: "May 20, 2025",
-        platform: "Somoy TV",
-        videoUrl:
-            "https://www.youtube.com/embed/oP0ub4IpJCw?si=GDPkJpVC3JgNRuba",
-    },
 
     //! Newly added videos 22 May, 2025
     {
