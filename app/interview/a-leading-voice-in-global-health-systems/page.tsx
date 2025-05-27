@@ -468,7 +468,7 @@ const LeadingVoice = () => {
             Bangladesh, I often encountered rigid professional hierarchies —
             where clinicians, for example, might dismiss insights from
             professionals with different backgrounds. But in Singapore,
-            particularly at
+            particularly at{" "}
             <a
               href="https://www.duke-nus.edu.sg/"
               target="_blank"
