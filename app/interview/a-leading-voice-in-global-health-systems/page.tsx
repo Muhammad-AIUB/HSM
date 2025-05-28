@@ -45,9 +45,10 @@ const LeadingVoice = () => {
               />
             </div>
 
-            <div className="bg-[#FFCE00] text-black p-4 sm:p-6 rounded-md shadow-md max-w-3xl">
+            <div className="bg-[#FFCE00] text-black p-4 sm:p-6 rounded-md shadow-md max-w-xl">
               <p className="text-xl font-semibold text-gray-800 mb-3 flex items-center gap-4">
-                — Dr. Taufique Joarder
+                — Dr. Taufique Joarder, Health Policy and Systems Researcher ||
+                University Faculty || Author
                 <a
                   href="https://www.linkedin.com/in/taufiquejoarder/"
                   target="_blank"
@@ -59,10 +60,9 @@ const LeadingVoice = () => {
               </p>
 
               {/* <p className=" text-2xl md:text-[28px]  font-base leading-relaxed md:text-justify">
-                                “Perseverance, adaptability, and cultural
-                                sensitivity are essential skills for success in
-                                global development.”
-                            </p> */}
+                “Perseverance, adaptability, and cultural sensitivity are
+                essential skills for success in global development.”
+              </p> */}
             </div>
           </div>
         </div>
@@ -72,9 +72,10 @@ const LeadingVoice = () => {
       <div className="max-w-screen-md mx-auto px-12 py-8 bg-white ">
         {/* Public Health Journey Questions start */}
 
-        <h1 className="text-2xl md:text-[24px] font-semibold text-[#001844] mb-6 underline">
-          Public Health Journey Questions
-        </h1>
+        <h2 className="text-2xl md:text-[24px] font-semibold text-[#BE123C] underline underline-offset-4 decoration-[#FCA5A5] decoration-4 mb-4 flex items-center gap-3 transition-all duration-300 hover:text-[#9F1239]">
+          <span>Public Health Journey Questions</span>
+        </h2>
+
         {/* Question 1 */}
         <div className="mb-8">
           <h2 className="text-xl font-bold text-[#2D8CBB] text-justify">
@@ -273,9 +274,10 @@ const LeadingVoice = () => {
         {/* Public Health Journey Questions end */}
 
         {/* Global Health Systems Questions start  */}
-        <h1 className="text-2xl md:text-[24px] font-semibold text-[#001844] mb-6 underline">
-          Global Health Systems Questions
-        </h1>
+        <h2 className="text-2xl md:text-[24px] font-semibold text-[#0F766E] underline underline-offset-4 decoration-[#99F6E4] decoration-4 mb-4 flex items-center gap-3 transition-all duration-300 hover:text-[#115E59]">
+          <span>Global Health Systems Questions</span>
+        </h2>
+
         {/* Question 4 */}
         <div className="mb-8">
           <h2 className="text-xl font-bold text-[#2D8CBB] text-justify">
@@ -505,9 +507,10 @@ const LeadingVoice = () => {
         {/*  */}
 
         {/* Get to Know Taufique Joarder start */}
-        <h1 className="text-2xl md:text-[24px] font-semibold text-[#001844] mb-6 underline">
-          Get to Know Taufique Joarder
-        </h1>
+        <h2 className="text-2xl md:text-[24px] font-semibold text-[#7C3AED] underline underline-offset-4 decoration-[#D8B4FE] decoration-4 mb-4 flex items-center gap-3 transition-all duration-300 hover:text-[#5B21B6]">
+          <span>Get to Know Taufique Joarder</span>
+        </h2>
+
         <div className="mb-8">
           <h2 className="text-xl font-bold text-[#2D8CBB] text-justify">
             Q. Who is your public health role model, and why?
