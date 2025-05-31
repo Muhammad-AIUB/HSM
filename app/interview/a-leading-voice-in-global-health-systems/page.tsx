@@ -17,7 +17,7 @@ const LeadingVoice = () => {
             >
               A Leading Voice in Global Health Systems: <br /> A Dialogue with{" "}
               <a
-                href="https://www.linkedin.com/in/zarif-rasul"
+                href="https://www.linkedin.com/in/taufiquejoarder/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#001844] underline font-extrabold bg-[#FFCE00] px-2 rounded-md"
@@ -45,7 +45,7 @@ const LeadingVoice = () => {
               />
             </div>
 
-            <div className="bg-[#FFCE00] text-black p-4 sm:p-6 rounded-md shadow-md max-w-xl">
+            <div className="bg-[#FFCE00] max-w-5xl text-black p-4 sm:p-6 rounded-md shadow-md">
               <p className="text-xl font-semibold text-gray-800 mb-3 flex items-center gap-4">
                 — Dr. Taufique Joarder, Health Policy and Systems Researcher ||
                 University Faculty || Author
@@ -59,10 +59,11 @@ const LeadingVoice = () => {
                 </a>
               </p>
 
-              {/* <p className=" text-2xl md:text-[28px]  font-base leading-relaxed md:text-justify">
-                “Perseverance, adaptability, and cultural sensitivity are
-                essential skills for success in global development.”
-              </p> */}
+              <p className=" text-2xl md:text-[28px]  font-base leading-relaxed md:text-justify">
+                "I believe the next generation of global health leaders should
+                cultivate four essential skills: inquisitiveness, humility, a
+                commitment to lifelong learning, and critical thinking."
+              </p>
             </div>
           </div>
         </div>
@@ -274,7 +275,7 @@ const LeadingVoice = () => {
         {/* Public Health Journey Questions end */}
 
         {/* Global Health Systems Questions start  */}
-        <h2 className="text-2xl md:text-[24px] font-semibold text-[#0F766E] underline underline-offset-4 decoration-[#99F6E4] decoration-4 mb-4 flex items-center gap-3 transition-all duration-300 hover:text-[#115E59]">
+        <h2 className="text-2xl md:text-[24px] font-semibold text-[#BE123C] underline underline-offset-4 decoration-[#99F6E4] decoration-4 mb-4 flex items-center gap-3 transition-all duration-300 hover:text-[#115E59]">
           <span>Global Health Systems Questions</span>
         </h2>
 
@@ -507,7 +508,7 @@ const LeadingVoice = () => {
         {/*  */}
 
         {/* Get to Know Taufique Joarder start */}
-        <h2 className="text-2xl md:text-[24px] font-semibold text-[#7C3AED] underline underline-offset-4 decoration-[#D8B4FE] decoration-4 mb-4 flex items-center gap-3 transition-all duration-300 hover:text-[#5B21B6]">
+        <h2 className="text-2xl md:text-[24px] font-semibold text-[#BE123C] underline underline-offset-4 decoration-[#D8B4FE] decoration-4 mb-4 flex items-center gap-3 transition-all duration-300 hover:text-[#5B21B6]">
           <span>Get to Know Taufique Joarder</span>
         </h2>
 
