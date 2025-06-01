@@ -4,6 +4,7 @@ import { FaLinkedin } from "react-icons/fa";
 // import DrZarifImg from "@/public/images/blog-interview/interview/Zarif-Rasul-2.jpg";
 import DrTaufiqueImg from "@/public/images/blog-interview/interview/DrTaufique.jpg";
 import BioOfTarique from "./BioOfTarique";
+import Heading from "./components/Heading";
 
 const LeadingVoice = () => {
   return (
@@ -73,9 +74,7 @@ const LeadingVoice = () => {
       <div className="max-w-screen-md mx-auto px-12 py-8 bg-white ">
         {/* Public Health Journey Questions start */}
 
-        <h2 className="text-2xl md:text-[24px] font-semibold text-[#BE123C] underline underline-offset-4 decoration-[#FCA5A5] decoration-4 mb-4 flex items-center gap-3 transition-all duration-300 hover:text-[#9F1239]">
-          <span>Public Health Journey Questions</span>
-        </h2>
+        <Heading>Public Health Journey Questions</Heading>
 
         {/* Question 1 */}
         <div className="mb-8">
@@ -275,9 +274,8 @@ const LeadingVoice = () => {
         {/* Public Health Journey Questions end */}
 
         {/* Global Health Systems Questions start  */}
-        <h2 className="text-2xl md:text-[24px] font-semibold text-[#BE123C] underline underline-offset-4 decoration-[#99F6E4] decoration-4 mb-4 flex items-center gap-3 transition-all duration-300 hover:text-[#115E59]">
-          <span>Global Health Systems Questions</span>
-        </h2>
+
+        <Heading>Global Health Systems Questions</Heading>
 
         {/* Question 4 */}
         <div className="mb-8">
@@ -508,9 +506,8 @@ const LeadingVoice = () => {
         {/*  */}
 
         {/* Get to Know Taufique Joarder start */}
-        <h2 className="text-2xl md:text-[24px] font-semibold text-[#BE123C] underline underline-offset-4 decoration-[#D8B4FE] decoration-4 mb-4 flex items-center gap-3 transition-all duration-300 hover:text-[#5B21B6]">
-          <span>Get to Know Taufique Joarder</span>
-        </h2>
+
+        <Heading>Get to Know Taufique Joarder</Heading>
 
         <div className="mb-8">
           <h2 className="text-xl font-bold text-[#2D8CBB] text-justify">
