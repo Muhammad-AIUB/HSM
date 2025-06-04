@@ -22,6 +22,8 @@ import DrZarifImg from "@/public/images/blog-interview/interview/Zarif-Rasul.jpg
 
 import DrTaufiqueImg from "@/public/images/blog-interview/interview/DrTaufique.jpg";
 
+import IstiakMannan from "@/public/images/blog-interview/interview/istiak-mannan-cover.jpg";
+
 interface Interview {
   id: number;
   title: string;
@@ -81,6 +83,16 @@ const interviews = [
       "Dr. Taufique Joarder is an Associate Professor and the Lead of the Programme Evaluation Unit at the SingHealth Duke-NUS Global Health Institute, Duke-NUS Medical School under the National University of Singapore.",
     image: DrTaufiqueImg,
     slug: "a-leading-voice-in-global-health-systems",
+  },
+  {
+    id: 6,
+    title:
+      "From Vision to Impact: Dr. Ishtiaq Mannan on Advancing Global health",
+    date: "June 05, 2025",
+    description:
+      "Dr. Ishtiaq Mannan is a distinguished public health leader with deep expertise in advancing sustainable health policies and systems in low-resource and fragile settings. He has been at the forefront of developing and implementing maternal and neonatal service models that have made significant impacts both globally and nationally.",
+    image: IstiakMannan,
+    slug: "from-vision-to-impact",
   },
 ];
 
@@ -226,46 +238,6 @@ const InterviewPage = () => {
           ))}
         </div>
       </div>
-
-      {/* <div className="max-w-7xl mx-auto px-16 py-12">
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {interviews.map((interview) => (
-            <div
-              key={interview.id}
-              className="bg-white border overflow-hidden transition-transform duration-300 hover:border-r-4 hover:border-b-4 border-[#2D8CBB] hover:shadow-md relative"
-            >
-              <Link href={`/interview/${interview.slug}`}>
-                <Image
-                  src={interview.image}
-                  alt={interview.title}
-                  width={500}
-                  height={300}
-                  className="w-full h-56 object-cover hover:scale-105 hover:opacity-90 transition-transform duration-300 object-top"
-                />
-
-                <div className="p-6 flex flex-col justify-between">
-                  <div className="absolute top-4 left-4 z-20 bg-white/90 dark:bg-gray-800/90 px-3 py-1 rounded-full text-xs font-medium text-[#01748D] shadow-md backdrop-blur-sm">
-                    {interview.date}
-                  </div>
-                  <div>
-                    <h2 className="text-lg text-justify font-bold text-gray-800 hover:underline  line-clamp-3 h-20">
-                      {interview.title}
-                    </h2>
-                    <p className="text-gray-600 mt-2 text-justify line-clamp-3 h-[72px]">
-                      {interview.description}
-                    </p>
-                  </div>
-                  <div className="mt-auto">
-                    <button className="mt-4 bg-[#2D8CBB] text-white px-4 py-2 rounded-md hover:bg-[#1B6E99] transition">
-                      Explore
-                    </button>
-                  </div>
-                </div>
-              </Link>
-            </div>
-          ))}
-        </div>
-      </div> */}
 
       <NextButton href="/blog" text="Next" className="bg-[#01748D]" />
     </div>
