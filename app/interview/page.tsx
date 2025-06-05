@@ -22,7 +22,7 @@ import DrZarifImg from "@/public/images/blog-interview/interview/Zarif-Rasul.jpg
 
 import DrTaufiqueImg from "@/public/images/blog-interview/interview/DrTaufique.jpg";
 
-import IstiakMannan from "@/public/images/blog-interview/interview/istiak-mannan-cover.jpg";
+import IstiakMannan from "@/public/images/blog-interview/interview/istiak-mannan-cover-i.jpg";
 
 interface Interview {
   id: number;

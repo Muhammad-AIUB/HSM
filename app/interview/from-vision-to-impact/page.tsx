@@ -5,7 +5,8 @@ import { FaGlobe, FaLinkedin } from "react-icons/fa";
 
 import Heading from "../a-leading-voice-in-global-health-systems/components/Heading";
 
-import IstiakMannan from "@/public/images/blog-interview/interview/istiak-mannan.jpg";
+import IstiakMannan from "@/public/images/blog-interview/interview/istiak-mannan-clear.jpeg";
+
 import BioOfIshtiaqMannan from "./BioOfIshtiaqMannan";
 
 const FromVisionToImpact = () => {
