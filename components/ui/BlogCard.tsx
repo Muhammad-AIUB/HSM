@@ -21,8 +21,10 @@ export const BlogCard = ({
     item.type === "blog"
       ? `/blog-and-interview/blog/${item.title
           .replace(/[:\s]+/g, "-")
+          .replace(/['’]/g, "")
           .toLowerCase()}`
       : `/interviews/${item.title.replace(/\s+/g, "-").toLowerCase()}`;
+
   const [isHovered, setIsHovered] = useState(false);
 
   return (

@@ -355,7 +355,7 @@ const BeyondTheSilencePage = () => {
       </div>
 
       <NextButton
-        href="/blog-and-interview/blog/overcoming-budget-bottlenecks-ensuring-effective-health-financing-for-universal-health-coverage-in-bangladesh"
+        href="/blog-and-interview/blog/health-cant-wait-its-time-for-bangladesh-to-put-healthcare-investment-on-the-diplomatic-agenda-for-a-stronger-nation"
         text="Next Blog"
       />
     </div>

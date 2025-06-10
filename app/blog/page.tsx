@@ -1,5 +1,7 @@
 "use client";
 
+import { useEffect, useState } from "react";
+
 import { BlogCard } from "@/components/ui/BlogCard";
 import {
   Carousel,
@@ -9,12 +11,14 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+
+import Image from "next/image";
+
 import FlanneryImage from "@/public/images/blog-interview/Flannery.png";
 import Himika from "@/public/images/blog-interview/Himika.jpg";
 import ShahPoran from "@/public/images/blog-interview/ShahParan.jpg";
 import TasdipDip from "@/public/images/blog-interview/TasdikDip.jpg";
-import Image from "next/image";
-import { useEffect, useState } from "react";
+import Zakaria from "@/public/images/blog-interview/Zakaria.jpeg";
 
 const blogs = [
   {
@@ -43,6 +47,15 @@ const blogs = [
     date: "May 15, 2025",
     type: "blog",
     thumbnail: Himika,
+  },
+  {
+    title:
+      "Health Can’t Wait: It’s Time for Bangladesh to Put Healthcare Investment on the Diplomatic Agenda for a Stronger Nation",
+    description:
+      "To achieve Universal Health Coverage and the Sustainable Development Goals, at least 15% of total budget and 4-5% of gross domestic product (GDP) should be invested in healthcare in Bangladesh. However, t",
+    date: "June 10, 2025",
+    type: "blog",
+    thumbnail: Zakaria,
   },
 ];
 
