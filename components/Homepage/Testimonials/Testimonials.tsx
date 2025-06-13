@@ -13,11 +13,14 @@ import {
 } from "@/components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
 import { cn } from "@/lib/utils";
+import { FaLinkedin } from "react-icons/fa";
+
 import Image from "next/image";
+import Link from "next/link";
+
 import ZarifImg from "@/public/images/testimonial/Zarif.jpeg";
 import YemeImg from "@/public/images/testimonial/Yemi.jpg";
-import Link from "next/link";
-import { FaLinkedin } from "react-icons/fa";
+import IffatImg from "@/public/images/testimonial/Iffat.jpg";
 
 export function AnimatedTestimonialsDemo() {
   const testimonials = [
@@ -38,6 +41,15 @@ export function AnimatedTestimonialsDemo() {
       content:
         "Health Systems Matter is a dynamic platform that empowers global health professionals with access to curated knowledge, career opportunities, and capacity-building initiatives. By providing timely resources and actionable insights, it creates a space for professionals to grow, collaborate, and drive meaningful change in public health.",
       image: YemeImg,
+    },
+    {
+      name: "Dr. Iffat Ara Begum",
+      link: "https://www.linkedin.com/in/dr-iffat-ara-begum-a19a3b20b/",
+      title: "Public Health Surveillance Officer, Jhpiego",
+      // company: "Open Development",
+      content:
+        "As a young professional in global health, I find Health Systems Matter to be an invaluable platform to learn about the development sector, health systems strengthening, and policy innovations. It’s a great space to access curated knowledge, stay inspired by sector leaders, and grow professionally.",
+      image: IffatImg,
     },
   ];
 
@@ -114,7 +126,7 @@ export function AnimatedTestimonialsDemo() {
                             alt={testimonial.name}
                             width={100}
                             height={100}
-                            className="w-28 h-28 rounded-full border-2 border-[#FFCE00] "
+                            className="w-28 h-28 rounded-full border-2 border-[#FFCE00]"
                           />
                           <div>
                             <Link
