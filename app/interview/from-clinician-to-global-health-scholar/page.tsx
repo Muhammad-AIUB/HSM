@@ -1,9 +1,6 @@
 import Image from "next/image";
-import Link from "next/link";
 import { FaLinkedin } from "react-icons/fa";
 import BioOfMohitChowdhury from "./BioOfMohitChowdhury";
-
-const DrMohitImg = "/images/blog-interview/interview/392b80ff-42c9-4833-92e0-19db46e0f028.jpeg";
 
 const FromClinicianToGlobalHealthScholar = () => {
   return (
