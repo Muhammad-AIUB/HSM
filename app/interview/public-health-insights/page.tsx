@@ -1,3 +1,4 @@
+import React from "react";
 import Link from "next/link";
 import DrMadhukarPaiBio from "./DrMadhukarPaiBio";
 import TedrosQuote from "@/components/Shared/SectionTitle/TedrosQuote";
@@ -252,7 +253,7 @@ const PublicHealthInsightsPage = () => {
                     </p>
                     <p className="text-gray-700 mt-2 leading-relaxed text-justify text-[15px]">
                         For young people starting their careers, I would
-                        encourage them to find their “purpose” in life, their
+                        encourage them to find their "purpose" in life, their
                         passion. Once they find it, they will find a way to
                         become impactful.
                     </p>

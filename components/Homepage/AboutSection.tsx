@@ -115,7 +115,7 @@ const Card: React.FC<CardProps> = ({
           src={image}
           alt={title}
           // layout="fill"
-          objectFit="cover"
+          style={{ objectFit: "cover" }}
           className="absolute inset-0 w-full"
         />
         <div className="absolute inset-0 transition-opacity duration-300 w-full" />

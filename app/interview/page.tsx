@@ -24,12 +24,14 @@ import DrTaufiqueImg from "@/public/images/blog-interview/interview/DrTaufique.j
 
 import IstiakMannan from "@/public/images/blog-interview/interview/istiak-mannan-cover-i.jpg";
 
+const DrMohitChowdhuryImg = "/images/blog-interview/interview/392b80ff-42c9-4833-92e0-19db46e0f028.jpeg";
+
 interface Interview {
   id: number;
   title: string;
   date: string;
   description: string;
-  image: StaticImageData;
+  image: string | StaticImageData;
   slug: string;
 }
 
@@ -93,6 +95,15 @@ const interviews = [
       "Dr. Ishtiaq Mannan is a distinguished public health leader with deep expertise in advancing sustainable health policies and systems in low-resource and fragile settings. He has been at the forefront of developing and implementing maternal and neonatal service models that have made significant impacts both globally and nationally.",
     image: IstiakMannan,
     slug: "from-vision-to-impact",
+  },
+  {
+    id: 7,
+    title: "From Clinician to Global Health Scholar: An Interview with Dr. Mohit Chowdhury",
+    date: "June 10, 2025",
+    description:
+      "Dr. Mohit Chowdhury shares his journey from clinical practice to global health scholarship, his mentors, and his vision for the next generation of public health leaders.",
+    image: DrMohitChowdhuryImg,
+    slug: "from-clinician-to-global-health-scholar",
   },
 ];
 

@@ -3,7 +3,7 @@
 import { IconArrowLeft, IconArrowRight } from "@tabler/icons-react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 
 type Testimonial = {
   quote: string;
@@ -39,9 +39,13 @@ export const AnimatedTestimonials = ({
     }
   }, [autoplay]);
 
-  const randomRotateY = () => {
-    return Math.floor(Math.random() * 21) - 10;
-  };
+  // Generate random rotation values once per testimonial
+  const rotationValuesRef = useRef<number[]>([]);
+  if (rotationValuesRef.current.length !== testimonials.length) {
+    rotationValuesRef.current = testimonials.map(() => Math.floor(Math.random() * 21) - 10);
+  }
+  const getRotation = (index: number) => rotationValuesRef.current[index];
+
   return (
     <div className="max-w-sm pb-20 md:max-w-5xl mx-auto antialiased font-sans px-4 md:px-8 lg:px-12">
       <div className="relative grid grid-cols-1 md:grid-cols-2  gap-20">
@@ -55,13 +59,13 @@ export const AnimatedTestimonials = ({
                     opacity: 0,
                     scale: 0.9,
                     z: -100,
-                    rotate: randomRotateY(),
+                    rotate: getRotation(index),
                   }}
                   animate={{
                     opacity: isActive(index) ? 1 : 0.7,
                     scale: isActive(index) ? 1 : 0.95,
                     z: isActive(index) ? 0 : -100,
-                    rotate: isActive(index) ? 0 : randomRotateY(),
+                    rotate: isActive(index) ? 0 : getRotation(index),
                     zIndex: isActive(index)
                       ? 999
                       : testimonials.length + 2 - index,
@@ -71,7 +75,7 @@ export const AnimatedTestimonials = ({
                     opacity: 0,
                     scale: 0.9,
                     z: 100,
-                    rotate: randomRotateY(),
+                    rotate: getRotation(index),
                   }}
                   transition={{
                     duration: 0.4,
