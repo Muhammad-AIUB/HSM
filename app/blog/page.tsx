@@ -25,7 +25,7 @@ const blogs = [
     title:
       "Bridging the Gaps: Strengthening Mental Healthcare to Build a Resilient Health System in Bangladesh",
     description:
-      "Mental health remains a critical yet often neglected aspect of Bangladesh’s healthcare system. The country faces significant challenges.",
+      "Mental health remains a critical yet often neglected aspect of Bangladesh's healthcare system. The country faces significant challenges.",
     date: "May 01, 2025",
     type: "blog",
     thumbnail: TasdipDip,
@@ -50,7 +50,7 @@ const blogs = [
   },
   {
     title:
-      "Health Can’t Wait: It’s Time for Bangladesh to Put Healthcare Investment on the Diplomatic Agenda for a Stronger Nation",
+      "Health Can't Wait: It's Time for Bangladesh to Put Healthcare Investment on the Diplomatic Agenda for a Stronger Nation",
     description:
       "To achieve Universal Health Coverage and the Sustainable Development Goals, at least 15% of total budget and 4-5% of gross domestic product (GDP) should be invested in healthcare in Bangladesh. However, t",
     date: "June 10, 2025",
@@ -62,6 +62,11 @@ const blogs = [
 const BlogPage = () => {
   const [api, setApi] = useState<CarouselApi>();
   const [current, setCurrent] = useState(0);
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   useEffect(() => {
     if (!api) {
@@ -74,6 +79,8 @@ const BlogPage = () => {
       setCurrent(api.selectedScrollSnap());
     });
   }, [api]);
+
+  if (!mounted) return null;
 
   return (
     <div className="pb-20">
@@ -116,7 +123,7 @@ const BlogPage = () => {
         <Carousel
           opts={{
             align: "start",
-            // loop: true,
+            loop: true,
           }}
           plugins={
             [
