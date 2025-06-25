@@ -122,11 +122,19 @@ const FromClinicianToGlobalHealthScholar = () => {
             Q. What three essential skills would you recommend for the next generation of global health leaders?
           </h3>
           <p className="mt-2 leading-relaxed text-justify">
-            <span className="font-bold">Dr. Mohit Chowdhury:</span> The world is becoming more competitive every day. Hence, the next generation of global health leaders needs to prioritize training to adapt to evolving health challenges, collaborate effectively with diverse stakeholders, and leverage technology responsibly while addressing associated risks.<br /><br />
-            <b>• Systems thinking:</b> An approach to problem-solving that views problems as part of a wider, interconnected system. It will help them to understand and navigate the complexity of global health challenges.<br />
-            <b>• Cross-cultural communication:</b> The process of recognising both differences and similarities among cultural groups to effectively engage within a given context. This skill is essential for building trust and partnerships across disciplines and geographies.<br />
-            <b>• Data Literacy:</b> In this data-driven world, data literacy would be another must-have skill. This will make them efficient in interpreting evidence and making informed, equity-centred decisions.
+            <span className="font-bold">Dr. Mohit Chowdhury:</span> The world is becoming more competitive every day. Hence, the next generation of global health leaders needs to prioritize training to adapt to evolving health challenges, collaborate effectively with diverse stakeholders, and leverage technology responsibly while addressing associated risks.
           </p>
+          <ol className="ml-6 mt-2 space-y-3">
+            <li>
+              <b>1. Systems thinking:</b> An approach to problem-solving that views problems as part of a wider, interconnected system. It will help them to understand and navigate the complexity of global health challenges.
+            </li>
+            <li>
+              <b>2. Cross-cultural communication:</b> The process of recognising both differences and similarities among cultural groups to effectively engage within a given context. This skill is essential for building trust and partnerships across disciplines and geographies.
+            </li>
+            <li>
+              <b>3. Data Literacy:</b> In this data-driven world, data literacy would be another must-have skill. This will make them efficient in interpreting evidence and making informed, equity-centred decisions.
+            </li>
+          </ol>
         </div>
         <h3 className="text-xl font-bold text-[#C2185B] mb-6">
           <span className="border-b-4 border-red-600 pb-1 inline-block w-fit">Get to know Mohit Chowdhury</span>

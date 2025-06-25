@@ -99,7 +99,7 @@ const interviews = [
   {
     id: 7,
     title: "From Clinician to Global Health Scholar: An Interview with Dr. Mohit Chowdhury",
-    date: "June 10, 2025",
+    date: "June 24, 2025",
     description:
       "Dr. Mohit Chowdhury shares his journey from clinical practice to global health scholarship, his mentors, and his vision for the next generation of public health leaders.",
     image: DrMohitChowdhuryImg,
