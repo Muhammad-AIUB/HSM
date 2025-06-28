@@ -2,7 +2,7 @@ import HSMLogo from "@/public/images/shared/hsm-logo.png";
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import DeveloperLogo from "@/public/images/shared/at-taqwa-logo.jpeg";
+import DeveloperLogo from "@/public/images/shared/at-taqwa-logo.jpeg.jpg";
 import NewsletterForm from "@/components/NewsLetterSignup/NewsLetterSignup";
 import ScrollToTop from "../ScrollToTop/ScrollToTop";
 
@@ -87,7 +87,7 @@ const Footer = () => {
           {/* Last Grid */}
           <div className="flex flex-col items-center justify-center -mt-4">
             <blockquote className="mb-6 italic text-[#FFCE00] text-center text-lg">
-              “Believe work can be better. <br /> Know deeper. Do Better.”
+              "Believe work can be better. <br /> Know deeper. Do Better."
             </blockquote>
             <p className="font-semibold text-center mt-4">
               Scope of Collaboration and Support
@@ -143,7 +143,7 @@ const Footer = () => {
               <Link href="https://muhammad-potfolio-51k5.vercel.app/">
                 <Image
                   src={DeveloperLogo}
-                  alt="Exhort Logo"
+                  alt="Taqwa IT Solutions Logo"
                   width={90}
                   height={60}
                   className=""
@@ -171,7 +171,7 @@ const Footer = () => {
               <Link href="https://muhammad-potfolio-51k5.vercel.app/">
                 <Image
                   src={DeveloperLogo}
-                  alt="Exhort Logo"
+                  alt="Taqwa IT Solutions Logo"
                   width={120}
                   height={60}
                   className=""
