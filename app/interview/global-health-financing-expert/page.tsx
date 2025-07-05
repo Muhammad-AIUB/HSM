@@ -113,9 +113,9 @@ const GlobalHealthFinancingExpert = () => {
             <span className="font-bold">Saba Waseem:</span> It's an exciting—and challenging—time to be entering the field of global health financing. While it might seem like opportunities are limited, I think it's actually a great time to think outside the box. Sustainable financing has always been a burning issue for us health financing folks, but it was often sidelined by the wider global health community because it didn't feel urgent. Now, with the dire financing landscape, early career health finance experts will find that their expertise is much needed. They can look forward to shaping the health financing landscape over the next twenty years. One obvious area is to build expertise in working with the private sector. Young professionals should understand what motivates private companies to invest in public health and find ways to foster those partnerships. It's an exciting time to scale innovative financing solutions, and my advice would be to stay adaptable, stay curious, and keep looking for new ways to make an impact.
           </p>
         </div>
-        <h3 className="text-xl font-bold text-[#C2185B] mb-6">
+        <h2 className="text-2xl font-bold text-[#C2185B] mb-6">
           <span className="border-b-4 border-red-600 pb-1 inline-block w-fit">Get to know Saba Waseem</span>
-        </h3>
+        </h2>
         {/* Q5 */}
         <div className="mb-8">
           <h3 className="text-xl font-bold text-[#2D8CBB] text-justify">
