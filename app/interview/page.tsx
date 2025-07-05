@@ -25,6 +25,7 @@ import DrTaufiqueImg from "@/public/images/blog-interview/interview/DrTaufique.j
 import IstiakMannan from "@/public/images/blog-interview/interview/istiak-mannan-cover-i.jpg";
 
 const DrMohitChowdhuryImg = "/images/blog-interview/interview/392b80ff-42c9-4833-92e0-19db46e0f028.jpeg";
+const DrSabaWaseemImg = "/images/blog-interview/interview/saba-waseem.jpg";
 
 interface Interview {
   id: number;
@@ -104,6 +105,15 @@ const interviews = [
       "Dr. Mohit Chowdhury shares his journey from clinical practice to global health scholarship, his mentors, and his vision for the next generation of public health leaders.",
     image: DrMohitChowdhuryImg,
     slug: "from-clinician-to-global-health-scholar",
+  },
+  {
+    id: 8,
+    title: "Global Health Financing and Career Questions: An Interview with Dr. Saba Waseem",
+    date: "July 05, 2025",
+    description:
+      "Dr. Saba Waseem, Development Economist and Global Health System Strengthening Expert, shares insights on sustainable financing and career development in global health.",
+    image: DrSabaWaseemImg,
+    slug: "global-health-financing-expert",
   },
 ];
 
