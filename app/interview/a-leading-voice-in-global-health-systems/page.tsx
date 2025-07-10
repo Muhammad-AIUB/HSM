@@ -470,7 +470,7 @@ const LeadingVoice = () => {
             where clinicians, for example, might dismiss insights from
             professionals with different backgrounds. But in Singapore,
             particularly at{" "}
-            <a
+            <a 
               href="https://www.duke-nus.edu.sg/"
               target="_blank"
               rel="noopener noreferrer"

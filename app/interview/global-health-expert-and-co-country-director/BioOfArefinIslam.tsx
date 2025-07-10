@@ -3,7 +3,7 @@ const BioOfArefinIslam = () => (
     <h2 className="text-2xl font-bold text-[#2D8CBB] mb-2 text-center">Bio of Dr. Arefin Islam</h2>
     <div className="mx-auto mb-4" style={{ height: '4px', width: '60px', background: '#FFCE00', borderRadius: '2px' }} />
     <p className="text-gray-800 leading-relaxed text-justify">
-      Dr. Arefin Amal Islam is a public health professional with a medical background and over 35 years of experience in reproductive and child health in Bangladesh. He is currently the Co-Country Director for Partnership and Advocacy at Noora Health, following a successful five-year term as Country Director.
+      Dr. Arefin Amal Islam is a public health professional with a medical background and over 35 years of experience in reproductive and child health in Bangladesh. He is currently the Co-Country Director for Partnership and Advocacy at <a href="https://noorahealth.org/" target="_blank" rel="noopener noreferrer" className="text-blue-700 underline">Noora Health</a>, following a successful five-year term as Country Director.
     </p>
     <p className="text-gray-800 leading-relaxed text-justify mt-4">
       He holds an MPH from NIPSOM, University of Dhaka, and has completed various specialized trainings, including a certificate course on Community-Based Rehabilitation from Queen's University, Canada, and a diploma in Leadership in Humanitarians by Relief International and FranklinCovey. He is also a graduate and trainer of Save the Children's Managing High Performance (MHP) program.
