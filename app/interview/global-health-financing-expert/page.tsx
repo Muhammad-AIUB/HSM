@@ -154,6 +154,14 @@ const GlobalHealthFinancingExpert = () => {
         </div>
       </div>
       <BioOfSabaWaseem />
+      <div className="flex justify-center my-8">
+        <a
+          href="/interview/global-health-expert-and-co-country-director"
+          className="bg-[#FFCE00] hover:bg-[#FFD700] text-[#001844] font-bold py-3 px-8 rounded-md text-lg shadow transition"
+        >
+          Next Interview
+        </a>
+      </div>
     </div>
   );
 };

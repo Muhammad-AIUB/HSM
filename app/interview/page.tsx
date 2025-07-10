@@ -26,6 +26,7 @@ import IstiakMannan from "@/public/images/blog-interview/interview/istiak-mannan
 
 const DrMohitChowdhuryImg = "/images/blog-interview/interview/392b80ff-42c9-4833-92e0-19db46e0f028.jpeg";
 const DrSabaWaseemImg = "/images/blog-interview/interview/saba-waseem.jpg";
+const DrArefinIslamImg = "/images/blog-interview/interview/arefin-islam.jpg";
 
 interface Interview {
   id: number;
@@ -114,6 +115,15 @@ const interviews = [
       "Dr. Saba Waseem, Development Economist and Global Health System Strengthening Expert, shares insights on sustainable financing and career development in global health.",
     image: DrSabaWaseemImg,
     slug: "global-health-financing-expert",
+  },
+  {
+    id: 9,
+    title: "Public Health and Career Questions: An Interview with Dr. Arefin Islam",
+    date: "July 10, 2025",
+    description:
+      "Dr. Arefin Islam, A Global Health Expert and Co-Country Director at Noora Health, shares insights on maternal and child health, health systems strengthening, and career guidance for public health professionals.",
+    image: DrArefinIslamImg,
+    slug: "global-health-expert-and-co-country-director",
   },
 ];
 
