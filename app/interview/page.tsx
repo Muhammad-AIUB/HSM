@@ -118,7 +118,7 @@ const interviews = [
   },
   {
     id: 9,
-    title: "Public Health and Career Questions: An Interview with Dr. Arefin Islam",
+    title: "From Services to Systems: Dr. Arefin Islam’s Insights for Public Health Solutions",
     date: "July 10, 2025",
     description:
       "Dr. Arefin Islam, A Global Health Expert and Co-Country Director at Noora Health, shares insights on maternal and child health, health systems strengthening, and career guidance for public health professionals.",
@@ -216,13 +216,23 @@ const InterviewPage = () => {
                       href={`/interview/${interview.slug}`}
                       className="flex flex-col h-full overflow-hidden" // Added overflow-hidden
                     >
-                      <Image
-                        src={interview.image}
-                        alt={interview.title}
-                        width={500}
-                        height={300}
-                        className="w-full h-56 object-cover hover:scale-105 hover:opacity-90 transition-transform duration-300 object-top"
-                      />
+                      {interview.slug === "global-health-expert-and-co-country-director" ? (
+                        <Image
+                          src={interview.image}
+                          alt={interview.title}
+                          width={500}
+                          height={400}
+                          className="w-full h-72 object-contain bg-[#f3f3f3] hover:scale-105 hover:opacity-90 transition-transform duration-300 object-top"
+                        />
+                      ) : (
+                        <Image
+                          src={interview.image}
+                          alt={interview.title}
+                          width={500}
+                          height={300}
+                          className="w-full h-56 object-cover hover:scale-105 hover:opacity-90 transition-transform duration-300 object-top"
+                        />
+                      )}
                       {/* Date pill */}
                       <div className="absolute top-0 left-0 z-20 bg-white/90 dark:bg-gray-800/90 px-3 py-1 rounded-full text-xs font-medium text-[#01748D] shadow-md backdrop-blur-sm mt-4 ml-4">
                         {interview.date}

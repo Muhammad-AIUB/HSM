@@ -12,15 +12,7 @@ const GlobalHealthExpertAndCoCountryDirector = () => {
               className="text-2xl md:text-[30px] uppercase font-extrabold text-[#001844] leading-10"
               style={{ wordSpacing: "0.4rem" }}
             >
-              Public Health and Career Questions: <br /> An Interview with {" "}
-              <a
-                href="https://www.linkedin.com/in/nh2468/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-[#001844] underline font-extrabold bg-[#FFCE00] px-2 rounded-md"
-              >
-                Dr. Arefin Islam
-              </a>
+              From Services to Systems: <br /> Dr. Arefin Islam’s Insights for Public Health Solutions
             </h1>
           </div>
         </div>
@@ -29,8 +21,14 @@ const GlobalHealthExpertAndCoCountryDirector = () => {
       <section className="relative w-full bg-white">
         <div className="bg-[#001844] py-10 px-12 sm:px-8 lg:px-16">
           <div className="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-center sm:items-center gap-8">
-            {/* Circular Image */}
-            <div className="w-52 h-52 shrink-0 rounded-full overflow-hidden ">
+            {/* Circular Image with focusable link */}
+            <a
+              href="/images/blog-interview/interview/arefin-islam.jpg"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-52 h-52 shrink-0 rounded-full overflow-hidden block focus:outline-none focus:ring-4 focus:ring-[#FFCE00]"
+              tabIndex={0}
+            >
               <Image
                 src="/images/blog-interview/interview/arefin-islam.jpg"
                 alt="Dr. Arefin Islam"
@@ -38,11 +36,11 @@ const GlobalHealthExpertAndCoCountryDirector = () => {
                 height={500}
                 className="object-cover w-full h-full"
               />
-            </div>
+            </a>
 
-            <div className="bg-[#FFCE00] max-w-5xl text-black p-4 sm:p-6 rounded-md shadow-md">
+            <div className="bg-[#FFCE00] max-w-6xl w-full text-black p-4 sm:p-6 rounded-md shadow-md">
               <p className="text-xl font-semibold text-gray-800 mb-3 flex items-center gap-4">
-                — Dr. Arefin Islam, A Global Health Expert and Co-Country Director, Noora Health
+                — Dr. Arefin Islam, A Global Health Expert and Co-Country Director,<span style={{ whiteSpace: 'nowrap' }}> <a href="https://noorahealth.org/" target="_blank" rel="noopener noreferrer" className="text-blue-700 underline">Noora Health</a></span>
                 <a
                   href="https://www.linkedin.com/in/nh2468/"
                   target="_blank"
@@ -53,7 +51,7 @@ const GlobalHealthExpertAndCoCountryDirector = () => {
                 </a>
               </p>
               <p className=" text-2xl md:text-[28px]  font-base leading-relaxed text-left">
-                "We need unwavering political commitment and robust partnerships among governments, non-governmental organizations, and communities to ensure the sustainability of health services."
+                “We need unwavering political commitment and robust partnerships among governments, non-governmental organizations, and communities to ensure the sustainability of health services.”
               </p>
             </div>
           </div>
