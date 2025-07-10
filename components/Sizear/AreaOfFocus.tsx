@@ -9,6 +9,7 @@ const AreaOfFocus = () => {
     { title: "Health System Strengthening", color: "bg-yellow-100" },
     { title: "Environmental Health", color: "bg-red-100" },
     { title: "Health Seeking Behavior", color: "bg-blue-100" },
+    { title: "Eye Health", color: "bg-indigo-100" },
     { title: "Policy and Advocacy", color: "bg-green-100" },
     { title: "Public Financial Management", color: "bg-orange-100" },
     { title: "Strategic Purchasing", color: "bg-purple-100" },
@@ -16,6 +17,7 @@ const AreaOfFocus = () => {
     { title: "Partnership and Collaboration", color: "bg-slate-100" },
     { title: "Knowledge Management", color: "bg-teal-100" },
     { title: "Implementation Research", color: "bg-blue-100" },
+    { title: "Enterprise Strategy and Business Development", color: "bg-pink-100" },
   ];
 
   return (

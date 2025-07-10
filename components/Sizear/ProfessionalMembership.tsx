@@ -58,14 +58,8 @@ export default function ProfessionalMemberships() {
         </h3>
 
         <p className="mb-8 text-black text-[17px] text-justify">
-          As a passionate public health leader, I serve as the Organizing
-          Secretary of the Public Health Foundation of Bangladesh (PHFBD), a key
-          organization promoting evidence-based public health knowledge
-          nationally. I played a pivotal role in organizing the 8th, 9th, and
-          10th International Public Health Conferences in 2021, 2023, and 2024,
-          along with several national and international events. Additionally, I
-          am an active member of Health Systems Global, the Public Health
-          Association of Bangladesh, and the Alliance for Health Reforms.
+          I am a dedicated public health leader currently serving as the Executive Director of the Public Health Foundation of Bangladesh (PHFBD). Before this, I spent four impactful years as the Organizing Secretary. PHFBD promotes evidence-based public health knowledge across the country. I played a key role in organizing the 8th, 9th, and 10th International Public Health Conferences in 2021, 2023, and 2024. I also led several national and international events. My current focus is on ensuring the sustainability and growth of PHFBD's activities.
+          In addition, I am a Member of Health Systems Global, Life Member of the Public Health Association of Bangladesh, and Co-Convenor of the Alliance for Health Reforms.
         </p>
 
         <motion.div

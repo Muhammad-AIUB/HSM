@@ -14,7 +14,7 @@ const mediaFeatures = [
         date: "May 20, 2025",
         platform: "Somoy TV",
         videoUrl:
-            "https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fsomoynews.tv%2Fvideos%2F1720686481865627%2F&show_text=false&width=560&t=0",
+            "https://www.youtube.com/embed/Sc7xDXx5cBE",
     },
 
     //! Newly added videos 22 May, 2025

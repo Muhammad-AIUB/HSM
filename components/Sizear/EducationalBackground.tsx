@@ -10,8 +10,7 @@ const EducationalBackground = () => {
         </h3>
         <div>
           <p className="text-[17px] leading-relaxed text-justify pt-4">
-            My expertise in knowledge generation spans several disciplines,
-            starting with a foundation in Anthropology from{" "}
+            My expertise in knowledge generation spans several disciplines, starting with a foundation in Anthropology from{" "}
             <a
               href="https://www.ru.ac.bd/"
               target="_blank"
@@ -19,8 +18,7 @@ const EducationalBackground = () => {
             >
               University of Rajshahi
             </a>
-            . I furthered my education with two master's degrees: one in Public
-            Health from the{" "}
+            . I furthered my education with two master's degrees: one in Public Health from the{" "}
             <a
               href="https://bracjpgsph.org/"
               target="_blank"
@@ -36,11 +34,7 @@ const EducationalBackground = () => {
             >
               Erasmus University Rotterdam
             </a>{" "}
-            in the Netherlands as a World Bank Scholar. As a dedicated knowledge
-            seeker and passionate public health professional, I stay current
-            with the latest developments in my field. Recently, I completed a
-            three-week, 4-credit on-site course in Health Policy and Financing
-            at the{" "}
+            in the Netherlands as a World Bank Scholar. As a dedicated knowledge seeker and passionate public health professional, I stay current with the latest developments in my field. Recently, I completed a three-week, 4-credit on-site course in Health Policy and Financing at the{" "}
             <a
               href="https://www.kit.nl/"
               target="_blank"
@@ -48,8 +42,7 @@ const EducationalBackground = () => {
             >
               KIT Royal Tropical Institute
             </a>{" "}
-            in the Netherlands. Additionally, I continuously enhance my
-            expertise through various online courses.
+            in the Netherlands. I have also received advanced training in policy analysis, and urban sanitation from reputed institutions in Sweden, and Cambodia. Additionally, I continuously enhance my expertise through various online courses.
           </p>
         </div>
 

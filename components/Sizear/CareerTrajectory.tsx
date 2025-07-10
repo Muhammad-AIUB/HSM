@@ -6,6 +6,11 @@ import { FaBriefcase } from "react-icons/fa";
 const CareerTrajectory = () => {
   const experiences = [
     {
+      title: "Program Operations Manager",
+      company: "VisionSpring",
+      date: "July 2025 – Present",
+    },
+    {
       title: "Technical Advisor",
       company: "Open Development",
       date: "January 2023 – March 2025",

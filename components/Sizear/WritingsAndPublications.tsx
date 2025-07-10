@@ -19,9 +19,7 @@ const WritingsAndPublications = () => {
                         journey involves conducting research to understand
                         complex health sector challenges and generate evidence
                         that supports government initiatives through targeted
-                        advocacy. I have contributed as both first author and
-                        co-author to numerous scholarly publications featured in
-                        reputable, peer-reviewed journals.
+                        advocacy. My work has been published in respected journals like BMC Health Services, BMJ Open, Nature, and PLOS One. I regularly contribute to national newspapers and global platforms, sharing insights as a public health storyteller.
                     </p>
                 </div>
 
