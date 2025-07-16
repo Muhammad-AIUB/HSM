@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { FaLinkedin } from "react-icons/fa";
 import BioOfArefinIslam from "./BioOfArefinIslam";
+import NextButton from "@/components/Shared/NextButton";
 
 const GlobalHealthExpertAndCoCountryDirector = () => {
   return (
@@ -258,6 +259,13 @@ const GlobalHealthExpertAndCoCountryDirector = () => {
         </div>
       </div>
       <BioOfArefinIslam />
+      <div className="mt-4">
+        <NextButton
+          href="/interview/leading-with-heart-and-purpose-almeer-ahsan"
+          text="Next Interview"
+          className="bg-[#FFCE00] text-[#001844]"
+        />
+      </div>
     </div>
   );
 };
