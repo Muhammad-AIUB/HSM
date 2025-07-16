@@ -39,6 +39,15 @@ interface Interview {
 
 const interviews = [
   {
+    id: 10,
+    title: "Leading with Heart and Purpose: A Grounded Conversation with Almeer Ahsan",
+    date: "July 17, 2025",
+    description:
+      "Almeer Ahsan shares his journey, leadership philosophy, and insights from a decade in global development.",
+    image: "/images/blog-interview/interview/almeer-ahsan.jpg.jpg",
+    slug: "leading-with-heart-and-purpose-almeer-ahsan",
+  },
+  {
     id: 1,
     title: "Public Health Insights with Dr. Madhukar Pai: A Global Leader",
     date: "May 01, 2025",
