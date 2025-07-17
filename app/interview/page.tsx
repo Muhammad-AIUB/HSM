@@ -140,6 +140,13 @@ const InterviewPage = () => {
   const [api, setApi] = useState<CarouselApi>();
   const [current, setCurrent] = useState(0);
 
+  // Sort interviews by date ascending
+  const sortedInterviews = [...interviews].sort((a, b) => {
+    const dateA = new Date(a.date);
+    const dateB = new Date(b.date);
+    return dateA.getTime() - dateB.getTime();
+  });
+
   useEffect(() => {
     if (!api) {
       return;
@@ -211,7 +218,7 @@ const InterviewPage = () => {
           setApi={setApi}
         >
           <CarouselContent className="-ml-2 md:-ml-4 pb-10">
-            {interviews.map((interview, index) => (
+            {sortedInterviews.map((interview, index) => (
               <CarouselItem
                 key={index}
                 className="pl-2 md:pl-4 md:basis-1/2 lg:basis-1/3 pt-1 pb-4"

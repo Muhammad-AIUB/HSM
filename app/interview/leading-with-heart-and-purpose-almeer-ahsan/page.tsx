@@ -11,7 +11,17 @@ const AlmeerAhsanInterview = () => {
               className="text-2xl md:text-[30px] uppercase font-extrabold text-[#001844] leading-10"
               style={{ wordSpacing: "0.4rem" }}
             >
-              Leading with Heart and Purpose: <br /> A Grounded Conversation with Almeer Ahsan
+              Leading with Heart and Purpose: {" "}
+              <a
+                href="https://www.linkedin.com/in/almeer-ahsan-asif/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#001844] underline font-extrabold bg-[#FFCE00] px-2 rounded-md"
+              >
+                Almeer Ahsan
+              </a>{" "}
+              <br />
+              on Advancing Global Health
             </h1>
           </div>
         </div>
@@ -131,12 +141,15 @@ const AlmeerAhsanInterview = () => {
           <h3 className="text-xl font-bold text-[#2D8CBB] text-justify">
             Q. Which three abilities are most crucial for success in the field of global development?
           </h3>
-          <p className="mt-2 leading-relaxed text-justify">
-            <span className="font-bold">Almeer Ahsan:</span> <br/>
-            <span className="font-semibold">Systems thinking</span>, because development doesn’t happen in silos. To create change, you need to understand how people, policies, and power interact.<br/>
-            <span className="font-semibold">Adaptability</span>, because the context is constantly shifting, and rigid plans rarely survive reality.<br/>
-            <span className="font-semibold">Empathetic communication</span>, because trust is the foundation of everything. People don’t just need to be informed — they need to be understood.
-          </p>
+          <div className="mt-2 leading-relaxed text-justify">
+            <span className="font-bold">Almeer Ahsan:</span>
+            <p className="mt-4 mb-2 font-bold italic text-[#8e24aa]">Systems thinking:</p>
+            <p className="mb-4">Because development doesn’t happen in silos. To create change, you need to understand how people, policies, and power interact.</p>
+            <p className="mb-2 font-bold italic text-[#8e24aa]">Adaptability:</p>
+            <p className="mb-4">Because the context is constantly shifting, and rigid plans rarely survive reality.</p>
+            <p className="mb-2 font-bold italic text-[#8e24aa]">Empathetic communication:</p>
+            <p>Because trust is the foundation of everything. People don’t just need to be informed — they need to be understood.</p>
+          </div>
         </div>
         <h2 className="text-2xl font-bold text-[#C2185B] mb-6">
           <span className="border-b-4 border-red-600 pb-1 inline-block w-fit">Get to Know Almeer Ahsan</span>
@@ -187,7 +200,7 @@ const AlmeerAhsanInterview = () => {
           <span className="block w-20 h-1 bg-yellow-400 rounded-full"></span>
         </div>
         <div>
-          <p className="mt-2 leading-relaxed text-center text-[17px] text-[#222]">
+          <p className="mt-2 leading-relaxed text-center text-[17px] text-[#222] text-justify">
             Almeer Ahsan is a Bangladeshi development practitioner with more than a decade of experience leading donor-funded projects supported by USAID, FCDO, and the IKEA Foundation. Most recently, he served as Deputy Chief of Party for the USAID Bijoyee Project, where he led initiatives that trained over 10,000 youth, secured 1,000 job placements, and established 30 youth-led partnerships. With two Master’s degrees, a UK-certified Postgraduate Diploma in Project Management, and current enrollment in an EMBA at IBA, University of Dhaka, Almeer combines academic depth with real-world impact. A passionate trainer and mentor, he is now developing a leadership program focused on purpose-driven living and civic engagement. Outside of work, he’s rediscovering his hobbies, prioritizing his health, and continuing to learn — always with the same purpose that brought him into the sector: to serve people with dignity and care.
           </p>
         </div>
