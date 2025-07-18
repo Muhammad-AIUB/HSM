@@ -12,6 +12,8 @@ const AlmeerAhsanInterview = () => {
               style={{ wordSpacing: "0.4rem" }}
             >
               Leading with Heart and Purpose: {" "}
+              <br />
+              A Grounded Conversation with {" "}
               <a
                 href="https://www.linkedin.com/in/almeer-ahsan-asif/"
                 target="_blank"
@@ -19,9 +21,7 @@ const AlmeerAhsanInterview = () => {
                 className="text-[#001844] underline font-extrabold bg-[#FFCE00] px-2 rounded-md"
               >
                 Almeer Ahsan
-              </a>{" "}
-              <br />
-              on Advancing Global Health
+              </a>
             </h1>
           </div>
         </div>
