@@ -11,11 +11,14 @@ import {
 const memberships = [
   {
     id: "PHFBD-GM-044",
-    title: "Organizing Secretary",
+    title: "Executive Director",
     organization: "Public Health Foundation Bangladesh",
     description:
       "A key volunteer entity in Bangladesh connecting public health professionals to promote public health issues.",
     icon: <FaUsers className="text-blue-500 text-4xl" />,
+    date: "June 2025 – Present",
+    previousTitle: "Organizing Secretary",
+    previousDate: "January 2021 – May 2025",
   },
   {
     id: "70096085",
@@ -83,6 +86,23 @@ export default function ProfessionalMemberships() {
                   <h3 className="text-lg font-semibold text-gray-900 group-hover:text-black">
                     {item.title}
                   </h3>
+                  {item.date && (
+                    <p className="text-sm text-gray-500 group-hover:text-black">
+                      {item.date}
+                    </p>
+                  )}
+                  {item.previousTitle && (
+                    <div className="mt-2">
+                      <h4 className="text-md font-semibold text-gray-900 group-hover:text-black">
+                        {item.previousTitle}
+                      </h4>
+                      {item.previousDate && (
+                        <p className="text-sm text-gray-500 group-hover:text-black">
+                          {item.previousDate}
+                        </p>
+                      )}
+                    </div>
+                  )}
                   {item.id !== "N/A" && (
                     <p className="text-sm text-gray-500 group-hover:text-black">
                       <strong>ID:</strong> {item.id}

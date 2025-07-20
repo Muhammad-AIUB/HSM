@@ -11,6 +11,11 @@ const CareerTrajectory = () => {
       date: "July 2025 – Present",
     },
     {
+      title: "Career Transition",
+      company: "",
+      date: "April 2025 – June 2025",
+    },
+    {
       title: "Technical Advisor",
       company: "Open Development",
       date: "January 2023 – March 2025",
