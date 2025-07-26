@@ -68,19 +68,6 @@ const BlogPage = () => {
         <BlogCard
           item={{
             title:
-              "Breaking the Aid Dependency Cycle: Strategies for Building Self-Sustaining Organizations",
-            description:
-              "When donor support ends, organizations are often seen adjusting programs, cutting staff, and hoping to survive the transition. That's what I witnessed firsthand when the USAID-funded project I worked on was cancelled.",
-            date: "27 July, 2025",
-            type: "blog",
-            thumbnail:
-              "/images/blog-interview/afroja-yesmin.jpg.jpg",
-          }}
-        />
-
-        <BlogCard
-          item={{
-            title:
               "Bridging the Gaps: Strengthening Mental Healthcare to Build a Resilient Health System in Bangladesh",
             description:
               "Mental health remains a critical yet often neglected aspect of Bangladesh's healthcare system. The country faces significant challenges ",
@@ -101,6 +88,19 @@ const BlogPage = () => {
             type: "blog",
             thumbnail:
               "https://img.freepik.com/free-vector/job-interview-conversation_74855-7566.jpg",
+          }}
+        />
+
+        <BlogCard
+          item={{
+            title:
+              "Breaking the Aid Dependency Cycle: Strategies for Building Self-Sustaining Organizations",
+            description:
+              "When donor support ends, organizations are often seen adjusting programs, cutting staff, and hoping to survive the transition. That's what I witnessed firsthand when the USAID-funded project I worked on was cancelled.",
+            date: "27 July, 2025",
+            type: "blog",
+            thumbnail:
+              "/images/blog-interview/afroja-yesmin.jpg.jpg",
           }}
         />
       </div>
