@@ -23,6 +23,15 @@ import Zakaria from "@/public/images/blog-interview/Zakaria.jpeg";
 const blogs = [
   {
     title:
+      "Breaking the Aid Dependency Cycle: Strategies for Building Self-Sustaining Organizations",
+    description:
+      "When donor support ends, organizations are often seen adjusting programs, cutting staff, and hoping to survive the transition. That's what I witnessed firsthand when the USAID-funded project I worked on was cancelled.",
+    date: "27 July, 2025",
+    type: "blog",
+    thumbnail: "/images/blog-interview/afroja-yesmin.jpg.jpg",
+  },
+  {
+    title:
       "Bridging the Gaps: Strengthening Mental Healthcare to Build a Resilient Health System in Bangladesh",
     description:
       "Mental health remains a critical yet often neglected aspect of Bangladesh's healthcare system. The country faces significant challenges.",

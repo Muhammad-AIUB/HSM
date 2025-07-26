@@ -63,8 +63,13 @@ export const BlogCard = ({
           {/* Content area */}
           <div className="flex flex-col flex-1 justify-between p-6 pt-5 relative">
             {/* Title */}
-            <p className="text-xl transition-transform duration-300 group-hover:translate-y-1 text-[#01748D] font-bold hover:underline">
+            <p className="text-xl transition-transform duration-300 group-hover:translate-y-1 text-[#01748D] font-bold hover:underline mb-3">
               {item.title}
+            </p>
+
+            {/* Description */}
+            <p className="text-gray-600 text-sm mb-4 overflow-hidden">
+              {item.description}
             </p>
 
             {/* Explore Button */}
