@@ -127,12 +127,21 @@ const interviews = [
   },
   {
     id: 9,
-    title: "From Services to Systems: Dr. Arefin Islam’s Insights for Public Health Solutions",
+    title: "From Services to Systems: Dr. Arefin Islam's Insights for Public Health Solutions",
     date: "July 10, 2025",
     description:
       "Dr. Arefin Islam, A Global Health Expert and Co-Country Director at Noora Health, shares insights on maternal and child health, health systems strengthening, and career guidance for public health professionals.",
     image: DrArefinIslamImg,
     slug: "global-health-expert-and-co-country-director",
+  },
+  {
+    id: 11,
+    title: "Alex Berland on Elevating Nursing Education and Building a Global Health Career",
+    date: "July 31, 2025",
+    description:
+      "Alex Berland, Global Health and Nursing Education Specialist, shares insights on nursing education in Bangladesh and building a global career in nursing.",
+    image: "/images/blog-interview/interview/Alex_2400px.jpg",
+    slug: "alex-berland-on-elevating-nursing-education",
   },
 ];
 
@@ -239,6 +248,14 @@ const InterviewPage = () => {
                           width={500}
                           height={400}
                           className="w-full h-72 object-contain bg-[#f3f3f3] hover:scale-105 hover:opacity-90 transition-transform duration-300 object-top"
+                        />
+                      ) : interview.slug === "alex-berland-on-elevating-nursing-education" ? (
+                        <Image
+                          src={interview.image}
+                          alt={interview.title}
+                          width={500}
+                          height={300}
+                          className="w-full h-56 object-cover hover:scale-105 hover:opacity-90 transition-transform duration-300 object-center"
                         />
                       ) : (
                         <Image
