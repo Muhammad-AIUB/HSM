@@ -19,7 +19,14 @@ const AlexBerlandOnElevatingNursingEducation = () => {
               className="text-2xl md:text-[30px] uppercase font-extrabold text-[#001844] leading-10"
               style={{ wordSpacing: "0.4rem" }}
             >
-              Alex Berland on Elevating Nursing Education{" "}
+              <a
+                href="https://www.linkedin.com/in/alex-berland-b7618221/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#001844] underline font-extrabold bg-[#FFCE00] px-2 rounded-md"
+              >
+                Alex Berland
+              </a>{" "}on Elevating Nursing Education
               <br />
               and Building a Global Health Career
             </h1>
@@ -37,21 +44,13 @@ const AlexBerlandOnElevatingNursingEducation = () => {
                 alt="Alex Berland"
                 width={500}
                 height={500}
-                className="object-cover object-center w-full h-full"
+                className="object-cover object-top w-full h-full"
               />
             </div>
 
             <div className="bg-[#FFCE00] max-w-5xl text-black p-4 sm:p-6 rounded-md shadow-md">
-              <p className="text-xl font-semibold text-gray-800 mb-3 flex items-center gap-4">
+              <p className="text-xl font-semibold text-gray-800 mb-3">
                 — Alex Berland, Global Health and Nursing Education Specialist
-                <a
-                  href="https://www.linkedin.com/in/alex-berland-b7618221/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className=""
-                >
-                  <FaLinkedin className="text-2xl" />
-                </a>
               </p>
 
               <p className=" text-2xl md:text-[28px]  font-base leading-relaxed md:text-justify">
@@ -94,7 +93,7 @@ const AlexBerlandOnElevatingNursingEducation = () => {
             Q. What advice would you give to someone who wants to build a global career in nursing?
           </h2>
           <p className=" mt-2 leading-relaxed text-justify">
-            <span className="font-bold">Alex Berland:</span> Immerse yourself in the possibilities. International work begins at home: I was engaged in projects in Bangladesh by a friend who was volunteering with me on a community health project in Canada. Read about the work of international NGOs to learn about areas of need, program activities and job qualifications. You can also explore opportunities through open access journals, conferences, web forums like Global Alliance for Nurses and Midwives, or academic programs such as the low-cost online courses at Next GenU.
+            <span className="font-bold">Alex Berland:</span> Immerse yourself in the possibilities. International work begins at home: I was engaged in projects in Bangladesh by a friend who was volunteering with me on a community health project in Canada. Read about the work of international NGOs to learn about areas of need, program activities and job qualifications. You can also explore opportunities through <a href="https://bmjopen.bmj.com/" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">open</a> access <a href="https://www.thelancet.com/journals/langlo/home" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">journals</a>, conferences, web forums like <a href="https://ganm.nursing.jhu.edu/" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">Global Alliance for Nurses and Midwives</a>, or academic programs such as the low-cost online courses at <a href="https://nextgenu.org/" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">Next GenU</a>.
           </p>
         </div>
 
@@ -114,7 +113,7 @@ const AlexBerlandOnElevatingNursingEducation = () => {
             Q. When you reflect on your global health career, how do you perceive the impact of your work?
           </h2>
           <p className=" mt-2 leading-relaxed text-justify">
-            <span className="font-bold">Alex Berland:</span> Much of my global health work focuses on human resource development, so I am very much "upstream" or distant from the impact. Therefore, my perceptions must be philosophical. Gandhi said, "Whatever you do will be insignificant; nonetheless it is extremely important that you do it." In the early days of the Bangladesh Health Project, a Bangladeshi told me, "These are our problems. We need your help so that we can solve them in our own way." I will let others assess the impact of my work.
+            <span className="font-bold">Alex Berland:</span> Much of my global health work focuses on human resource development, so I am very much "upstream" or distant from the impact. Therefore, my perceptions must be philosophical. Gandhi said, "Whatever you do will be insignificant; nonetheless it is extremely important that you do it." In the early days of the <a href="https://www.bangladeshhealthproject.com/" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">Bangladesh Health Project</a>, a Bangladeshi told me, "These are our problems. We need your help so that we can solve them in our own way." I will let others assess the impact of my work.
           </p>
         </div>
 
