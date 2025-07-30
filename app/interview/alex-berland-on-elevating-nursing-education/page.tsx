@@ -1,8 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import { FaLinkedin } from "react-icons/fa";
-
 import Heading from "../a-leading-voice-in-global-health-systems/components/Heading";
 
 import AlexBerland from "@/public/images/blog-interview/interview/Alex_2400px.jpg";
