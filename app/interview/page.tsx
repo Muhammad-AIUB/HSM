@@ -143,6 +143,15 @@ const interviews = [
     image: "/images/blog-interview/interview/Alex_2400px.jpg",
     slug: "alex-berland-on-elevating-nursing-education",
   },
+  {
+    id: 12,
+    title: "Chris Welch, A Global Health Operations Expert & Project Management Specialist",
+    date: "January 15, 2025",
+    description:
+      "Chris Welch shares insights on global health operations, project management, and leadership lessons from nearly 30 years of experience working across 15 countries.",
+    image: "/images/blog-interview/chris.jpg",
+    slug: "chris-welch-global-health-operations-expert",
+  },
 ];
 
 const InterviewPage = () => {
@@ -256,6 +265,15 @@ const InterviewPage = () => {
                           width={500}
                           height={300}
                           className="w-full h-56 object-cover hover:scale-105 hover:opacity-90 transition-transform duration-300 object-center"
+                        />
+                      ) : interview.slug === "chris-welch-global-health-operations-expert" ? (
+                        <Image
+                          src={interview.image}
+                          alt={interview.title}
+                          width={500}
+                          height={300}
+                          className="w-full h-56 object-cover hover:scale-105 hover:opacity-90 transition-transform duration-300"
+                          style={{ objectPosition: 'center 20%' }}
                         />
                       ) : (
                         <Image
