@@ -146,10 +146,10 @@ const interviews = [
   {
     id: 12,
     title: "Chris Welch, A Global Health Operations Expert & Project Management Specialist",
-    date: "January 15, 2025",
+    date: "September 02, 2025",
     description:
       "Chris Welch shares insights on global health operations, project management, and leadership lessons from nearly 30 years of experience working across 15 countries.",
-    image: "/images/blog-interview/chris.jpg",
+    image: "/images/blog-interview/cris1.jpg",
     slug: "chris-welch-global-health-operations-expert",
   },
 ];

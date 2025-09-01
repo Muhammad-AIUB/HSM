@@ -19,16 +19,16 @@ const ChrisWelchInterview = () => {
               className="text-2xl md:text-[30px] uppercase font-extrabold text-[#001844] leading-10"
               style={{ wordSpacing: "0.4rem" }}
             >
-              Chris Welch, A Global Health Operations Expert &{" "}
+              In Conversation with{" "}
               <a
                 href="https://www.linkedin.com/in/chris-c-welch/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[#001844] underline font-extrabold bg-[#FFCE00] px-2 rounded-md"
+                className="bg-[#FFCE00] text-[#001844] px-2 py-1 rounded-md hover:bg-yellow-300 underline"
               >
-                Project Management Specialist
-              </a>{" "}
-              <br />
+                Chris Welch
+              </a>
+              : Grounded Insights from a Global Health Manager
             </h1>
           </div>
         </div>
@@ -44,14 +44,14 @@ const ChrisWelchInterview = () => {
                 alt="Chris Welch"
                 width={500}
                 height={500}
-                className="object-cover object-center w-full h-full"
+                className="object-cover w-full h-full"
                 style={{ objectPosition: 'center 20%' }}
               />
             </div>
 
             <div className="bg-[#FFCE00] max-w-5xl text-black p-4 sm:p-6 rounded-md shadow-md">
               <p className="text-xl font-semibold text-gray-800 mb-3 flex items-center gap-4">
-                — Chris Welch, Management Sciences for Health, Boston, MA.
+                Chris Welch, A Global Health Operations Expert & Project Management Specialist
                 <a
                   href="https://www.linkedin.com/in/chris-c-welch/"
                   target="_blank"
@@ -144,7 +144,7 @@ const ChrisWelchInterview = () => {
             Q. What book are you currently reading, and what key insights would you share?
           </h2>
           <p className=" mt-2 leading-relaxed text-justify">
-            <span className="font-bold">Chris Welch:</span> I just finished The Wager: A Tale of Shipwreck, Mutiny, and Murder by David Grann. The Wager recounts real-life events during the British imperial period – and it reminds us of many important things: what we can survive; the importance of continuing to do our best, no matter how difficult the situation may be; and the necessity of listening to all sides in a dispute. (The survivors of the shipwreck return to civilization in several groups months apart, telling VERY different stories of the events that transpired.) There are a few important leadership lessons that I took away:
+            <span className="font-bold">Chris Welch:</span> I just finished <u>The Wager: A Tale of Shipwreck, Mutiny, and Murder</u> by David Grann. <u>The Wager</u> recounts real-life events during the British imperial period – and it reminds us of many important things: what we can survive; the importance of continuing to do our best, no matter how difficult the situation may be; and the necessity of listening to all sides in a dispute. (The survivors of the shipwreck return to civilization in several groups months apart, telling VERY different stories of the events that transpired.) There are a few important leadership lessons that I took away:
           </p>
           <ul className="mt-2 leading-relaxed text-justify list-disc list-inside ml-4">
             <li>Work with a broad group of constituents, not just the top tier</li>
