@@ -284,6 +284,11 @@ const InterviewPage = () => {
                           className="w-full h-56 object-cover hover:scale-105 hover:opacity-90 transition-transform duration-300 object-top"
                         />
                       )}
+                      {/* Serial Number Badge */}
+                      <div className="absolute top-0 right-0 z-20 bg-gradient-to-br from-[#2D8CBB] to-[#1B6E99] text-white px-3 py-2 rounded-bl-lg rounded-tr-lg text-sm font-bold shadow-lg">
+                        {index + 1}
+                      </div>
+                      
                       {/* Date pill */}
                       <div className="absolute top-0 left-0 z-20 bg-white/90 dark:bg-gray-800/90 px-3 py-1 rounded-full text-xs font-medium text-[#01748D] shadow-md backdrop-blur-sm mt-4 ml-4">
                         {interview.date}
