@@ -24,9 +24,6 @@ import DrTaufiqueImg from "@/public/images/blog-interview/interview/DrTaufique.j
 
 import IstiakMannan from "@/public/images/blog-interview/interview/istiak-mannan-cover-i.jpg";
 
-const DrMohitChowdhuryImg = "/images/blog-interview/interview/392b80ff-42c9-4833-92e0-19db46e0f028.jpeg";
-const DrSabaWaseemImg = "/images/blog-interview/interview/saba-waseem.jpg";
-const DrArefinIslamImg = "/images/blog-interview/interview/arefin-islam.jpg";
 
 interface Interview {
   id: number;
@@ -113,7 +110,7 @@ const interviews = [
     date: "June 24, 2025",
     description:
       "Dr. Mohit Chowdhury shares his journey from clinical practice to global health scholarship, his mentors, and his vision for the next generation of public health leaders.",
-    image: DrMohitChowdhuryImg,
+    image: "/images/blog-interview/interview/392b80ff-42c9-4833-92e0-19db46e0f028.jpeg",
     slug: "from-clinician-to-global-health-scholar",
   },
   {
@@ -122,7 +119,7 @@ const interviews = [
     date: "July 05, 2025",
     description:
       "Dr. Saba Waseem, Development Economist and Global Health System Strengthening Expert, shares insights on sustainable financing and career development in global health.",
-    image: DrSabaWaseemImg,
+    image: "/images/blog-interview/interview/saba-waseem.jpg",
     slug: "global-health-financing-expert",
   },
   {
@@ -131,7 +128,7 @@ const interviews = [
     date: "July 10, 2025",
     description:
       "Dr. Arefin Islam, A Global Health Expert and Co-Country Director at Noora Health, shares insights on maternal and child health, health systems strengthening, and career guidance for public health professionals.",
-    image: DrArefinIslamImg,
+    image: "/images/blog-interview/interview/arefin-islam.jpg",
     slug: "global-health-expert-and-co-country-director",
   },
   {
@@ -284,11 +281,6 @@ const InterviewPage = () => {
                           className="w-full h-56 object-cover hover:scale-105 hover:opacity-90 transition-transform duration-300 object-top"
                         />
                       )}
-                      {/* Serial Number Badge */}
-                      <div className="absolute top-0 right-0 z-20 bg-gradient-to-br from-[#2D8CBB] to-[#1B6E99] text-white px-3 py-2 rounded-bl-lg rounded-tr-lg text-sm font-bold shadow-lg">
-                        {index + 1}
-                      </div>
-                      
                       {/* Date pill */}
                       <div className="absolute top-0 left-0 z-20 bg-white/90 dark:bg-gray-800/90 px-3 py-1 rounded-full text-xs font-medium text-[#01748D] shadow-md backdrop-blur-sm mt-4 ml-4">
                         {interview.date}
