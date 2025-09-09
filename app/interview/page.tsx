@@ -293,6 +293,10 @@ const InterviewPage = () => {
                       <div className="absolute top-0 left-0 z-20 bg-white/90 dark:bg-gray-800/90 px-3 py-1 rounded-full text-xs font-medium text-[#01748D] shadow-md backdrop-blur-sm mt-4 ml-4">
                         {interview.date}
                       </div>
+                      {/* Serial number pill */}
+                      <div className="absolute top-0 right-0 z-20 bg-[#FFCE00] px-3 py-1 rounded-full text-xs font-medium text-black shadow-md backdrop-blur-sm mt-4 mr-4">
+                        Interview #{interview.id}
+                      </div>
                       <div className="relative flex flex-col flex-1 p-6">
                         {/* Content */}
                         <div className="">
