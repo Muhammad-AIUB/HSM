@@ -154,7 +154,7 @@ const BlogPage = () => {
                 className="pl-4 md:basis-1/2 lg:basis-1/2 pt-1 pb-4"
               >
                 <div className="h-full flex">
-                  <BlogCard item={item} />
+                  <BlogCard item={item} serialNumber={index + 1} />
                 </div>
               </CarouselItem>
             ))}

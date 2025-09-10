@@ -7,6 +7,7 @@ import Link from "next/link";
 
 export const BlogCard = ({
   item,
+  serialNumber,
 }: {
   item: {
     title: string;
@@ -15,6 +16,7 @@ export const BlogCard = ({
     type: string;
     thumbnail: string | StaticImageData;
   };
+  serialNumber?: number;
 }) => {
   // Determine the correct page link based on type
   const pageLink =
@@ -43,6 +45,13 @@ export const BlogCard = ({
         <div className="relative bg-white/95 dark:bg-gray-800 rounded-lg overflow-hidden shadow-xl transition-all duration-300 flex flex-col h-full">
           {/* Top accent */}
           <div className="absolute top-0 right-0 w-20 h-20 bg-[#01748D] transform rotate-45 translate-x-10 -translate-y-10 z-10"></div>
+
+          {/* Serial number pill (top-right) */}
+          {typeof serialNumber === "number" && (
+            <div className="absolute right-4 top-[38%] z-30 bg-[#1E60AC] px-3 py-1 rounded-full text-xs font-medium text-white shadow-md backdrop-blur-sm">
+              Blog #{serialNumber}
+            </div>
+          )}
 
           {/* Date pill */}
           <div className="absolute top-4 left-4 z-20 bg-white/90 dark:bg-gray-800/90 px-3 py-1 rounded-full text-sm font-medium text-blue-900 shadow-md backdrop-blur-sm">
