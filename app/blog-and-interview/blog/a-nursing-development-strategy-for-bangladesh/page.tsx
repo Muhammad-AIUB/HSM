@@ -6,6 +6,7 @@ import AlexBerland from "@/public/images/blog-interview/alex-blog.jpg";
 import NursePhoto from "@/public/images/blog-interview/nurse-photo.jpeg";
 import { FaLinkedin } from "react-icons/fa";
 import NextButton from "@/components/Shared/NextButton";
+import BioOfAlex from "./BioOfAlex";
 
 const NursingDevelopmentStrategyBlogPage = () => {
   return (
@@ -66,7 +67,7 @@ const NursingDevelopmentStrategyBlogPage = () => {
           <div className="flex items-center mb-4">
             <BookOpen className="text-[#001844] w-8 h-8 mr-2" />
             <h2 className="text-2xl font-semibold text-[#001844]">
-              Purpose – achieving benefits, minimizing risks
+              1. Purpose – achieving benefits, minimizing risks
             </h2>
           </div>
 
@@ -97,23 +98,23 @@ const NursingDevelopmentStrategyBlogPage = () => {
 
           <div className="space-y-4 text-gray-700 leading-relaxed">
             <p className=" text-lg text-justify">
-              Compared even to other Lower Middle-Income Countries [LMIC], Bangladesh has fewer health care workers of all kinds. For nursing, this shortage is made worse by the low level of skills among registered nurses. Many factors cause this competency problem: low skill level of nurse educators with few opportunities for professional development; lack of practicum sites where student nurses observe good practice; weak approval processes for nursing colleges. Other context problems include weak professional regulation; physician resistance to advancement of nurses; and unlicensed and untrained workers calling themselves nurses.
+              <strong>2.</strong> Compared even to other Lower Middle-Income Countries [LMIC], Bangladesh has fewer health care workers of all kinds. For nursing, this shortage is made worse by the low level of skills among registered nurses. Many factors cause this competency problem: low skill level of nurse educators with few opportunities for professional development; lack of practicum sites where student nurses observe good practice; weak approval processes for nursing colleges. Other context problems include weak professional regulation; physician resistance to advancement of nurses; and unlicensed and untrained workers calling themselves nurses.
             </p>
 
             <p className=" text-lg text-justify">
-              Improving the nurse situation in Bangladesh is not a new idea. During the past 25 years, international donors have invested substantially in programs to "strengthen nursing in Bangladesh". (Our conservative estimate is over $50 million USD. The results have been disappointing, partly due to implementation challenges, such as the clinical practice environment, internal resistance and malfeasance. There have also been donor mis-steps due to importation of "Western" approaches: BSN entry-to-practice is expensive; assumptions about governance have been unrealistic; the focus on hospital care neglects primary or universal health care which could benefit more Bangladeshis.
+              <strong>3.</strong> Improving the nurse situation in Bangladesh is not a new idea. During the past 25 years, international donors have invested substantially in programs to "strengthen nursing in Bangladesh". (Our conservative estimate is over $50 million USD. The results have been disappointing, partly due to implementation challenges, such as the clinical practice environment, internal resistance and malfeasance. There have also been donor mis-steps due to importation of "Western" approaches: BSN entry-to-practice is expensive; assumptions about governance have been unrealistic; the focus on hospital care neglects primary or universal health care which could benefit more Bangladeshis.
             </p>
 
             <p className=" text-lg text-justify">
-              Despite nearly three decades of external support, nurse-to-population ratios are not much improved. The incessant effect of brain drain is like pouring water into a bath-tub with no stopper plug. It seems unlikely that donors will again commit this level of external support to help Bangladesh fix its health care system, particularly if the internal problems persist.
+              <strong>4.</strong> Despite nearly three decades of external support, nurse-to-population ratios are not much improved. The incessant effect of brain drain is like pouring water into a bath-tub with no stopper plug. It seems unlikely that donors will again commit this level of external support to help Bangladesh fix its health care system, particularly if the internal problems persist.
             </p>
 
             <p className=" text-lg text-justify">
-              On a positive note, there exists today a better understanding of both the potential contribution of nurses and the opportunities for good jobs here and abroad. For several years government policy has promoted nurse emigration. This has resulted in strong demand for nurse education, despite its generally poor quality. The downside is that we can expect thousands of unemployable nursing graduates in the next few years: unable to pass qualifying exams overseas, yet lacking primary health care skills to serve the national population.
+              <strong>5.</strong> On a positive note, there exists today a better understanding of both the potential contribution of nurses and the opportunities for good jobs here and abroad. For several years government policy has promoted nurse emigration. This has resulted in strong demand for nurse education, despite its generally poor quality. The downside is that we can expect thousands of unemployable nursing graduates in the next few years: unable to pass qualifying exams overseas, yet lacking primary health care skills to serve the national population.
             </p>
 
             <p className=" text-lg text-justify">
-              From a population health perspective, the last two decades have been a missed opportunity. Bangladesh has been identified as an LMIC with above-average burden of non-communicable diseases, pandemic risks and antimicrobial resistance. These national problems will be intensified by global impacts such as climate change and economic shocks. The situation requires urgent and focused strategy to reduce the impact.
+              <strong>6.</strong> From a population health perspective, the last two decades have been a missed opportunity. Bangladesh has been identified as an LMIC with above-average burden of non-communicable diseases, pandemic risks and antimicrobial resistance. These national problems will be intensified by global impacts such as climate change and economic shocks. The situation requires urgent and focused strategy to reduce the impact.
             </p>
           </div>
         </div>
@@ -129,23 +130,23 @@ const NursingDevelopmentStrategyBlogPage = () => {
 
           <div className="space-y-4 text-gray-700 leading-relaxed">
             <p className=" text-lg text-justify">
-              Position the professional development strategy for nursing in a broader context of integrated people-centred change. Use a health labour market framework for a systems-thinking approach.
+              <strong>1.</strong> Position the professional development strategy for nursing in a broader context of integrated people-centred change. Use a health labour market framework for a systems-thinking approach.
             </p>
 
             <p className=" text-lg text-justify">
-              Minimize costs by improving performance of existing structures, adding only targeted resources. (This will require strong leadership from government-side.)
+              <strong>2.</strong> Minimize costs by improving performance of existing structures, adding only targeted resources. (This will require strong leadership from government-side.)
             </p>
 
             <p className=" text-lg text-justify">
-              Strengthen governance capacity for reforms, especially related to accreditation of educators, scope of practice, new cadres, initial licensing requirements and human resource planning.
+              <strong>3.</strong> Strengthen governance capacity for reforms, especially related to accreditation of educators, scope of practice, new cadres, initial licensing requirements and human resource planning.
             </p>
 
             <p className=" text-lg text-justify">
-              Recognize the impact of the political economy in reforming the nursing profession, such as, lack of coordination among donors, internal conflict among nurses' associations and professional groups, resistance from organized medicine, absence of other stakeholders.
+              <strong>4.</strong> Recognize the impact of the political economy in reforming the nursing profession, such as, lack of coordination among donors, internal conflict among nurses' associations and professional groups, resistance from organized medicine, absence of other stakeholders.
             </p>
 
             <p className=" text-lg text-justify">
-              Tackling these impacts might mean: working with select owners of private nursing colleges; appointing change agents to DGNM and BNMC; engaging stakeholders from journalism, human rights and grass-roots NGOs to advocate around the nursing strategy.
+              <strong>5.</strong> Tackling these impacts might mean: working with select owners of private nursing colleges; appointing change agents to DGNM and BNMC; engaging stakeholders from journalism, human rights and grass-roots NGOs to advocate around the nursing strategy.
             </p>
           </div>
         </div>
@@ -161,20 +162,20 @@ const NursingDevelopmentStrategyBlogPage = () => {
 
           <div className="space-y-4 text-gray-700 leading-relaxed">
             <p className=" text-lg text-justify">
-              Appoint and resource a National Nursing Task Group headed by a senior policy analyst to create the nursing development strategy. Instruct them to complete within 30 days a road-map for developing a new nursing strategy within 120 days, including:
+              <strong>7.</strong> Appoint and resource a National Nursing Task Group headed by a senior policy analyst to create the nursing development strategy. Instruct them to complete within 30 days a road-map for developing a new nursing strategy within 120 days, including:
             </p>
 
             <div className="ml-6 space-y-3">
               <p className=" text-lg text-justify">
-                a. Plans for an update to 2021 - Health Labour Market Analysis and 2018 - Mapping of Health Education Institutions in Bangladesh to inform and advance the nursing strategy.
+                <strong>a.</strong> Plans for an update to 2021 - Health Labour Market Analysis and 2018 - Mapping of Health Education Institutions in Bangladesh to inform and advance the nursing strategy.
               </p>
 
               <p className=" text-lg text-justify">
-                b. A process to engage with development partners concerning their input and support for a new nursing strategy.
+                <strong>b.</strong> A process to engage with development partners concerning their input and support for a new nursing strategy.
               </p>
 
               <p className=" text-lg text-justify">
-                c. A process to engage nursing stakeholders and other civil society organizations to determine their capacity to support and aid implementation of the nursing strategy.
+                <strong>c.</strong> A process to engage nursing stakeholders and other civil society organizations to determine their capacity to support and aid implementation of the nursing strategy.
               </p>
             </div>
           </div>
@@ -339,26 +340,9 @@ const NursingDevelopmentStrategyBlogPage = () => {
           </div>
         </div>
 
-        {/* Bio Section */}
-        <div className="bg-white p-6 rounded-lg shadow-sm mb-6 border-l-4 border-[#8B5CF6]">
-          <div className="flex items-center mb-4">
-            <BookOpen className="text-[#8B5CF6] w-8 h-8 mr-2" />
-            <h2 className="text-2xl font-bold text-[#001844]">
-              Bio of Alex Berland
-            </h2>
-          </div>
-
-          <div className="space-y-4 text-gray-700 leading-relaxed">
-            <p className=" text-lg text-justify">
-              Alex Berland (RN retired, BSc. Nursing, MSc. Health Planning and Administration). After working as a bedside nurse, Alex served as an executive in several Canadian teaching hospitals, leading clinical redesign efforts as well as accreditation and governance activities. For BC Ministry of Health, Alex led reform of the provincial mental health system, during which time he was also CEO of an 800-bed tertiary psychiatric hospital. For UK Department of Health, Alex served as Head of Hospital Policy for England, overseeing several national initiatives.
-            </p>
-
-            <p className=" text-lg text-justify">
-              Later as president of his own consulting company, Alex led policy and planning projects for hospitals, regional and national governments, WHO and the World Bank. Since 2004, Alex has worked with educators, NGOs and hospitals in Bangladesh as a volunteer adviser for numerous projects. Alex has authored peer-reviewed papers on topics including nurse education, transformational change, health human resources and he serves as a reviewer for several journals.
-            </p>
-          </div>
-        </div>
       </div>
+
+      <BioOfAlex />
 
       <NextButton
         href="/blog-and-interview/blog/bridging-the-gaps-strengthening-mental-healthcare-to-build-a-resilient-health-system-in-bangladesh"
