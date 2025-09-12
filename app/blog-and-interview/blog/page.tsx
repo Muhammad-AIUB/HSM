@@ -68,6 +68,19 @@ const BlogPage = () => {
         <BlogCard
           item={{
             title:
+              "A Nursing Development Strategy for Bangladesh",
+            description:
+              "Increasing and improving production of nurses is widely discussed in Bangladesh. There are obvious benefits from meeting national health care needs as well as remittances by nurses who emigrate. There are also risks and hazards for funders, for population health and for nurses themselves.",
+            date: "September 12, 2025",
+            type: "blog",
+            thumbnail:
+              "/images/blog-interview/nurse-photo.jpeg",
+          }}
+        />
+
+        <BlogCard
+          item={{
+            title:
               "Bridging the Gaps: Strengthening Mental Healthcare to Build a Resilient Health System in Bangladesh",
             description:
               "Mental health remains a critical yet often neglected aspect of Bangladesh's healthcare system. The country faces significant challenges ",

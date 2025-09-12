@@ -19,6 +19,7 @@ import Himika from "@/public/images/blog-interview/Himika.jpg";
 import ShahPoran from "@/public/images/blog-interview/ShahParan.jpg";
 import TasdipDip from "@/public/images/blog-interview/TasdikDip.jpg";
 import Zakaria from "@/public/images/blog-interview/Zakaria.jpeg";
+import AlexBerland from "@/public/images/blog-interview/alex-blog.jpg";
 
 const blogs = [
   {
@@ -65,6 +66,15 @@ const blogs = [
     date: "27 July, 2025",
     type: "blog",
     thumbnail: "/images/blog-interview/afroja-yesmin.jpg.jpg",
+  },
+  {
+    title:
+      "A Nursing Development Strategy for Bangladesh",
+    description:
+      "Increasing and improving production of nurses is widely discussed in Bangladesh. There are obvious benefits from meeting national health care needs as well as remittances by nurses who emigrate.",
+    date: "12 September, 2025",
+    type: "blog",
+    thumbnail: AlexBerland,
   },
 ];
 
