@@ -1,6 +1,4 @@
 import EducationalJourney from "./EducationalJourney";
-
-/* eslint-disable react/no-unescaped-entities */
 const EducationalBackground = () => {
   return (
     <div className=" bg-[#CDEDEC]">

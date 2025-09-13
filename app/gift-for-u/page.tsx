@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 import knowledgeImage from "@/public/images/knowledge-gift/knowledgegift.webp";
 import GiftForm from "@/components/gift-form";
 import { SectionTitleWithoutSub } from "@/components/Shared/SectionTitle/SectionTitle";
