@@ -67,13 +67,13 @@ const NursingDevelopmentStrategyBlogPage = () => {
           <div className="flex items-center mb-4">
             <BookOpen className="text-[#001844] w-8 h-8 mr-2" />
             <h2 className="text-2xl font-semibold text-[#001844]">
-              1. Purpose – achieving benefits, minimizing risks
+              Purpose – achieving benefits, minimizing risks
             </h2>
           </div>
 
           <div className="space-y-4 text-gray-700 leading-relaxed">
             <p className=" text-lg text-justify">
-              Increasing and improving production of nurses is widely discussed in Bangladesh. There are obvious benefits from meeting national health care needs as well as remittances by nurses who emigrate. There are also risks and hazards for funders, for population health and for nurses themselves. The purpose of this paper is to suggest a way forward that may mitigate the risks and also achieve the benefits of strengthening the nursing profession in Bangladesh.
+              <strong>1.</strong> Increasing and improving production of nurses is widely discussed in Bangladesh. There are obvious benefits from meeting national health care needs as well as remittances by nurses who emigrate. There are also risks and hazards for funders, for population health and for nurses themselves. The purpose of this paper is to suggest a way forward that may mitigate the risks and also achieve the benefits of strengthening the nursing profession in Bangladesh.
             </p>
           </div>
         </div>
@@ -130,23 +130,23 @@ const NursingDevelopmentStrategyBlogPage = () => {
 
           <div className="space-y-4 text-gray-700 leading-relaxed">
             <p className=" text-lg text-justify">
-              <strong>1.</strong> Position the professional development strategy for nursing in a broader context of integrated people-centred change. Use a health labour market framework for a systems-thinking approach.
+              <strong>7.</strong> Position the professional development strategy for nursing in a broader context of integrated people-centred change. Use a health labour market framework for a systems-thinking approach.
             </p>
 
             <p className=" text-lg text-justify">
-              <strong>2.</strong> Minimize costs by improving performance of existing structures, adding only targeted resources. (This will require strong leadership from government-side.)
+              <strong>8.</strong> Minimize costs by improving performance of existing structures, adding only targeted resources. (This will require strong leadership from government-side.)
             </p>
 
             <p className=" text-lg text-justify">
-              <strong>3.</strong> Strengthen governance capacity for reforms, especially related to accreditation of educators, scope of practice, new cadres, initial licensing requirements and human resource planning.
+              <strong>9.</strong> Strengthen governance capacity for reforms, especially related to accreditation of educators, scope of practice, new cadres, initial licensing requirements and human resource planning.
             </p>
 
             <p className=" text-lg text-justify">
-              <strong>4.</strong> Recognize the impact of the political economy in reforming the nursing profession, such as, lack of coordination among donors, internal conflict among nurses' associations and professional groups, resistance from organized medicine, absence of other stakeholders.
+              <strong>10.</strong> Recognize the impact of the political economy in reforming the nursing profession, such as, lack of coordination among donors, internal conflict among nurses' associations and professional groups, resistance from organized medicine, absence of other stakeholders.
             </p>
 
             <p className=" text-lg text-justify">
-              <strong>5.</strong> Tackling these impacts might mean: working with select owners of private nursing colleges; appointing change agents to DGNM and BNMC; engaging stakeholders from journalism, human rights and grass-roots NGOs to advocate around the nursing strategy.
+              <strong>11.</strong> Tackling these impacts might mean: working with select owners of private nursing colleges; appointing change agents to DGNM and BNMC; engaging stakeholders from journalism, human rights and grass-roots NGOs to advocate around the nursing strategy.
             </p>
           </div>
         </div>
@@ -162,7 +162,7 @@ const NursingDevelopmentStrategyBlogPage = () => {
 
           <div className="space-y-4 text-gray-700 leading-relaxed">
             <p className=" text-lg text-justify">
-              <strong>7.</strong> Appoint and resource a National Nursing Task Group headed by a senior policy analyst to create the nursing development strategy. Instruct them to complete within 30 days a road-map for developing a new nursing strategy within 120 days, including:
+              <strong>12.</strong> Appoint and resource a National Nursing Task Group headed by a senior policy analyst to create the nursing development strategy. Instruct them to complete within 30 days a road-map for developing a new nursing strategy within 120 days, including:
             </p>
 
             <div className="ml-6 space-y-3">
