@@ -287,7 +287,7 @@ const InterviewPage = () => {
                       </div>
                       {/* Serial number pill */}
                       <div className="absolute top-0 right-0 z-20 bg-[#FFCE00] px-3 py-1 rounded-full text-xs font-medium text-black shadow-md backdrop-blur-sm mt-4 mr-4">
-                        Interview #{interview.id}
+                        Interview #{(index + 1).toString().padStart(2, '0')}
                       </div>
                       <div className="relative flex flex-col flex-1 p-6">
                         {/* Content */}
@@ -317,7 +317,7 @@ const InterviewPage = () => {
           <CarouselNext className="hidden md:flex -right-12 border-0 bg-[#ffe590] border-[#001844] text-[#001844] text-xl hover:bg-[#001844]  dark:bg-gray-800/80 dark:hover:bg-gray-800" />
         </Carousel>
         <div className="flex justify-center gap-2 mt-8">
-          {interviews.map((_: Interview, index: number) => (
+          {sortedInterviews.map((_: Interview, index: number) => (
             <button
               key={index}
               className={cn(

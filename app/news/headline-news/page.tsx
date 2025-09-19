@@ -1,6 +1,5 @@
 import NextButton from "@/components/Shared/NextButton";
 
-/* eslint-disable react/no-unescaped-entities */
 const HeadlineNews = () => {
   return (
     <div className="max-w-screen-xl mx-auto px-12 md:px-16 py-12 pb-20">

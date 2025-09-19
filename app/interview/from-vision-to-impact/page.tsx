@@ -419,7 +419,7 @@ const FromVisionToImpact = () => {
 
       <BioOfIshtiaqMannan />
       <div className="flex justify-center my-8">
-        <a href="/interview/chris-welch-global-health-operations-expert">
+        <a href="/interview/from-clinician-to-global-health-scholar">
           <button className="bg-[#FFCE00] text-black font-bold px-8 py-3 rounded hover:bg-yellow-400 transition text-lg shadow-md">
             Next Interview
           </button>
