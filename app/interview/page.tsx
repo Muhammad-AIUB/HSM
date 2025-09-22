@@ -152,7 +152,7 @@ const interviews = [
   {
     id: 13,
     title: "Global Health Conversation with Dr. Rajat Das Gupta: A Clinical Research Epidemiologist",
-    date: "September 20, 2025",
+    date: "September 23, 2025",
     description:
       "Dr. Rajat Das Gupta, Postdoctoral Research Fellow at Vanderbilt University Medical Center, shares insights on cancer epidemiology, global health research, and evidence-based interventions for health challenges in Bangladesh.",
     image: "/images/blog-interview/interview/Rajat Das Gupta_card.jpg",

@@ -42,7 +42,7 @@ const GlobalHealthConversationWithRajatDasGupta = () => {
               </p>
             </div>
           </div>
-          <blockquote className="text-xl italic text-white font-medium bg-[#123a63] p-4 rounded-lg border-l-4 border-[#2D8CBB]">
+          <blockquote className="text-xl md:text-2xl italic text-white font-semibold bg-[#123a63] p-5 rounded-lg border-l-4 border-[#2D8CBB] leading-relaxed">
             "For those just starting, I would say to keep your mind open, respect diverse viewpoints, and always strive for excellence. There are no shortcuts in public health. You must carry its philosophy with you in order to make a meaningful contribution."
           </blockquote>
           <div className="flex justify-center mt-4">
@@ -168,11 +168,11 @@ const GlobalHealthConversationWithRajatDasGupta = () => {
             </p>
           </div>
 
-          <p className="text-[#0b2545] text-2xl mt-4 leading-relaxed text-center font-semibold bg-[#e6f0fa] p-2 rounded-md">
+          <p className="text-white text-2xl mt-4 leading-relaxed text-center font-semibold bg-gradient-to-r from-[#0b2545] to-[#123a63] p-4 rounded-lg border-l-4 border-[#2D8CBB]">
             Interview conducted by{" "}
             <Link
               href="/sizear"
-              className="text-[#0b2545] font-bold hover:underline"
+              className="text-white font-bold hover:underline"
             >
               Monaemul Islam Sizear
             </Link>
