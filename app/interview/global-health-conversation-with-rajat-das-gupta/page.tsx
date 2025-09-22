@@ -8,12 +8,12 @@ import RajatDasGuptaImg from "@/public/images/blog-interview/interview/Rajat Das
 
 const GlobalHealthConversationWithRajatDasGupta = () => {
   return (
-    <div className="bg-gradient-to-r from-[#2D8CBB]/10 via-white to-[#2D8CBB]/10 pb-16">
+    <div className="bg-gradient-to-r from-[#0b2545]/10 via-white to-[#0b2545]/10 pb-16">
       <div className="max-w-screen-xl mx-auto px-12 md:px-16 py-12">
         {/* Header Section */}
         <div className="text-center mb-12">
-          <div className="bg-gradient-to-r from-[#2D8CBB]/15 to-[#FFCE00]/15 p-8 rounded-lg border-l-4 border-[#2D8CBB] mb-6">
-            <h1 className="text-3xl md:text-4xl font-extrabold text-[#2D8CBB] mb-4">
+          <div className="bg-gradient-to-r from-[#0b2545] to-[#123a63] p-8 rounded-lg border-l-4 border-[#2D8CBB] mb-6 shadow-md">
+            <h1 className="text-3xl md:text-4xl font-extrabold text-white mb-4">
               Global Health Conversation with Dr. Rajat Das Gupta: A Clinical Research Epidemiologist
             </h1>
           </div>
@@ -26,7 +26,7 @@ const GlobalHealthConversationWithRajatDasGupta = () => {
               className="rounded-full"
             />
             <div className="text-left">
-              <p className="text-2xl font-bold text-[#001844]">
+              <p className="text-2xl font-bold text-[#0b2545]">
                 Dr. Rajat Das Gupta
               </p>
               <p className="text-lg text-gray-600 font-medium">
@@ -42,7 +42,7 @@ const GlobalHealthConversationWithRajatDasGupta = () => {
               </p>
             </div>
           </div>
-          <blockquote className="text-xl italic text-[#2D8CBB] font-medium bg-yellow-100 p-4 rounded-lg border-l-4 border-[#FFCE00]">
+          <blockquote className="text-xl italic text-white font-medium bg-[#123a63] p-4 rounded-lg border-l-4 border-[#2D8CBB]">
             "For those just starting, I would say to keep your mind open, respect diverse viewpoints, and always strive for excellence. There are no shortcuts in public health. You must carry its philosophy with you in order to make a meaningful contribution."
           </blockquote>
           <div className="flex justify-center mt-4">
@@ -60,15 +60,15 @@ const GlobalHealthConversationWithRajatDasGupta = () => {
 
         {/* Interview Content */}
         <div className="max-w-4xl mx-auto">
-          <div className="bg-gradient-to-r from-[#2D8CBB]/10 to-[#FFCE00]/10 p-6 rounded-lg border-l-4 border-[#2D8CBB] mb-8">
-            <h2 className="text-2xl font-bold text-[#2D8CBB] text-center">
+          <div className="bg-gradient-to-r from-[#0b2545] to-[#123a63] p-6 rounded-lg border-l-4 border-[#2D8CBB] mb-8">
+            <h2 className="text-2xl font-bold text-white text-center">
               Global Health Questions
             </h2>
           </div>
 
           {/* Question 1 */}
           <div className="mb-8">
-            <h3 className="text-xl font-bold text-[#2D8CBB] text-justify">
+            <h3 className="text-xl font-bold text-[#0b2545] text-justify">
               Q. What areas are you currently focusing on to advance global health?
             </h3>
             <p className="mt-2 leading-relaxed text-justify">
@@ -78,7 +78,7 @@ const GlobalHealthConversationWithRajatDasGupta = () => {
 
           {/* Question 2 */}
           <div className="mb-8">
-            <h3 className="text-xl font-bold text-[#2D8CBB] text-justify">
+            <h3 className="text-xl font-bold text-[#0b2545] text-justify">
               Q. What are the key challenges in making advanced cancer treatment more accessible in Bangladesh?
             </h3>
             <p className="mt-2 leading-relaxed text-justify">
@@ -88,7 +88,7 @@ const GlobalHealthConversationWithRajatDasGupta = () => {
 
           {/* Question 3 */}
           <div className="mb-8">
-            <h3 className="text-xl font-bold text-[#2D8CBB] text-justify">
+            <h3 className="text-xl font-bold text-[#0b2545] text-justify">
               Q. Based on your research and publications, what is one evidence-based intervention you believe could be most effectively adopted to address a key health challenge in Bangladesh?
             </h3>
             <p className="mt-2 leading-relaxed text-justify">
@@ -96,15 +96,15 @@ const GlobalHealthConversationWithRajatDasGupta = () => {
             </p>
           </div>
 
-          <div className="bg-gradient-to-r from-[#FFCE00]/10 to-[#2D8CBB]/10 p-6 rounded-lg border-l-4 border-[#FFCE00] mb-8 mt-12">
-            <h2 className="text-2xl font-bold text-[#2D8CBB] text-center">
+          <div className="bg-gradient-to-r from-[#0b2545] to-[#123a63] p-6 rounded-lg border-l-4 border-[#2D8CBB] mb-8 mt-12">
+            <h2 className="text-2xl font-bold text-white text-center">
               Career Questions
             </h2>
           </div>
 
           {/* Question 4 */}
           <div className="mb-8">
-            <h3 className="text-xl font-bold text-[#2D8CBB] text-justify">
+            <h3 className="text-xl font-bold text-[#0b2545] text-justify">
               Q. Who has inspired your career in public health?
             </h3>
             <p className="mt-2 leading-relaxed text-justify">
@@ -114,7 +114,7 @@ const GlobalHealthConversationWithRajatDasGupta = () => {
 
           {/* Question 5 */}
           <div className="mb-8">
-            <h3 className="text-xl font-bold text-[#2D8CBB] text-justify">
+            <h3 className="text-xl font-bold text-[#0b2545] text-justify">
               Q. What are the key factors behind your consistent academic excellence in both Bangladesh and the United States?
             </h3>
             <p className="mt-2 leading-relaxed text-justify">
@@ -124,7 +124,7 @@ const GlobalHealthConversationWithRajatDasGupta = () => {
 
           {/* Question 6 */}
           <div className="mb-8">
-            <h3 className="text-xl font-bold text-[#2D8CBB] text-justify">
+            <h3 className="text-xl font-bold text-[#0b2545] text-justify">
               Q. How has your perspective on public health evolved, and what advice would you give to those just starting in the field?
             </h3>
             <p className="mt-2 leading-relaxed text-justify">
@@ -132,15 +132,15 @@ const GlobalHealthConversationWithRajatDasGupta = () => {
             </p>
           </div>
 
-          <div className="bg-gradient-to-r from-[#2D8CBB]/10 to-[#FFCE00]/10 p-6 rounded-lg border-l-4 border-[#2D8CBB] mb-8 mt-12">
-            <h2 className="text-2xl font-bold text-[#2D8CBB] text-center">
+          <div className="bg-gradient-to-r from-[#0b2545] to-[#123a63] p-6 rounded-lg border-l-4 border-[#2D8CBB] mb-8 mt-12">
+            <h2 className="text-2xl font-bold text-white text-center">
               Get to know Rajat Das Gupta
             </h2>
           </div>
 
           {/* Question 7 */}
           <div className="mb-8">
-            <h3 className="text-xl font-bold text-[#2D8CBB] text-justify">
+            <h3 className="text-xl font-bold text-[#0b2545] text-justify">
               Q. What book are you currently reading, and what key insights would you share?
             </h3>
             <p className="mt-2 leading-relaxed text-justify">
@@ -150,7 +150,7 @@ const GlobalHealthConversationWithRajatDasGupta = () => {
 
           {/* Question 8 */}
           <div className="mb-8">
-            <h3 className="text-xl font-bold text-[#2D8CBB] text-justify">
+            <h3 className="text-xl font-bold text-[#0b2545] text-justify">
               Q. Are there any fond memories from your PhD experience in the U.S. that you'd like to share?
             </h3>
             <p className="mt-2 leading-relaxed text-justify">
@@ -160,7 +160,7 @@ const GlobalHealthConversationWithRajatDasGupta = () => {
 
           {/* Question 9 */}
           <div className="mb-8">
-            <h3 className="text-xl font-bold text-[#2D8CBB] text-justify">
+            <h3 className="text-xl font-bold text-[#0b2545] text-justify">
               Q. Do you have plans to return to Bangladesh to contribute your expertise?
             </h3>
             <p className="mt-2 leading-relaxed text-justify">
@@ -168,11 +168,11 @@ const GlobalHealthConversationWithRajatDasGupta = () => {
             </p>
           </div>
 
-          <p className="text-[#001844] text-2xl mt-4 leading-relaxed text-center font-semibold bg-yellow-200 p-2 rounded-md">
+          <p className="text-[#0b2545] text-2xl mt-4 leading-relaxed text-center font-semibold bg-[#e6f0fa] p-2 rounded-md">
             Interview conducted by{" "}
             <Link
               href="/sizear"
-              className="text-blue-700 font-bold hover:underline"
+              className="text-[#0b2545] font-bold hover:underline"
             >
               Monaemul Islam Sizear
             </Link>
