@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { ArrowRight, BookText, BookOpen, Users, Target, CheckCircle } from "lucide-react";
+import { BookOpen, Users, CheckCircle } from "lucide-react";
 import { FaLinkedin } from "react-icons/fa";
 import NextButton from "@/components/Shared/NextButton";
 import BioOfRezaulKarim from "./BioOfRezaulKarim";
