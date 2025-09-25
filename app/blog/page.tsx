@@ -20,6 +20,7 @@ import ShahPoran from "@/public/images/blog-interview/ShahParan.jpg";
 import TasdipDip from "@/public/images/blog-interview/TasdikDip.jpg";
 import Zakaria from "@/public/images/blog-interview/Zakaria.jpeg";
 import AlexBerland from "@/public/images/blog-interview/alex-blog.jpg";
+import RezaulKarim from "@/public/images/blog-interview/Rezaul Karim.jpg";
 
 const blogs = [
   {
@@ -75,6 +76,15 @@ const blogs = [
     date: "12 September, 2025",
     type: "blog",
     thumbnail: AlexBerland,
+  },
+  {
+    title:
+      "Strengthening Healthcare Quality through Supportive Supervision",
+    description:
+      "A main priority for healthcare facilities is to ensure quality for universal health coverage. The healthcare system must be safe, effective, timely, efficient, equitable, and people-centered. Supportive Supervision (SS) improves provider-supervisor relationships, enhances quality, and helps avoid adverse events.",
+    date: "25 September, 2025",
+    type: "blog",
+    thumbnail: RezaulKarim,
   },
 ];
 
