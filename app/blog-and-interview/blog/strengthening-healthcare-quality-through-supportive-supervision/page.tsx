@@ -215,7 +215,7 @@ const StrengtheningHealthcareQualityBlogPage = () => {
               </div>
               <div className="text-center">
                 <h3 className="text-2xl font-bold text-purple-700">
-                  Steps of Supportive Supervision in Health Facility
+                  Figure 2: Steps of Supportive Supervision in Health Facility
                 </h3>
               </div>
             </div>
