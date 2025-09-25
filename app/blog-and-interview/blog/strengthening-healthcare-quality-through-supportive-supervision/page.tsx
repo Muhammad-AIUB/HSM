@@ -22,19 +22,15 @@ const StrengtheningHealthcareQualityBlogPage = () => {
         
         <div className="relative z-10">
           {/* Floating Title */}
-          <div className="max-w-6xl mx-auto px-6 py-16 text-center">
+          <div className="max-w-6xl mx-auto px-6 pt-16 pb-8 text-center">
             
-            <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
+            <h1 className="text-2xl md:text-4xl font-bold text-white mb-6 leading-tight">
               <span className="text-[#FFCE00]">
-                Strengthening Healthcare Quality
+                Strengthening Healthcare Quality through
               </span>
               <br />
-              <span className="text-white">through Supportive Supervision</span>
+              <span className="text-white">Supportive Supervision</span>
             </h1>
-            
-            <p className="text-xl text-gray-100 max-w-3xl mx-auto leading-relaxed">
-              Transforming healthcare delivery through innovative supervision strategies and quality improvement methodologies
-            </p>
           </div>
 
           {/* Author Card with Navbar Matching Colors */}
@@ -80,11 +76,11 @@ const StrengtheningHealthcareQualityBlogPage = () => {
       </div>
 
       {/* Content Section with High Contrast Cards */}
-      <div className="max-w-6xl mx-auto px-6 py-16 space-y-12">
+      <div className="max-w-6xl mx-auto px-6 py-16 space-y-16">
         
         {/* Supporting Supervisions Section */}
         <div className="group relative">
-          <div className="relative bg-white rounded-2xl p-8 shadow-xl border-4 border-orange-500">
+          <div className="relative bg-white rounded-2xl p-8 shadow-xl">
             <div className="flex items-center mb-6">
               <div className="p-3 bg-orange-500 rounded-xl mr-4">
                 <BookOpen className="w-8 h-8 text-white" />
@@ -111,7 +107,7 @@ const StrengtheningHealthcareQualityBlogPage = () => {
 
         {/* Six Elements of SS Diagram */}
         <div className="group relative">
-          <div className="relative bg-white rounded-2xl p-8 shadow-xl border-4 border-green-500">
+          <div className="relative bg-white rounded-2xl p-8 shadow-xl">
             <div className="flex justify-center mb-6">
               <div className="relative group/image">
                 <Image
@@ -120,7 +116,7 @@ const StrengtheningHealthcareQualityBlogPage = () => {
                   width={800}
                   height={600}
                   quality={100}
-                  className="relative rounded-xl shadow-2xl max-w-full h-auto object-contain border-4 border-green-500"
+                  className="relative rounded-xl shadow-2xl max-w-full h-auto object-contain"
                 />
               </div>
             </div>
@@ -134,7 +130,7 @@ const StrengtheningHealthcareQualityBlogPage = () => {
 
         {/* Quality Standards Section */}
         <div className="group relative">
-          <div className="relative bg-white rounded-2xl p-8 shadow-xl border-4 border-blue-500">
+          <div className="relative bg-white rounded-2xl p-8 shadow-xl">
             <div className="mb-8">
               <div className="flex items-center mb-6">
                 <div className="p-3 bg-blue-500 rounded-xl mr-4">
@@ -149,7 +145,7 @@ const StrengtheningHealthcareQualityBlogPage = () => {
               </p>
             </div>
 
-            <div className="overflow-hidden rounded-xl border-4 border-gray-300 shadow-lg">
+            <div className="overflow-hidden rounded-xl shadow-lg">
               <table className="w-full">
                 <thead>
                   <tr className="bg-blue-600 text-white">
@@ -186,7 +182,7 @@ const StrengtheningHealthcareQualityBlogPage = () => {
 
         {/* Supportive Supervision Strengthens Quality Improvement */}
         <div className="group relative">
-          <div className="relative bg-white rounded-2xl p-8 shadow-xl border-4 border-purple-500">
+          <div className="relative bg-white rounded-2xl p-8 shadow-xl">
             <div className="flex items-center mb-6">
               <div className="p-3 bg-purple-500 rounded-xl mr-4">
                 <Users className="w-8 h-8 text-white" />
@@ -213,7 +209,7 @@ const StrengtheningHealthcareQualityBlogPage = () => {
                     width={800}
                     height={600}
                     quality={100}
-                    className="relative rounded-xl shadow-2xl max-w-full h-auto object-contain border-4 border-purple-500"
+                    className="relative rounded-xl shadow-2xl max-w-full h-auto object-contain"
                   />
                 </div>
               </div>
@@ -228,7 +224,7 @@ const StrengtheningHealthcareQualityBlogPage = () => {
 
         {/* Process of SS Circular Diagram */}
         <div className="group relative">
-          <div className="relative bg-white rounded-2xl p-8 shadow-xl border-4 border-teal-500">
+          <div className="relative bg-white rounded-2xl p-8 shadow-xl">
             <div className="flex justify-center mb-6">
               <div className="relative group/image">
                 <Image
@@ -237,7 +233,7 @@ const StrengtheningHealthcareQualityBlogPage = () => {
                   width={800}
                   height={600}
                   quality={100}
-                  className="relative rounded-xl shadow-2xl max-w-full h-auto object-contain border-4 border-teal-500"
+                  className="relative rounded-xl shadow-2xl max-w-full h-auto object-contain"
                 />
               </div>
             </div>
@@ -251,7 +247,7 @@ const StrengtheningHealthcareQualityBlogPage = () => {
 
         {/* Key Takeaways Section */}
         <div className="group relative">
-          <div className="relative bg-white rounded-2xl p-8 shadow-xl border-4 border-amber-500">
+          <div className="relative bg-white rounded-2xl p-8 shadow-xl">
             <div className="flex items-center mb-6">
               <div className="p-3 bg-amber-500 rounded-xl mr-4">
                 <Heart className="w-8 h-8 text-white" />
@@ -275,10 +271,12 @@ const StrengtheningHealthcareQualityBlogPage = () => {
 
       <BioOfRezaulKarim />
 
-      <NextButton
-        href="/blog-and-interview/blog/breaking-the-aid-dependency-cycle-strategies-for-building-self-sustaining-organizations"
-        text="Next Blog"
-      />
+      <div className="mt-16 mb-16">
+        <NextButton
+          href="/blog-and-interview/blog/breaking-the-aid-dependency-cycle-strategies-for-building-self-sustaining-organizations"
+          text="Next Blog"
+        />
+      </div>
     </div>
   );
 };
