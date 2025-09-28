@@ -86,10 +86,8 @@ export function AnimatedTestimonialsDemo() {
           </div>
 
           <p className="text-lg sm:text-[20px] text-[#001844] text-justify">
-            Users have shared their experiences, underscoring the value of the
-            Health Systems Matter platform. We are truly honored to receive such
-            positive feedback and extend our heartfelt gratitude to everyone who
-            has shared their appreciation.
+            Professionals worldwide share how Health Systems Matter adds value to their work.
+            We are grateful for their trust and inspired by their feedback.
           </p>
         </div>
 

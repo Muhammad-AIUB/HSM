@@ -32,13 +32,7 @@ const HeroSection = () => {
                                 <span className="font-bold">
                                     Health Systems Matter (HSM)
                                 </span>{" "}
-                                is a knowledge platform that covers global
-                                health issues. HSM empowers professionals by
-                                providing resources, insights, career
-                                opportunities, and news. It serves as a hub for
-                                staying informed and confident in the ever
-                                evolving global health industry, where knowledge
-                                matters.
+                                is a knowledge platform dedicated to global health. We empower professionals with resources, insights, career opportunities, and news. Our platform helps you stay informed and confident in the ever-evolving global health landscape.
                             </p>
                         </div>
                     </div>
@@ -61,7 +55,7 @@ const HeroSection = () => {
                 <div className="bg-[#001844] max-w-3xl mx-auto text-white text-center font-semibold text-lg py-4 mt-8">
                     Do not settle.{" "}
                     <span className="text-[#FFCE00]">
-                        Better public health starts with knowledge.
+                        Better public health begins with trusted knowledge.
                     </span>
                 </div>
             </div>

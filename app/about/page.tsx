@@ -10,7 +10,6 @@ import AboutHSMImage from "@/public/images/about/about-hsm.jpg";
 import MissionImage from "@/public/images/about/our-mission.jpg";
 
 import ApproachImage from "@/public/images/about/activities-approach.png";
-import WhyHsmImg from "@/public/images/about/why-hsm.jpg";
 import { SectionTitleWithSub } from "@/components/Shared/SectionTitle/SectionTitle";
 
 interface CardProps {
@@ -91,13 +90,6 @@ const AboutPage = () => {
         "Showcasing health systems and global health documents daily. Generating and regenerating demand for impactful documents. Disseminating major public health events and milestones. Promoting pages and events focused on health systems and global health. Introducing individuals in the health systems field dedicated to enhancing global health. Highlighting organizations working on public health agendas.",
       image: ApproachImage,
       link: "/about/activities-and-approach",
-    },
-    {
-      title: "Why HSM",
-      description:
-        "Q1: What inspired the establishment of Health Systems Matter, and what is its foundational background? Sizear: Two key factors inspired me to create the HSM knowledge platform. First, early in my career in public health, I faced significant challenges in accessing relevant documents on the Bangladesh health system. Understanding its complexities and gaining a comprehensive overview was difficult due to the absence of a centralized resource. This experience underscored the need for a dedicated platform that systematically compiles both local and global health system insights. Recognizing this gap, I envisioned HSM as a continuously updated resource hub, ensuring professionals have easy access to the latest records in a welldocumented manner. ",
-      image: WhyHsmImg,
-      link: "/about/why-health-systems-matter",
     },
   ];
 

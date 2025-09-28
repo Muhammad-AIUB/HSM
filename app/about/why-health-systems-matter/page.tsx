@@ -8,8 +8,6 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import Image from "next/image";
-import WhyHsmImg from "@/public/images/about/why-hsm.jpg";
 import { SectionTitleWithoutSub } from "@/components/Shared/SectionTitle/SectionTitle";
 
 const WhyHealthSystemsMatterPage = () => {
@@ -152,12 +150,12 @@ const WhyHealthSystemsMatterPage = () => {
     <div className="bg-white pb-16">
       <SectionTitleWithoutSub title="Why Health Systems Matter?" />
 
-      <div className="mt-8 max-w-7xl flex flex-col-reverse md:flex-row items-start justify-between mx-auto px-12 pb-8 gap-y-5">
+      <div className="mt-8 max-w-7xl mx-auto px-12 pb-8">
         <Accordion
           type="multiple"
           value={openItems}
           onValueChange={(value) => setOpenItems(value)}
-          className="w-full md:w-[60%]"
+          className="w-full"
         >
           {questions.map((item) => (
             <AccordionItem
@@ -181,16 +179,6 @@ const WhyHealthSystemsMatterPage = () => {
             </AccordionItem>
           ))}
         </Accordion>
-
-        <div className="shrink-0 w-full md:w-1/3">
-          <Image
-            src={WhyHsmImg.src}
-            alt="Activities and Approach"
-            width={1000}
-            height={300}
-            className="w-full sm:w-[500px] md:w-[600px] h-auto object-cover mix-blend-darken mx-auto"
-          />
-        </div>
       </div>
     </div>
   );

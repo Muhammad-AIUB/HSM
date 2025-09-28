@@ -11,7 +11,7 @@ import { Toaster } from "@/components/ui/sonner";
 export const metadata: Metadata = {
     title: "HSM - Health Systems Matter",
     description:
-        "Health Systems Matter (HSM) is a knowledge platform that covers global health issues. HSM empowers professionals by providing resources, insights, career opportunities, and news. It serves as a hub for staying informed and confident in the ever eveloving global health industry, where knowledge matters.",
+        "Health Systems Matter (HSM) is a knowledge platform dedicated to global health. We empower professionals with resources, insights, career opportunities, and news. Our platform helps you stay informed and confident in the ever-evolving global health landscape.",
 };
 
 export default function RootLayout({

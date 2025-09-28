@@ -46,13 +46,9 @@ export default function ResourcesSection() {
             </div>
 
             <p className="text-lg sm:text-[20px] text-[#001844] text-justify px-4">
-              Explore the comprehensive resource hub to supercharge your
-              knowledge and complement your rewarding career journey. The{" "}
-              <span className="font-semimedium">Resource</span> section lets you
-              download valuable materials with a single click, while the{" "}
-              <span className="font-semimedium">Bookmarks</span> section
-              connects you to useful contents and tools crucial for professional
-              success.
+              Explore our comprehensive hub to enhance your knowledge and support your career development.
+              The Resources section allows you to download valuable materials with a single click.
+              The Bookmarks section connects you to essential content and tools for professional success.
             </p>
           </div>
         </div>

@@ -12,7 +12,6 @@ import AboutHSMImage from "@/public/images/about/about-hsm.jpg";
 import MissionImage from "@/public/images/about/our-mission.jpg";
 
 import ApproachImage from "@/public/images/about/activities-approach.png";
-import WhyHsmImg from "@/public/images/about/why-hsm.jpg";
 
 export default function AboutSection() {
   const resources = [
@@ -36,13 +35,6 @@ export default function AboutSection() {
         "In order to be aligned with the vision and mission of Health Systems Matter, the specific activities are as follows",
       image: ApproachImage,
       link: "/about/activities-and-approach",
-    },
-    {
-      title: "Why HSM",
-      description:
-        "Q1: What inspired the establishment of Health Systems Matter, and what is its foundational background?",
-      image: WhyHsmImg,
-      link: "/about/why-health-systems-matter",
     },
   ];
 
