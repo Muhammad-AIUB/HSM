@@ -31,12 +31,11 @@ const VisionAndMissionPage = () => {
                 Our Vision
               </h2>
               <p className="text-justify">
-                The vision of Health Systems Matter is to create an{" "}
+                Health Systems Matter (HSM) aims to be an{" "}
                 <strong>evidence-based platform</strong> that empowers emerging
-                public health professionals to become{" "}
-                <strong>informed and confident global health advocates,</strong>{" "}
-                dedicated to promoting public health issues and contributing to
-                global health.
+                public health professionals. We help them become{" "}
+                <strong>informed and confident global health advocates</strong>{" "}
+                dedicated to advancing public health worldwide.
               </p>
             </div>
           </div>
@@ -62,14 +61,12 @@ const VisionAndMissionPage = () => {
                 Our Mission
               </h2>
               <p className="text-justify">
-                Health Systems Matter's mission is to provide{" "}
+                HSM provides{" "}
                 <strong>comprehensive, health system-focused resources</strong>{" "}
-                from diverse organizations to{" "}
-                <strong>enhance the capabilities</strong> of public health
-                professionals and promote public health issues. The platform
-                offers significant news, publications, and insights, both
-                historical and contemporary, covering a broad spectrum of topics
-                relevant to all public health enthusiasts.
+                from diverse organizations. It{" "}
+                <strong>enhances the capabilities</strong> of public health
+                professionals and promotes public health issues. The platform
+                offers curated news, publications, and insights — historical and contemporary — covering a broad range of global health topics.
               </p>
             </div>
           </div>

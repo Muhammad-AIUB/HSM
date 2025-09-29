@@ -1,14 +1,12 @@
 import { Separator } from "@/components/ui/separator";
 import HSMOffers from "./HSMOffers";
 
-import HeroImg from "@/public/images/homepage/hero-image.png";
-import Image from "next/image";
 
 const HeroSection = () => {
     return (
         <div className="max-w-screen-2xl mx-auto px-10 md:px-12 pb-20">
-            <div className="flex flex-col md:flex-row items-center  px-2 md:px-4 gap-x-12 gap-y-2 mt-2 md:mt-12">
-                <div className="w-full md:w-[65%]">
+            <div className="flex flex-col items-center px-2 md:px-4 gap-y-2 mt-2 md:mt-12">
+                <div className="w-full max-w-4xl">
                     <div className="md:flex items-center justify-center">
                         <div className="flex items-center justify-center lg:ps-12">
                             <h2 className="text-xl md:text-3xl font-bold text-center mr-4  text-[#35A6EA]">
@@ -40,14 +38,6 @@ const HeroSection = () => {
                     <div className="flex items-center justify-center md:justify-end mt-4 scale-[70%] sm:scale-100 w-full">
                         <HSMOffers />
                     </div>
-                </div>
-
-                <div className="w-72 h-72">
-                    <Image
-                        src={HeroImg}
-                        alt="Hero Image"
-                        className="w-full h-full"
-                    />
                 </div>
             </div>
 

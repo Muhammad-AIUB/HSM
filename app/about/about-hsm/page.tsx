@@ -29,23 +29,13 @@ const AboutHSM = () => {
             {/* Content Section */}
             <div className="w-full md:w-1/2 space-y-6 text-gray-700 md:py-16 text-justify">
               <p>
-                <strong>"Information is power"</strong> and{" "}
-                <strong>
-                  "Evidence lies at the heart of public health policy."
-                </strong>
+                <strong>"Information is power."</strong>
               </p>
               <p>
-                Inspired by these principles, Health Systems Matter (HSM) offers
-                essential resources on health systems, public health events, and
-                career opportunities. HSM serves as an independent,
-                comprehensive global health resource, providing updates on
-                public health issues and career opportunities.
+                <strong>"Evidence lies at the heart of public health policy."</strong>
               </p>
               <p>
-                By subscribing or visiting regularly, users can stay informed
-                about a wide range of documents and news related to global
-                health issues from various organizations and life-changing
-                career opportunities.
+                Health Systems Matter (HSM) is a knowledge platform dedicated to global health. We provide professionals with resources on health systems, public health events, and career opportunities. HSM offers independent, evidence-based updates on key global health issues and professional development.
               </p>
 
               <div className="space-y-4">
@@ -56,12 +46,10 @@ const AboutHSM = () => {
                 </p>
                 <ul className="list-disc pl-6 space-y-2">
                   <li>
-                    <strong>Comprehensive Content:</strong> Covers impactful
-                    global health issues and career opportunities.
+                    <strong>Comprehensive content:</strong> Covers key global health issues and professional opportunities.
                   </li>
                   <li>
-                    <strong>Consistent Updates:</strong> Provides daily updates
-                    via social media, ensuring timely information.
+                    <strong>Consistent updates:</strong> Delivers daily updates on global health through social media, ensuring timely information
                   </li>
                 </ul>
               </div>
@@ -70,7 +58,7 @@ const AboutHSM = () => {
 
           <div className="max-w-5xl mx-auto">
             <p className="">
-              Health Systems Matter was launched on social media (
+              Health Systems Matter launched on social media (
               <a
                 href="https://www.linkedin.com/company/104141138/admin/dashboard/"
                 className="text-blue-600 underline hover:text-blue-800"
@@ -88,12 +76,11 @@ const AboutHSM = () => {
               >
                 Facebook
               </a>
-              ) on August 9, 2024. This website was launched on May 01, 2025, to
-              systematically preserve all posted resources.
+              ) on August 9, 2024. The website went live on May 1, 2025, to systematically preserve and organize all resources.
             </p>
 
             <p className=" mt-4">
-              The site, passionately maintained by{" "}
+              The site is maintained by{" "}
               <Link
                 href="/sizear"
                 className="text-blue-600 underline hover:text-blue-800"
@@ -101,7 +88,7 @@ const AboutHSM = () => {
               >
                 Monaemul Islam Sizear
               </Link>
-              , aims to enlighten many and foster impactful careers.
+              , aiming to support knowledge sharing and career growth in global health.
             </p>
           </div>
 

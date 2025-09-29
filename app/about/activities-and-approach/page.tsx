@@ -16,29 +16,26 @@ const ActivitiesAndApproachPage = () => {
               {/* Activities & Approach Section */}
               <div className="space-y-4 text-justify">
                 <h2 className=" font-semibold text-gray-800">
-                  In order to be aligned with the vision and mission of Health
-                  Systems Matter, the specific activities are as follows:
+                  Aligned with Health Systems Matter's vision, we focus on the following activities:
                 </h2>
                 <ul className="list-disc pl-6 space-y-2">
                   <li>
-                    Showcasing health systems and global health documents daily.
+                    Showcase key health-systems and global-health documents daily.
                   </li>
                   <li>
-                    Generating and regenerating demand for impactful documents.
+                    Stimulate demand for high-impact evidence and reports.
                   </li>
                   <li>
-                    Disseminating major public health events and milestones.
+                    Disseminate major public health events and milestones.
                   </li>
                   <li>
-                    Promoting pages and events focused on health systems and
-                    global health.
+                    Highlight resources, pages and events related to health systems and global health.
                   </li>
                   <li>
-                    Introducing individuals in the health systems field
-                    dedicated to enhancing global health.
+                    Feature short profiles of professionals strengthening health systems.
                   </li>
                   <li>
-                    Highlighting organizations working on public health agendas.
+                    Spotlight organizations working on public health agendas.
                   </li>
                 </ul>
               </div>
@@ -55,13 +52,12 @@ const ActivitiesAndApproachPage = () => {
               />
             </div>
           </div>
-          <p className="max-w-screen-lg  mx-auto text-gray-800 font-semibold pt-16 text-justify">
-            To carry out these activities, the site systematically documents and
-            showcases resources, creatively posts on social media to reach
-            users, ensuring proper credit to organizations. The focus is on
-            topics rather than organizations, promoting news without bias or
-            political agenda.
-          </p>
+          <div className="max-w-screen-lg mx-auto pt-16 space-y-4">
+            <h3 className="text-gray-800 font-semibold text-lg">How we work</h3>
+            <p className="text-gray-800 text-justify">
+              We curate and document high-quality resources and use creative social media to extend reach. We always credit original sources and partner organizations. Our editorial approach prioritizes topics and evidence over organizational promotion. We follow clear editorial standards: verification, attribution and balanced presentation — and avoid political bias.
+            </p>
+          </div>
         </div>
 
         <NextButton

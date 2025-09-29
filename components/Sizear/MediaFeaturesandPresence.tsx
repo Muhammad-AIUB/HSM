@@ -8,6 +8,13 @@ import StudyInPandemicImg from "@/public/images/sizear/articles/studying-in-pand
 import CitySeminarImg from "@/public/images/sizear/articles/the-city-seminar.png";
 
 const mediaFeatures = [
+    //! Newly added video - Latest
+    {
+        title: "হাসপাতালের পরিচ্ছন্নতা নিশ্চিতে 'সেবা' কিনতে চায় সরকার | Hospital Cleanliness | Outsourcing |SomoyTV",
+        date: "28 September, 2025",
+        platform: "Somoy TV",
+        videoUrl: "https://www.youtube.com/embed/Lo5V80XSpNU",
+    },
     //! Newly added videos 22 May, 2025
     {
         title: "বাংলাদেশে স্বাস্থ্যখাতে বরাদ্দ কম কেন? | National Budget | Health Sector | Somoy TV",
