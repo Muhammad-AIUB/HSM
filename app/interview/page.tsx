@@ -158,6 +158,15 @@ const interviews = [
     image: "/images/blog-interview/interview/Rajat Das Gupta_card.jpg",
     slug: "global-health-conversation-with-rajat-das-gupta",
   },
+  {
+    id: 14,
+    title: "In Conversation with Dr. Nazmul Huda: Insights from A Global Health Manager and Academic",
+    date: "October 04, 2025",
+    description:
+      "Professor Sk Nazmul Huda shares his extensive experience in global health management, including his groundbreaking work on female genital fistula care, breastfeeding protection, and innovative community health initiatives across Bangladesh and Africa.",
+    image: "/images/blog-interview/interview/nazmul.jpg",
+    slug: "in-conversation-with-dr-nazmul-huda",
+  },
 ];
 
 const InterviewPage = () => {
