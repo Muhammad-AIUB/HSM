@@ -31,11 +31,8 @@ const VisionAndMissionPage = () => {
                 Our Vision
               </h2>
               <p className="text-justify">
-                Health Systems Matter (HSM) aims to be an{" "}
-                <strong>evidence-based platform</strong> that empowers emerging
-                public health professionals. We help them become{" "}
-                <strong>informed and confident global health advocates</strong>{" "}
-                dedicated to advancing public health worldwide.
+                Health Systems Matter (HSM) aims to be an evidence-based platform that empowers emerging
+                public health professionals. We help them become informed and confident global health advocates dedicated to advancing public health worldwide.
               </p>
             </div>
           </div>
@@ -61,10 +58,7 @@ const VisionAndMissionPage = () => {
                 Our Mission
               </h2>
               <p className="text-justify">
-                HSM provides{" "}
-                <strong>comprehensive, health system-focused resources</strong>{" "}
-                from diverse organizations. It{" "}
-                <strong>enhances the capabilities</strong> of public health
+                HSM provides comprehensive, health system-focused resources from diverse organizations. It enhances the capabilities of public health
                 professionals and promotes public health issues. The platform
                 offers curated news, publications, and insights — historical and contemporary — covering a broad range of global health topics.
               </p>
@@ -81,16 +75,8 @@ const VisionAndMissionPage = () => {
                 Our Goal
               </h2>
               <p className="text-justify">
-                The goal of this initiative is to{" "}
-                <span className="font-semibold">
-                  cultivate passionate and confident health systems advocates
-                </span>{" "}
-                who recognize the importance of robust health systems and are
-                committed to{" "}
-                <span className="font-semibold">
-                  advancing global health outcomes
-                </span>
-                .
+                The goal of this initiative is to cultivate passionate and confident health systems advocates who recognize the importance of robust health systems and are
+                committed to advancing global health outcomes.
               </p>
             </div>
 
