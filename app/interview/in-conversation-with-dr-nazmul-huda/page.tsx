@@ -26,15 +26,20 @@ const InConversationWithDrNazmulHuda = () => {
               className="rounded-[50%] object-cover"
             />
             <div className="text-left">
-              <p className="text-2xl font-bold text-[#0b2545]">
+              <a
+                href="https://www.linkedin.com/in/nazmul-huda-6792248a/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-2xl font-bold text-white hover:text-white bg-[#0b2545] hover:bg-[#0b2545] transition-all px-4 py-2 rounded inline-block"
+              >
                 Dr. Nazmul Huda
-              </p>
-              <p className="text-lg text-gray-600 font-medium">
+              </a>
+              <p className="text-lg text-gray-600 font-medium mt-2">
                 A Global Health Professional and Academician
               </p>
             </div>
           </div>
-          <blockquote className="text-base md:text-lg italic text-white font-semibold bg-[#123a63] p-5 rounded-lg border-l-4 border-[#2D8CBB] leading-relaxed">
+          <blockquote className="text-base md:text-lg italic text-cyan-100 font-semibold bg-[#123a63] p-5 rounded-lg border-l-4 border-[#2D8CBB] leading-relaxed">
             "The most significant limitations of the current government health initiatives are the lack of transparency, discipline, accountability and effective leadership. The current system is largely doctor-centered. The role of nurses, midwives, therapists, managers and researchers are largely ignored."
           </blockquote>
           <div className="flex justify-center mt-4">

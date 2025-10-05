@@ -10,7 +10,7 @@ import Link from "next/link";
 // Images
 import AboutHSMImage from "@/public/images/about/about-hsm.jpg";
 import MissionImage from "@/public/images/about/our-mission.jpg";
-
+import WhyHSMImage from "@/public/images/about/our-goal.jpg";
 import ApproachImage from "@/public/images/about/activities-approach.png";
 
 export default function AboutSection() {
@@ -18,7 +18,7 @@ export default function AboutSection() {
     {
       title: "About HSM",
       description:
-        "“Information is power” and “Evidence lies at the heart of public health policy.”",
+        '"Information is power" and "Evidence lies at the heart of public health policy."',
       image: AboutHSMImage,
       link: "/about/about-hsm",
     },
@@ -35,6 +35,13 @@ export default function AboutSection() {
         "In order to be aligned with the vision and mission of Health Systems Matter, the specific activities are as follows",
       image: ApproachImage,
       link: "/about/activities-and-approach",
+    },
+    {
+      title: "Why Health Systems Matter?",
+      description:
+        "Discover why Health Systems Matter is essential for public health professionals and how it can transform your understanding of global health systems.",
+      image: WhyHSMImage,
+      link: "/about/why-health-systems-matter",
     },
   ];
 
