@@ -14,7 +14,16 @@ const InConversationWithDrNazmulHuda = () => {
         <div className="text-center mb-12">
           <div className="bg-gradient-to-r from-[#0b2545] to-[#123a63] p-8 rounded-lg border-l-4 border-[#2D8CBB] mb-6 shadow-md">
             <h1 className="text-3xl md:text-4xl font-extrabold text-white mb-4">
-              In Conversation with Dr. Nazmul Huda: Insights from A Global Health Manager and Academic
+              In Conversation with{" "}
+              <a
+                href="https://www.linkedin.com/in/nazmul-huda-6792248a/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline bg-[#1B6E99] px-3 py-1 rounded"
+              >
+                Dr. Nazmul Huda
+              </a>
+              : Insights from A Global Health Manager and Academic
             </h1>
           </div>
           <div className="flex items-center justify-center gap-4 mb-6">
@@ -219,11 +228,11 @@ const InConversationWithDrNazmulHuda = () => {
 
         <BioOfNazmulHuda />
         <div className="flex justify-center my-8">
-          <a href="/interview">
+          <Link href="/interview/public-health-insights-1">
             <button className="bg-[#FFCE00] text-black font-bold px-8 py-3 rounded hover:bg-yellow-400 transition text-lg shadow-md">
-              Back to Interviews
+              Next Interview
             </button>
-          </a>
+          </Link>
         </div>
       </div>
     </div>
