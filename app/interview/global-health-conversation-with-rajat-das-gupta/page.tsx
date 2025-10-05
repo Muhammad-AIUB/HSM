@@ -14,7 +14,16 @@ const GlobalHealthConversationWithRajatDasGupta = () => {
         <div className="text-center mb-12">
           <div className="bg-gradient-to-r from-[#0b2545] to-[#123a63] p-8 rounded-lg border-l-4 border-[#2D8CBB] mb-6 shadow-md">
             <h1 className="text-3xl md:text-4xl font-extrabold text-white mb-4">
-              Global Health Conversation with Dr. Rajat Das Gupta: A Clinical Research Epidemiologist
+              Global Health Conversation with{" "}
+              <a
+                href="https://www.linkedin.com/in/rajat-das-gupta-mbbs-mph-phd-831b6b72/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline bg-[#1B6E99] px-3 py-1 rounded"
+              >
+                Dr. Rajat Das Gupta
+              </a>
+              : A Clinical Research Epidemiologist
             </h1>
           </div>
           <div className="flex items-center justify-center gap-4 mb-6">
