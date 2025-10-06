@@ -116,7 +116,7 @@ export default function SubscribePage() {
             </div>
             <button
               onClick={handleSubscribe}
-              className="bg-[#339aa5] text-white px-5 py-2.5 rounded-lg text-[18px]   transition-all duration-300 shadow-sm flex items-center justify-center gap-2 font-bold "
+              className="bg-[#EF4444] text-white px-5 py-2.5 rounded-lg text-[18px] hover:bg-[#DC2626]  transition-all duration-300 shadow-sm flex items-center justify-center gap-2 font-bold "
             >
               Submit
             </button>

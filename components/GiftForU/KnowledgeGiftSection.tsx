@@ -51,7 +51,7 @@ export default function KnowledgeGiftSection() {
                     />
                     <button
                         onClick={handleSubscribe}
-                        className="bg-red-600 text-white px-5 py-2.5 rounded-lg font-medium hover:bg-red-700 transition-all duration-300 shadow-sm"
+                        className="bg-[#EF4444] text-white px-5 py-2.5 rounded-lg font-medium hover:bg-[#DC2626] transition-all duration-300 shadow-sm"
                     >
                         Subscribe Now
                     </button>

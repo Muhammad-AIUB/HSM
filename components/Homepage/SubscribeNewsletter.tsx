@@ -44,7 +44,7 @@ export default function SubscribeNewsletter() {
         </div>
         <button
           type="submit"
-          className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition"
+          className="bg-[#EF4444] text-white px-6 py-2 rounded-lg hover:bg-[#DC2626] transition"
         >
           Subscribe
         </button>

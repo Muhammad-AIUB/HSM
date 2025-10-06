@@ -300,7 +300,7 @@ const InterviewPage = () => {
                         />
                       )}
                       {/* Date pill */}
-                      <div className="absolute top-0 left-0 z-20 bg-[#01748D] px-3 py-1 rounded-full text-xs font-medium text-white shadow-md backdrop-blur-sm mt-4 ml-4">
+                      <div className="absolute top-0 left-0 z-20 bg-[#EF4444] px-3 py-1 rounded-full text-xs font-medium text-white shadow-md backdrop-blur-sm mt-4 ml-4">
                         {interview.date}
                       </div>
                       {/* Serial number pill */}
