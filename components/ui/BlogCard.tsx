@@ -54,7 +54,7 @@ export const BlogCard = ({
           )}
 
           {/* Date pill */}
-          <div className="absolute top-4 left-4 z-20 bg-white/90 dark:bg-gray-800/90 px-3 py-1 rounded-full text-sm font-medium text-blue-900 shadow-md backdrop-blur-sm">
+          <div className="absolute top-4 left-4 z-20 bg-[#01748D] px-3 py-1 rounded-full text-sm font-medium text-white shadow-md backdrop-blur-sm">
             {item.date}
           </div>
 
