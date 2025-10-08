@@ -13,9 +13,9 @@ const HeroSection = () => {
                     </h2>
 
                     {/* Main Content Section */}
-                    <div className="md:flex items-center justify-start gap-1">
+                    <div className="md:flex items-center justify-start gap-4">
                         {/* Health Systems HUB Logo */}
-                        <div className="flex items-center justify-start mb-6 md:mb-0 flex-shrink-0 md:-ml-12">
+                        <div className="flex items-center justify-start mb-6 md:mb-0 flex-shrink-0 md:-ml-20">
                             <h2 className="text-xl md:text-3xl font-bold text-center mr-4 text-[#35A6EA]">
                                 Health <br /> Systems{" "}
                             </h2>
