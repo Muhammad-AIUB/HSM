@@ -13,7 +13,7 @@ import { cn } from "@/lib/utils";
 import ShahaduzZamanImage from "@/public/images/blog-interview/Shahaduz-Zaman.png";
 import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 
 import DrMadhukarPaiImg from "@/public/images/blog-interview/interview/madhukar.jpg";
 import SharmeenYasmeenImg from "@/public/images/blog-interview/interview/Sharmeen Yasmeen.jpg";
@@ -23,6 +23,7 @@ import DrZarifImg from "@/public/images/blog-interview/interview/Zarif-Rasul.jpg
 import DrTaufiqueImg from "@/public/images/blog-interview/interview/DrTaufique.jpg";
 
 import IstiakMannan from "@/public/images/blog-interview/interview/istiak-mannan-cover-i.jpg";
+// import BarbaraGastelImg from "@/public/images/blog-interview/interview/barbara-gastel-clean.jpg";
 
 
 interface Interview {
@@ -167,6 +168,15 @@ const interviews = [
     image: "/images/blog-interview/interview/nazmul.jpg",
     slug: "in-conversation-with-dr-nazmul-huda",
   },
+  {
+    id: 15,
+    title: "Prof. Barbara Gastel on Biomedical Writing, Storytelling, and Health Communication: A Thoughtful Exchange",
+    date: "October 10, 2025",
+    description:
+      "Dr. Barbara Gastel, Academician and Passionate Health Writer, shares insights on biomedical writing, health communication, and the evolving landscape of science writing in the age of artificial intelligence.",
+    image: "/images/blog-interview/interview/barbara-gastel-clean.jpg",
+    slug: "prof-barbara-gastel-biomedical-writing-storytelling-health-communication",
+  },
 ];
 
 const InterviewPage = () => {
@@ -290,6 +300,14 @@ const InterviewPage = () => {
                           className="w-full h-56 object-cover hover:scale-105 hover:opacity-90 transition-transform duration-300"
                           style={{ objectPosition: 'center 20%' }}
                         />
+                      ) : interview.slug === "prof-barbara-gastel-biomedical-writing-storytelling-health-communication" ? (
+                        <Image
+                          src={interview.image}
+                          alt={interview.title}
+                          width={500}
+                          height={300}
+                          className="w-full h-56 object-cover hover:scale-105 hover:opacity-90 transition-transform duration-300 object-center"
+                        />
                       ) : (
                         <Image
                           src={interview.image}
@@ -311,7 +329,21 @@ const InterviewPage = () => {
                         {/* Content */}
                         <div className="">
                           <h2 className="text-lg font-bold text-gray-800 hover:underline line-clamp-3">
-                            {interview.title}
+                            {interview.slug === "prof-barbara-gastel-biomedical-writing-storytelling-health-communication" ? (
+                              <>
+                                <a
+                                  href="https://www.linkedin.com/in/barbaragastel/"
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="text-[#FFCE00] underline hover:text-yellow-300"
+                                >
+                                  Prof. Barbara Gastel
+                                </a>{" "}
+                                on Biomedical Writing, Storytelling, and Health Communication: A Thoughtful Exchange
+                              </>
+                            ) : (
+                              interview.title
+                            )}
                           </h2>
                           <p className="text-gray-600 mt-2 text-justify line-clamp-3">
                             {interview.description}
