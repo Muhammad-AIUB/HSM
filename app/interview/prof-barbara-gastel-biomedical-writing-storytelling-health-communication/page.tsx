@@ -1,4 +1,4 @@
-// import Image from "next/image";
+import Image from "next/image";
 import Link from "next/link";
 import BarbaraGastelBio from "./BarbaraGastelBio";
 import BarbaraGastelQuote from "@/components/Shared/SectionTitle/BarbaraGastelQuote";
@@ -17,7 +17,7 @@ const ProfBarbaraGastelInterviewPage = () => {
                                 href="https://www.linkedin.com/in/barbaragastel/"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="text-[#FFCE00] underline hover:text-yellow-300"
+                                className="text-[#001844] underline font-extrabold bg-[#FFCE00] px-2 rounded-md"
                             >
                                 Prof. Barbara Gastel
                             </a>{" "}
@@ -103,6 +103,24 @@ const ProfBarbaraGastelInterviewPage = () => {
                         </a>
                         , of which I'm now first author. (I became coauthor starting with the 6th edition.) I also have some ideas for a less technical book I hope to write.
                     </p>
+                    
+                    {/* Book Cover Image */}
+                    <div className="flex justify-center my-6">
+                        <a
+                            href="https://press.uchicago.edu/ucp/books/book/chicago/M/bo257227736.html"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="block transform hover:scale-105 transition-transform duration-300"
+                        >
+                            <Image
+                                src="/images/blog-interview/interview/Book Cover_Medical Editing.jpg"
+                                alt="Medical Editing: A Guide to Learning the Craft and Building Your Career by Barbara Gastel"
+                                width={300}
+                                height={400}
+                                className="rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer"
+                            />
+                        </a>
+                    </div>
                 </div>
 
                 {/* Question 6 */}
@@ -141,16 +159,7 @@ const ProfBarbaraGastelInterviewPage = () => {
                         Q. Do you have any professional role models whose work has inspired you?
                     </h2>
                     <p className="text-gray-700 mt-2 leading-relaxed text-justify text-[15px]">
-                        <span className="font-bold">Barbara Gastel:</span> Yes and no. I don't think I have professional role models whose work is literally very similar to mine. However, there are individuals whose work I emulate in various regards. For example, my father (a patent attorney) and my mother (a homemaker who became a part-time antique dealer) followed their professional dreams, had high standards, and were highly ethical in their work; I try to be like them. Also, the scientist whose laboratory I worked in during high school was a mentor who inspired me; an essay I wrote in that regard is available at{" "}
-                        <a
-                            href="https://www.science.org/doi/10.1126/science.354.6318.1494"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-blue-600 underline font-medium"
-                        >
-                            https://www.science.org/doi/10.1126/science.354.6318.1494
-                        </a>
-                        . In addition, two administrators with a gift for matching needed work with people whose skills and interests suited them well for it have served in part as role models.
+                        <span className="font-bold">Barbara Gastel:</span> Yes and no. I don't think I have professional role models whose work is literally very similar to mine. However, there are individuals whose work I emulate in various regards. For example, my father (a patent attorney) and my mother (a homemaker who became a part-time antique dealer) followed their professional dreams, had high standards, and were highly ethical in their work; I try to be like them. Also, the scientist whose laboratory I worked in during high school was a mentor who inspired me; an essay I wrote in that regard is available at <a href="https://www.science.org/doi/10.1126/science.354.6318.1494" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline font-medium">https://www.science.org/doi/10.1126/science.354.6318.1494</a>. In addition, two administrators with a gift for matching needed work with people whose skills and interests suited them well for it have served in part as role models.
                     </p>
                 </div>
 
@@ -200,8 +209,6 @@ const ProfBarbaraGastelInterviewPage = () => {
                     >
                         Monaemul Islam Sizear
                     </Link>
-                    <br />
-                    <span className="text-lg font-normal">October 10, 2025</span>
                 </p>
             </div>
             <BarbaraGastelBio />

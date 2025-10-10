@@ -306,7 +306,8 @@ const InterviewPage = () => {
                           alt={interview.title}
                           width={500}
                           height={300}
-                          className="w-full h-56 object-cover hover:scale-105 hover:opacity-90 transition-transform duration-300 object-center"
+                          className="w-full h-56 object-cover hover:scale-105 hover:opacity-90 transition-transform duration-300"
+                          style={{ objectPosition: 'center 5%' }}
                         />
                       ) : (
                         <Image
@@ -329,21 +330,7 @@ const InterviewPage = () => {
                         {/* Content */}
                         <div className="">
                           <h2 className="text-lg font-bold text-gray-800 hover:underline line-clamp-3">
-                            {interview.slug === "prof-barbara-gastel-biomedical-writing-storytelling-health-communication" ? (
-                              <>
-                                <a
-                                  href="https://www.linkedin.com/in/barbaragastel/"
-                                  target="_blank"
-                                  rel="noopener noreferrer"
-                                  className="text-[#FFCE00] underline hover:text-yellow-300"
-                                >
-                                  Prof. Barbara Gastel
-                                </a>{" "}
-                                on Biomedical Writing, Storytelling, and Health Communication: A Thoughtful Exchange
-                              </>
-                            ) : (
-                              interview.title
-                            )}
+                            {interview.title}
                           </h2>
                           <p className="text-gray-600 mt-2 text-justify line-clamp-3">
                             {interview.description}
