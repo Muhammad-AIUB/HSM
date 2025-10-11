@@ -44,7 +44,7 @@ const ProfBarbaraGastelInterviewPage = () => {
 
                 {/* Question 1 */}
                 <div className="mb-4">
-                    <h2 className="text-[18px] font-bold text-[#2D8CBB]">
+                    <h2 className="text-[18px] font-bold text-[#2D8CBB] text-justify">
                         Q. You've had a remarkable career spanning over four decades as an academician, science writer, and health communicator. How would you describe your professional identity to our readers?
                     </h2>
                     <p className="text-gray-700 mt-2 leading-relaxed text-justify text-[15px]">
@@ -54,7 +54,7 @@ const ProfBarbaraGastelInterviewPage = () => {
 
                 {/* Question 2 */}
                 <div className="mb-4">
-                    <h2 className="text-[18px] font-bold text-[#2D8CBB]">
+                    <h2 className="text-[18px] font-bold text-[#2D8CBB] text-justify">
                         Q. As a physician, what sparked your interest in biomedical writing and editing? How has that journey evolved over time?
                     </h2>
                     <p className="text-gray-700 mt-2 leading-relaxed text-justify text-[15px]">
@@ -67,7 +67,7 @@ const ProfBarbaraGastelInterviewPage = () => {
 
                 {/* Question 3 */}
                 <div className="mb-4">
-                    <h2 className="text-[18px] font-bold text-[#2D8CBB]">
+                    <h2 className="text-[18px] font-bold text-[#2D8CBB] text-justify">
                         Q. In your current role as professor and director of the science communication program at a leading university, what are your core responsibilities and areas of focus?
                     </h2>
                     <p className="text-gray-700 mt-2 leading-relaxed text-justify text-[15px]">
@@ -80,7 +80,7 @@ const ProfBarbaraGastelInterviewPage = () => {
 
                 {/* Question 4 */}
                 <div className="mb-4">
-                    <h2 className="text-[18px] font-bold text-[#2D8CBB]">
+                    <h2 className="text-[18px] font-bold text-[#2D8CBB] text-justify">
                         Q. You've authored several books on writing and editing. Could you share your experience of writing these books and the kind of response you've received from readers?
                     </h2>
                     <p className="text-gray-700 mt-2 leading-relaxed text-justify text-[15px]">
@@ -93,7 +93,7 @@ const ProfBarbaraGastelInterviewPage = () => {
 
                 {/* Question 5 */}
                 <div className="mb-4">
-                    <h2 className="text-[18px] font-bold text-[#2D8CBB]">
+                    <h2 className="text-[18px] font-bold text-[#2D8CBB] text-justify">
                         Q. Are you currently working on a new book or planning any upcoming publications?
                     </h2>
                     <p className="text-gray-700 mt-2 leading-relaxed text-justify text-[15px]">
@@ -139,7 +139,7 @@ const ProfBarbaraGastelInterviewPage = () => {
 
                 {/* Question 6 */}
                 <div className="mb-4">
-                    <h2 className="text-[18px] font-bold text-[#2D8CBB]">
+                    <h2 className="text-[18px] font-bold text-[#2D8CBB] text-justify">
                         Q. In today's rapidly evolving digital landscape, especially with the rise of artificial intelligence, how viable is health writing as a career?
                     </h2>
                     <p className="text-gray-700 mt-2 leading-relaxed text-justify text-[15px]">
@@ -149,7 +149,7 @@ const ProfBarbaraGastelInterviewPage = () => {
 
                 {/* Question 7 */}
                 <div className="mb-4">
-                    <h2 className="text-[18px] font-bold text-[#2D8CBB]">
+                    <h2 className="text-[18px] font-bold text-[#2D8CBB] text-justify">
                         Q. Reading likely plays a big role in your routine—what sites or platforms do you turn to daily and recommend to others?
                     </h2>
                     <p className="text-gray-700 mt-2 leading-relaxed text-justify text-[15px]">
@@ -159,7 +159,7 @@ const ProfBarbaraGastelInterviewPage = () => {
 
                 {/* Question 8 */}
                 <div className="mb-4">
-                    <h2 className="text-[18px] font-bold text-[#2D8CBB]">
+                    <h2 className="text-[18px] font-bold text-[#2D8CBB] text-justify">
                         Q. What are three key pieces of advice you would give to someone who wants to pursue a career in public health writing?
                     </h2>
                     <p className="text-gray-700 mt-2 leading-relaxed text-justify text-[15px]">
@@ -172,7 +172,7 @@ const ProfBarbaraGastelInterviewPage = () => {
 
                 {/* Question 9 */}
                 <div className="mb-4">
-                    <h2 className="text-[18px] font-bold text-[#2D8CBB]">
+                    <h2 className="text-[18px] font-bold text-[#2D8CBB] text-justify">
                         Q. Do you have any professional role models whose work has inspired you?
                     </h2>
                     <p className="text-gray-700 mt-2 leading-relaxed text-justify text-[15px]">
@@ -182,7 +182,7 @@ const ProfBarbaraGastelInterviewPage = () => {
 
                 {/* Question 10 */}
                 <div className="mb-4">
-                    <h2 className="text-[18px] font-bold text-[#2D8CBB]">
+                    <h2 className="text-[18px] font-bold text-[#2D8CBB] text-justify">
                         Q. Is there a personal motto or guiding principle that you live by in your professional or personal life?
                     </h2>
                     <p className="text-gray-700 mt-2 leading-relaxed text-justify text-[15px]">
@@ -192,7 +192,7 @@ const ProfBarbaraGastelInterviewPage = () => {
 
                 {/* Question 11 */}
                 <div className="mb-4">
-                    <h2 className="text-[18px] font-bold text-[#2D8CBB]">
+                    <h2 className="text-[18px] font-bold text-[#2D8CBB] text-justify">
                         Q. What book are you currently reading, and what insights or reflections would you like to share from it?
                     </h2>
                     <p className="text-gray-700 mt-2 leading-relaxed text-justify text-[15px]">
