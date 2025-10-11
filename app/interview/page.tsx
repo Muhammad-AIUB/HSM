@@ -174,7 +174,7 @@ const interviews = [
     date: "October 10, 2025",
     description:
       "Dr. Barbara Gastel, Academician and Passionate Health Writer, shares insights on biomedical writing, health communication, and the evolving landscape of science writing in the age of artificial intelligence.",
-    image: "/images/blog-interview/interview/barbara-test.jpg",
+    image: "/images/blog-interview/interview/Headshot_Barbara Gastel_June 2022.jpg",
     slug: "prof-barbara-gastel-biomedical-writing-storytelling-health-communication",
   },
 ];

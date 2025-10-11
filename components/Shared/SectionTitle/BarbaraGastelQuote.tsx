@@ -10,7 +10,7 @@ export default function BarbaraGastelQuote() {
           {/* Circular Image */}
           <div className="w-56 h-56 shrink-0 rounded-full overflow-hidden ">
             <Image
-              src="/images/blog-interview/interview/barbara-test.jpg"
+              src="/images/blog-interview/interview/Headshot_Barbara Gastel_June 2022.jpg"
               alt="Prof. Barbara Gastel"
               width={500}
               height={500}
