@@ -3,6 +3,15 @@ import Link from "next/link";
 import BarbaraGastelBio from "./BarbaraGastelBio";
 import BarbaraGastelQuote from "@/components/Shared/SectionTitle/BarbaraGastelQuote";
 
+// Heading component for section organization
+function Heading({ children }: { children: React.ReactNode }) {
+    return (
+        <h2 className="text-2xl md:text-[24px] font-semibold text-[#BE123C] underline underline-offset-4 decoration-[#FCA5A5] decoration-4 mb-4 flex items-center gap-3 transition-all duration-300 hover:text-[#9F1239]">
+            <span>{children}</span>
+        </h2>
+    );
+}
+
 const ProfBarbaraGastelInterviewPage = () => {
     return (
         <div className="bg-gradient-to-r from-[#2D8CBB]/10 via-white to-[#2D8CBB]/10 pb-16">
@@ -31,6 +40,9 @@ const ProfBarbaraGastelInterviewPage = () => {
 
             {/* Interview Content */}
             <div className="max-w-screen-md mx-auto px-12 py-8 bg-white ">
+                {/* Career Reflections Section */}
+                <Heading>Career Reflections</Heading>
+
                 {/* Question 1 */}
                 <div className="mb-4">
                     <h2 className="text-[18px] font-bold text-[#2D8CBB]">
@@ -63,6 +75,9 @@ const ProfBarbaraGastelInterviewPage = () => {
                         <span className="font-bold">Barbara Gastel:</span> As director of the MS program in science and technology journalism at Texas A&M University, I have administrative responsibilities such as recruiting students to the program, overseeing the admissions process, and guiding students as they progress through the program. I also do quite a bit of teaching. For example, I teach courses in science reporting, medical reporting, risk and crisis reporting, science editing, and scientific writing (writing journal articles and such). I do some medical-humanities teaching at our medical school. I write books and other items, mainly regarding the communication of science and medicine, and I edit. In addition, I give many conference presentations, webinars, workshops, and the like.
                     </p>
                 </div>
+
+                {/* Science and Health Writing Section */}
+                <Heading>Science and Health Writing</Heading>
 
                 {/* Question 4 */}
                 <div className="mb-4">
@@ -152,6 +167,9 @@ const ProfBarbaraGastelInterviewPage = () => {
                         <span className="font-bold">Barbara Gastel:</span> Three key pieces of advice are as follows: (1) Obtain a broad education, and continue to learn broadly, as high-quality public health writing draws on many fields. (2) Remain flexible, because opportunities, technologies, needs, and more keep evolving. For example, I'm answering this set of questions online—a possibility that didn't exist early in my career. (3) Most important, strive consistently for high standards in your work, as public health writing is a major responsibility and can make a major difference in people's lives.
                     </p>
                 </div>
+
+                {/* Get to know Barbara Gastel Section */}
+                <Heading>Get to know Barbara Gastel</Heading>
 
                 {/* Question 9 */}
                 <div className="mb-4">
