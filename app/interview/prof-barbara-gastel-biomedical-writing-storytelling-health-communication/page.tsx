@@ -30,9 +30,7 @@ const ProfBarbaraGastelInterviewPage = () => {
                             >
                                 Prof. Barbara Gastel
                             </a>{" "}
-                            on Biomedical Writing, Storytelling, and{" "}
-                            <br />Health Communication:{" "}
-                            <br />A Thoughtful Exchange
+                            on Biomedical Writing, Storytelling, and Health Communication: A Thoughtful Exchange
                         </h1>
                     </div>
                 </div>
