@@ -174,7 +174,7 @@ const interviews = [
     date: "October 10, 2025",
     description:
       "Dr. Barbara Gastel, Academician and Passionate Health Writer, shares insights on biomedical writing, health communication, and the evolving landscape of science writing in the age of artificial intelligence.",
-    image: "/images/blog-interview/interview/barbara-gastel-clean.jpg",
+    image: "/images/blog-interview/interview/barbara-test.jpg",
     slug: "prof-barbara-gastel-biomedical-writing-storytelling-health-communication",
   },
 ];
@@ -308,6 +308,15 @@ const InterviewPage = () => {
                           height={300}
                           className="w-full h-56 object-cover hover:scale-105 hover:opacity-90 transition-transform duration-300"
                           style={{ objectPosition: 'center 5%' }}
+                        />
+                      ) : interview.slug === "leading-with-heart-and-purpose-almeer-ahsan" ? (
+                        <Image
+                          src={interview.image}
+                          alt={interview.title}
+                          width={500}
+                          height={300}
+                          className="w-full h-56 object-cover hover:scale-105 hover:opacity-90 transition-transform duration-300"
+                          style={{ objectPosition: 'center 30%' }}
                         />
                       ) : (
                         <Image
