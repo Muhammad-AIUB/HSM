@@ -48,13 +48,13 @@ export const BlogCard = ({
 
           {/* Serial number pill (top-right) */}
           {typeof serialNumber === "number" && (
-            <div className="absolute right-4 top-[38%] z-30 bg-[#1E60AC] px-3 py-1 rounded-full text-xs font-medium text-white shadow-md backdrop-blur-sm">
+            <div className="absolute right-4 top-[38%] z-30 bg-[#FFCE00] px-3 py-1 rounded-full text-xs font-medium text-black shadow-md backdrop-blur-sm">
               Blog #{serialNumber}
             </div>
           )}
 
           {/* Date pill */}
-          <div className="absolute top-4 left-4 z-20 bg-[#01748D] px-3 py-1 rounded-full text-sm font-medium text-white shadow-md backdrop-blur-sm">
+          <div className="absolute top-4 left-4 z-20 bg-[#EF4444] px-3 py-1 rounded-full text-sm font-medium text-white shadow-md backdrop-blur-sm">
             {item.date}
           </div>
 
