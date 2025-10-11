@@ -17,7 +17,7 @@ const ProfBarbaraGastelInterviewPage = () => {
         <div className="bg-gradient-to-r from-[#2D8CBB]/10 via-white to-[#2D8CBB]/10 pb-16">
             <div className="relative w-full  border-t-2 border-[#FFCE00]">
                 <div className="bg-gradient-to-b from-[#2D8CBB]/90 to-[#2D8CBB]/30 flex items-center">
-                    <div className="max-w-screen-xl mx-auto flex justify-center items-center w-full px-4 text-center md:px-16 flex-wrap gap-6 py-4">
+                    <div className="max-w-screen-xl mx-auto flex justify-center items-center w-full px-4 text-center md:px-16 py-4">
                         <h1
                             className="text-2xl md:text-[30px] uppercase font-extrabold text-[#001844] leading-10"
                             style={{ wordSpacing: "0.4rem" }}
@@ -30,7 +30,8 @@ const ProfBarbaraGastelInterviewPage = () => {
                             >
                                 Prof. Barbara Gastel
                             </a>{" "}
-                            on Biomedical Writing, Storytelling, and Health Communication:{" "}
+                            on Biomedical Writing, Storytelling, and{" "}
+                            <br />Health Communication:{" "}
                             <br />A Thoughtful Exchange
                         </h1>
                     </div>
