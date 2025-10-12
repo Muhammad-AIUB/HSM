@@ -40,8 +40,10 @@ const HeroSection = () => {
                     </div>
 
                     {/* HSM Offers Section */}
-                    <div className="flex items-center justify-center mt-8 scale-[70%] sm:scale-100 w-full">
-                        <HSMOffers />
+                    <div className="flex items-center justify-center mt-8 w-full">
+                        <div className="scale-[70%] sm:scale-90 md:scale-100 ml-20 md:ml-40">
+                            <HSMOffers />
+                        </div>
                     </div>
                 </div>
             </div>
