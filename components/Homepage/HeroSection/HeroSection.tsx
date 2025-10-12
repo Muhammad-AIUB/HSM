@@ -7,15 +7,15 @@ const HeroSection = () => {
         <div className="max-w-screen-2xl mx-auto px-10 md:px-12 pb-20">
             <div className="flex flex-col items-center px-2 md:px-4 gap-y-2 mt-2 md:mt-12">
                 <div className="w-full max-w-4xl">
-                    {/* Knowledge for Solutions - Left Aligned Header */}
-                    <h2 className="text-2xl md:text-[26px] font-bold text-[#1E60AC] text-left mb-6 md:ml-60">
+                    {/* Knowledge for Solutions - Centered Header */}
+                    <h2 className="text-2xl md:text-[26px] font-bold text-[#1E60AC] text-center mb-6">
                         Knowledge for Solutions
                     </h2>
 
                     {/* Main Content Section */}
-                    <div className="md:flex items-center justify-start gap-4">
+                    <div className="flex flex-col md:flex-row items-center justify-center gap-4">
                         {/* Health Systems HUB Logo */}
-                        <div className="flex items-center justify-start mb-6 md:mb-0 flex-shrink-0 md:-ml-20">
+                        <div className="flex items-center justify-center mb-6 md:mb-0 flex-shrink-0">
                             <h2 className="text-xl md:text-3xl font-bold text-center mr-4 text-[#35A6EA]">
                                 Health <br /> Systems{" "}
                             </h2>
@@ -29,7 +29,7 @@ const HeroSection = () => {
                         </div>
 
                         {/* Description Text */}
-                        <div className="flex-1 max-w-xl md:-ml-8">
+                        <div className="flex-1 max-w-xl">
                             <p className="text-justify text-base font-medium text-gray-700">
                                 <span className="font-bold">
                                     Health Systems Matter (HSM)
