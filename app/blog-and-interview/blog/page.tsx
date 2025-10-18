@@ -116,6 +116,19 @@ const BlogPage = () => {
               "/images/blog-interview/afroja-yesmin.jpg.jpg",
           }}
         />
+
+        <BlogCard
+          item={{
+            title:
+              "Antimicrobial Resistance in Bangladesh: A Public Health Reckoning",
+            description:
+              "Antimicrobial resistance (AMR) has emerged as one of the most pressing public health threats of our time. In Bangladesh, where infectious diseases remain a leading cause of morbidity and mortality, the rise of resistant pathogens poses a grave challenge to the health system.",
+            date: "18 October, 2025",
+            type: "blog",
+            thumbnail:
+              "/images/blog-interview/bigstock-top-view-of-colorful-antibioti-299162842-1562874632229.jpg",
+          }}
+        />
       </div>
     </div>
   );
