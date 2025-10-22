@@ -177,6 +177,15 @@ const interviews = [
     image: "/images/blog-interview/interview/Headshot_Barbara Gastel_June 2022.jpg",
     slug: "prof-barbara-gastel-biomedical-writing-storytelling-health-communication",
   },
+  {
+    id: 16,
+    title: "Bridging Research and Activism in Global Health: A Dialogue with Dr. Prima Alam",
+    date: "October 24, 2025",
+    description:
+      "Dr. Prima Alam, Co-Founder and Director at RDA Labs, shares insights on bridging research and activism in global health, leadership lessons, and creating spaces for collective curiosity.",
+    image: "/images/blog-interview/interview/Prima.jpg",
+    slug: "bridging-research-and-activism-in-global-health",
+  },
 ];
 
 const InterviewPage = () => {
