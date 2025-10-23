@@ -20,14 +20,14 @@ const BridgingResearchAndActivism = () => {
               className="text-2xl md:text-[30px] uppercase font-extrabold text-[#001844] leading-10"
               style={{ wordSpacing: "0.4rem" }}
             >
-              Bridging Research and Activism in Global Health:{" "}
+              Bridging Research and Activism in Global Health: A Dialogue with{" "}
               <a
                 href="https://www.linkedin.com/in/pmalam/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#001844] underline font-extrabold bg-[#FFCE00] px-2 rounded-md"
               >
-                A Dialogue with Dr. Prima Alam
+                Dr. Prima Alam
               </a>
             </h1>
           </div>
@@ -127,7 +127,7 @@ const BridgingResearchAndActivism = () => {
 
         {/* Academic Journey and Suggestions start */}
 
-        <Heading>Academic Journey and Suggestions</Heading>
+        <Heading>Academic Journey and Insights</Heading>
 
         {/* Question 6 */}
         <div className="mb-8">
