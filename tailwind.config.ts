@@ -1,9 +1,9 @@
 import type { Config } from "tailwindcss";
-const colors = require("tailwindcss/colors");
 const {
     default: flattenColorPalette,
+    // eslint-disable-next-line @typescript-eslint/no-require-imports
 } = require("tailwindcss/lib/util/flattenColorPalette");
-const svgToDataUri = require("mini-svg-data-uri");
+const svgToDataUri = require("mini-svg-data-uri"); // eslint-disable-line @typescript-eslint/no-require-imports
 
 export default {
     darkMode: ["class"],
@@ -130,14 +130,15 @@ export default {
                 }
             );
         },
+        // eslint-disable-next-line @typescript-eslint/no-require-imports
         require("tailwindcss-animate"),
     ],
 } satisfies Config;
 
 // This plugin adds each Tailwind color as a global CSS variable, e.g. var(--gray-200).
 function addVariablesForColors({ addBase, theme }: any) {
-    let allColors = flattenColorPalette(theme("colors"));
-    let newVars = Object.fromEntries(
+    const allColors = flattenColorPalette(theme("colors"));
+    const newVars = Object.fromEntries(
         Object.entries(allColors).map(([key, val]) => [`--${key}`, val])
     );
 
