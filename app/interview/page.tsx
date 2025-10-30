@@ -186,6 +186,15 @@ const interviews = [
     image: "/images/blog-interview/interview/Prima.jpg",
     slug: "bridging-research-and-activism-in-global-health",
   },
+  {
+    id: 17,
+    title: "Deep Conversation with Dr. Tasdik Hasan: Emerging Voice in Global Mental Health",
+    date: "October 30, 2025",
+    description:
+      "Dr. Tasdik Hasan, PhD Teaching Fellow at Monash University, shares insights on digital mental health innovation, Deaf community mental health, and building a global career in mental health research.",
+    image: "/images/blog-interview/interview/tasdik.jpg",
+    slug: "deep-conversation-with-dr-tasdik-hasan",
+  },
 ];
 
 const InterviewPage = () => {
