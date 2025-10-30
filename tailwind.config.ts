@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+// Tailwind configuration with ESLint disable comments for require() imports
 const {
     default: flattenColorPalette,
     // eslint-disable-next-line @typescript-eslint/no-require-imports
