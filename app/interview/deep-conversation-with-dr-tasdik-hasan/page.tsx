@@ -75,14 +75,14 @@ const DeepConversationWithTasdikHasan = () => {
 
         {/* Question 1 */}
         <div className="mb-8">
-          <h2 className="text-xl font-bold text-[#2D8CBB] text-justify">
-            Q.What areas of global health are you currently focusing on, and what drives your interest in them?
+          <h2 className="text-xl font-bold text-[#2D8CBB]">
+            Q. What areas of global health are you currently focusing on, and what drives your interest in them?
           </h2>
           <p className=" mt-2 leading-relaxed text-justify">
-            <span className="font-bold">Tasdik Hasan:</span> I identify myself as a global mental health researcher, with a particular focus on vulnerable communities and the use of digital technologies to bridge mental health inequities. As a PhD candidate at Monash University, I have led one of South Asia's first co-designed digital mental health resources for Deaf communities, novel efforts to close longstanding gaps in mental health communication, digital inclusion, and culturally responsive care in low-resource settings.
+            <span className="font-bold">Tasdik Hasan:</span> I identify myself as a global mental health researcher, with a particular focus on vulnerable communities and the use of digital technologies to bridge mental health inequities. As a PhD candidate at Monash University, I have led one of South Asia's first <a href="https://www.monash.edu/news/articles/signs-of-emotion-empowering-deaf-people-in-bangladesh-with-mental-wellbeing-sign-language" target="_blank" rel="noopener noreferrer" className="text-blue-700 underline">co-designed digital mental health resources</a> for Deaf communities, novel efforts to close longstanding gaps in mental health communication, digital inclusion, and culturally responsive care in low-resource settings.
           </p>
           <p className=" mt-4 leading-relaxed text-justify">
-            In 2023, during a participatory design workshop in Dhaka, I asked a 26-year-old Deaf participant, Abdullah, "Do you know the signs of depression?" He responded, "Words like that don't exist in our language." That moment was transformative—it revealed a deep systemic barrier: without language for emotional distress, access to care becomes impossible. This exchange inspired MindSigns, a digital mental health initiative empowering Deaf individuals in Bangladesh to recognise, express, and seek support for emotional challenges. Through this project, I brought together Deaf community members, caregivers, sign language interpreters, and mental health professionals to co-create culturally and linguistically tailored resources—including the first Bangla Mental Health Sign Language Bank, digital videos, and educational flyers aimed at enhancing emotional literacy and reducing stigma. Beyond MindSigns, I recently led a project developing a digital distress protocol for community health workers in low-resource settings, and another focusing on health promotion across the WHO SEARO region, where I served as the country lead for Bangladesh.
+            In 2023, during a participatory design workshop in Dhaka, I asked a 26-year-old Deaf participant, Abdullah, "Do you know the signs of depression?" He responded, "Words like that don't exist in our language." That moment was transformative—it revealed a deep systemic barrier: without language for emotional distress, access to care becomes impossible. This exchange inspired <a href="https://www.youtube.com/@MindSignsBD" target="_blank" rel="noopener noreferrer" className="text-blue-700 underline">MindSigns</a>, a digital mental health initiative empowering Deaf individuals in Bangladesh to recognise, express, and seek support for emotional challenges. Through this project, I brought together Deaf community members, caregivers, sign language interpreters, and mental health professionals to co-create culturally and linguistically tailored resources—including the first <a href="https://www.youtube.com/watch?v=5-2YqANZAGk" target="_blank" rel="noopener noreferrer" className="text-blue-700 underline">Bangla Mental Health Sign Language Bank</a>, digital videos, and educational flyers aimed at enhancing emotional literacy and reducing stigma. Beyond <a href="https://www.youtube.com/@MindSignsBD" target="_blank" rel="noopener noreferrer" className="text-blue-700 underline">MindSigns</a>, I recently led a project developing a digital distress protocol for community health workers in low-resource settings, and another focusing on health promotion across the WHO SEARO region, where I served as the country lead for Bangladesh.
           </p>
           <p className=" mt-4 leading-relaxed text-justify">
             At the heart of my work is a simple belief: mental health solutions must be inclusive, co-created, and rooted in cultural and linguistic understanding—only then can they truly reach those most often left behind.
@@ -91,30 +91,30 @@ const DeepConversationWithTasdikHasan = () => {
 
         {/* Question 2 */}
         <div className="mb-8">
-          <h2 className="text-xl font-bold text-[#2D8CBB] text-justify">
-            Q: What do you see as the biggest challenges in making advanced mental health services more accessible in Bangladesh?
+          <h2 className="text-xl font-bold text-[#2D8CBB]">
+            Q. What do you see as the biggest challenges in making advanced mental health services more accessible in Bangladesh?
           </h2>
           <p className=" mt-2 leading-relaxed text-justify">
-            <span className="font-bold">Tasdik Hasan:</span> Mental health in Bangladesh remains a pressing public health concern, with the prevalence of disorders steadily rising—particularly among adults. Recent estimates suggest that 18.7% of adults experience some form of mental illness, while around 12.6% of children live with at least one mental health condition. Despite this growing burden, access to care remains severely limited.
+            <span className="font-bold">Tasdik Hasan:</span> <a href="https://www.cambridge.org/core/journals/bjpsych-international/article/current-state-of-mental-healthcare-in-bangladesh-part-1-an-updated-country-profile/19B7DE453E1ED7B460CC25F29A4897A7" target="_blank" rel="noopener noreferrer" className="text-blue-700 underline">Mental health in Bangladesh</a> remains a pressing public health concern, with the prevalence of disorders steadily rising—particularly among adults. Recent estimates suggest that 18.7% of adults experience some form of mental illness, while around 12.6% of children live with at least one mental health condition. Despite this growing burden, access to care remains severely limited.
           </p>
           <p className=" mt-4 leading-relaxed text-justify">
             The challenges are multifaceted. There is a large treatment gap, with the vast majority of people living with mental illness unable to access appropriate care. Bangladesh faces an acute shortage of mental health professionals—only 1.17 per 100,000 people, with psychiatrists numbering just 0.49 per 100,000, most of whom are based in urban tertiary centers. This concentration of services leaves rural and marginalised populations with virtually no access to mental health support. Additionally, mental health receives less than 0.5% of the national health budget, which significantly constrains the development and sustainability of services.
           </p>
           <p className=" mt-4 leading-relaxed text-justify">
-            While the Mental Health Act of 2018 and the National Mental Health Strategic Plan (2020–2030) have laid important legal and policy foundations, implementation remains limited. In my view, the absence of strong, community-based mental health initiatives is one of the biggest barriers to accessibility. Such initiatives can play a transformative role in reducing stigma, improving help-seeking behaviour, and creating local demand for mental health services, which in turn can strengthen the workforce and attract new professionals to the field.
+            While the <a href="https://www.refworld.org/legal/legislation/natlegbod/2018/en/148276" target="_blank" rel="noopener noreferrer" className="text-blue-700 underline">Mental Health Act of 2018</a> and the <a href="https://dghs.portal.gov.bd/sites/default/files/files/dghs.portal.gov.bd/notices/e27171cb_a80b_42d4_99ad_40095adef31b/2022-08-16-08-42-af8622e2c4936593dd45601b84f4920f.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-700 underline">National Mental Health Strategic Plan (2020–2030)</a> have laid important legal and policy foundations, implementation remains limited. In my view, the absence of strong, community-based mental health initiatives is one of the biggest barriers to accessibility. Such initiatives can play a transformative role in reducing stigma, improving help-seeking behaviour, and creating local demand for mental health services, which in turn can strengthen the workforce and attract new professionals to the field.
           </p>
           <p className=" mt-4 leading-relaxed text-justify">
-            A powerful example is the Friendship Bench project in Zimbabwe, where trained community grandmothers provided basic psychological support to younger women. This grassroots model not only improved mental health outcomes but also became a global south innovation that travelled worldwide. I had the privilege of learning directly from Professor Dixon Chibanda, the visionary behind this initiative. Bangladesh needs similarly locally grounded but globally inspired innovations—models that honour cultural realities while expanding access, dignity, and hope for all.
+            A powerful example is the <a href="https://www.friendshipbench.org/" target="_blank" rel="noopener noreferrer" className="text-blue-700 underline">Friendship Bench</a> project in Zimbabwe, where trained community grandmothers provided basic psychological support to younger women. This grassroots model not only improved mental health outcomes but also became a global south innovation that travelled worldwide. I had the privilege of learning directly from <a href="https://www.friendshipbench.org/the-founder" target="_blank" rel="noopener noreferrer" className="text-blue-700 underline">Professor Dixon Chibanda</a>, the visionary behind this initiative. Bangladesh needs similarly locally grounded but globally inspired innovations—models that honour cultural realities while expanding access, dignity, and hope for all.
           </p>
         </div>
 
         {/* Question 3 */}
         <div className="mb-8">
-          <h2 className="text-xl font-bold text-[#2D8CBB] text-justify">
-            Q.Based on your research and publications, which evidence-based intervention do you believe could make the most impact on mental health in Bangladesh?
+          <h2 className="text-xl font-bold text-[#2D8CBB]">
+            Q. Based on your research and publications, which evidence-based intervention do you believe could make the most impact on mental health in Bangladesh?
           </h2>
           <p className=" mt-2 leading-relaxed text-justify">
-            <span className="font-bold">Tasdik Hasan:</span> Based on my research and publications, I believe that a locally adapted version of the Friendship Bench initiative could have a transformative impact on mental health in Bangladesh. Originating in Zimbabwe, the Friendship Bench is a globally acclaimed, evidence-based model that brings mental health care to the community—literally to a park bench. It trains lay community members, often elderly women affectionately called "grandmothers," to deliver structured problem-solving therapy (PST). Sitting on a simple wooden bench, they offer a safe, stigma-free space for people to share their struggles, guiding them through practical solutions and emotional support.
+            <span className="font-bold">Tasdik Hasan:</span> Based on my research and publications, I believe that a locally adapted version of the <a href="https://www.friendshipbench.org/" target="_blank" rel="noopener noreferrer" className="text-blue-700 underline">Friendship Bench</a> initiative could have a transformative impact on mental health in Bangladesh. Originating in Zimbabwe, the Friendship Bench is a globally acclaimed, evidence-based model that brings mental health care to the community—literally to a park bench. It trains lay community members, often elderly women affectionately called "grandmothers," to deliver structured problem-solving therapy (PST). Sitting on a simple wooden bench, they offer a safe, stigma-free space for people to share their struggles, guiding them through practical solutions and emotional support.
           </p>
           <p className=" mt-4 leading-relaxed text-justify">
             This model has been rigorously evaluated through randomized controlled trials and shown to significantly reduce symptoms of depression and anxiety, improve social functioning, and strengthen community trust in mental health care. Its success has inspired global adaptations across more than a dozen countries, proving that effective mental health care doesn't always require clinics or psychiatrists—it begins with a compassionate conversation.
@@ -126,14 +126,14 @@ const DeepConversationWithTasdikHasan = () => {
 
         {/* Question 4 */}
         <div className="mb-8">
-          <h2 className="text-xl font-bold text-[#2D8CBB] text-justify">
-            Q.If you had unlimited funding for one global health project, what would you choose to do and why?
+          <h2 className="text-xl font-bold text-[#2D8CBB]">
+            Q. If you had unlimited funding for one global health project, what would you choose to do and why?
           </h2>
           <p className=" mt-2 leading-relaxed text-justify">
-            <span className="font-bold">Tasdik Hasan:</span> My experience working with Deaf communities during my PhD has been life-changing. It opened my eyes to the profound struggles, neglect, and discrimination faced by millions of Deaf individuals—challenges that I had never been exposed to, even after years of medical and public health work across Bangladesh, the UK, Rwanda, Uganda, Zambia, and Australia. Until this project, I had never been formally trained to understand or support the unique needs of Deaf people. This realization transformed me both personally and professionally.
+            <span className="font-bold">Tasdik Hasan:</span> My experience working with Deaf communities during my PhD has been life-changing. It opened my eyes to the <a href="https://pubmed.ncbi.nlm.nih.gov/22423884/" target="_blank" rel="noopener noreferrer" className="text-blue-700 underline">profound struggles, neglect, and discrimination faced by millions of Deaf individuals</a>—challenges that I had never been exposed to, even after years of medical and public health work across Bangladesh, the UK, Rwanda, Uganda, Zambia, and Australia. Until this project, I had never been formally trained to understand or support the unique needs of Deaf people. This realization transformed me both personally and professionally.
           </p>
           <p className=" mt-4 leading-relaxed text-justify">
-            In Bangladesh, an estimated 10% of the population lives with hearing loss, yet mental health support for Deaf individuals is virtually non-existent. Their experiences, emotions, and distress often go undocumented—absent from both research and policy agendas. Through my PhD, I began addressing this gap by documenting their mental health challenges and co-designing digital tools that enable Deaf individuals to express emotions and communicate psychological distress. But this is just the beginning.
+            In Bangladesh, an estimated <a href="https://pubmed.ncbi.nlm.nih.gov/25627937/" target="_blank" rel="noopener noreferrer" className="text-blue-700 underline">10% of the population lives with hearing loss</a>, yet mental health support for Deaf individuals is virtually non-existent. Their experiences, emotions, and distress often go undocumented—absent from both research and policy agendas. Through my <a href="https://bridges.monash.edu/articles/presentation/Signs_of_Change_-_Designing_Hope_for_Deaf_Mental_Health/29363234/1" target="_blank" rel="noopener noreferrer" className="text-blue-700 underline">PhD</a>, I began addressing this gap by documenting their mental health challenges and co-designing digital tools that enable Deaf individuals to express emotions and communicate psychological distress. But this is just the beginning.
           </p>
           <p className=" mt-4 leading-relaxed text-justify">
             If I had unlimited funding for one global health project, I would dedicate it to transforming Deaf mental health globally. My vision would be to develop standardised and culturally grounded tools to assess mental health conditions, evaluating the unique needs among Deaf populations; to design and test community-based interventions that are accessible, inclusive, and evidence-driven; and to launch national and international advocacy campaigns to raise awareness, reduce stigma, and promote dignity and respect for Deaf individuals.
@@ -149,8 +149,8 @@ const DeepConversationWithTasdikHasan = () => {
 
         {/* Question 5 */}
         <div className="mb-8">
-          <h2 className="text-xl font-bold text-[#2D8CBB] text-justify">
-            Q.What inspired you to pursue a PhD?
+          <h2 className="text-xl font-bold text-[#2D8CBB]">
+            Q. What inspired you to pursue a PhD?
           </h2>
           <p className=" mt-2 leading-relaxed text-justify">
             <span className="font-bold">Tasdik Hasan:</span> Pursuing a PhD felt like a natural progression for me. I had been drawn to public health since my second year of medical school, but I deliberately postponed doctoral study for nearly five years after my Masters at the UK because I was deeply engaged in my global health roles with the University of Liverpool and Johns Hopkins Bloomberg School of Public Health. Working across the UK, Rwanda, Uganda, and Zambia was incredibly fulfilling, and I wanted to immerse myself fully in those experiences before returning to academia.
@@ -165,8 +165,8 @@ const DeepConversationWithTasdikHasan = () => {
 
         {/* Question 6 */}
         <div className="mb-8">
-          <h2 className="text-xl font-bold text-[#2D8CBB] text-justify">
-            Q.What's the most valuable lesson you learned during your PhD at Monash University?
+          <h2 className="text-xl font-bold text-[#2D8CBB]">
+            Q. What's the most valuable lesson you learned during your PhD at Monash University?
           </h2>
           <p className=" mt-2 leading-relaxed text-justify">
             <span className="font-bold">Tasdik Hasan:</span> During my PhD at Monash University, I learned the true meaning of support, flexibility, and empathy in academia. My supervisors and the Faculty of Information Technology played an extraordinary role in shaping not only my research but also my personal growth.
@@ -184,8 +184,8 @@ const DeepConversationWithTasdikHasan = () => {
 
         {/* Question 7 */}
         <div className="mb-8">
-          <h2 className="text-xl font-bold text-[#2D8CBB] text-justify">
-            Q.Congrats on the 'Emerging Leader of the Year Award'! What led to this recognition, and how has it shaped your leadership and career journey?
+          <h2 className="text-xl font-bold text-[#2D8CBB]">
+            Q. Congrats on the 'Emerging Leader of the Year Award'! What led to this recognition, and how has it shaped your leadership and career journey?
           </h2>
           <p className=" mt-2 leading-relaxed text-justify">
             <span className="font-bold">Tasdik Hasan:</span> Thank you so much. It was truly humbling to receive the Emerging Leader of the Year Award from the Public Health Association of Australia (PHAA)—the nation's peak non-governmental body for public health and the leading voice advocating for prevention, equity, and social determinants of health.
@@ -200,8 +200,8 @@ const DeepConversationWithTasdikHasan = () => {
 
         {/* Question 8 */}
         <div className="mb-8">
-          <h2 className="text-xl font-bold text-[#2D8CBB] text-justify">
-            Q.What are your future career plans, and what's guiding your direction?
+          <h2 className="text-xl font-bold text-[#2D8CBB]">
+            Q. What are your future career plans, and what's guiding your direction?
           </h2>
           <p className=" mt-2 leading-relaxed text-justify">
             <span className="font-bold">Tasdik Hasan:</span> I've never followed a traditional career path; instead, I've always been guided by a broader vision—to promote global mental health by amplifying the voices of underserved communities. This guiding purpose has shaped every step of my journey.
@@ -225,8 +225,8 @@ const DeepConversationWithTasdikHasan = () => {
 
         {/* Question 9 */}
         <div className="mb-8">
-          <h2 className="text-xl font-bold text-[#2D8CBB] text-justify">
-            Q.What three key skills would you recommend to young researchers aspiring to work in global health?
+          <h2 className="text-xl font-bold text-[#2D8CBB]">
+            Q. What three key skills would you recommend to young researchers aspiring to work in global health?
           </h2>
           <p className=" mt-2 leading-relaxed text-justify">
             <span className="font-bold">Tasdik Hasan:</span> I still consider myself early in this journey, so rather than offering advice, I'll share a few reflections that have guided me—more practice than skills, but ones I believe matter deeply.
@@ -251,8 +251,8 @@ const DeepConversationWithTasdikHasan = () => {
 
         {/* Question 10 */}
         <div className="mb-8">
-          <h2 className="text-xl font-bold text-[#2D8CBB] text-justify">
-            Q.Who is your role model in global health, and what about their work inspires you?
+          <h2 className="text-xl font-bold text-[#2D8CBB]">
+            Q. Who is your role model in global health, and what about their work inspires you?
           </h2>
           <p className=" mt-2 leading-relaxed text-justify">
             <span className="font-bold">Tasdik Hasan:</span> I don't have a single role model in global health; rather, I draw inspiration from many remarkable individuals whose journeys and approaches have profoundly shaped me.
@@ -270,8 +270,8 @@ const DeepConversationWithTasdikHasan = () => {
 
         {/* Question 11 */}
         <div className="mb-8">
-          <h2 className="text-xl font-bold text-[#2D8CBB] text-justify">
-            Q.What book are you currently reading, and what's one insight that stood out to you?
+          <h2 className="text-xl font-bold text-[#2D8CBB]">
+            Q. What book are you currently reading, and what's one insight that stood out to you?
           </h2>
           <p className=" mt-2 leading-relaxed text-justify">
             <span className="font-bold">Tasdik Hasan:</span> I'm currently reading The Secret of the Secrets by Dan Brown. It's taking me a little longer than usual to finish, as I've been balancing quite a bit of travel and academic work lately. Still, I always enjoy immersing myself in thrillers like this—they allow me to pause from academic reading and reconnect with my imagination. For me, books like these are a form of "me time."
@@ -286,8 +286,8 @@ const DeepConversationWithTasdikHasan = () => {
 
         {/* Question 12 */}
         <div className="mb-8">
-          <h2 className="text-xl font-bold text-[#2D8CBB] text-justify">
-            Q.Do you have a personal motto or mantra that guides your life or work?
+          <h2 className="text-xl font-bold text-[#2D8CBB]">
+            Q. Do you have a personal motto or mantra that guides your life or work?
           </h2>
           <p className=" mt-2 leading-relaxed text-justify">
             <span className="font-bold">Tasdik Hasan:</span> 'Live in small moments.' - I try to embrace the beauty of life's simplest things—a tiny flower by the roadside, a gentle sea breeze, a quiet walk along a mountain path, or a warm cup of tea in the morning. These small moments keep me grounded and remind me of the calm within movement.
@@ -299,8 +299,8 @@ const DeepConversationWithTasdikHasan = () => {
 
         {/* Question 13 */}
         <div className="mb-8">
-          <h2 className="text-xl font-bold text-[#2D8CBB] text-justify">
-            Q.In just five words, how would you describe yourself—as a development professional and as a person?
+          <h2 className="text-xl font-bold text-[#2D8CBB]">
+            Q. In just five words, how would you describe yourself—as a development professional and as a person?
           </h2>
           <p className=" mt-2 leading-relaxed text-justify">
             <span className="font-bold">Tasdik Hasan:</span> Lets say - Strategic, compassionate, focused, empathetic, impact-driven!
@@ -316,7 +316,7 @@ const DeepConversationWithTasdikHasan = () => {
             <span className="font-bold">Tasdik Hasan:</span> The idea of a "secure career" is quite abstract to me. I've always believed that the most comfortable and fulfilling part of my life has been in Bangladesh—surrounded by family, friends, and a strong support system. I also had, and still have, a stable and respected professional career there. So I don't see "security" or "comfort" as exclusive to Australia or any other country outside Bangladesh.
           </p>
           <p className=" mt-4 leading-relaxed text-justify">
-            That said, I do acknowledge that Australia offers a higher level of social protection, academic flexibility, and recognition—things I've experienced deeply over the past 3.5 years as both a PhD student and an academic staff member. I remain genuinely grateful to Monash University for that.
+            That said, I do acknowledge that Australia offers a higher level of social protection, academic flexibility, and recognition—things I've experienced deeply over the past 3.5 years as both a <a href="https://bridges.monash.edu/articles/presentation/Signs_of_Change_-_Designing_Hope_for_Deaf_Mental_Health/29363234/1" target="_blank" rel="noopener noreferrer" className="text-blue-700 underline">PhD</a> student and an academic staff member. I remain genuinely grateful to Monash University for that.
           </p>
           <p className=" mt-4 leading-relaxed text-justify">
             If you look closely at my research, mentoring, and advocacy, Bangladesh has always been at the heart of my work. Over 90% of my research focuses on Bangladeshi contexts, and much of it I've led or coordinated from abroad. My physical location has never limited my contribution. Instead, I see myself as part of a global ecosystem that keeps Bangladesh at the centre of conversations on innovation, equity, and inclusion.
