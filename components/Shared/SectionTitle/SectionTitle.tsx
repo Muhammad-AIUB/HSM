@@ -56,7 +56,7 @@ export const SectionTitleWithSub = ({
   subTitle,
 }: {
   title: string;
-  subTitle: string;
+  subTitle: string | React.ReactNode;
 }) => {
   return (
     <div className="relative w-full h-auto">

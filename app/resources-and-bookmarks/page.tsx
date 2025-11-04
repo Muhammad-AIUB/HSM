@@ -84,9 +84,15 @@ const ResourcesAndBookmarksPage = () => {
     <div className="pb-16">
       <SectionTitleWithSub
         title="RESOURCE AND BOOKMARK"
-        subTitle="Explore our comprehensive hub to enhance your knowledge and support your career development.
-              The <strong>Resources</strong> section allows you to download valuable materials with a single click.
-              The <strong>Bookmarks</strong> section connects you to essential content and tools for professional success."
+        subTitle={
+          <>
+            Explore our comprehensive hub to enhance your knowledge and support your career development.
+            <br />
+            The Resources section allows you to download valuable materials with a single click.
+            <br />
+            The Bookmarks section connects you to essential content and tools for professional success.
+          </>
+        }
       />
 
       <div className=" flex flex-col max-w-screen-xl mx-auto">

@@ -83,12 +83,7 @@ const CommentariesAndBlogs = () => {
       <div className="bg-white">
         <div className="max-w-screen-xl mx-auto px-12 md:px-16 pt-8 pb-16">
           <p className="text-[17px]">
-            This section introduces platforms and tools designed to enhance your
-            professional skills. It features valuable resources for tasks such
-            as data visualization, infographics, and analysis, helping to boost
-            productivity and improve information presentation. Exploring and
-            leveraging these tools can enrich your professional work and
-            strengthen your proficiency in their application.
+            This section introduces platforms and tools designed to enhance your professional skills. Access resources for data visualization, info graphics, and analysis to boost productivity and improve information presentation. Leveraging these tools can enrich your work and strengthen your proficiency.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Left Content Section */}

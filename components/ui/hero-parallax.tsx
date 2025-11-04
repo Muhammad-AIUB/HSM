@@ -109,8 +109,10 @@ export const Header = () => {
       </h1>
       <p className="max-w-2xl text-sm md:text-xl mt-8 dark:text-neutral-200">
         Explore our comprehensive hub to enhance your knowledge and support your career development.
-        The <strong>Resources</strong> section allows you to download valuable materials with a single click.
-        The <strong>Bookmarks</strong> section connects you to essential content and tools for professional success.
+        <br />
+        The Resources section allows you to download valuable materials with a single click.
+        <br />
+        The Bookmarks section connects you to essential content and tools for professional success.
       </p>
     </div>
   );

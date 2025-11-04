@@ -133,14 +133,7 @@ const ResourcesOverview = () => {
               {/* Description Section */}
               <div className="w-full  text-justify">
                 <p className="text-base leading-7 text-[17px]">
-                  The Global Health Bookmarks section indicates the resources
-                  either document, entities, courses, career, podcast and so on
-                  pertained with the global health and health systems are
-                  covered. The section offers a comprehensive list of resources
-                  that may enrich one global health professionals’ career. If
-                  these given resources are well utilized, anyone can attain the
-                  knowledge of the contemporary trend of the global health and
-                  health systems challenges.
+                  The Global Health Bookmarks section provides a curated collection of resources for global health and health systems. It includes documents, organizations, courses, career opportunities, podcasts, and more. These resources help professionals stay informed about current trends and challenges in global health and health systems.
                 </p>
               </div>
             </div>

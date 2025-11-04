@@ -41,12 +41,7 @@ const CommentariesAndBlogs = () => {
             {/* Left Content Section */}
             <div className="md:col-span-2 flex flex-col gap-8">
               <p className="text-[17px]">
-                This section features up-to-date data and insights curated from
-                reputable global organizations. These trusted sources provide
-                access to the latest statistics, datasets, and analytical
-                reports—supporting deeper understanding, informed
-                decision-making, and the development of high-quality research
-                and reference materials.
+                This section features up-to-date data and insights curated from reputable global organizations. Access the latest statistics, datasets, and analytical reports to support informed decision-making and high-quality research and reference materials.
               </p>
               <OrganizationList organizations={organizations} />
             </div>

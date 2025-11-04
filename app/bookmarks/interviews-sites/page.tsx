@@ -29,12 +29,7 @@ const CommentariesAndBlogs = () => {
             {/* Left Content Section */}
             <div className="md:col-span-2 flex flex-col gap-8">
               <p className="text-[17px]">
-                This section features in-depth interviews with global health
-                leaders, offering valuable perspectives on innovation,
-                challenges, and personal journeys in public health. These
-                conversations provide thought-provoking insights that enrich
-                your understanding and support your professional growth in the
-                global health space.
+                This section features in-depth interviews with global health leaders. Gain valuable perspectives on innovation, challenges, and personal journeys in public health. These conversations offer thought-provoking insights to enrich your understanding and support your professional growth in the global health space.
               </p>
               <OrganizationList organizations={organizations} />
             </div>

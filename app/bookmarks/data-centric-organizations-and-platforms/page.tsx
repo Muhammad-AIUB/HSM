@@ -69,13 +69,7 @@ const CommentariesAndBlogs = () => {
             {/* Left Content Section */}
             <div className="md:col-span-2 flex flex-col gap-8">
               <p className="text-[17px]">
-                This section highlights organizations that provide timely,
-                relevant, and evidence-based insights to inform and strengthen
-                health and development policies and practices. These platforms
-                serve as valuable resources for staying updated on the latest
-                data and research findings. By leveraging this information,
-                professionals can enhance the quality and impact of their work,
-                leading to more effective and evidence-informed decision-making.
+                This section highlights organizations that provide timely, relevant, and evidence-based insights to inform and strengthen health and development policies and practices. These platforms help professionals stay updated on the latest data and research, enhancing the quality and impact of their work.
               </p>
               <OrganizationList organizations={organizations} />
             </div>

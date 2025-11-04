@@ -188,12 +188,7 @@ const KeyPublicHealthOrganizations = () => {
             {/* Left Content Section */}
             <div className="md:col-span-2 flex flex-col gap-8">
               <p className="text-[17px]">
-                This section compiles up-to-date data and information on key
-                public health and development issues from trusted sources. These
-                platforms offer recent statistics, analyses, and evidence-based
-                insights on various topics to support your work, strengthen your
-                understanding, and enhance the quality of your research and
-                reference materials.
+                Access current data on key public health and development issues from trusted sources. Explore statistics, analyses, and evidence-based insights to strengthen understanding and support research and professional practice.
               </p>
               <OrganizationList
                 className="my-4 bg-blue-100 p-4 rounded-lg"

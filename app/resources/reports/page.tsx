@@ -34,13 +34,7 @@ const Reports = () => {
         {/* Main Content */}
         <div className="flex-1 md:col-span-2 mt-4">
           <p className="text-lg leading-relaxed font-light mb-6 text-justify">
-            Reports are a fundamental output of interventions and initiatives,
-            serving as a cornerstone for organizations in the global development
-            sector. Given the mandatory and periodic nature of these
-            publications, the volume of reports continues to grow rapidly. This
-            section organizes reports by topic, including organizational
-            reports, key policy briefs, and presentations, providing users with
-            a systematic and accessible resource.
+            Reports are a fundamental output of interventions and initiatives. They provide essential evidence for organizations in the global development sector. With many reports published regularly, the volume continues to grow. This section organizes reports by topic, including organizational reports, key policy briefs, and presentations, providing users with a systematic and accessible resource.
           </p>
 
           {/* general and topic wise reports */}

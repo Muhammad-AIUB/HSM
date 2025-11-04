@@ -60,7 +60,7 @@ const KeyPublicHealthOrganizations = () => {
                 <p className="text-[17px]">
                   In today&apos;s digital landscape, visual platforms are highly
                   engaging, and public health professionals are no exception.
-                  Many organizations and individuals leverage platforms like
+                  Many organizations and individuals utilize platforms like
                   YouTube to share timely and valuable resources. Below are some
                   notable YouTube channels tailored for public health
                   professionals.

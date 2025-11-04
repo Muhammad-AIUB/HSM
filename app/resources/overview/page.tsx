@@ -29,16 +29,7 @@ const ResourcesOverview = () => {
               {/* Description Section */}
               <div className="w-full text-gray-700 text-justify">
                 <p className="text-base leading-7">
-                  The Resources section aspires to be a repository of essential
-                  resources on health systems and global health. By compiling
-                  major reports, books, groundbreaking publications, significant
-                  policy briefs and presentations, thought-provoking interviews,
-                  and insightful analyses, it supports public health
-                  professionals and beyond in their pursuit of knowledge and
-                  professional development. Resources are organized by topic to
-                  facilitate systematic access. Each resource is sourced from
-                  esteemed organizations, with due credit given to acknowledge
-                  their invaluable contributions.
+                  The Resources section is a curated repository of essential materials on health systems and global health. It includes major reports, books, key publications, policy briefs, presentations, interviews, and analyses. These resources support public health professionals and researchers globally. Resources are organized by topic to ensure systematic and easy access. Each resource comes from reputable organizations, with proper credit given to acknowledge their invaluable contributions.
                 </p>
               </div>
             </div>
