@@ -195,6 +195,15 @@ const interviews = [
     image: "/images/blog-interview/interview/tasdik.jpg",
     slug: "deep-conversation-with-dr-tasdik-hasan",
   },
+  {
+    id: 18,
+    title: "Implementing Global Health: A Conversation with Dr. Samina Choudhury",
+    date: "November 9, 2025",
+    description:
+      "Dr. Samina Choudhury, A Global Health Manager, shares insights on implementing global health programs, working with the Ministry of Health and Family Welfare in Bangladesh, and essential skills for the next generation of global health leaders.",
+    image: "/images/blog-interview/interview/samina.jpg",
+    slug: "implementing-global-health-dr-samina-choudhury",
+  },
 ];
 
 const InterviewPage = () => {

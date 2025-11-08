@@ -419,11 +419,12 @@ const FromVisionToImpact = () => {
 
       <BioOfIshtiaqMannan />
       <div className="flex justify-center my-8">
-        <a href="/interview/from-clinician-to-global-health-scholar">
-          <button className="bg-[#FFCE00] text-black font-bold px-8 py-3 rounded hover:bg-yellow-400 transition text-lg shadow-md">
-            Next Interview
-          </button>
-        </a>
+        <Link
+          href="/interview/implementing-global-health-dr-samina-choudhury"
+          className="mt-4 font-bold text-xl bg-[#FFCE00] text-black px-4 py-2 hover:text-white hover:bg-[#2D8CBB]   transition ease-in-out duration-200"
+        >
+          Next Interview
+        </Link>
       </div>
     </div>
   );
