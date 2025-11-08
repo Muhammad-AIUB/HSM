@@ -77,7 +77,7 @@ const ImplementingGlobalHealth = () => {
         {/* Question 1 */}
         <div className="mb-8">
           <h2 className="text-xl font-bold text-[#2D8CBB] text-justify">
-            Q.Could you briefly share your journey from holding a clinical degree in Bangladesh to becoming a global health professional? What inspired you to take this path?
+            Q. Could you briefly share your journey from holding a clinical degree in Bangladesh to becoming a global health professional? What inspired you to take this path?
           </h2>
           <p className=" mt-2 leading-relaxed text-justify">
             <span className="font-bold">Samina Choudhury:</span> From the day I entered the premises of the medical college, it was taken for granted that I would become a clinician. This is not only the common pathway, but also the most desired outcome for the family and friends of a medical student. I was no exception. However, my path took a different turn. After my internship, I was looking for a job. A close acquaintance referred me to a training opportunity designed to develop Master Trainers for Family Planning services. I applied, was selected and soon found myself enrolled in the course. This course changed my life. The process contributed in shaping my attitude towards public health. During the training, I met some of the leading figures in the field—public health gurus- whose work inspired me deeply. The course also covered management aspects of public health programs, an area that captured my interest immediately. And so, my journey in public health began.
@@ -90,7 +90,7 @@ const ImplementingGlobalHealth = () => {
         {/* Question 2 */}
         <div className="mb-8">
           <h2 className="text-xl font-bold text-[#2D8CBB] text-justify">
-            Q.Looking back on your global health journey, how do you see the impact of your work?
+            Q. Looking back on your global health journey, how do you see the impact of your work?
           </h2>
           <p className=" mt-2 leading-relaxed text-justify">
             <span className="font-bold">Samina Choudhury:</span> The journey follows a concerted pathway. No one can individually claim any impact of his or her work. The nature of the public health approach is based on team work and goes beyond specific time frame. However, if I were to mention a key impact of over three decades of the global health journey – it would be the development of the concepts of self-reliance and sustainability through health systems strengthening. Though there is still a long way to go but the approach now focuses on developing systems rather than relying on sporadic solution.
@@ -103,7 +103,7 @@ const ImplementingGlobalHealth = () => {
         {/* Question 3 */}
         <div className="mb-8">
           <h2 className="text-xl font-bold text-[#2D8CBB] text-justify">
-            Q.How would you describe your experience working with the Ministry of Health and Family Welfare in Bangladesh:
+            Q. How would you describe your experience working with the Ministry of Health and Family Welfare in Bangladesh:
           </h2>
           <p className=" mt-2 leading-relaxed text-justify">
             <span className="font-bold">Samina Choudhury:</span> Overall, I am very comfortable working with the Ministry of Health and Family Welfare. I worked with the GoB counterparts at different layers from union to the highest position of the Ministry. I found that our GoB counterparts are flexible and willing to work for the people.
@@ -116,7 +116,7 @@ const ImplementingGlobalHealth = () => {
         {/* Question 4 */}
         <div className="mb-8">
           <h2 className="text-xl font-bold text-[#2D8CBB] text-justify">
-            Q.If you had unlimited funding for one global health project, what would you do and why?
+            Q. If you had unlimited funding for one global health project, what would you do and why?
           </h2>
           <p className=" mt-2 leading-relaxed text-justify">
             <span className="font-bold">Samina Choudhury:</span> I would work in a way so that no external funding is required for ensuring access to health for all. I would do policy advocacy for increasing health budget and equitable distribution of the budget. I would advocate for resource optimization for proper utilization of resources available for health. Resources are not available only with the public systems, there are growing resources in the private sector- optimization of those resources are crucial in ensuring health for all.
@@ -132,7 +132,7 @@ const ImplementingGlobalHealth = () => {
         {/* Question 5 */}
         <div className="mb-8">
           <h2 className="text-xl font-bold text-[#2D8CBB] text-justify">
-            Q.What are you currently focused on, and what are your future plans—and why?
+            Q. What are you currently focused on, and what are your future plans—and why?
           </h2>
           <p className=" mt-2 leading-relaxed text-justify">
             <span className="font-bold">Samina Choudhury:</span> I am developing myself to work in a boarder role within health sector development. I want to use my experience in strategy and human resource development to contribute to the health sector. To this end, I am preparing and positioning myself for such opportunities.
@@ -142,7 +142,7 @@ const ImplementingGlobalHealth = () => {
         {/* Question 6 */}
         <div className="mb-8">
           <h2 className="text-xl font-bold text-[#2D8CBB] text-justify">
-            Q.Based on your experience in Bangladesh and beyond, what three essential skills would you recommend for the next generation of global health leaders?
+            Q. Based on your experience in Bangladesh and beyond, what three essential skills would you recommend for the next generation of global health leaders?
           </h2>
           <p className=" mt-2 leading-relaxed text-justify">
             <span className="font-bold">Samina Choudhury:</span> First and foremost are communication skills. Here, communication refers to all forms of interaction—communicating proposed strategies, one's own credentials, and the project's achievements. Communication is essential in every aspect of public health practices.
@@ -177,7 +177,7 @@ const ImplementingGlobalHealth = () => {
         {/* Question 8 */}
         <div className="mb-8">
           <h2 className="text-xl font-bold text-[#2D8CBB] text-justify">
-            Q.Who is your public health role model, and what about their work inspires you?
+            Q. Who is your public health role model, and what about their work inspires you?
           </h2>
           <p className=" mt-2 leading-relaxed text-justify">
             <span className="font-bold">Samina Choudhury:</span> One of my public health role models is Yeasmin H Ahmed. She developed a national NGO. She is a great manager and a great leader. She has a great analytic skill and applies this skill in making decisions.
@@ -187,7 +187,7 @@ const ImplementingGlobalHealth = () => {
         {/* Question 9 */}
         <div className="mb-8">
           <h2 className="text-xl font-bold text-[#2D8CBB] text-justify">
-            Q.What book are you currently reading, and is there a particular idea or message that has stayed with you?
+            Q. What book are you currently reading, and is there a particular idea or message that has stayed with you?
           </h2>
           <p className=" mt-2 leading-relaxed text-justify">
             <span className="font-bold">Samina Choudhury:</span> John Green's "Everything is Tuberculosis." I recommend every public health professional to read this book. This book is not only about Tuberculosis, it tells us how inequitable distribution of resources contributes to the persistence of a deadly infection. It tells us how a disease can shape the world and motivates us to take part in shaping the disease. From time immortal, disease has shaped human history. For example, pandemics create economic crises and have significant impacts on population dynamics by influencing mortality rates and human migration. Further, political influences of the rich restrict fund flow to the poor and limit their access to treatment. Very few literatures have captured these dynamics, John Green could bring these dimensions in his book. The important message that has stayed with me is "We cannot address TB only with vaccines and medication. We have to find the root cause. In a world where everyone can eat, access health care and treated humanely tuberculosis has no chance".
@@ -197,7 +197,7 @@ const ImplementingGlobalHealth = () => {
         {/* Question 10 */}
         <div className="mb-8">
           <h2 className="text-xl font-bold text-[#2D8CBB] text-justify">
-            Q.Do you have a personal motto or guiding principle that you live by?
+            Q. Do you have a personal motto or guiding principle that you live by?
           </h2>
           <p className=" mt-2 leading-relaxed text-justify">
             <span className="font-bold">Samina Choudhury:</span> I want to do something for the people and the earth.
