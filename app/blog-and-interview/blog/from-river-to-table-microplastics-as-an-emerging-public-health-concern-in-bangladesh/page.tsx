@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { BookOpen, Users, TrendingUp, Heart, AlertTriangle, Shield, GraduationCap, Droplets } from "lucide-react";
+import { BookOpen, Heart, AlertTriangle, Shield, Droplets } from "lucide-react";
 import { FaGlobe } from "react-icons/fa";
 import NextButton from "@/components/Shared/NextButton";
 import BioOfNusratJahanMim from "./BioOfNusratJahanMim";
