@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { BookOpen, Heart, AlertTriangle, Shield, Droplets } from "lucide-react";
-import { FaGlobe } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 import NextButton from "@/components/Shared/NextButton";
 import BioOfNusratJahanMim from "./BioOfNusratJahanMim";
 
@@ -62,11 +62,11 @@ const MicroplasticsBlogPage = () => {
                       href="https://www.linkedin.com/in/nusratjahanmim3494/"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="bg-[#2D8CBB] hover:bg-[#001844] rounded-full p-3 transition-all duration-300 hover:scale-110"
+                      className="bg-[#0A66C2] hover:bg-[#004182] rounded-full p-3 transition-all duration-300 hover:scale-110"
                       aria-label="LinkedIn Profile of Nusrat Jahan Mim"
                       title="LinkedIn"
                     >
-                      <FaGlobe className="w-6 h-6 text-white" />
+                      <FaLinkedin className="w-6 h-6 text-white" />
                     </a>
                   </div>
                 </div>
