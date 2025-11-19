@@ -339,7 +339,7 @@ const DeepConversationWithTasdikHasan = () => {
 
       <BioOfTasdikHasan />
       <div className="flex justify-center my-8">
-        <a href="/interview/public-health-insights-1">
+        <a href="/interview/implementing-global-health-dr-samina-choudhury">
           <button className="bg-[#FFCE00] text-black font-bold px-8 py-3 rounded hover:bg-yellow-400 transition text-lg shadow-md">
             Next Interview
           </button>

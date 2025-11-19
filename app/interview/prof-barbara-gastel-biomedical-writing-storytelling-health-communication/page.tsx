@@ -232,7 +232,7 @@ const ProfBarbaraGastelInterviewPage = () => {
 
             <div className="flex justify-center my-4 ">
                 <Link
-                    href="/interview/public-health-insights-1"
+                    href="/interview/bridging-research-and-activism-in-global-health"
                     // onClick={() => setIsExpanded(!isExpanded)}
                     className="mt-4 font-bold text-xl bg-[#FFCE00] text-black px-4 py-2 hover:text-white hover:bg-[#2D8CBB]   transition ease-in-out duration-200"
                 >

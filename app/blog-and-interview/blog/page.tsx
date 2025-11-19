@@ -130,6 +130,19 @@ const BlogPage = () => {
               "/images/blog-interview/bigstock-top-view-of-colorful-antibioti-299162842-1562874632229.jpg",
           }}
         />
+
+        <BlogCard
+          item={{
+            title:
+              "From River to Table: Microplastics as an Emerging Public Health Concern in Bangladesh",
+            description:
+              "Bangladesh is known as the land of rivers. These waterways are the lifelines of the nation feeding millions, supporting livelihoods and shaping cultural identity. The proverb 'Mache Bhate Bangali' reflects the central role of fish in daily diets and society.",
+            date: "20 October, 2025",
+            type: "blog",
+            thumbnail:
+              "/images/blog-interview/Nusrat_picture.jpg",
+          }}
+        />
       </div>
     </div>
   );

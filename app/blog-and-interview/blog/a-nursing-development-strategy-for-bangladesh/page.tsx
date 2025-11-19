@@ -345,7 +345,7 @@ const NursingDevelopmentStrategyBlogPage = () => {
       <BioOfAlex />
 
       <NextButton
-        href="/blog-and-interview/blog/bridging-the-gaps-strengthening-mental-healthcare-to-build-a-resilient-health-system-in-bangladesh"
+        href="/blog-and-interview/blog/strengthening-healthcare-quality-through-supportive-supervision"
         text="Next Blog"
       />
     </div>

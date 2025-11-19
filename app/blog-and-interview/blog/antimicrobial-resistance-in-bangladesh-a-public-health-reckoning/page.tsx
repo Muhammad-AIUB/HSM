@@ -312,7 +312,7 @@ const AntimicrobialResistanceBlogPage = () => {
 
       <div className="mt-16 mb-16">
         <NextButton
-          href="/blog-and-interview/blog/bridging-the-gaps-strengthening-mental-healthcare-to-build-a-resilient-health-system-in-bangladesh"
+          href="/blog-and-interview/blog/from-river-to-table-microplastics-as-an-emerging-public-health-concern-in-bangladesh"
           text="Next Blog"
         />
       </div>

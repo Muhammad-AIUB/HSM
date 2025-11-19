@@ -236,7 +236,7 @@ const BreakingAidDependencyBlogPage = () => {
       </div>
 
       <NextButton
-        href="/blog-and-interview/blog/bridging-the-gaps-strengthening-mental-healthcare-to-build-a-resilient-health-system-in-bangladesh"
+        href="/blog-and-interview/blog/a-nursing-development-strategy-for-bangladesh"
         text="Next Blog"
       />
     </div>

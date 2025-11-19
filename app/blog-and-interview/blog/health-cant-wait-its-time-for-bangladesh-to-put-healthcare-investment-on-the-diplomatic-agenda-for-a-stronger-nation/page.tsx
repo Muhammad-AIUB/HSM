@@ -259,7 +259,7 @@ const HealthCantWait = () => {
       <BioOfZakaria />
 
       <NextButton
-        href="/blog-and-interview/blog/bridging-the-gaps-strengthening-mental-healthcare-to-build-a-resilient-health-system-in-bangladesh"
+        href="/blog-and-interview/blog/breaking-the-aid-dependency-cycle-strategies-for-building-self-sustaining-organizations"
         text="Next Blog"
       />
     </div>

@@ -273,7 +273,7 @@ const StrengtheningHealthcareQualityBlogPage = () => {
 
       <div className="mt-16 mb-16">
         <NextButton
-          href="/blog-and-interview/blog/breaking-the-aid-dependency-cycle-strategies-for-building-self-sustaining-organizations"
+          href="/blog-and-interview/blog/antimicrobial-resistance-in-bangladesh-a-public-health-reckoning"
           text="Next Blog"
         />
       </div>
