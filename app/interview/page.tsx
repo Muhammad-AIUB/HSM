@@ -204,6 +204,15 @@ const interviews = [
     image: "/images/blog-interview/interview/samina.jpg",
     slug: "implementing-global-health-dr-samina-choudhury",
   },
+  {
+    id: 19,
+    title: "Exploring Global Health and Cancer Research with Dr. Javed Iqbal",
+    date: "November 28, 2025",
+    description:
+      "Dr. Javed Iqbal – Global Health Academic and Cancer Researcher shares insights on cancer research, global health disparities, and his work on Project ABCD to establish molecular testing capabilities in Bangladesh.",
+    image: "/images/blog-interview/interview/javed.jpeg",
+    slug: "exploring-global-health-and-cancer-research-with-dr-javed-iqbal",
+  },
 ];
 
 const InterviewPage = () => {
