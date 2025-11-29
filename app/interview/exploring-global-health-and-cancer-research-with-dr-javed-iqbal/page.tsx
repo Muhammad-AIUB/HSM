@@ -3,6 +3,7 @@ import Link from "next/link";
 
 import { FaLinkedin } from "react-icons/fa";
 
+
 import Heading from "../a-leading-voice-in-global-health-systems/components/Heading";
 
 import BioOfJavedIqbal from "./BioOfJavedIqbal";
