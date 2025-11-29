@@ -19,7 +19,7 @@ const ExploringGlobalHealthAndCancerResearch = () => {
             >
               Exploring Global Health and Cancer Research with{" "}
               <a
-                href="https://www.linkedin.com/in/jabed-iqbal-45501919/"
+                href="https://www.linkedin.com/in/javed-iqbal-45501919/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#001844] underline font-extrabold bg-[#FFCE00] px-2 rounded-md"
@@ -49,7 +49,7 @@ const ExploringGlobalHealthAndCancerResearch = () => {
               <p className="text-xl font-semibold text-gray-800 mb-3 flex items-center gap-4">
                 — Dr. Javed Iqbal – Global Health Academic and Cancer Researcher
                 <a
-                  href="https://www.linkedin.com/in/jabed-iqbal-45501919/"
+                  href="https://www.linkedin.com/in/javed-iqbal-45501919/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className=""
@@ -150,9 +150,9 @@ const ExploringGlobalHealthAndCancerResearch = () => {
 
         {/* Career And Academic Journey end */}
 
-        {/* Get to Know Dr. Jabed Iqbal start */}
+        {/* Get to Know Dr. Javed Iqbal start */}
 
-        <Heading>Get to Know Dr. Jabed Iqbal</Heading>
+        <Heading>Get to Know Dr. Javed Iqbal</Heading>
 
         {/* Question 8 */}
         <div className="mb-8">
@@ -196,7 +196,7 @@ const ExploringGlobalHealthAndCancerResearch = () => {
           </p>
         </div>
 
-        {/* Get to Know Dr. Jabed Iqbal end */}
+        {/* Get to Know Dr. Javed Iqbal end */}
 
         <p className="text-[#001844] text-2xl mt-4 leading-relaxed text-center font-semibold bg-yellow-200 p-2 rounded-md">
           Interview conducted by{" "}
