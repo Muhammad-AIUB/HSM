@@ -6,7 +6,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 import Heading from "../a-leading-voice-in-global-health-systems/components/Heading";
 
-import BioOfJavedIqbal from "./BioOfJavedIqbal";
+import BioOfJabedIqbal from "./BioOfJabedIqbal";
 
 const ExploringGlobalHealthAndCancerResearch = () => {
   return (
@@ -20,12 +20,12 @@ const ExploringGlobalHealthAndCancerResearch = () => {
             >
               Exploring Global Health and Cancer Research with{" "}
               <a
-                href="https://www.linkedin.com/in/javed-iqbal-45501919/"
+                href="https://www.linkedin.com/in/jabed-iqbal-45501919/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#001844] underline font-extrabold bg-[#FFCE00] px-2 rounded-md"
               >
-                Dr. Javed Iqbal
+                Dr. Jabed Iqbal
               </a>
             </h1>
           </div>
@@ -39,7 +39,7 @@ const ExploringGlobalHealthAndCancerResearch = () => {
             <div className="w-52 h-52 shrink-0 rounded-full overflow-hidden ">
               <Image
                 src="/images/blog-interview/interview/javed.jpeg"
-                alt="Dr. Javed Iqbal"
+                alt="Dr. Jabed Iqbal"
                 width={500}
                 height={500}
                 className="object-cover object-top w-full h-full"
@@ -48,9 +48,9 @@ const ExploringGlobalHealthAndCancerResearch = () => {
 
             <div className="bg-[#FFCE00] max-w-5xl text-black p-4 sm:p-6 rounded-md shadow-md">
               <p className="text-xl font-semibold text-gray-800 mb-3 flex items-center gap-4">
-                — Dr. Javed Iqbal – Global Health Academic and Cancer Researcher
+                — Dr. Jabed Iqbal – Global Health Academic and Cancer Researcher
                 <a
-                  href="https://www.linkedin.com/in/javed-iqbal-45501919/"
+                  href="https://www.linkedin.com/in/jabed-iqbal-45501919/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className=""
@@ -79,7 +79,7 @@ const ExploringGlobalHealthAndCancerResearch = () => {
             Q. Could you briefly introduce yourself to our readers and share what drives your work in global health and medical research?
           </h2>
           <p className=" mt-2 leading-relaxed text-justify">
-            <span className="font-bold">Javed Iqbal:</span> I am a Senior Consultant Pathologist at Singapore General Hospital and Associate Professor at Duke-NUS Medical School. My journey from Dhaka Medical College in Bangladesh to a practising pathologist in Singapore has given me a unique perspective on global health disparities. What drives my work is witnessing firsthand how access to advanced diagnostics can dramatically alter patient outcomes. Having worked across Bangladesh, the United States, and Singapore, I've seen the stark differences in healthcare systems. This motivates my current efforts through the SingHealth Duke-NUS Global Health Institute, particularly Project ABCD (Advancement of Bangladesh Cancer Diagnostics), where we aim to establish good clinical practices for molecular testing in Bangladesh's healthcare system.
+            <span className="font-bold">Jabed Iqbal:</span> I am a Senior Consultant Pathologist at Singapore General Hospital and Associate Professor at Duke-NUS Medical School. My journey from Dhaka Medical College in Bangladesh to a practising pathologist in Singapore has given me a unique perspective on global health disparities. What drives my work is witnessing firsthand how access to advanced diagnostics can dramatically alter patient outcomes. Having worked across Bangladesh, the United States, and Singapore, I've seen the stark differences in healthcare systems. This motivates my current efforts through the SingHealth Duke-NUS Global Health Institute, particularly Project ABCD (Advancement of Bangladesh Cancer Diagnostics), where we aim to establish good clinical practices for molecular testing in Bangladesh's healthcare system.
           </p>
         </div>
 
@@ -89,7 +89,7 @@ const ExploringGlobalHealthAndCancerResearch = () => {
             Q. What is your current role and area of focus within the health and research landscapes?
           </h2>
           <p className=" mt-2 leading-relaxed text-justify">
-            <span className="font-bold">Javed Iqbal:</span> I serve as Senior Consultant Pathologist at Singapore General Hospital, where I've been since 2008, and as Associate Professor at Duke-NUS Medical School. I'm also the Vice Chair for Research in the Pathology Academic Clinical Programme and a faculty member of the SingHealth Duke-NUS Global Health Institute. My research focuses primarily on breast cancer biomarkers, particularly in triple-negative breast cancer (TNBC), and hematological malignancies. This involves studying immune response markers and hypoxia-related proteins that influence tumor progression and treatment response.
+            <span className="font-bold">Jabed Iqbal:</span> I serve as Senior Consultant Pathologist at Singapore General Hospital, where I've been since 2008, and as Associate Professor at Duke-NUS Medical School. I'm also the Vice Chair for Research in the Pathology Academic Clinical Programme and a faculty member of the SingHealth Duke-NUS Global Health Institute. My research focuses primarily on breast cancer biomarkers, particularly in triple-negative breast cancer (TNBC), and hematological malignancies. This involves studying immune response markers and hypoxia-related proteins that influence tumor progression and treatment response.
           </p>
         </div>
 
@@ -99,7 +99,7 @@ const ExploringGlobalHealthAndCancerResearch = () => {
             Q. Your contributions to cancer research have been published in leading journals. What are the biggest challenges to making advanced cancer treatment more accessible in Bangladesh?
           </h2>
           <p className=" mt-2 leading-relaxed text-justify">
-            <span className="font-bold">Javed Iqbal:</span> The primary challenges are infrastructure, expertise, and standardization. While Bangladesh has talented clinicians, there's a critical gap in molecular diagnostics and companion testing capabilities that are essential for personalized cancer treatment. Many patients who could benefit from targeted therapies lack access to the biomarker testing needed to guide treatment decisions. This is why I've initiated Project ABCD—to establish standardized molecular testing protocols and build local capacity. Additionally, the cost of advanced diagnostics remains prohibitive for many patients, and there is very limited integration between pathology services and clinical oncology. We need systematic approaches to training, quality assurance, and creating sustainable diagnostic networks.
+            <span className="font-bold">Jabed Iqbal:</span> The primary challenges are infrastructure, expertise, and standardization. While Bangladesh has talented clinicians, there's a critical gap in molecular diagnostics and companion testing capabilities that are essential for personalized cancer treatment. Many patients who could benefit from targeted therapies lack access to the biomarker testing needed to guide treatment decisions. This is why I've initiated Project ABCD—to establish standardized molecular testing protocols and build local capacity. Additionally, the cost of advanced diagnostics remains prohibitive for many patients, and there is very limited integration between pathology services and clinical oncology. We need systematic approaches to training, quality assurance, and creating sustainable diagnostic networks.
           </p>
         </div>
 
@@ -109,7 +109,7 @@ const ExploringGlobalHealthAndCancerResearch = () => {
             Q. If you had unlimited funding for one global health project, what would you do and why?
           </h2>
           <p className=" mt-2 leading-relaxed text-justify">
-            <span className="font-bold">Javed Iqbal:</span> I would establish a comprehensive South Asian Cancer Diagnostics and Research Network. This would create centers of excellence across the region with state-of-the-art molecular pathology capabilities, standardized testing protocols, and robust training programs. Critically, it would include a telemedicine platform connecting pathologists across institutions for consultation and quality assurance, and a biobank for research into cancers prevalent in South Asian populations. The network could enable precision medicine, generate region-specific research data, train the next generation of pathologists, and improve access to advanced cancer diagnostics across economic boundaries.
+            <span className="font-bold">Jabed Iqbal:</span> I would establish a comprehensive South Asian Cancer Diagnostics and Research Network. This would create centers of excellence across the region with state-of-the-art molecular pathology capabilities, standardized testing protocols, and robust training programs. Critically, it would include a telemedicine platform connecting pathologists across institutions for consultation and quality assurance, and a biobank for research into cancers prevalent in South Asian populations. The network could enable precision medicine, generate region-specific research data, train the next generation of pathologists, and improve access to advanced cancer diagnostics across economic boundaries.
           </p>
         </div>
 
@@ -125,7 +125,7 @@ const ExploringGlobalHealthAndCancerResearch = () => {
             Q. Can you walk us through your journey—from studying medicine at Dhaka University to becoming a global health consultant and academic based in Singapore?
           </h2>
           <p className=" mt-2 leading-relaxed text-justify">
-            <span className="font-bold">Javed Iqbal:</span> My journey has been unconventional and circuitous but purposeful. After earning my MBBS from Dhaka Medical College in 1986, I worked as a Medical Officer at the Institute of Nuclear Medicine in Dhaka. However, my curiosity about disease mechanisms led me to pursue a PhD in molecular biology at Allegheny University in Philadelphia, where I studied mitochondrial gene transcription regulation. Following my doctorate, I completed postdoctoral fellowships in immunology and biochemistry, which gave me strong research foundations. The transition to pathology felt natural—it combined my molecular biology expertise with direct patient impact. I completed my residency at North Shore University Hospital in New York, followed by fellowships in oncologic pathology at Roswell Park Cancer Institute and hematopathology at Drexel University. In 2008, I joined Singapore General Hospital, attracted by its commitment to both clinical excellence and research. Singapore's multicultural environment and strong research infrastructure have allowed me to bridge clinical practice, academic teaching, and global health initiatives.
+            <span className="font-bold">Jabed Iqbal:</span> My journey has been unconventional and circuitous but purposeful. After earning my MBBS from Dhaka Medical College in 1986, I worked as a Medical Officer at the Institute of Nuclear Medicine in Dhaka. However, my curiosity about disease mechanisms led me to pursue a PhD in molecular biology at Allegheny University in Philadelphia, where I studied mitochondrial gene transcription regulation. Following my doctorate, I completed postdoctoral fellowships in immunology and biochemistry, which gave me strong research foundations. The transition to pathology felt natural—it combined my molecular biology expertise with direct patient impact. I completed my residency at North Shore University Hospital in New York, followed by fellowships in oncologic pathology at Roswell Park Cancer Institute and hematopathology at Drexel University. In 2008, I joined Singapore General Hospital, attracted by its commitment to both clinical excellence and research. Singapore's multicultural environment and strong research infrastructure have allowed me to bridge clinical practice, academic teaching, and global health initiatives.
           </p>
         </div>
 
@@ -135,7 +135,7 @@ const ExploringGlobalHealthAndCancerResearch = () => {
             Q. Across your PhD and various professional degrees earned around the world, what has been the most valuable lesson you've learned?
           </h2>
           <p className=" mt-2 leading-relaxed text-justify">
-            <span className="font-bold">Javed Iqbal:</span> The most valuable lesson has been that expertise without context is incomplete. My molecular biology training taught me rigorous scientific methodology, but my clinical training showed me that diseases don't present in textbook fashion—they're influenced by genetics, environment, socioeconomics, and healthcare access. Working across three continents taught me that solutions must be contextually appropriate. A diagnostic approach that works in Singapore may not work in Bangladesh and may need substantial modification. This has shaped my approach to global health—it's not about transplanting or transferring solutions, but about understanding local challenges and at the same time creating sustainable and culturally appropriate interventions. Additionally, I've learned that mentorship and knowledge transfer are as important as personal achievement-or maybe more. The impact we have through training the next generation of physician scientists often exceeds our individual contributions.
+            <span className="font-bold">Jabed Iqbal:</span> The most valuable lesson has been that expertise without context is incomplete. My molecular biology training taught me rigorous scientific methodology, but my clinical training showed me that diseases don't present in textbook fashion—they're influenced by genetics, environment, socioeconomics, and healthcare access. Working across three continents taught me that solutions must be contextually appropriate. A diagnostic approach that works in Singapore may not work in Bangladesh and may need substantial modification. This has shaped my approach to global health—it's not about transplanting or transferring solutions, but about understanding local challenges and at the same time creating sustainable and culturally appropriate interventions. Additionally, I've learned that mentorship and knowledge transfer are as important as personal achievement-or maybe more. The impact we have through training the next generation of physician scientists often exceeds our individual contributions.
           </p>
         </div>
 
@@ -145,15 +145,15 @@ const ExploringGlobalHealthAndCancerResearch = () => {
             Q. In your experience, what three core skills are essential for emerging researchers in global health?
           </h2>
           <p className=" mt-2 leading-relaxed text-justify">
-            <span className="font-bold">Javed Iqbal:</span> First, interdisciplinary thinking—global health problems are rarely solved by a single discipline. You need to understand how basic science, clinical medicine, public health, economics, and policy intersect. Second, cultural humility and adaptability—the ability to listen, learn from local communities, and adapt your approach based on ground realities is crucial. What works in one setting may fail in another, and the best solutions often come from those closest to the problem. Third, rigorous methodology combined with practical problem-solving—you need strong research skills and the ability to generate high-quality evidence, but also the creativity or innovation to work within resource constraints and implement solutions that are sustainable. I will also add that perseverance is essential—meaningful change in global health requires long-term commitment, not just short-term projects.
+            <span className="font-bold">Jabed Iqbal:</span> First, interdisciplinary thinking—global health problems are rarely solved by a single discipline. You need to understand how basic science, clinical medicine, public health, economics, and policy intersect. Second, cultural humility and adaptability—the ability to listen, learn from local communities, and adapt your approach based on ground realities is crucial. What works in one setting may fail in another, and the best solutions often come from those closest to the problem. Third, rigorous methodology combined with practical problem-solving—you need strong research skills and the ability to generate high-quality evidence, but also the creativity or innovation to work within resource constraints and implement solutions that are sustainable. I will also add that perseverance is essential—meaningful change in global health requires long-term commitment, not just short-term projects.
           </p>
         </div>
 
         {/* Career And Academic Journey end */}
 
-        {/* Get to Know Dr. Javed Iqbal start */}
+        {/* Get to Know Dr. Jabed Iqbal start */}
 
-        <Heading>Get to Know Dr. Javed Iqbal</Heading>
+        <Heading>Get to Know Dr. Jabed Iqbal</Heading>
 
         {/* Question 8 */}
         <div className="mb-8">
@@ -161,7 +161,7 @@ const ExploringGlobalHealthAndCancerResearch = () => {
             Q. Who would you consider your global health hero, and how has their work influenced your own?
           </h2>
           <p className=" mt-2 leading-relaxed text-justify">
-            <span className="font-bold">Javed Iqbal:</span> I don't follow a single global health hero. My motivation is more direct—it comes from patients I encountered early in my career in Bangladesh who lacked access to diagnostics that were routine elsewhere. Those disparities weren't abstract statistics; they were individual people whose outcomes could have been different.
+            <span className="font-bold">Jabed Iqbal:</span> I don't follow a single global health hero. My motivation is more direct—it comes from patients I encountered early in my career in Bangladesh who lacked access to diagnostics that were routine elsewhere. Those disparities weren't abstract statistics; they were individual people whose outcomes could have been different.
           </p>
           <p className=" mt-2 leading-relaxed text-justify">
             I've learned from many colleagues along the way—particularly pathologists working in resource-limited settings who've shown that sophisticated diagnostics are possible with appropriate training and systems. But my approach has been shaped more by ground realities than by any particular leader's model. Working across Bangladesh, the United States, and Singapore taught me that each context requires different solutions, and the best insights often come from local healthcare workers who understand their communities intimately.
@@ -180,7 +180,7 @@ const ExploringGlobalHealthAndCancerResearch = () => {
             Q. Could you tell us about a book you're currently reading and one key insight you've taken from it?
           </h2>
           <p className=" mt-2 leading-relaxed text-justify">
-            <span className="font-bold">Javed Iqbal:</span> I am currently reading "An Uncertain Glory: India and Its Contradictions" by Amartya Sen and Jean Drèze. One insight that struck me is their argument that economic growth or prosperity does not automatically translate into health equity—it requires focused investment in equitable public services.
+            <span className="font-bold">Jabed Iqbal:</span> I am currently reading "An Uncertain Glory: India and Its Contradictions" by Amartya Sen and Jean Drèze. One insight that struck me is their argument that economic growth or prosperity does not automatically translate into health equity—it requires focused investment in equitable public services.
           </p>
           <p className=" mt-2 leading-relaxed text-justify">
             This mirrors exactly what I see with cancer diagnostics in Bangladesh. Economic progress, albeit fragmented, has not automatically created access to cancer testing. Sen and Drèze's concept of "capability expansion"—ensuring people have actual ability to access services, not just theoretical availability—has reinforced my approach with Project ABCD. It's not enough to introduce technology; we must ensure affordability, build local capacity, and integrate services into existing systems. Health equity requires systematic intervention, not just economic development.
@@ -193,11 +193,11 @@ const ExploringGlobalHealthAndCancerResearch = () => {
             Q. Do you have plans to return to Bangladesh to contribute your expertise?
           </h2>
           <p className=" mt-2 leading-relaxed text-justify">
-            <span className="font-bold">Javed Iqbal:</span> While Singapore remains my base, I'm actively contributing to Bangladesh through Project ABCD and other collaborations. My goal isn't necessarily permanent relocation but rather building sustainable capacity that doesn't depend on any single individual. I'm working to establish standardized molecular testing protocols, train local pathologists and laboratory personnel, and create quality assurance systems that will persist beyond my direct involvement. I regularly return to Bangladesh for workshops, consultations, and to strengthen institutional partnerships. I believe the most impactful contribution isn't transplanting expertise temporarily, but rather creating systems and training local experts who can drive continued improvement. That said, I remain open to opportunities where I can make the greatest impact—whether that's in Bangladesh, Singapore, or through regional collaborations.
+            <span className="font-bold">Jabed Iqbal:</span> While Singapore remains my base, I'm actively contributing to Bangladesh through Project ABCD and other collaborations. My goal isn't necessarily permanent relocation but rather building sustainable capacity that doesn't depend on any single individual. I'm working to establish standardized molecular testing protocols, train local pathologists and laboratory personnel, and create quality assurance systems that will persist beyond my direct involvement. I regularly return to Bangladesh for workshops, consultations, and to strengthen institutional partnerships. I believe the most impactful contribution isn't transplanting expertise temporarily, but rather creating systems and training local experts who can drive continued improvement. That said, I remain open to opportunities where I can make the greatest impact—whether that's in Bangladesh, Singapore, or through regional collaborations.
           </p>
         </div>
 
-        {/* Get to Know Dr. Javed Iqbal end */}
+        {/* Get to Know Dr. Jabed Iqbal end */}
 
         <p className="text-[#001844] text-2xl mt-4 leading-relaxed text-center font-semibold bg-yellow-200 p-2 rounded-md">
           Interview conducted by{" "}
@@ -210,7 +210,7 @@ const ExploringGlobalHealthAndCancerResearch = () => {
         </p>
       </div>
 
-      <BioOfJavedIqbal />
+      <BioOfJabedIqbal />
       <div className="flex justify-center my-8">
         <Link
           href="/interview/public-health-insights-1"

@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-const BioOfJavedIqbal = () => {
+const BioOfJabedIqbal = () => {
   const [isExpanded, setIsExpanded] = useState(false);
 
   return (
@@ -12,14 +12,14 @@ const BioOfJavedIqbal = () => {
         onClick={() => setIsExpanded(!isExpanded)}
         className="cursor-pointer text-3xl md:text-4xl font-extrabold text-gray-800 text-center "
       >
-        About Dr. Javed Iqbal
+        About Dr. Jabed Iqbal
         <span className="block w-24 h-1 bg-[#FFCE00] mx-auto mt-2 rounded-full"></span>
       </h2>
 
       <div className="overflow-hidden relative max-w-screen-md mx-auto">
         <div className="py-6 font-medium">
           <p className=" text-gray-700 mt-2 leading-relaxed text-justify">
-            Dr. Javed Iqbal is a Senior Consultant in Anatomical Pathology at Singapore General Hospital (SGH) and Associate Professor at Duke-NUS Medical School. With an MBBS from Dhaka Medical College and a PhD in Molecular Biology, he completed pathology training in oncologic and hematopathology in the U.S., becoming American Board-certified in 2006.
+            Dr. Jabed Iqbal is a Senior Consultant in Anatomical Pathology at Singapore General Hospital (SGH) and Associate Professor at Duke-NUS Medical School. With an MBBS from Dhaka Medical College and a PhD in Molecular Biology, he completed pathology training in oncologic and hematopathology in the U.S., becoming American Board-certified in 2006.
           </p>
           <p className=" text-gray-700 mt-2 leading-relaxed text-justify">
             His research expertise centers on triple-negative breast cancer and hematological malignancies, with a strong focus on immune response, hypoxia-related biomarkers, and epigenetic regulation. He leads the Translational Research and Innovation Laboratory (TRAIL) and A*STAR Diagnostics Development Hub. He also holds the position of Vice-chair of research in SingHealth Pathology Academic Clinical Program.
@@ -33,5 +33,5 @@ const BioOfJavedIqbal = () => {
   );
 };
 
-export default BioOfJavedIqbal;
+export default BioOfJabedIqbal;
 

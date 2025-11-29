@@ -206,10 +206,10 @@ const interviews = [
   },
   {
     id: 19,
-    title: "Exploring Global Health and Cancer Research with Dr. Javed Iqbal",
+    title: "Exploring Global Health and Cancer Research with Dr. Jabed Iqbal",
     date: "November 28, 2025",
     description:
-      "Dr. Javed Iqbal – Global Health Academic and Cancer Researcher shares insights on cancer research, global health disparities, and his work on Project ABCD to establish molecular testing capabilities in Bangladesh.",
+      "Dr. Jabed Iqbal – Global Health Academic and Cancer Researcher shares insights on cancer research, global health disparities, and his work on Project ABCD to establish molecular testing capabilities in Bangladesh.",
     image: "/images/blog-interview/interview/javed.jpeg",
     slug: "exploring-global-health-and-cancer-research-with-dr-javed-iqbal",
   },
