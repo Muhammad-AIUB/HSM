@@ -1,6 +1,6 @@
 "use client";
 
-import { FaGlobe, FaEnvelope } from "react-icons/fa";
+import { FaGlobe } from "react-icons/fa";
 
 const BioOfArefinIslam = () => {
   return (
