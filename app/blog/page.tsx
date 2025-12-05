@@ -104,6 +104,14 @@ const blogs = [
     type: "blog",
     thumbnail: "/images/blog-interview/Nusrat_picture.jpg",
   },
+  {
+    title: "Empowered Families, Healthier Babies",
+    description:
+      "When Amina (pseudonym), a first-time mother from a village near Dhaka, gave birth at the local Upazila Health Complex, she felt anxious about caring for her newborn. Everything changed when she attended a hospital-based health education session.",
+    date: "05 December, 2025",
+    type: "blog",
+    thumbnail: "/images/blog-interview/islam.jpg",
+  },
 ];
 
 const BlogPage = () => {

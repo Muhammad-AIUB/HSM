@@ -23,7 +23,8 @@ export const BlogCard = ({
     item.type === "blog"
       ? `/blog-and-interview/blog/${item.title
           .replace(/[:\s]+/g, "-")
-          .replace(/['’]/g, "")
+          .replace(/['']/g, "")
+          .replace(/,/g, "")
           .toLowerCase()}`
       : `/interviews/${item.title.replace(/\s+/g, "-").toLowerCase()}`;
 
@@ -54,7 +55,7 @@ export const BlogCard = ({
           )}
 
           {/* Date pill */}
-          <div className="absolute top-4 left-4 z-20 bg-[#EF4444] px-3 py-1 rounded-full text-sm font-medium text-white shadow-md backdrop-blur-sm">
+          <div className="absolute top-4 left-2 z-20 bg-[#EF4444] px-3 py-1 rounded-full text-sm font-medium text-white shadow-md backdrop-blur-sm">
             {item.date}
           </div>
 
