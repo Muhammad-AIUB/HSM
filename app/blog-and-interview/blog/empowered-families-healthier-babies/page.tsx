@@ -53,8 +53,7 @@ const EmpoweredFamiliesBlogPage = () => {
                 {/* Author Info */}
                 <div className="flex-1 text-center lg:text-left">
                   <h2 className="text-3xl font-bold text-[#001844] mb-2">Dr. Arefin Islam</h2>
-                  <p className="text-xl text-[#2D8CBB] mb-2">A Global Health Expert and Former Ex-Country Director, Noora Health</p>
-                  <p className="text-lg text-gray-600 mb-4">Bangladesh</p>
+                  <p className="text-xl text-[#2D8CBB] mb-4">A Global Health Expert and Former Ex-Country Director, Noora Health Bangladesh</p>
                   
                   <div className="flex items-center justify-center lg:justify-start gap-4">
                     <a
