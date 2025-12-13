@@ -34,13 +34,7 @@ const NewsletterPage = () => {
     <div className="pb-16">
       <SectionTitleWithSub
         title="Newsletter"
-        subTitle="The Health Systems Matter Newsletter provides valuable insights
-              and resources on global health, upcoming events, and career
-              opportunities. Subscribers receive periodic emails, preferably
-              monthly, featuring highlights from our recent social media posts,
-              new blogs, interviews, and more. The newsletter also covers
-              significant global health topics and news from around the world,
-              keeping you updated and informed."
+        subTitle="The Health Systems Matter Newsletter provides valuable insights and resources on global health, upcoming events, and career opportunities. Subscribers will receive periodic emails monthly - featuring highlights from our recent social media posts, new blogs, interviews, and more. The newsletter also covers significant global health topics and news from around the world, keeping you updated and informed."
       />
 
       {/* Content */}

@@ -43,13 +43,7 @@ const NewsPage = () => {
     <div className="pb-16">
       <SectionTitleWithSub
         title="News"
-        subTitle="This section features Upcoming Events, which covers key global
-              health conferences, symposiums, webinars, campaigns, and health
-              days. On the other hand, Headline News cover current major global
-              health issues demanding global attention. Meanwhile, the Do You
-              Know highlights significant public health milestones and
-              fascinating facts. Explore a curated list of notable health days
-              and activities focused on global health."
+        subTitle="This section features Upcoming Events, which covers key global health conferences, symposiums, webinars, campaigns, and health days. Headline News covers current major global health issues demanding global attention. Do You Know shares notable public health milestones and facts, offering insight into significant developments in global health."
       />
 
       {/* Content */}

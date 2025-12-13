@@ -6,15 +6,17 @@ const StayConnectePage = () => {
       <div className="border-t-2 pt-10 pb-24 max-w-4xl mx-auto px-12">
         <h2 className="text-3xl font-bold">Hello 👋</h2>
         <p className="mt-4 text-lg">
-          Thank you for your interest. Whether you have a question, are eager to
-          collaborate, or simply want to connect, I&apos;m always happy to hear
-          from you. Even, any kind of feedback is also highly appreciated. Feel
-          free to leave a message, and I&apos;ll get back to you as soon as
+          Thank you for your interest.
+        </p>
+        <p className="mt-4 text-lg">
+          Whether you have a question, want to collaborate, or simply connect, we are always happy to hear
+          from you. Any form of feedback is highly appreciated. Please
+          leave a message, and we&apos;ll respond as soon as
           possible.
         </p>
         <p className="text-blue-500 font-bold mt-4 text-xl">
-          There is nothing more exciting than hearing from you. Your feedback
-          helps us better!
+          There is nothing more exciting than hearing from you. Your input
+          helps us improve and serve you better.
         </p>
         <ContactForm />
         <NextButton text="Next" href="/support-hsm" />
