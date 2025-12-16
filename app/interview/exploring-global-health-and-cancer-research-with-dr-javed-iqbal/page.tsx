@@ -213,7 +213,7 @@ const ExploringGlobalHealthAndCancerResearch = () => {
       <BioOfJabedIqbal />
       <div className="flex justify-center my-8">
         <Link
-          href="/interview/public-health-insights-1"
+          href="/interview/in-conversation-with-prof-jahangir-khan-global-health-economist-and-researcher"
           className="mt-4 font-bold text-xl bg-[#FFCE00] text-black px-4 py-2 hover:text-white hover:bg-[#2D8CBB]   transition ease-in-out duration-200"
         >
           Next Interview
