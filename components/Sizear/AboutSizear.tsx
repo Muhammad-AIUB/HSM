@@ -31,7 +31,7 @@ const AboutSizear = () => {
               <span className="text-yellow-500">|</span>{" "}
               <span className=" font-medium">Health System Activist</span>{" "}
               <span className="text-yellow-500">|</span>{" "}
-              <span className=" font-medium">Aspiring Writer</span>
+              <span className=" font-medium">Contributing Writer</span>
             </p>
           </div>
 
