@@ -39,8 +39,8 @@ const interviews = [
   {
     id: 20,
     title:
-      "IN CONVERSATION WITH PROF. JAHANGIR KHAN: GLOBAL HEALTH ECONOMIST AND RESEARCHER",
-    date: "December 19, 2025",
+      "In Conversation with Prof. Jahangir Khan: Global Health Economist and Researcher",
+    date: "December 21, 2025",
     description:
       "Prof. Dr. Jahangir Khan, Health Economist & Academician at the University of Gothenburg, shares insights on health financing, Universal Health Coverage, and essential skills for future health economists.",
     image: "/images/blog-interview/interview/JAHANGIR KHAN.jpeg",

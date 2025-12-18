@@ -118,9 +118,33 @@ const InConversationWithProfJahangirKhan = () => {
             and professional growth?
           </h2>
           <p className=" mt-2 leading-relaxed text-justify">
-            <span className="font-bold">Dr. Jahangir Khan:</span> Professor Bjarne Jansson at the
-            department of Public Health Sciences of Karolinska Institutet and Professor Ulf-G Gerdtham at
-            the department of Economics of Lund University in Sweden. In addition, Professor Clas Rehnberg
+            <span className="font-bold">Dr. Jahangir Khan:</span>{" "}
+            <a
+              href="https://www.linkedin.com/in/bjarne-jansson-a2a62916/?originalSubdomain=se"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-700 underline font-semibold"
+            >
+              Professor Bjarne Jansson
+            </a>{" "}
+            at the department of Public Health Sciences of Karolinska Institutet and{" "}
+            <a
+              href="https://portal.research.lu.se/en/persons/ulf-gerdtham/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-700 underline font-semibold"
+            >
+              Professor Ulf-G Gerdtham
+            </a>{" "}
+            at the department of Economics of  Lund University in Sweden. In addition,{" "}
+            <a
+              href="https://ki.se/en/people/clas-rehnberg"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-700 underline font-semibold"
+            >
+              Professor Clas Rehnberg
+            </a>{" "}
             from Karolinska Institutet, who contributed to my career largely.
           </p>
         </div>
@@ -241,7 +265,7 @@ const InConversationWithProfJahangirKhan = () => {
             Q. In your view, what are the top three skills essential for success in health economics?
           </h2>
           <p className=" mt-2 leading-relaxed text-justify">
-            <span className="font-bold">Dr. Jahangir Khan:</span>
+            <span className="font-bold">Dr. Jahangir Khan:</span>{" "}
           </p>
           <p className=" mt-2 leading-relaxed text-justify">
             1) Understanding human behavior toward maintaining good health—conceptually and in practice.
@@ -254,23 +278,12 @@ const InConversationWithProfJahangirKhan = () => {
             is inevitable.
           </p>
           <p className=" mt-2 leading-relaxed text-justify">
-            2) Extracting appropriate quantitative data and analyzing it with theory in mind. Numbers alone
-            are not enough. You must know how to gather the right data—administrative data, surveys, costing
-            information, service utilization patterns—and then apply appropriate analytical methods. More
-            importantly, analysis should be grounded in economic theory: demand and supply, opportunity
-            cost, externalities, incentives, equity, and distribution. This ensures your findings explain
-            why something is happening, not just what is happening. The best health economists maintain a
-            tight feedback loop between real-world data and the conceptual frameworks guiding their
-            analysis.
+            2) Extracting appropriate quantitative data and analyzing it with theory in mind.
+            Numbers alone are not enough. You must know how to gather the right data—administrative data, surveys, costing information, service utilization patterns—and then apply appropriate analytical methods. More importantly, analysis should be grounded in economic theory: demand and supply, opportunity cost, externalities, incentives, equity, and distribution. This ensures your findings explain why something is happening, not just what is happening. The best health economists maintain a tight feedback loop between real-world data and the conceptual frameworks guiding their analysis.
           </p>
           <p className=" mt-2 leading-relaxed text-justify">
-            3) Translating evidence into policy. Evidence only matters if people can use it. Health
-            economists must be skilled at translating complex findings into clear, actionable guidance for
-            decision-makers. That means understanding policy windows, institutional constraints, and
-            stakeholder priorities. It also means communicating without jargon and offering practical
-            choices—not just pointing out problems. The ability to move from analysis to policy—budgeting,
-            benefit packages, payment mechanisms, regulation—ultimately determines whether your work
-            improves health systems or stays confined to papers and presentations.
+            3) Translating evidence into policy.
+            Evidence only matters if people can use it. Health economists must be skilled at translating complex findings into clear, actionable guidance for decision-makers. That means understanding policy windows, institutional constraints, and stakeholder priorities. It also means communicating without jargon and offering practical choices—not just pointing out problems. The ability to move from analysis to policy—budgeting, benefit packages, payment mechanisms, regulation—ultimately determines whether your work improves health systems or stays confined to papers and presentations.
           </p>
         </div>
 
