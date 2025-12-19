@@ -255,10 +255,6 @@ const InConversationWithProfJahangirKhan = () => {
 
         {/* Global Health Impact and Career Prospects end */}
 
-        {/* Skills for Health Economics start */}
-
-        <Heading>Skills for Health Economics</Heading>
-
         {/* Question 8 */}
         <div className="mb-8">
           <h2 className="text-xl font-bold text-[#2D8CBB] text-justify">
@@ -286,8 +282,6 @@ const InConversationWithProfJahangirKhan = () => {
             Evidence only matters if people can use it. Health economists must be skilled at translating complex findings into clear, actionable guidance for decision-makers. That means understanding policy windows, institutional constraints, and stakeholder priorities. It also means communicating without jargon and offering practical choices—not just pointing out problems. The ability to move from analysis to policy—budgeting, benefit packages, payment mechanisms, regulation—ultimately determines whether your work improves health systems or stays confined to papers and presentations.
           </p>
         </div>
-
-        {/* Skills for Health Economics end */}
 
         {/* Get to know Jahangir Khan start */}
 
