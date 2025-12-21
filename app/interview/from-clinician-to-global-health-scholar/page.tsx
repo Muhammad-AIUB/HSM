@@ -62,7 +62,7 @@ const FromClinicianToGlobalHealthScholar = () => {
 
       {/* Interview Content */}
       <div className="max-w-screen-md mx-auto px-12 py-8 bg-white ">
-        <h2 className="text-2xl font-bold text-[#C2185B] mb-6">
+        <h2 className="text-2xl md:text-[24px] font-bold text-[#C2185B] mb-6">
           <span className="border-b-4 border-red-600 pb-1 inline-block w-fit">Global Health Questions</span>
         </h2>
         {/* Q1 */}
@@ -136,7 +136,7 @@ const FromClinicianToGlobalHealthScholar = () => {
             </li>
           </ol>
         </div>
-        <h3 className="text-xl font-bold text-[#C2185B] mb-6">
+        <h3 className="text-2xl md:text-[24px] font-bold text-[#C2185B] mb-6">
           <span className="border-b-4 border-red-600 pb-1 inline-block w-fit">Get to know Mohit Chowdhury</span>
         </h3>
         {/* Q7 */}

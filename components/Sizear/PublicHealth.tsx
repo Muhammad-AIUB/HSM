@@ -5,6 +5,12 @@ import { colors } from "@/lib/utils";
 const PublicHealth = () => {
   const articles = [
     {
+      title: "Clear vision changes lives",
+      year: "2025",
+      link: "https://thefinancialexpress.com.bd/views/reviews/clear-vision-changes-lives",
+      source: "The Financial Express",
+    },
+    {
       title:
         "Bangladesh struggles to achieve 2035 tuberculosis elimination goal",
       year: "2025",
