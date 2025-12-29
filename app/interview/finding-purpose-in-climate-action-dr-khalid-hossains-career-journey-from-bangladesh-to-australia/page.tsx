@@ -24,9 +24,9 @@ const FindingPurposeInClimateAction = () => {
                 rel="noopener noreferrer"
                 className="bg-[#FFCE00] px-2 rounded-md underline"
               >
-                DR. KHALID HOSSAIN
-              </a>
-              'S CAREER JOURNEY FROM BANGLADESH TO AUSTRALIA
+                DR. KHALID HOSSAIN'S
+              </a>{" "}
+              CAREER JOURNEY FROM BANGLADESH TO AUSTRALIA
             </h1>
           </div>
         </div>
