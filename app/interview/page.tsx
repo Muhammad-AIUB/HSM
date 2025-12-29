@@ -37,6 +37,14 @@ interface Interview {
 
 const interviews = [
   {
+    id: 21,
+    title: "Finding Purpose in Climate Action: Dr. Khalid Hossain's Career Journey from Bangladesh to Australia",
+    date: "January 1, 2026",
+    description: "Dr. Md Khalid Hossain, Researcher & Academician at Monash University, shares insights on climate resilience, digital transformation, and community-centered health systems.",
+    image: "/images/blog-interview/interview/Md Khalid Hossain.jpg",
+    slug: "finding-purpose-in-climate-action-dr-khalid-hossains-career-journey-from-bangladesh-to-australia",
+  },
+  {
     id: 20,
     title:
       "In Conversation with Prof. Jahangir Khan: Global Health Economist and Researcher",
