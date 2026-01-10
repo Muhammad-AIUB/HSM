@@ -22,9 +22,8 @@ export const BlogCard = ({
   const pageLink =
     item.type === "blog"
       ? `/blog-and-interview/blog/${item.title
-          .replace(/[:\s]+/g, "-")
-          .replace(/['']/g, "")
-          .replace(/,/g, "")
+          .replace(/[^a-zA-Z0-9\s-]/g, "") // Remove all non-alphanumeric characters except spaces and hyphens
+          .replace(/\s+/g, "-") // Replace spaces with a single hyphen
           .toLowerCase()}`
       : `/interviews/${item.title.replace(/\s+/g, "-").toLowerCase()}`;
 

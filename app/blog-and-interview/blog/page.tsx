@@ -155,6 +155,20 @@ const BlogPage = () => {
               "/images/blog-interview/Nusrat_picture.jpg",
           }}
         />
+
+        <BlogCard
+          key="strengthening-postnatal-care"
+          item={{
+            title:
+              "Strengthening Postnatal Care and Tuberculosis Management",
+            description:
+              "Postnatal care (PNC) is vital for maternal and newborn survival, yet coverage in South-East Asia remains uneven. Nearly half of women (46%) receive comprehensive services, while 8% receive none. Rural, low-income, and less-educated families are disproportionately excluded.",
+            date: "11 January, 2026",
+            type: "blog",
+            thumbnail:
+              "/images/blog-interview/DrHyder3.jpg",
+          }}
+        />
       </div>
     </div>
   );

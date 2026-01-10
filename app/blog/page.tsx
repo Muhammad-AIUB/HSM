@@ -24,8 +24,7 @@ import RezaulKarim from "@/public/images/blog-interview/Rezaul Karim.jpg";
 
 const blogs = [
   {
-    title:
-      "Bridging the Gaps: Strengthening Mental Healthcare to Build a Resilient Health System in Bangladesh",
+    title: "Bridging the Gaps: Strengthening Mental Healthcare to Build a Resilient Health System in Bangladesh",
     description:
       "Mental health remains a critical yet often neglected aspect of Bangladesh's healthcare system. The country faces significant challenges.",
     date: "May 01, 2025",
@@ -33,8 +32,7 @@ const blogs = [
     thumbnail: TasdipDip,
   },
   {
-    title:
-      "Overcoming Budget Bottlenecks: Ensuring Effective Health Financing for Universal Health Coverage in Bangladesh",
+    title: "Overcoming Budget Bottlenecks: Ensuring Effective Health Financing for Universal Health Coverage in Bangladesh",
     description:
       "To achieve Universal Health Coverage and the Sustainable Development Goals, at least 15% of total budget and 4-5% of gross domestic product (GDP) should be invested in healthcare in Bangladesh. However, t",
     date: "May 02, 2025",
@@ -42,8 +40,7 @@ const blogs = [
     thumbnail: ShahPoran,
   },
   {
-    title:
-      "Beyond the Silence: Why Bangladesh Needs Comprehensive Sexuality Education Now",
+    title: "Beyond the Silence: Why Bangladesh Needs Comprehensive Sexuality Education Now",
     description:
       "To achieve Universal Health Coverage and the Sustainable Development Goals, at least 15% of total budget and 4-5% of gross domestic product (GDP) should be invested in healthcare in Bangladesh. However, t",
     date: "May 15, 2025",
@@ -51,8 +48,7 @@ const blogs = [
     thumbnail: Himika,
   },
   {
-    title:
-      "Health Can't Wait: It's Time for Bangladesh to Put Healthcare Investment on the Diplomatic Agenda for a Stronger Nation",
+    title: "Health Can't Wait: It's Time for Bangladesh to Put Healthcare Investment on the Diplomatic Agenda for a Stronger Nation",
     description:
       "To achieve Universal Health Coverage and the Sustainable Development Goals, at least 15% of total budget and 4-5% of gross domestic product (GDP) should be invested in healthcare in Bangladesh. However, t",
     date: "June 10, 2025",
@@ -60,8 +56,7 @@ const blogs = [
     thumbnail: Zakaria,
   },
   {
-    title:
-      "Breaking the Aid Dependency Cycle: Strategies for Building Self-Sustaining Organizations",
+    title: "Breaking the Aid Dependency Cycle: Strategies for Building Self-Sustaining Organizations",
     description:
       "When donor support ends, organizations are often seen adjusting programs, cutting staff, and hoping to survive the transition. That's what I witnessed firsthand when the USAID-funded project I worked on was cancelled.",
     date: "27 July, 2025",
@@ -69,8 +64,7 @@ const blogs = [
     thumbnail: "/images/blog-interview/afroja-yesmin.jpg.jpg",
   },
   {
-    title:
-      "A Nursing Development Strategy for Bangladesh",
+    title: "A Nursing Development Strategy for Bangladesh",
     description:
       "Increasing and improving production of nurses is widely discussed in Bangladesh. There are obvious benefits from meeting national health care needs as well as remittances by nurses who emigrate.",
     date: "12 September, 2025",
@@ -78,8 +72,7 @@ const blogs = [
     thumbnail: AlexBerland,
   },
   {
-    title:
-      "Strengthening Healthcare Quality through Supportive Supervision",
+    title: "Strengthening Healthcare Quality through Supportive Supervision",
     description:
       "A main priority for healthcare facilities is to ensure quality for universal health coverage. The healthcare system must be safe, effective, timely, efficient, equitable, and people-centered. Supportive Supervision (SS) improves provider-supervisor relationships, enhances quality, and helps avoid adverse events.",
     date: "25 September, 2025",
@@ -87,8 +80,7 @@ const blogs = [
     thumbnail: RezaulKarim,
   },
   {
-    title:
-      "Antimicrobial Resistance in Bangladesh: A Public Health Reckoning",
+    title: "Antimicrobial Resistance in Bangladesh: A Public Health Reckoning",
     description:
       "Antimicrobial resistance (AMR) has emerged as one of the most pressing public health threats of our time. In Bangladesh, where infectious diseases remain a leading cause of morbidity and mortality, the rise of resistant pathogens poses a grave challenge to the health system.",
     date: "18 October, 2025",
@@ -96,8 +88,7 @@ const blogs = [
     thumbnail: "/images/blog-interview/sharmin-huda.jpg",
   },
   {
-    title:
-      "From River to Table: Microplastics as an Emerging Public Health Concern in Bangladesh",
+    title: "From River to Table: Microplastics as an Emerging Public Health Concern in Bangladesh",
     description:
       "Bangladesh is known as the land of rivers. These waterways are the lifelines of the nation feeding millions, supporting livelihoods and shaping cultural identity. The proverb 'Mache Bhate Bangali' reflects the central role of fish in daily diets and society.",
     date: "20 October, 2025",
@@ -111,6 +102,14 @@ const blogs = [
     date: "05 December, 2025",
     type: "blog",
     thumbnail: "/images/blog-interview/islam.jpg",
+  },
+  {
+    title: "Strengthening Postnatal Care and Tuberculosis Management",
+    description:
+      "Postnatal care (PNC) is vital for maternal and newborn survival, yet coverage in South-East Asia remains uneven. Nearly half of women (46%) receive comprehensive services, while 8% receive none. Rural, low-income, and less-educated families are disproportionately excluded.",
+    date: "11 January, 2026",
+    type: "blog",
+    thumbnail: "/images/blog-interview/DrHyder3.jpg",
   },
 ];
 
@@ -127,9 +126,7 @@ const BlogPage = () => {
     if (!api) {
       return;
     }
-
     setCurrent(api.selectedScrollSnap());
-
     api.on("select", () => {
       setCurrent(api.selectedScrollSnap());
     });
@@ -180,16 +177,6 @@ const BlogPage = () => {
             align: "start",
             loop: true,
           }}
-          plugins={
-            [
-              // Autoplay({
-              //   delay: 2000,
-              //   stopOnInteraction: true,
-              //   stopOnMouseEnter: true,
-              //   stopOnFocusIn: true,
-              // }),
-            ]
-          }
           className="w-full"
           setApi={setApi}
         >
@@ -230,3 +217,4 @@ const BlogPage = () => {
 };
 
 export default BlogPage;
+
