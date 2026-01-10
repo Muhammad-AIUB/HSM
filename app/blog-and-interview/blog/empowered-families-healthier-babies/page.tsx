@@ -4,6 +4,7 @@ import Image from "next/image";
 import { BookOpen, Heart, AlertTriangle, Shield, Users, Baby } from "lucide-react";
 import { FaLinkedin } from "react-icons/fa";
 import NextButton from "@/components/Shared/NextButton";
+import { blogOrder } from "../blogOrder";
 import BioOfArefinIslam from "./BioOfArefinIslam";
 
 const EmpoweredFamiliesBlogPage = () => {
@@ -226,10 +227,18 @@ const EmpoweredFamiliesBlogPage = () => {
       <BioOfArefinIslam />
 
       <div className="mt-16 mb-16">
-        <NextButton
-          href="/blog-and-interview/blog/a-nursing-development-strategy-for-bangladesh"
-          text="Next Blog"
-        />
+        {/* Next Blog Navigation */}
+        {(() => {
+          const currentSlug = "empowered-families-healthier-babies";
+          const idx = blogOrder.findIndex((b) => b.slug === currentSlug);
+          const next = blogOrder[(idx + 1) % blogOrder.length];
+          return (
+            <NextButton
+              href={`/blog-and-interview/blog/${next.slug}`}
+              text="Next Blog"
+            />
+          );
+        })()}
       </div>
     </div>
   );

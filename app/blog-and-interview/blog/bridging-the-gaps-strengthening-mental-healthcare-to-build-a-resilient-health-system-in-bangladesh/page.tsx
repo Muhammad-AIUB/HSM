@@ -5,7 +5,10 @@ import { ArrowRight, BookText, BookOpen } from "lucide-react";
 import TasdipDip from "@/public/images/blog-interview/TasdikDip.jpg";
 import blog1 from "@/public/images/blog-interview/blog1.jpg";
 import { FaLinkedin } from "react-icons/fa";
+
 import NextButton from "@/components/Shared/NextButton";
+import { blogOrder } from "../blogOrder";
+import { usePathname } from "next/navigation";
 
 const BridgingTheGapsBlogPage = () => {
   return (
@@ -370,10 +373,18 @@ const BridgingTheGapsBlogPage = () => {
         </div>
       </div>
 
-      <NextButton
-        href="/blog-and-interview/blog/overcoming-budget-bottlenecks-ensuring-effective-health-financing-for-universal-health-coverage-in-bangladesh"
-        text="Next Blog"
-      />
+      {/* Next Blog Navigation */}
+      {(() => {
+        const currentSlug = "bridging-the-gaps-strengthening-mental-healthcare-to-build-a-resilient-health-system-in-bangladesh";
+        const idx = blogOrder.findIndex((b) => b.slug === currentSlug);
+        const next = blogOrder[(idx + 1) % blogOrder.length];
+        return (
+          <NextButton
+            href={`/blog-and-interview/blog/${next.slug}`}
+            text="Next Blog"
+          />
+        );
+      })()}
     </div>
   );
 };

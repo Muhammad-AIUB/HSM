@@ -4,6 +4,7 @@ import Image from "next/image";
 import { BookOpen, Heart, AlertTriangle, Shield, Users, Baby } from "lucide-react";
 import { FaLinkedin } from "react-icons/fa";
 import NextButton from "@/components/Shared/NextButton";
+import { blogOrder } from "../blogOrder";
 import BioOfDrKhurshidAlamHyder from "./BioOfDrKhurshidAlamHyder";
 
 const StrengtheningPostnatalCareBlogPage = () => {
@@ -266,10 +267,18 @@ const StrengtheningPostnatalCareBlogPage = () => {
       <BioOfDrKhurshidAlamHyder />
 
       <div className="mt-16 mb-16">
-        <NextButton
-          href="/blog-and-interview/blog/bridging-the-gaps-strengthening-mental-healthcare-to-build-a-resilient-health-system-in-bangladesh"
-          text="Next Blog"
-        />
+        {/* Next Blog Navigation */}
+        {(() => {
+          const currentSlug = "strengthening-postnatal-care-and-tuberculosis-management";
+          const idx = blogOrder.findIndex((b) => b.slug === currentSlug);
+          const next = blogOrder[(idx + 1) % blogOrder.length];
+          return (
+            <NextButton
+              href={`/blog-and-interview/blog/${next.slug}`}
+              text="Next Blog"
+            />
+          );
+        })()}
       </div>
     </div>
   );

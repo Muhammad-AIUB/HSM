@@ -5,6 +5,7 @@ import { ArrowRight, BookOpen, BookText } from "lucide-react";
 import Image from "next/image";
 
 import NextButton from "@/components/Shared/NextButton";
+import { blogOrder } from "../blogOrder";
 import blog3 from "@/public/images/blog-interview/blog3.jpg";
 import { FaLinkedin } from "react-icons/fa";
 
@@ -354,10 +355,18 @@ const BeyondTheSilencePage = () => {
         </div>
       </div>
 
-      <NextButton
-        href="/blog-and-interview/blog/health-cant-wait-its-time-for-bangladesh-to-put-healthcare-investment-on-the-diplomatic-agenda-for-a-stronger-nation"
-        text="Next Blog"
-      />
+      {/* Next Blog Navigation */}
+      {(() => {
+        const currentSlug = "beyond-the-silence-why-bangladesh-needs-comprehensive-sexuality-education-now";
+        const idx = blogOrder.findIndex((b) => b.slug === currentSlug);
+        const next = blogOrder[(idx + 1) % blogOrder.length];
+        return (
+          <NextButton
+            href={`/blog-and-interview/blog/${next.slug}`}
+            text="Next Blog"
+          />
+        );
+      })()}
     </div>
   );
 };

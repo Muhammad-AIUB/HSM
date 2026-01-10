@@ -4,6 +4,7 @@ import Image from "next/image";
 import { ArrowRight, BookText, BookOpen } from "lucide-react";
 import { FaLinkedin } from "react-icons/fa";
 import NextButton from "@/components/Shared/NextButton";
+import { blogOrder } from "../blogOrder";
 
 const BreakingAidDependencyBlogPage = () => {
   return (
@@ -235,10 +236,18 @@ const BreakingAidDependencyBlogPage = () => {
         </div>
       </div>
 
-      <NextButton
-        href="/blog-and-interview/blog/a-nursing-development-strategy-for-bangladesh"
-        text="Next Blog"
-      />
+      {/* Next Blog Navigation */}
+      {(() => {
+        const currentSlug = "breaking-the-aid-dependency-cycle-strategies-for-building-self-sustaining-organizations";
+        const idx = blogOrder.findIndex((b) => b.slug === currentSlug);
+        const next = blogOrder[(idx + 1) % blogOrder.length];
+        return (
+          <NextButton
+            href={`/blog-and-interview/blog/${next.slug}`}
+            text="Next Blog"
+          />
+        );
+      })()}
     </div>
   );
 };

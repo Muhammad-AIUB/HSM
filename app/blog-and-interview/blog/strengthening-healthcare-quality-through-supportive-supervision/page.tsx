@@ -4,6 +4,7 @@ import Image from "next/image";
 import { BookOpen, Users, TrendingUp, Heart } from "lucide-react";
 import { FaLinkedin } from "react-icons/fa";
 import NextButton from "@/components/Shared/NextButton";
+import { blogOrder } from "../blogOrder";
 import BioOfRezaulKarim from "./BioOfRezaulKarim";
 
 const StrengtheningHealthcareQualityBlogPage = () => {
@@ -272,10 +273,18 @@ const StrengtheningHealthcareQualityBlogPage = () => {
       <BioOfRezaulKarim />
 
       <div className="mt-16 mb-16">
-        <NextButton
-          href="/blog-and-interview/blog/antimicrobial-resistance-in-bangladesh-a-public-health-reckoning"
-          text="Next Blog"
-        />
+        {/* Next Blog Navigation */}
+        {(() => {
+          const currentSlug = "strengthening-healthcare-quality-through-supportive-supervision";
+          const idx = blogOrder.findIndex((b) => b.slug === currentSlug);
+          const next = blogOrder[(idx + 1) % blogOrder.length];
+          return (
+            <NextButton
+              href={`/blog-and-interview/blog/${next.slug}`}
+              text="Next Blog"
+            />
+          );
+        })()}
       </div>
     </div>
   );

@@ -5,7 +5,9 @@ import { DollarSign, BarChart3, LightbulbIcon } from "lucide-react";
 import ShahPoran from "@/public/images/blog-interview/ShahParan.jpg";
 import blog2 from "@/public/images/blog-interview/blog2.jpg";
 import { FaLinkedin } from "react-icons/fa";
+
 import NextButton from "@/components/Shared/NextButton";
+import { blogOrder } from "../blogOrder";
 
 const OvercomingBudgetBottleNeckPage = () => {
   return (
@@ -175,10 +177,18 @@ const OvercomingBudgetBottleNeckPage = () => {
           </div>
         </div>
       </div>
-      <NextButton
-        href="/blog-and-interview/blog/beyond-the-silence-why-bangladesh-needs-comprehensive-sexuality-education-now"
-        text="Next Blog"
-      />
+      {/* Next Blog Navigation */}
+      {(() => {
+        const currentSlug = "overcoming-budget-bottlenecks-ensuring-effective-health-financing-for-universal-health-coverage-in-bangladesh";
+        const idx = blogOrder.findIndex((b) => b.slug === currentSlug);
+        const next = blogOrder[(idx + 1) % blogOrder.length];
+        return (
+          <NextButton
+            href={`/blog-and-interview/blog/${next.slug}`}
+            text="Next Blog"
+          />
+        );
+      })()}
     </div>
   );
 };

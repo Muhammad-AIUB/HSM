@@ -4,6 +4,7 @@ import Image from "next/image";
 import { BookOpen, Users, TrendingUp, Heart, AlertTriangle, Shield, GraduationCap } from "lucide-react";
 import { FaGlobe } from "react-icons/fa";
 import NextButton from "@/components/Shared/NextButton";
+import { blogOrder } from "../blogOrder";
 import BioOfSharmilaHuda from "./BioOfSharmilaHuda";
 
 const AntimicrobialResistanceBlogPage = () => {
@@ -311,10 +312,18 @@ const AntimicrobialResistanceBlogPage = () => {
       <BioOfSharmilaHuda />
 
       <div className="mt-16 mb-16">
-        <NextButton
-          href="/blog-and-interview/blog/from-river-to-table-microplastics-as-an-emerging-public-health-concern-in-bangladesh"
-          text="Next Blog"
-        />
+        {/* Next Blog Navigation */}
+        {(() => {
+          const currentSlug = "antimicrobial-resistance-in-bangladesh-a-public-health-reckoning";
+          const idx = blogOrder.findIndex((b) => b.slug === currentSlug);
+          const next = blogOrder[(idx + 1) % blogOrder.length];
+          return (
+            <NextButton
+              href={`/blog-and-interview/blog/${next.slug}`}
+              text="Next Blog"
+            />
+          );
+        })()}
       </div>
     </div>
   );

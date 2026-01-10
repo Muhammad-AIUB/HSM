@@ -5,6 +5,7 @@ import { ArrowRight, BookOpen, BookText } from "lucide-react";
 import Image from "next/image";
 
 import NextButton from "@/components/Shared/NextButton";
+import { blogOrder } from "../blogOrder";
 // import blog3 from "@/public/images/blog-interview/blog3.jpg";
 import { FaLinkedin } from "react-icons/fa";
 import BioOfZakaria from "./BioOfZakaria";
@@ -258,10 +259,18 @@ const HealthCantWait = () => {
 
       <BioOfZakaria />
 
-      <NextButton
-        href="/blog-and-interview/blog/breaking-the-aid-dependency-cycle-strategies-for-building-self-sustaining-organizations"
-        text="Next Blog"
-      />
+      {/* Next Blog Navigation */}
+      {(() => {
+        const currentSlug = "health-cant-wait-its-time-for-bangladesh-to-put-healthcare-investment-on-the-diplomatic-agenda-for-a-stronger-nation";
+        const idx = blogOrder.findIndex((b) => b.slug === currentSlug);
+        const next = blogOrder[(idx + 1) % blogOrder.length];
+        return (
+          <NextButton
+            href={`/blog-and-interview/blog/${next.slug}`}
+            text="Next Blog"
+          />
+        );
+      })()}
     </div>
   );
 };

@@ -6,6 +6,7 @@ import AlexBerland from "@/public/images/blog-interview/alex-blog.jpg";
 import NursePhoto from "@/public/images/blog-interview/nurse-photo.jpeg";
 import { FaLinkedin } from "react-icons/fa";
 import NextButton from "@/components/Shared/NextButton";
+import { blogOrder } from "../blogOrder";
 import BioOfAlex from "./BioOfAlex";
 
 const NursingDevelopmentStrategyBlogPage = () => {
@@ -344,10 +345,18 @@ const NursingDevelopmentStrategyBlogPage = () => {
 
       <BioOfAlex />
 
-      <NextButton
-        href="/blog-and-interview/blog/strengthening-healthcare-quality-through-supportive-supervision"
-        text="Next Blog"
-      />
+      {/* Next Blog Navigation */}
+      {(() => {
+        const currentSlug = "a-nursing-development-strategy-for-bangladesh";
+        const idx = blogOrder.findIndex((b) => b.slug === currentSlug);
+        const next = blogOrder[(idx + 1) % blogOrder.length];
+        return (
+          <NextButton
+            href={`/blog-and-interview/blog/${next.slug}`}
+            text="Next Blog"
+          />
+        );
+      })()}
     </div>
   );
 };
