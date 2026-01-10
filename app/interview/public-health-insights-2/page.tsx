@@ -3,6 +3,7 @@ import Link from "next/link";
 import BioOfSharmeenYasmeen from "./BioOfSharmeenYasmeen";
 import Image from "next/image";
 import { FaLinkedin } from "react-icons/fa";
+import { interviewOrder } from "../interviewOrder";
 import SharmeenYasmeenImg from "@/public/images/blog-interview/interview/Sharmeen Yasmeen.jpg";
 
 const PublicHealthInsightsWithSharmeenYasmeen = () => {
@@ -264,13 +265,20 @@ const PublicHealthInsightsWithSharmeenYasmeen = () => {
 
       {/* Toggle Button */}
       <div className="flex justify-center my-4 ">
-        <Link
-          href="/interview/development-perspective"
-          // onClick={() => setIsExpanded(!isExpanded)}
-          className="mt-4 font-bold text-xl bg-[#FFCE00] text-black px-4 py-2 hover:text-white hover:bg-[#2D8CBB]   transition ease-in-out duration-200"
-        >
-          Next Interview
-        </Link>
+        {(() => {
+          const currentSlug = "public-health-insights-2";
+          const idx = interviewOrder.findIndex((b) => b.slug === currentSlug);
+          const next = interviewOrder[(idx + 1) % interviewOrder.length];
+          return (
+            <Link
+              href={`/interview/${next.slug}`}
+              // onClick={() => setIsExpanded(!isExpanded)}
+              className="mt-4 font-bold text-xl bg-[#FFCE00] text-black px-4 py-2 hover:text-white hover:bg-[#2D8CBB]   transition ease-in-out duration-200"
+            >
+              Next Interview
+            </Link>
+          );
+        })()}
       </div>
     </div>
   );

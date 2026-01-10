@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { FaLinkedin } from "react-icons/fa";
 import BioOfSabaWaseem from "./BioOfSabaWaseem";
+import { interviewOrder } from "../interviewOrder";
 
 const GlobalHealthFinancingExpert = () => {
   return (
@@ -155,12 +156,19 @@ const GlobalHealthFinancingExpert = () => {
       </div>
       <BioOfSabaWaseem />
       <div className="flex justify-center my-8">
-        <a
-          href="/interview/global-health-expert-and-co-country-director"
-          className="bg-[#FFCE00] hover:bg-[#FFD700] text-[#001844] font-bold py-3 px-8 rounded-md text-lg shadow transition"
-        >
-          Next Interview
-        </a>
+        {(() => {
+          const currentSlug = "global-health-financing-expert";
+          const idx = interviewOrder.findIndex((b) => b.slug === currentSlug);
+          const next = interviewOrder[(idx + 1) % interviewOrder.length];
+          return (
+            <a
+              href={`/interview/${next.slug}`}
+              className="bg-[#FFCE00] hover:bg-[#FFD700] text-[#001844] font-bold py-3 px-8 rounded-md text-lg shadow transition"
+            >
+              Next Interview
+            </a>
+          );
+        })()}
       </div>
     </div>
   );

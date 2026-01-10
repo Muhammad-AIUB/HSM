@@ -2,6 +2,7 @@ import Image from "next/image";
 import { FaLinkedin } from "react-icons/fa";
 import BioOfArefinIslam from "./BioOfArefinIslam";
 import NextButton from "@/components/Shared/NextButton";
+import { interviewOrder } from "../interviewOrder";
 
 const GlobalHealthExpertAndCoCountryDirector = () => {
   return (
@@ -259,13 +260,20 @@ const GlobalHealthExpertAndCoCountryDirector = () => {
         </div>
       </div>
       <BioOfArefinIslam />
-      <div className="mt-4">
-        <NextButton
-          href="/interview/leading-with-heart-and-purpose-almeer-ahsan"
-          text="Next Interview"
-          className="bg-[#FFCE00] text-[#001844]"
-        />
-      </div>
+      {(() => {
+        const currentSlug = "global-health-expert-and-co-country-director";
+        const idx = interviewOrder.findIndex((b) => b.slug === currentSlug);
+        const next = interviewOrder[(idx + 1) % interviewOrder.length];
+        return (
+          <div className="mt-4">
+            <NextButton
+              href={`/interview/${next.slug}`}
+              text="Next Interview"
+              className="bg-[#FFCE00] text-[#001844]"
+            />
+          </div>
+        );
+      })()}
     </div>
   );
 };

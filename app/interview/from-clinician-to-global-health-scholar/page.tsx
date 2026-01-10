@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { interviewOrder } from "../interviewOrder";
 import { FaLinkedin } from "react-icons/fa";
 import BioOfMohitChowdhury from "./BioOfMohitChowdhury";
 
@@ -169,11 +170,18 @@ const FromClinicianToGlobalHealthScholar = () => {
       </div>
       <BioOfMohitChowdhury />
       <div className="flex justify-center my-8">
-        <a href="/interview/global-health-financing-expert">
-          <button className="bg-[#FFCE00] text-black font-bold px-8 py-3 rounded hover:bg-yellow-400 transition text-lg shadow-md">
-            Next Interview
-          </button>
-        </a>
+        {(() => {
+          const currentSlug = "from-clinician-to-global-health-scholar";
+          const idx = interviewOrder.findIndex((b) => b.slug === currentSlug);
+          const next = interviewOrder[(idx + 1) % interviewOrder.length];
+          return (
+            <a href={`/interview/${next.slug}`}>
+              <button className="bg-[#FFCE00] text-black font-bold px-8 py-3 rounded hover:bg-yellow-400 transition text-lg shadow-md">
+                Next Interview
+              </button>
+            </a>
+          );
+        })()}
       </div>
     </div>
   );

@@ -1,6 +1,7 @@
 // import Image from "next/image";
 import Link from "next/link";
 import DrMadhukarPaiBio from "./DrMadhukarPaiBio";
+import { interviewOrder } from "../interviewOrder";
 import TedrosQuote from "@/components/Shared/SectionTitle/TedrosQuote";
 
 const PublicHealthInsightsPage = () => {
@@ -272,13 +273,19 @@ const PublicHealthInsightsPage = () => {
             <DrMadhukarPaiBio />
 
             <div className="flex justify-center my-4 ">
-                <Link
-                    href="/interview/public-health-system-perspective"
-                    // onClick={() => setIsExpanded(!isExpanded)}
-                    className="mt-4 font-bold text-xl bg-[#FFCE00] text-black px-4 py-2 hover:text-white hover:bg-[#2D8CBB]   transition ease-in-out duration-200"
-                >
-                    Next Interview
-                </Link>
+                {(() => {
+                    const currentSlug = "public-health-insights-1";
+                    const idx = interviewOrder.findIndex((b) => b.slug === currentSlug);
+                    const next = interviewOrder[(idx + 1) % interviewOrder.length];
+                    return (
+                        <Link
+                            href={`/interview/${next.slug}`}
+                            className="mt-4 font-bold text-xl bg-[#FFCE00] text-black px-4 py-2 hover:text-white hover:bg-[#2D8CBB]   transition ease-in-out duration-200"
+                        >
+                            Next Interview
+                        </Link>
+                    );
+                })()}
             </div>
         </div>
     );

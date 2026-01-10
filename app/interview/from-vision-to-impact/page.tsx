@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { interviewOrder } from "../interviewOrder";
 
 import { FaGlobe, FaLinkedin } from "react-icons/fa";
 
@@ -419,12 +420,19 @@ const FromVisionToImpact = () => {
 
       <BioOfIshtiaqMannan />
       <div className="flex justify-center my-8">
-        <Link
-          href="/interview/from-clinician-to-global-health-scholar"
-          className="mt-4 font-bold text-xl bg-[#FFCE00] text-black px-4 py-2 hover:text-white hover:bg-[#2D8CBB]   transition ease-in-out duration-200"
-        >
-          Next Interview
-        </Link>
+        {(() => {
+          const currentSlug = "from-vision-to-impact";
+          const idx = interviewOrder.findIndex((b) => b.slug === currentSlug);
+          const next = interviewOrder[(idx + 1) % interviewOrder.length];
+          return (
+            <Link
+              href={`/interview/${next.slug}`}
+              className="mt-4 font-bold text-xl bg-[#FFCE00] text-black px-4 py-2 hover:text-white hover:bg-[#2D8CBB]   transition ease-in-out duration-200"
+            >
+              Next Interview
+            </Link>
+          );
+        })()}
       </div>
     </div>
   );

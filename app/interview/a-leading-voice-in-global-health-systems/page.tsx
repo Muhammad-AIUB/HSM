@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { interviewOrder } from "../interviewOrder";
 import { FaLinkedin } from "react-icons/fa";
 // import DrZarifImg from "@/public/images/blog-interview/interview/Zarif-Rasul-2.jpg";
 import DrTaufiqueImg from "@/public/images/blog-interview/interview/DrTaufique.jpg";
@@ -638,13 +639,20 @@ const LeadingVoice = () => {
       <BioOfTarique />
 
       <div className="flex justify-center my-4 ">
-        <Link
-          href="/interview/from-vision-to-impact"
-          // onClick={() => setIsExpanded(!isExpanded)}
-          className="mt-4 font-bold text-xl bg-[#FFCE00] text-black px-4 py-2 hover:text-white hover:bg-[#2D8CBB]   transition ease-in-out duration-200"
-        >
-          Next Interview
-        </Link>
+        {(() => {
+          const currentSlug = "a-leading-voice-in-global-health-systems";
+          const idx = interviewOrder.findIndex((b) => b.slug === currentSlug);
+          const next = interviewOrder[(idx + 1) % interviewOrder.length];
+          return (
+            <Link
+              href={`/interview/${next.slug}`}
+              // onClick={() => setIsExpanded(!isExpanded)}
+              className="mt-4 font-bold text-xl bg-[#FFCE00] text-black px-4 py-2 hover:text-white hover:bg-[#2D8CBB]   transition ease-in-out duration-200"
+            >
+              Next Interview
+            </Link>
+          );
+        })()}
       </div>
     </div>
   );
