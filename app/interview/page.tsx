@@ -45,6 +45,14 @@ const interviews = [
     slug: "finding-purpose-in-climate-action-dr-khalid-hossains-career-journey-from-bangladesh-to-australia",
   },
   {
+    id: 22,
+    title: "In Conversation with Dr. Sabina Faiz Rashid: Insights from a Medical Anthropologist and Global Health Researcher",
+    date: "January 22, 2026",
+    description: "Dr. Sabina Faiz Rashid, BRAC University: medical anthropologist focusing on gender, urban health, and participatory research.",
+    image: "/images/blog-interview/interview/Sabina Faiz Rashid.jpg",
+    slug: "in-conversation-with-dr-sabina-faiz-rashid",
+  },
+  {
     id: 20,
     title:
       "In Conversation with Prof. Jahangir Khan: Global Health Economist and Researcher",

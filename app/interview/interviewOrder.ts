@@ -21,4 +21,5 @@ export const interviewOrder = [
   { slug: "exploring-global-health-and-cancer-research-with-dr-javed-iqbal", title: "Exploring Global Health & Cancer Research: Dr Javed Iqbal" },
   { slug: "in-conversation-with-prof-jahangir-khan-global-health-economist-and-researcher", title: "In Conversation with Prof Jahangir Khan" },
   { slug: "finding-purpose-in-climate-action-dr-khalid-hossains-career-journey-from-bangladesh-to-australia", title: "Finding Purpose in Climate Action: Dr Khalid Hossain" },
+  { slug: "in-conversation-with-dr-sabina-faiz-rashid", title: "In Conversation with Dr. Sabina Faiz Rashid: Insights from a Medical Anthropologist and Global Health Researcher" },
   ];
