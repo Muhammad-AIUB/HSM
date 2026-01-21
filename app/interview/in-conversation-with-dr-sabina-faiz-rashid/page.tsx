@@ -37,13 +37,13 @@ const SabinaInterview = () => {
       <section className="relative w-full bg-white">
         <div className="bg-[#001844] py-10 px-12 sm:px-8 lg:px-16">
           <div className="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-center sm:items-center gap-8">
-            <div className="w-52 h-52 shrink-0 rounded-full overflow-hidden ">
+            <div className="w-56 h-56 sm:w-60 sm:h-60 shrink-0 rounded-full overflow-hidden">
               <Image
                 src="/images/blog-interview/interview/Sabina Faiz Rashid.jpg"
                 alt="Dr. Sabina Faiz Rashid"
                 width={500}
                 height={500}
-                className="object-cover object-top w-full h-full"
+                className="object-cover object-center w-full h-full"
               />
             </div>
 

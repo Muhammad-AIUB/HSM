@@ -386,7 +386,7 @@ const InterviewPage = () => {
                           alt={interview.title}
                           width={500}
                           height={300}
-                          className="w-full h-56 object-cover hover:scale-105 hover:opacity-90 transition-transform duration-300 object-top"
+                          className="w-full h-56 object-cover object-center hover:scale-105 hover:opacity-90 transition-transform duration-300"
                         />
                       )}
                       {/* Date pill */}
