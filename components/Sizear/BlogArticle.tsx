@@ -50,12 +50,7 @@ export default function BlogArticle() {
         },
     ];
 
-    // Generate a random hover class for each card using useMemo
-    // const hoverClasses = useMemo(() => {
-    //     return blogArticles.map(
-    //         () => hoverColors[Math.floor(Math.random() * hoverColors.length)]
-    //     );
-    // }, []);
+
 
     return (
         <div className="pt-16">
@@ -63,7 +58,7 @@ export default function BlogArticle() {
                 Blog Article
             </h3>
 
-            {/* Content */}
+        
             <div className="space-y-6 mt-6">
                 {blogArticles.map((blogArticle, index) => (
                     <div
