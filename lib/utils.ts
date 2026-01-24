@@ -11,4 +11,9 @@ export const colors = [
     "hover:bg-[#2D8CBB]",
     "hover:bg-[#FF6F61]",
     "hover:bg-[#6F2C91]",
+    "hover:bg-blue-100",
+    "hover:bg-pink-100",
+    "hover:bg-green-100",
+    "hover:bg-yellow-100",
+    "hover:bg-purple-100",
 ];

@@ -1,7 +1,5 @@
 "use client";
 import { colors } from "@/lib/utils";
-// import { colors } from "@/lib/utils";
-import { motion } from "framer-motion";
 
 export default function BlogArticle() {
     const blogArticles = [
@@ -68,9 +66,9 @@ export default function BlogArticle() {
             {/* Content */}
             <div className="space-y-6 mt-6">
                 {blogArticles.map((blogArticle, index) => (
-                    <motion.div
+                    <div
                         key={index}
-                        className={`transition duration-200 group bg-white border shadow-sm rounded-md p-6 border-l-4 border-blue-500 flex md:items-center md:space-x-6 space-y-2 flex-col md:flex-row justify-between md:mx-12 ${
+                        className={`transition-all duration-200 group bg-white border shadow-sm rounded-md p-6 border-l-4 border-blue-500 flex md:items-center md:space-x-6 space-y-2 flex-col md:flex-row justify-between md:mx-12 ${
                             colors[index % colors.length]
                         }`}
                     >
@@ -88,14 +86,9 @@ export default function BlogArticle() {
 
                         {/* Right: Title & Link */}
                         <div className="md:w-3/4 break-words">
-                            <a
-                                href={blogArticle.titleLink}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="text-md font-semibold text-gray-800 hover:bg-blue-500 hover:text-white hover:underline transition duration-200 rounded"
-                            >
+                            <h4 className="text-md font-semibold text-gray-800">
                                 {blogArticle.title}
-                            </a>
+                            </h4>
                             <a
                                 href={blogArticle.link}
                                 target="_blank"
@@ -105,7 +98,7 @@ export default function BlogArticle() {
                                 {blogArticle.link}
                             </a>
                         </div>
-                    </motion.div>
+                    </div>
                 ))}
             </div>
         </div>
