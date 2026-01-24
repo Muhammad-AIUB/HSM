@@ -1,6 +1,7 @@
 import React from "react";
 import AcademicAwards from "./AcademicAwards";
 import LiteratureAward from "./LiteratureAward";
+import AwardWinningBlog from "./AwardWinningBlog";
 import ConferenceAwards from "./ConferancePresentation";
 import BestOrganizerAward from "./BestOrganizerAward";
 
@@ -25,6 +26,8 @@ const AwardsandAchievements = () => {
         <AcademicAwards />
 
         <LiteratureAward />
+
+        <AwardWinningBlog />
 
         <ConferenceAwards />
 
