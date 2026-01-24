@@ -50,7 +50,7 @@ const InConversationWithDrNazmulHuda = () => {
             </div>
           </div>
           <blockquote className="text-base md:text-lg italic text-cyan-100 font-semibold bg-[#123a63] p-5 rounded-lg border-l-4 border-[#2D8CBB] leading-relaxed">
-            "The most significant limitations of the current government health initiatives are the lack of transparency, discipline, accountability and effective leadership. The current system is largely doctor-centered. The role of nurses, midwives, therapists, managers and researchers are largely ignored."
+            "The most significant limitations of the current government health initiatives are the lack of transparency, discipline, accountability and effective leadership. The current system is largely doctor-centered. The role of nurses, midwives, therapists, managers and researchers are largely ignored." 
           </blockquote>
           <div className="flex justify-center mt-4">
             <a

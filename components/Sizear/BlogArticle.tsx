@@ -2,20 +2,27 @@
 import { colors } from "@/lib/utils";
 // import { colors } from "@/lib/utils";
 import { motion } from "framer-motion";
-// import { useMemo } from "react";
-
-// List of random hover background classes
-// const hoverColors = [
-//     "hover:bg-blue-100",
-//     "hover:bg-pink-100",
-//     "hover:bg-green-100",
-//     "hover:bg-yellow-100",
-//     "hover:bg-purple-100",
-//     "hover:bg-rose-100",
-// ];
 
 export default function BlogArticle() {
     const blogArticles = [
+        {
+            year: "2026",
+            title: "From knowledge to practice: Bangladesh's oral rehydration solution legacy",
+            journal: "Frontiers in Global Women's Health, Volume 5",
+            link: "https://globaldev.blog/from-knowledge-to-practice-bangladeshs-oral-rehydration-solution-legacy/",
+            titleLink:
+                "https://globaldev.blog/from-knowledge-to-practice-bangladeshs-oral-rehydration-solution-legacy/",
+            firstAuthor: false,
+        },
+        {
+            year: "2026",
+            title: "Healing Bangladesh's Health Sector: Systemic Reform to Combat Corruption",
+            journal: "Frontiers in Global Women's Health, Volume 5",
+            link: "https://gnacta.org/blog/healing-bangladeshs-health-sector-systemic-reform-combat-corruption",
+            titleLink:
+                "https://gnacta.org/blog/healing-bangladeshs-health-sector-systemic-reform-combat-corruption",
+            firstAuthor: false,
+        },
         {
             year: "2025",
             title: "Rethinking resource allocation methods promotes efficiency of health budget utilization: a case study in Bangladesh",
