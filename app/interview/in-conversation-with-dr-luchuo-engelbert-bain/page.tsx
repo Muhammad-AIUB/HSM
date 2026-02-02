@@ -86,22 +86,24 @@ const DrLuchuoBainInterview = () => {
 
       {/* Category */}
       <div className="max-w-screen-md mx-auto px-12 py-8 bg-white ">
-        <h2 className="text-2xl font-bold text-[#C2185B] mb-6">
+        <h2 className="text-2xl font-bold text-[#C2185B] mb-8">
           <span className="border-b-4 border-red-600 pb-1 inline-block w-fit">
             Global Health and Research
           </span>
         </h2>
 
         {/* Q1 */}
-        <div className="mb-8">
+        <div className="mb-10">
           <h3 className="text-xl font-bold text-[#2D8CBB] text-justify">
             Q. Can you share a brief introduction about yourself to our readers?
           </h3>
-          <p className="mt-2 leading-relaxed text-justify">
+          <p className="mt-4 leading-relaxed text-justify">
             <span className="font-bold">Luchuo Bain:</span> I am Dr. Luchuo
             Engelbert Bain, a Cameroonian physician, empirical bioethicist, and
             global health strategist dedicated to reimagining how knowledge,
             power, and partnerships shape health outcomes in Africa and beyond.
+          </p>
+          <p className="mt-4 leading-relaxed text-justify">
             With close to two decades of experience spanning research, policy,
             ethics, and program leadership, my work sits at the critical
             intersection of equity, innovation, meaningful community engagement,
@@ -122,7 +124,10 @@ const DrLuchuoBainInterview = () => {
             </a>
             , a thought-leadership platform challenging
             conventional wisdom and amplifying African voices in global health
-            discourse. My academic credentials include an MD from the University
+            discourse.
+          </p>
+          <p className="mt-4 leading-relaxed text-justify">
+            My academic credentials include an MD from the University
             of Yaoundé I, Cameroon; MPH from Hebrew University of Jerusalem; MSc
             in Bioethics from KU Leuven; MBA in Strategic Human Resources
             Management from UNIR in Spain; and a dual PhD in Transdisciplinary
@@ -138,12 +143,12 @@ const DrLuchuoBainInterview = () => {
         </div>
 
         {/* Q2 */}
-        <div className="mb-8">
+        <div className="mb-10">
           <h3 className="text-xl font-bold text-[#2D8CBB] text-justify">
             Q. What key areas are you currently focusing on to advance global
             health?
           </h3>
-          <p className="mt-2 leading-relaxed text-justify">
+          <p className="mt-4 leading-relaxed text-justify">
             <span className="font-bold">Luchuo Bain:</span> My work currently
             advances global health through three interconnected strategic areas
             that challenge conventional approaches while building practical,
@@ -160,13 +165,18 @@ const DrLuchuoBainInterview = () => {
             , which goes far beyond rhetoric to address what I call the
             "five pillars" that must be continuously questioned: knowledge,
             expertise, methods, power, and agenda. As I often emphasize, we must
-            ask "For whom, by whom, with whom?" I am also working on
+            ask "For whom, by whom, with whom?"
+          </p>
+          <p className="mt-4 leading-relaxed text-justify">
+            I am also working on
             antimicrobial resistance (AMR) surveillance and response across
             Africa. As Co-Chair of the Society for African Genomic Surveillance
             of Antimicrobial Resistance (SAGeSA), I've developed case-based
             educational curricula examining AMR at the intersection of clinical
             practice and community behavior, emphasizing One Health approaches
             that integrate human, animal, and environmental health perspectives.
+          </p>
+          <p className="mt-4 leading-relaxed text-justify">
             Sexual and reproductive health and rights (SRHR) remains central to
             my work, working on adolescent pregnancy decision-making,
             contraceptive access barriers, HIV self-testing implementation, and
@@ -175,13 +185,13 @@ const DrLuchuoBainInterview = () => {
         </div>
 
         {/* Q3 */}
-        <div className="mb-8">
+        <div className="mb-10">
           <h3 className="text-xl font-bold text-[#2D8CBB] text-justify">
             Q. Based on your research and publications, what is one
             evidence-based intervention you believe could be most effectively
             adopted to address a key health challenge in LMICs?
           </h3>
-          <p className="mt-2 leading-relaxed text-justify">
+          <p className="mt-4 leading-relaxed text-justify">
             <span className="font-bold">Luchuo Bain:</span> One highly
             effective, evidence-based intervention for LMICs is task shifting
             and task sharing anchored in community health worker (CHW)
@@ -197,12 +207,12 @@ const DrLuchuoBainInterview = () => {
         </div>
 
         {/* Q4 */}
-        <div className="mb-8">
+        <div className="mb-10">
           <h3 className="text-xl font-bold text-[#2D8CBB] text-justify">
             Q. If you had unlimited funding for one global health research, what
             would it be and why?
           </h3>
-          <p className="mt-2 leading-relaxed text-justify">
+          <p className="mt-4 leading-relaxed text-justify">
             <span className="font-bold">Luchuo Bain:</span> I will go in for an
             operationalization of equity and impact global health agenda. How is
             equity integrated into research questions, monitored and measured? I
@@ -212,20 +222,20 @@ const DrLuchuoBainInterview = () => {
           </p>
         </div>
 
-        <h2 className="text-2xl font-bold text-[#C2185B] mb-6">
+        <h2 className="text-2xl font-bold text-[#C2185B] mb-8">
           <span className="border-b-4 border-red-600 pb-1 inline-block w-fit">
             Academic Journey and Career Insights
           </span>
         </h2>
 
         {/* Q5 */}
-        <div className="mb-8">
+        <div className="mb-10">
           <h3 className="text-xl font-bold text-[#2D8CBB] text-justify">
             Q. You’ve studied at prestigious institutions worldwide. Which
             teachers or mentors had the greatest impact on your personal and
             professional growth?
           </h3>
-          <p className="mt-2 leading-relaxed text-justify">
+          <p className="mt-4 leading-relaxed text-justify">
             <span className="font-bold">Luchuo Bain:</span> My journey in global
             health has been profoundly shaped by the mentorship of Venkatraman
             Chandra-Mouli and Eugene Kongnyuy. From Chandra, I learned the
@@ -238,13 +248,13 @@ const DrLuchuoBainInterview = () => {
         </div>
 
         {/* Q6 */}
-        <div className="mb-8">
+        <div className="mb-10">
           <h3 className="text-xl font-bold text-[#2D8CBB] text-justify">
             Q. With over two decades of experience across global platforms—as an
             employee and founder—what opportunities and challenges have you
             faced in driving real impact in global health?
           </h3>
-          <p className="mt-2 leading-relaxed text-justify">
+          <p className="mt-4 leading-relaxed text-justify">
             <span className="font-bold">Luchuo Bain:</span> Across two decades,
             my work across clinical practice, multilateral agencies, research
             funding bodies, and African-led institutions has revealed both
@@ -259,7 +269,7 @@ const DrLuchuoBainInterview = () => {
         </div>
 
         {/* Q7 */}
-        <div className="mb-8">
+        <div className="mb-10">
           <h3 className="text-xl font-bold text-[#2D8CBB] text-justify">
             Q. You founded{" "}
             <a
@@ -272,7 +282,7 @@ const DrLuchuoBainInterview = () => {
             </a>{" "}
             and The Career Café. What is their mission, and what future do you envision for these platforms?
           </h3>
-          <p className="mt-2 leading-relaxed text-justify">
+          <p className="mt-4 leading-relaxed text-justify">
             <span className="font-bold">Luchuo Bain:</span> I founded{" "}
             <a
               href="https://globalhealthotherwise.com/"
@@ -293,14 +303,16 @@ const DrLuchuoBainInterview = () => {
         </div>
 
         {/* Q8 */}
-        <div className="mb-8">
+        <div className="mb-10">
           <h3 className="text-xl font-bold text-[#2D8CBB] text-justify">
             Q. What three essential skills should the next generation of global
             health leaders develop?
           </h3>
-          <p className="mt-2 leading-relaxed text-justify">
+          <p className="mt-4 leading-relaxed text-justify">
             <span className="font-bold">Luchuo Bain:</span> The next generation
             of global health leaders must develop three non-negotiable skills.
+          </p>
+          <p className="mt-4 leading-relaxed text-justify">
             First, transdisciplinary systems thinking—the ability to integrate
             biomedical, social, political, economic, and Indigenous knowledge to
             navigate complex realities beyond silos. Second, political literacy
@@ -309,25 +321,28 @@ const DrLuchuoBainInterview = () => {
             practices and inequitable norms. Third, transformative science
             communication—moving beyond information transfer to dialogue that
             centers marginalized voices, builds trust, counters misinformation,
-            and translates evidence into action. Together, these skills enable
+            and translates evidence into action.
+          </p>
+          <p className="mt-4 leading-relaxed text-justify">
+            Together, these skills enable
             leaders to shift power, deliver impact, and truly transform global
             health.
           </p>
         </div>
 
-        <h2 className="text-2xl font-bold text-[#C2185B] mb-6">
+        <h2 className="text-2xl font-bold text-[#C2185B] mb-8">
           <span className="border-b-4 border-red-600 pb-1 inline-block w-fit">
             Get to Know Dr. Luchuo
           </span>
         </h2>
 
         {/* Q9 */}
-        <div className="mb-8">
+        <div className="mb-10">
           <h3 className="text-xl font-bold text-[#2D8CBB] text-justify">
             Q. Who is your public health role model, and what about their work
             inspires you?
           </h3>
-          <p className="mt-2 leading-relaxed text-justify">
+          <p className="mt-4 leading-relaxed text-justify">
             <span className="font-bold">Luchuo Bain:</span> My public health
             role model is Paul Farmer. His unwavering belief that health is a
             human right, his accompaniment model of care, and his refusal to
@@ -339,30 +354,36 @@ const DrLuchuoBainInterview = () => {
         </div>
 
         {/* Q10 */}
-        <div className="mb-8">
+        <div className="mb-10">
           <h3 className="text-xl font-bold text-[#2D8CBB] text-justify">
             Q. What book are you currently reading? What is one key insight you
             have taken from it?
           </h3>
-          <p className="mt-2 leading-relaxed text-justify">
+          <p className="mt-4 leading-relaxed text-justify">
             <span className="font-bold">Luchuo Bain:</span> The Holy Bible: As I
             read the Bible, I am reminded that everything is grace. Life is not
-            sustained by merit alone, but by mercy. Humility and thankfulness
+            sustained by merit alone, but by mercy.
+          </p>
+          <p className="mt-4 leading-relaxed text-justify">
+            Humility and thankfulness
             are not afterthoughts or virtues to be practiced when
             convenient—they are meant to be the true compasses of life. When
             gratitude leads and humility grounds us, perspective is restored,
-            pride is softened, and purpose becomes clearer. In remembering this,
+            pride is softened, and purpose becomes clearer.
+          </p>
+          <p className="mt-4 leading-relaxed text-justify">
+            In remembering this,
             one learns to walk lightly, serve sincerely, and live fully aware
             that all we have and all we become is, ultimately, grace.
           </p>
         </div>
 
         {/* Q11 */}
-        <div className="mb-8">
+        <div className="mb-10">
           <h3 className="text-xl font-bold text-[#2D8CBB] text-justify">
             Q. Do you have a personal motto or mantra you live by?
           </h3>
-          <p className="mt-2 leading-relaxed text-justify">
+          <p className="mt-4 leading-relaxed text-justify">
             <span className="font-bold">Luchuo Bain:</span> My mission is to
             positively impact the lives of others—anywhere, anytime—no matter
             the size of the gesture, one day and one life at a time.
@@ -381,7 +402,7 @@ const DrLuchuoBainInterview = () => {
           <span className="block w-20 h-1 bg-yellow-400 rounded-full"></span>
         </div>
         <div>
-          <p className="mt-2 leading-relaxed text-[17px] text-[#222] text-justify">
+          <p className="mt-4 leading-relaxed text-[17px] text-[#222] text-justify">
             Luchuo Engelbert Bain is a physician–public health scholar, global
             health strategist, and thought leader working at the intersection of
             health politics, diplomacy, equity, and systems reform. He holds two
@@ -390,6 +411,8 @@ const DrLuchuoBainInterview = () => {
             publications spanning SRHR, health systems, climate–health, and
             implementation science. In recognition of his scientific leadership,
             he was elected a Fellow of the African Academy of Sciences (FAAS).
+          </p>
+          <p className="mt-4 leading-relaxed text-[17px] text-[#222] text-justify">
             Dr Bain is widely known for advancing politically informed global
             health practice, arguing that health is fundamentally shaped by
             power, institutions, and diplomacy—not technical solutions alone. As
