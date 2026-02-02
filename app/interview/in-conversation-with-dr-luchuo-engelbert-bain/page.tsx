@@ -12,15 +12,17 @@ const DrLuchuoBainInterview = () => {
               className="text-2xl md:text-[30px] uppercase font-extrabold text-[#001844] leading-10"
               style={{ wordSpacing: "0.4rem" }}
             >
-              In Conversation with Dr. Luchuo Engelbert Bain: <br />
+              In Conversation with{" "}
               <a
                 href="https://www.linkedin.com/in/luchuo-bain-a0a17161/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#001844] underline font-extrabold bg-[#FFCE00] px-2 rounded-md"
               >
-                Insights from A Global Health Leader
+                Dr. Luchuo Engelbert Bain
               </a>
+              : <br />
+              Insights from A Global Health Leader
             </h1>
           </div>
         </div>
