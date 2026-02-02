@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { FaLinkedin } from "react-icons/fa";
+import { LinkedInLogo } from "@/components/Shared/LinkedInLogo";
 // import BarbaraGastelImg from "@/public/images/blog-interview/interview/barbara-gastel-clean.jpg";
 
 export default function BarbaraGastelQuote() {
@@ -27,7 +27,7 @@ export default function BarbaraGastelQuote() {
                 rel="noopener noreferrer"
                 className=""
               >
-                <FaLinkedin className="text-2xl" />
+                <LinkedInLogo size={24} />
               </a>
             </p>
 

@@ -2,7 +2,7 @@
 import { Facebook, LinkIcon, Mails } from "lucide-react";
 import Link from "next/link";
 
-import { FaLinkedinIn } from "react-icons/fa";
+import { LinkedInLogo } from "@/components/Shared/LinkedInLogo";
 
 const SocialShare = () => {
   return (
@@ -14,7 +14,7 @@ const SocialShare = () => {
         rel="noopener noreferrer"
         className="p-2 bg-white border border-black hover:bg-[#FFCE00] transition"
       >
-        <FaLinkedinIn size={16} />
+        <LinkedInLogo size={16} />
       </Link>
       {/* Facebook Share */}
       <Link

@@ -2,7 +2,7 @@ import Link from "next/link";
 
 import BioOfSharmeenYasmeen from "./BioOfSharmeenYasmeen";
 import Image from "next/image";
-import { FaLinkedin } from "react-icons/fa";
+import { LinkedInLogo } from "@/components/Shared/LinkedInLogo";
 import { interviewOrder } from "../interviewOrder";
 import SharmeenYasmeenImg from "@/public/images/blog-interview/interview/Sharmeen Yasmeen.jpg";
 
@@ -53,7 +53,7 @@ const PublicHealthInsightsWithSharmeenYasmeen = () => {
                   rel="noopener noreferrer"
                   className=""
                 >
-                  <FaLinkedin className="text-2xl" />
+                  <LinkedInLogo size={24} />
                 </a>
               </p>
               {/* comment */}

@@ -4,7 +4,7 @@ import Image from "next/image";
 import { DollarSign, BarChart3, LightbulbIcon } from "lucide-react";
 import ShahPoran from "@/public/images/blog-interview/ShahParan.jpg";
 import blog2 from "@/public/images/blog-interview/blog2.jpg";
-import { FaLinkedin } from "react-icons/fa";
+import { LinkedInLogo } from "@/components/Shared/LinkedInLogo";
 
 import NextButton from "@/components/Shared/NextButton";
 import { blogOrder } from "../blogOrder";
@@ -51,7 +51,7 @@ const OvercomingBudgetBottleNeckPage = () => {
                       className="text-gray-700 hover:text-[#001844] transition-colors"
                       aria-label="LinkedIn profile of Md. Shah Paran"
                     >
-                      <FaLinkedin className="w-8 h-8" />
+                      <LinkedInLogo size={32} />
                     </a>
                   </div>
                 </div>

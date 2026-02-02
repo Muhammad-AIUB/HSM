@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { FaLinkedin } from "react-icons/fa";
+import { LinkedInLogo } from "@/components/Shared/LinkedInLogo";
 import BioOfArefinIslam from "./BioOfArefinIslam";
 import NextButton from "@/components/Shared/NextButton";
 import { interviewOrder } from "../interviewOrder";
@@ -60,7 +60,7 @@ const GlobalHealthExpertAndCoCountryDirector = () => {
             rel="noopener noreferrer"
             className="ml-auto"
           >
-            <FaLinkedin className="text-2xl" />
+            <LinkedInLogo size={24} />
           </a>
         </div>
 

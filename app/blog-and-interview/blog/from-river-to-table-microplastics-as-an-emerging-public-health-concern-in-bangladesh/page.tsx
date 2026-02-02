@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { BookOpen, Heart, AlertTriangle, Shield, Droplets } from "lucide-react";
-import { FaLinkedin } from "react-icons/fa";
+import { LinkedInLogo } from "@/components/Shared/LinkedInLogo";
 import NextButton from "@/components/Shared/NextButton";
 import { blogOrder } from "../blogOrder";
 import BioOfNusratJahanMim from "./BioOfNusratJahanMim";
@@ -67,7 +67,7 @@ const MicroplasticsBlogPage = () => {
                       aria-label="LinkedIn Profile of Nusrat Jahan Mim"
                       title="LinkedIn"
                     >
-                      <FaLinkedin className="w-6 h-6 text-white" />
+                      <LinkedInLogo size={24} variant="white" />
                     </a>
                   </div>
                 </div>

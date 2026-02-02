@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { BookOpen, Heart, AlertTriangle, Shield, Users, Baby } from "lucide-react";
-import { FaLinkedin } from "react-icons/fa";
+import { LinkedInLogo } from "@/components/Shared/LinkedInLogo";
 import NextButton from "@/components/Shared/NextButton";
 import { blogOrder } from "../blogOrder";
 import BioOfDrKhurshidAlamHyder from "./BioOfDrKhurshidAlamHyder";
@@ -65,7 +65,7 @@ const StrengtheningPostnatalCareBlogPage = () => {
                       aria-label="LinkedIn Profile of Dr Md Khurshid Alam Hyder"
                       title="LinkedIn"
                     >
-                      <FaLinkedin className="w-6 h-6 text-white" />
+                      <LinkedInLogo size={24} variant="white" />
                     </a>
                   </div>
                 </div>

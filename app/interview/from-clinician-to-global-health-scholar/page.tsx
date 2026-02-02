@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { interviewOrder } from "../interviewOrder";
-import { FaLinkedin } from "react-icons/fa";
+import { LinkedInLogo } from "@/components/Shared/LinkedInLogo";
 import BioOfMohitChowdhury from "./BioOfMohitChowdhury";
 
 const FromClinicianToGlobalHealthScholar = () => {
@@ -50,7 +50,7 @@ const FromClinicianToGlobalHealthScholar = () => {
                   rel="noopener noreferrer"
                   className=""
                 >
-                  <FaLinkedin className="text-2xl" />
+                  <LinkedInLogo size={24} />
                 </a>
               </p>
               <p className=" text-2xl md:text-[28px]  font-base leading-relaxed md:text-justify">

@@ -1,12 +1,12 @@
 import Image from "next/image";
-import { FaLinkedin } from "react-icons/fa";
+import { LinkedInLogo } from "@/components/Shared/LinkedInLogo";
 import { interviewOrder } from "../interviewOrder";
 
 const DrLuchuoBainInterview = () => {
   return (
     <div className="bg-gradient-to-r from-[#2D8CBB]/10 via-white to-[#2D8CBB]/10 pb-16">
       <div className="relative w-full  border-t-2 border-[#FFCE00]">
-        <div className="bg-gradient-to-b from-[#2D8CBB]/90 to-[#2D8CBB]/30 flex items-center">
+        <div className="bg-gradient-to-b from-[#2D8CBB]/90 to-[#2D8CBB]/30 flex justify-center items-center">
           <div className="max-w-screen-xl mx-auto flex justify-center items-center w-full px-4 text-center md:px-16 flex-wrap gap-6 py-4">
             <h1
               className="text-2xl md:text-[30px] uppercase font-extrabold text-[#001844] leading-10"
@@ -43,7 +43,7 @@ const DrLuchuoBainInterview = () => {
                   className="ml-4 p-2 rounded-md bg-black text-white inline-flex items-center justify-center shadow-sm"
                   aria-label="Dr. Luchuo Bain on LinkedIn"
                 >
-                  <FaLinkedin className="text-base" />
+                  <LinkedInLogo size={20} variant="white" />
                 </a>
               </div>
 
@@ -64,7 +64,7 @@ const DrLuchuoBainInterview = () => {
             </div>
 
             {/* Optional circular image (kept below on larger screens) */}
-            <div className="hidden md:flex md:justify-start md:items-center">
+            <div className="hidden md:flex md:justify-center md:items-center">
               <a
                 href="/images/blog-interview/interview/dr_luchuo.jpg"
                 target="_blank"
@@ -112,8 +112,16 @@ const DrLuchuoBainInterview = () => {
             Kenya, where I lead partnerships across more than 35 African
             countries on initiatives addressing sexual and reproductive health,
             antimicrobial resistance, AI ethics, climate-health nexus, and
-            health systems strengthening. I am also the Convener of Global
-            Health Otherwise, a thought-leadership platform challenging
+            health systems strengthening. I am also the Convener of{" "}
+            <a
+              href="https://globalhealthotherwise.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline text-[#2D8CBB]"
+            >
+              Global Health Otherwise
+            </a>
+            , a thought-leadership platform challenging
             conventional wisdom and amplifying African voices in global health
             discourse. My academic credentials include an MD from the University
             of Yaoundé I, Cameroon; MPH from Hebrew University of Jerusalem; MSc
@@ -141,8 +149,16 @@ const DrLuchuoBainInterview = () => {
             advances global health through three interconnected strategic areas
             that challenge conventional approaches while building practical,
             African-led solutions. I'm leading the knowledge democratization and
-            decolonization of global health movement through Global Health
-            Otherwise, which goes far beyond rhetoric to address what I call the
+            decolonization of global health movement through{" "}
+            <a
+              href="https://globalhealthotherwise.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline text-[#2D8CBB]"
+            >
+              Global Health Otherwise
+            </a>
+            , which goes far beyond rhetoric to address what I call the
             "five pillars" that must be continuously questioned: knowledge,
             expertise, methods, power, and agenda. As I often emphasize, we must
             ask "For whom, by whom, with whom?" I am also working on
@@ -246,12 +262,28 @@ const DrLuchuoBainInterview = () => {
         {/* Q7 */}
         <div className="mb-8">
           <h3 className="text-xl font-bold text-[#2D8CBB] text-justify">
-            Q. You founded Global Health Otherwise and The Career Café. What is
-            their mission, and what future do you envision for these platforms?
+            Q. You founded{" "}
+            <a
+              href="https://globalhealthotherwise.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline text-[#2D8CBB]"
+            >
+              Global Health Otherwise
+            </a>{" "}
+            and The Career Café. What is their mission, and what future do you envision for these platforms?
           </h3>
           <p className="mt-2 leading-relaxed text-justify">
-            <span className="font-bold">Luchuo Bain:</span> I founded Global
-            Health Otherwise to challenge inequities in how global health
+            <span className="font-bold">Luchuo Bain:</span> I founded{" "}
+            <a
+              href="https://globalhealthotherwise.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline text-[#2D8CBB]"
+            >
+              Global Health Otherwise
+            </a>{" "}
+            to challenge inequities in how global health
             knowledge is produced, valued, and governed—centering African
             leadership, Indigenous knowledge, and genuine power redistribution
             through critical scholarship and action. The Career Café complements
@@ -367,7 +399,7 @@ const DrLuchuoBainInterview = () => {
               href="https://globalhealthotherwise.com/"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-[#FFCE00] px-1 rounded font-semibold text-[#001844]"
+              className="underline text-[#2D8CBB]"
             >
               Global Health Otherwise
             </a>

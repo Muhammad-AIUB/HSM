@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { FaLinkedinIn } from "react-icons/fa";
+import { LinkedInLogo } from "@/components/Shared/LinkedInLogo";
 import { Facebook, Gift } from "lucide-react";
 
 export default function KnowledgeGiftSection() {
@@ -81,7 +81,7 @@ export default function KnowledgeGiftSection() {
                             rel="noopener noreferrer"
                             className="flex items-center gap-3 text-lg font-medium text-blue-700 hover:text-blue-900 transition-all duration-300"
                         >
-                            <FaLinkedinIn size={24} className="text-blue-600" />{" "}
+                            <LinkedInLogo size={24} />{" "}
                             LinkedIn
                         </a>
                         <a

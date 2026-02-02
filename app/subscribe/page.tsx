@@ -2,7 +2,8 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { FaFacebook, FaLinkedinIn } from "react-icons/fa";
+import { LinkedInLogo } from "@/components/Shared/LinkedInLogo";
+import { FaFacebook } from "react-icons/fa";
 import NextButton from "@/components/Shared/NextButton";
 import { toast } from "sonner";
 import { Dialog, DialogContent, DialogDescription, DialogTitle } from "@/components/ui/dialog";
@@ -145,7 +146,7 @@ export default function SubscribePage() {
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-lg font-medium  text-blue-700  hover:text-sky-900 transition-all duration-300"
               >
-                <FaLinkedinIn size={26} className="text-blue-600" /> LinkedIn
+                <LinkedInLogo size={26} /> LinkedIn
               </a>
               <a
                 href="https://www.facebook.com/profile.php?id=61564171250656"

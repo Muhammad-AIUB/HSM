@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { FaLinkedin } from "react-icons/fa";
+import { LinkedInLogo } from "@/components/Shared/LinkedInLogo";
 import DrMadhukarPaiImg from "@/public/images/blog-interview/interview/madhukar.jpg";
 
 export default function TedrosQuote() {
@@ -27,7 +27,7 @@ export default function TedrosQuote() {
                 rel="noopener noreferrer"
                 className=""
               >
-                <FaLinkedin className="text-2xl" />
+                <LinkedInLogo size={24} />
               </a>
             </p>
 

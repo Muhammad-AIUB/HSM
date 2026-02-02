@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { interviewOrder } from "../interviewOrder";
 
-import { FaLinkedin } from "react-icons/fa";
+import { LinkedInLogo } from "@/components/Shared/LinkedInLogo";
 
 import Heading from "../a-leading-voice-in-global-health-systems/components/Heading";
 
@@ -56,7 +56,7 @@ const FindingPurposeInClimateAction = () => {
                   rel="noopener noreferrer"
                   className=""
                 >
-                  <FaLinkedin className="text-2xl" />
+                  <LinkedInLogo size={24} />
                 </a>
               </p>
 

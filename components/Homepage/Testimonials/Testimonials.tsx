@@ -13,7 +13,7 @@ import {
 } from "@/components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
 import { cn } from "@/lib/utils";
-import { FaLinkedin } from "react-icons/fa";
+import { LinkedInLogo } from "@/components/Shared/LinkedInLogo";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -143,7 +143,7 @@ export function AnimatedTestimonialsDemo() {
                               href={testimonial.link}
                               className="text-sm font-medium cursor-pointer"
                             >
-                              <FaLinkedin className="w-5 h-5" />
+                              <LinkedInLogo size={20} />
                             </Link>
                           </div>
                         </div>

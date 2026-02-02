@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { BookOpen, Users, TrendingUp, Heart } from "lucide-react";
-import { FaLinkedin } from "react-icons/fa";
+import { LinkedInLogo } from "@/components/Shared/LinkedInLogo";
 import NextButton from "@/components/Shared/NextButton";
 import { blogOrder } from "../blogOrder";
 import BioOfRezaulKarim from "./BioOfRezaulKarim";
@@ -66,7 +66,7 @@ const StrengtheningHealthcareQualityBlogPage = () => {
                       className="bg-[#2D8CBB] hover:bg-[#001844] rounded-full p-3 transition-all duration-300 hover:scale-110"
                       aria-label="LinkedIn profile of Rezaul Karim"
                     >
-                      <FaLinkedin className="w-6 h-6 text-white" />
+                      <LinkedInLogo size={24} variant="white" />
                     </a>
                   </div>
                 </div>

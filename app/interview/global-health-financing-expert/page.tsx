@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { FaLinkedin } from "react-icons/fa";
+import { LinkedInLogo } from "@/components/Shared/LinkedInLogo";
 import BioOfSabaWaseem from "./BioOfSabaWaseem";
 import { interviewOrder } from "../interviewOrder";
 
@@ -50,7 +50,7 @@ const GlobalHealthFinancingExpert = () => {
                   rel="noopener noreferrer"
                   className=""
                 >
-                  <FaLinkedin className="text-2xl" />
+                  <LinkedInLogo size={24} />
                 </a>
               </p>
               <p className=" text-2xl md:text-[28px]  font-base leading-relaxed md:text-justify">

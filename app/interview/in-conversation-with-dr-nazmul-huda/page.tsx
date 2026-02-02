@@ -4,7 +4,7 @@ import Link from "next/link";
 import { interviewOrder } from "../interviewOrder";
 import BioOfNazmulHuda from "./BioOfNazmulHuda";
 import Image from "next/image";
-import { FaLinkedin } from "react-icons/fa";
+import { LinkedInLogo } from "@/components/Shared/LinkedInLogo";
 import NazmulHudaImg from "@/public/images/blog-interview/interview/nazmul.jpg";
 
 const InConversationWithDrNazmulHuda = () => {
@@ -59,7 +59,7 @@ const InConversationWithDrNazmulHuda = () => {
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-[#2D8CBB] hover:text-[#1B6E99] transition-colors"
             >
-              <FaLinkedin className="text-xl" />
+              <LinkedInLogo size={20} />
               <span className="text-sm font-medium">LinkedIn Profile</span>
             </a>
           </div>

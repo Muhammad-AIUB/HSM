@@ -7,7 +7,7 @@ import Image from "next/image";
 import NextButton from "@/components/Shared/NextButton";
 import { blogOrder } from "../blogOrder";
 import blog3 from "@/public/images/blog-interview/blog3.jpg";
-import { FaLinkedin } from "react-icons/fa";
+import { LinkedInLogo } from "@/components/Shared/LinkedInLogo";
 
 const BeyondTheSilencePage = () => {
   return (
@@ -54,7 +54,7 @@ const BeyondTheSilencePage = () => {
                       aria-label="LinkedIn profile of Dr. Tasnuva Nawrin Himika
 "
                     >
-                      <FaLinkedin className="w-8 h-8" />
+                      <LinkedInLogo size={32} />
                     </a>
                   </div>
                 </div>

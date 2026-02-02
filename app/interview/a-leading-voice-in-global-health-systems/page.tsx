@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { interviewOrder } from "../interviewOrder";
-import { FaLinkedin } from "react-icons/fa";
+import { LinkedInLogo } from "@/components/Shared/LinkedInLogo";
 // import DrZarifImg from "@/public/images/blog-interview/interview/Zarif-Rasul-2.jpg";
 import DrTaufiqueImg from "@/public/images/blog-interview/interview/DrTaufique.jpg";
 import BioOfTarique from "./BioOfTarique";
@@ -57,7 +57,7 @@ const LeadingVoice = () => {
                   rel="noopener noreferrer"
                   className=""
                 >
-                  <FaLinkedin className="text-2xl" />
+                  <LinkedInLogo size={24} />
                 </a>
               </p>
 

@@ -2,7 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { interviewOrder } from "../interviewOrder";
 
-import { FaGlobe, FaLinkedin } from "react-icons/fa";
+import { LinkedInLogo } from "@/components/Shared/LinkedInLogo";
+import { FaGlobe } from "react-icons/fa";
 
 import Heading from "../a-leading-voice-in-global-health-systems/components/Heading";
 
@@ -60,7 +61,7 @@ const FromVisionToImpact = () => {
                   rel="noopener noreferrer"
                   className=""
                 >
-                  <FaLinkedin className="text-2xl" />
+                  <LinkedInLogo size={24} />
                 </a>
                 <a
                   href="https://ishtiaqmannan.com/"

@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { ArrowRight, BookText, BookOpen } from "lucide-react";
-import { FaLinkedin } from "react-icons/fa";
+import { LinkedInLogo } from "@/components/Shared/LinkedInLogo";
 import NextButton from "@/components/Shared/NextButton";
 import { blogOrder } from "../blogOrder";
 
@@ -48,7 +48,7 @@ const BreakingAidDependencyBlogPage = () => {
                       className="text-gray-700 hover:text-[#001844] transition-colors"
                       aria-label="LinkedIn profile of Afroja Yesmin"
                     >
-                      <FaLinkedin className="w-8 h-8" />
+                      <LinkedInLogo size={32} />
                     </a>
                   </div>
                 </div>

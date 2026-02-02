@@ -2,7 +2,8 @@
 
 import { motion } from "framer-motion";
 import { Mail } from "lucide-react";
-import { FaFacebook, FaLinkedinIn } from "react-icons/fa";
+import { LinkedInLogo } from "@/components/Shared/LinkedInLogo";
+import { FaFacebook } from "react-icons/fa";
 import SizearImage from "@/public/images/sizear/contact-section.jpg";
 import Image from "next/image";
 import Link from "next/link";
@@ -33,7 +34,7 @@ export default function ContactSection() {
               rel="noopener noreferrer"
               className="flex items-center gap-3 text-lg font-medium text-blue-700 hover:text-blue-900 transition-all duration-300"
             >
-              <FaLinkedinIn size={24} className="text-blue-600" /> LinkedIn
+              <LinkedInLogo size={24} /> LinkedIn
             </a>
             <a
               href="https://www.facebook.com/monaemul.sizear"

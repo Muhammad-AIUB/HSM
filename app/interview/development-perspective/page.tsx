@@ -1,6 +1,6 @@
 import Image from "next/image";
 import BioOfZarif from "./BiofOfZarifRasul";
-import { FaLinkedin } from "react-icons/fa";
+import { LinkedInLogo } from "@/components/Shared/LinkedInLogo";
 import Link from "next/link";
 import { interviewOrder } from "../interviewOrder";
 import DrZarifImg from "@/public/images/blog-interview/interview/Zarif-Rasul-2.jpg";
@@ -54,7 +54,7 @@ const DevelopmentPerspective = () => {
                   rel="noopener noreferrer"
                   className=""
                 >
-                  <FaLinkedin className="text-2xl" />
+                  <LinkedInLogo size={24} />
                 </a>
               </p>
               {/* comment */}

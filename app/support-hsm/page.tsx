@@ -4,7 +4,8 @@ import { SectionTitleWithoutSub } from "@/components/Shared/SectionTitle/Section
 import { motion } from "framer-motion";
 import { Gift, Globe } from "lucide-react";
 import Link from "next/link";
-import { FaFacebook, FaLinkedin } from "react-icons/fa";
+import { LinkedInLogo } from "@/components/Shared/LinkedInLogo";
+import { FaFacebook } from "react-icons/fa";
 import {
   Dialog,
   DialogContent,
@@ -62,8 +63,8 @@ export default function SupportHSM() {
             </li>
 
             <li className="flex items-center gap-2">
-              <FaLinkedin
-                className="mt-1 text-blue-700 text-xl size-8 shrink-0"
+              <LinkedInLogo
+                className="mt-1 shrink-0"
                 size={18}
               />
               <div>
