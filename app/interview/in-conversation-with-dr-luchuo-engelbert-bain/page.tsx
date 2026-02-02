@@ -29,10 +29,19 @@ const DrLuchuoBainInterview = () => {
       </div>
 
       <section className="relative w-full bg-white">
-        <div className="bg-[#001844] py-10 px-6 sm:px-8 lg:px-16">
-          <div className="max-w-7xl mx-auto flex flex-col items-stretch gap-6">
-            <div className="bg-[#FFCE00] w-full text-black p-6 md:p-8 rounded-md shadow-md relative">
-              {/* Title and LinkedIn */}
+        <div className="bg-[#001844] py-10 px-12 sm:px-8 lg:px-16">
+          <div className="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-center sm:items-center gap-8">
+            <div className="w-56 h-56 sm:w-60 sm:h-60 shrink-0 rounded-full overflow-hidden">
+              <Image
+                src="/images/blog-interview/interview/dr_luchuo.jpg"
+                alt="Dr. Luchuo Engelbert Bain"
+                width={500}
+                height={500}
+                className="object-cover object-center w-full h-full"
+              />
+            </div>
+
+            <div className="bg-[#FFCE00] max-w-5xl text-black p-4 sm:p-6 rounded-md shadow-md">
               <p className="text-xl font-semibold text-gray-800 mb-3 flex items-center gap-4">
                 — Dr. Luchuo Engelbert Bain, Global Health Activist & Researcher
                 <a
@@ -46,39 +55,17 @@ const DrLuchuoBainInterview = () => {
                 </a>
               </p>
 
-              {/* Centered quote with constrained width for better line breaks */}
-              <blockquote className="max-w-3xl mx-auto text-center text-lg md:text-[20px] leading-relaxed">
+              <p className=" text-2xl md:text-[28px]  font-base leading-relaxed md:text-justify">
                 “The next generation of global health leaders must develop three
                 non-negotiable skills: first, transdisciplinary systems
                 thinking; second, political literacy paired with ethical
                 courage; and third, transformative science communication.
                 Together, these skills enable leaders to shift power, deliver
                 impact, and truly transform global health.”
-              </blockquote>
-
-              {/* Published date aligned to the right */}
-              <p className="text-sm text-right text-gray-800 mt-6">
+              </p>
+              <p className="mt-3 text-sm text-gray-800 font-medium">
                 Published: 04 February 2026
               </p>
-            </div>
-
-            {/* Optional circular image (kept below on larger screens) */}
-            <div className="hidden md:flex md:justify-center md:items-center">
-              <a
-                href="/images/blog-interview/interview/dr_luchuo.jpg"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-48 h-48 rounded-full overflow-hidden block focus:outline-none focus:ring-4 focus:ring-[#FFCE00]"
-                tabIndex={0}
-              >
-                <Image
-                  src="/images/blog-interview/interview/dr_luchuo.jpg"
-                  alt="Dr. Luchuo Engelbert Bain"
-                  width={480}
-                  height={480}
-                  className="object-cover w-full h-full"
-                />
-              </a>
             </div>
           </div>
         </div>
