@@ -362,12 +362,20 @@ const DrLuchuoBainInterview = () => {
             Dr Bain is widely known for advancing politically informed global
             health practice, arguing that health is fundamentally shaped by
             power, institutions, and diplomacy—not technical solutions alone. As
-            convener of Global Health Otherwise, he is actively rethinking
-            global public health curricula, emphasizing how to think, how to
-            read, entrepreneurship, and equity operationalization. Central to
-            his work is a deep commitment to mentorship and intentional
-            menteeship, preparing a fit-for-purpose generation of global health
-            leaders for a rapidly changing world.
+            convener of{" "}
+            <a
+              href="https://globalhealthotherwise.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-[#FFCE00] px-1 rounded font-semibold text-[#001844]"
+            >
+              Global Health Otherwise
+            </a>
+            , he is actively rethinking global public health curricula,
+            emphasizing how to think, how to read, entrepreneurship, and equity
+            operationalization. Central to his work is a deep commitment to
+            mentorship and intentional menteeship, preparing a fit-for-purpose
+            generation of global health leaders for a rapidly changing world.
           </p>
         </div>
       </div>
