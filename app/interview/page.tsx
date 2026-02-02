@@ -25,7 +25,6 @@ import DrTaufiqueImg from "@/public/images/blog-interview/interview/DrTaufique.j
 import IstiakMannan from "@/public/images/blog-interview/interview/istiak-mannan-cover-i.jpg";
 // import BarbaraGastelImg from "@/public/images/blog-interview/interview/barbara-gastel-clean.jpg";
 
-
 interface Interview {
   id: number;
   title: string;
@@ -38,17 +37,21 @@ interface Interview {
 const interviews = [
   {
     id: 21,
-    title: "Finding Purpose in Climate Action: Dr. Khalid Hossain's Career Journey from Bangladesh to Australia",
+    title:
+      "Finding Purpose in Climate Action: Dr. Khalid Hossain's Career Journey from Bangladesh to Australia",
     date: "January 1, 2026",
-    description: "Dr. Md Khalid Hossain, Researcher & Academician at Monash University, shares insights on climate resilience, digital transformation, and community-centered health systems.",
+    description:
+      "Dr. Md Khalid Hossain, Researcher & Academician at Monash University, shares insights on climate resilience, digital transformation, and community-centered health systems.",
     image: "/images/blog-interview/interview/Md Khalid Hossain.jpg",
     slug: "finding-purpose-in-climate-action-dr-khalid-hossains-career-journey-from-bangladesh-to-australia",
   },
   {
     id: 22,
-    title: "In Conversation with Dr. Sabina Faiz Rashid: Insights from a Medical Anthropologist and Global Health Researcher",
+    title:
+      "In Conversation with Dr. Sabina Faiz Rashid: Insights from a Medical Anthropologist and Global Health Researcher",
     date: "January 22, 2026",
-    description: "Dr. Sabina Faiz Rashid, BRAC University: medical anthropologist focusing on gender, urban health, and participatory research.",
+    description:
+      "Dr. Sabina Faiz Rashid, BRAC University: medical anthropologist focusing on gender, urban health, and participatory research.",
     image: "/images/blog-interview/interview/Sabina Faiz Rashid.jpg",
     slug: "in-conversation-with-dr-sabina-faiz-rashid",
   },
@@ -64,7 +67,8 @@ const interviews = [
   },
   {
     id: 10,
-    title: "Leading with Heart and Purpose: A Grounded Conversation with Almeer Ahsan",
+    title:
+      "Leading with Heart and Purpose: A Grounded Conversation with Almeer Ahsan",
     date: "July 17, 2025",
     description:
       "Almeer Ahsan shares his journey, leadership philosophy, and insights from a decade in global development.",
@@ -133,16 +137,19 @@ const interviews = [
   },
   {
     id: 7,
-    title: "From Clinician to Global Health Scholar: An Interview with Dr. Mohit Chowdhury",
+    title:
+      "From Clinician to Global Health Scholar: An Interview with Dr. Mohit Chowdhury",
     date: "June 24, 2025",
     description:
       "Dr. Mohit Chowdhury shares his journey from clinical practice to global health scholarship, his mentors, and his vision for the next generation of public health leaders.",
-    image: "/images/blog-interview/interview/392b80ff-42c9-4833-92e0-19db46e0f028.jpeg",
+    image:
+      "/images/blog-interview/interview/392b80ff-42c9-4833-92e0-19db46e0f028.jpeg",
     slug: "from-clinician-to-global-health-scholar",
   },
   {
     id: 8,
-    title: "Global Health Financing and Career Questions: An Interview with Dr. Saba Waseem",
+    title:
+      "Global Health Financing and Career Questions: An Interview with Dr. Saba Waseem",
     date: "July 05, 2025",
     description:
       "Dr. Saba Waseem, Development Economist and Global Health System Strengthening Expert, shares insights on sustainable financing and career development in global health.",
@@ -151,7 +158,8 @@ const interviews = [
   },
   {
     id: 9,
-    title: "From Services to Systems: Dr. Arefin Islam's Insights for Public Health Solutions",
+    title:
+      "From Services to Systems: Dr. Arefin Islam's Insights for Public Health Solutions",
     date: "July 10, 2025",
     description:
       "Dr. Arefin Islam, A Global Health Expert and Co-Country Director at Noora Health, shares insights on maternal and child health, health systems strengthening, and career guidance for public health professionals.",
@@ -160,7 +168,8 @@ const interviews = [
   },
   {
     id: 11,
-    title: "Alex Berland on Elevating Nursing Education and Building a Global Health Career",
+    title:
+      "Alex Berland on Elevating Nursing Education and Building a Global Health Career",
     date: "July 31, 2025",
     description:
       "Alex Berland, Global Health and Nursing Education Specialist, shares insights on nursing education in Bangladesh and building a global career in nursing.",
@@ -169,7 +178,8 @@ const interviews = [
   },
   {
     id: 12,
-    title: "Chris Welch, A Global Health Operations Expert & Project Management Specialist",
+    title:
+      "Chris Welch, A Global Health Operations Expert & Project Management Specialist",
     date: "September 02, 2025",
     description:
       "Chris Welch shares insights on global health operations, project management, and leadership lessons from nearly 30 years of experience working across 15 countries.",
@@ -178,7 +188,8 @@ const interviews = [
   },
   {
     id: 13,
-    title: "Global Health Conversation with Dr. Rajat Das Gupta: A Clinical Research Epidemiologist",
+    title:
+      "Global Health Conversation with Dr. Rajat Das Gupta: A Clinical Research Epidemiologist",
     date: "September 23, 2025",
     description:
       "Dr. Rajat Das Gupta, Postdoctoral Research Fellow at Vanderbilt University Medical Center, shares insights on cancer epidemiology, global health research, and evidence-based interventions for health challenges in Bangladesh.",
@@ -187,7 +198,8 @@ const interviews = [
   },
   {
     id: 14,
-    title: "In Conversation with Dr. Nazmul Huda: Insights from A Global Health Manager and Academic",
+    title:
+      "In Conversation with Dr. Nazmul Huda: Insights from A Global Health Manager and Academic",
     date: "October 05, 2025",
     description:
       "Professor Sk Nazmul Huda shares his extensive experience in global health management, including his groundbreaking work on female genital fistula care, breastfeeding protection, and innovative community health initiatives across Bangladesh and Africa.",
@@ -196,16 +208,19 @@ const interviews = [
   },
   {
     id: 15,
-    title: "Prof. Barbara Gastel on Biomedical Writing, Storytelling, and Health Communication: A Thoughtful Exchange",
+    title:
+      "Prof. Barbara Gastel on Biomedical Writing, Storytelling, and Health Communication: A Thoughtful Exchange",
     date: "October 10, 2025",
     description:
       "Dr. Barbara Gastel, Academician and Passionate Health Writer, shares insights on biomedical writing, health communication, and the evolving landscape of science writing in the age of artificial intelligence.",
-    image: "/images/blog-interview/interview/Headshot_Barbara Gastel_June 2022.jpg",
+    image:
+      "/images/blog-interview/interview/Headshot_Barbara Gastel_June 2022.jpg",
     slug: "prof-barbara-gastel-biomedical-writing-storytelling-health-communication",
   },
   {
     id: 16,
-    title: "Bridging Research and Activism in Global Health: A Dialogue with Dr. Prima Alam",
+    title:
+      "Bridging Research and Activism in Global Health: A Dialogue with Dr. Prima Alam",
     date: "October 24, 2025",
     description:
       "Dr. Prima Alam, Co-Founder and Director at RDA Labs, shares insights on bridging research and activism in global health, leadership lessons, and creating spaces for collective curiosity.",
@@ -214,7 +229,8 @@ const interviews = [
   },
   {
     id: 17,
-    title: "Deep Conversation with Dr. Tasdik Hasan: Emerging Voice in Global Mental Health",
+    title:
+      "Deep Conversation with Dr. Tasdik Hasan: Emerging Voice in Global Mental Health",
     date: "October 31, 2025",
     description:
       "Dr. Tasdik Hasan, PhD Teaching Fellow at Monash University, shares insights on digital mental health innovation, Deaf community mental health, and building a global career in mental health research.",
@@ -223,7 +239,8 @@ const interviews = [
   },
   {
     id: 18,
-    title: "Implementing Global Health: A Conversation with Dr. Samina Choudhury",
+    title:
+      "Implementing Global Health: A Conversation with Dr. Samina Choudhury",
     date: "November 9, 2025",
     description:
       "Dr. Samina Choudhury, A Global Health Manager, shares insights on implementing global health programs, working with the Ministry of Health and Family Welfare in Bangladesh, and essential skills for the next generation of global health leaders.",
@@ -238,6 +255,16 @@ const interviews = [
       "Dr. Jabed Iqbal – Global Health Academic and Cancer Researcher shares insights on cancer research, global health disparities, and his work on Project ABCD to establish molecular testing capabilities in Bangladesh.",
     image: "/images/blog-interview/interview/javed.jpeg",
     slug: "exploring-global-health-and-cancer-research-with-dr-javed-iqbal",
+  },
+  {
+    id: 23,
+    title:
+      "In Conversation with Dr. Luchuo Engelbert Bain: Insights from A Global Health Leader",
+    date: "February 04, 2026",
+    description:
+      "Dr. Luchuo Engelbert Bain, Global Health Activist & Researcher, discusses decolonization of global health, AMR surveillance, SRHR, and leadership skills for the next generation.",
+    image: "/images/blog-interview/interview/dr_luchuo.jpg",
+    slug: "in-conversation-with-dr-luchuo-engelbert-bain",
   },
 ];
 
@@ -337,7 +364,8 @@ const InterviewPage = () => {
                       href={`/interview/${interview.slug}`}
                       className="flex flex-col h-full overflow-hidden" // Added overflow-hidden
                     >
-                      {interview.slug === "global-health-expert-and-co-country-director" ? (
+                      {interview.slug ===
+                      "global-health-expert-and-co-country-director" ? (
                         <Image
                           src={interview.image}
                           alt={interview.title}
@@ -345,7 +373,8 @@ const InterviewPage = () => {
                           height={400}
                           className="w-full h-72 object-contain bg-[#f3f3f3] hover:scale-105 hover:opacity-90 transition-transform duration-300 object-top"
                         />
-                      ) : interview.slug === "alex-berland-on-elevating-nursing-education" ? (
+                      ) : interview.slug ===
+                        "alex-berland-on-elevating-nursing-education" ? (
                         <Image
                           src={interview.image}
                           alt={interview.title}
@@ -353,32 +382,35 @@ const InterviewPage = () => {
                           height={300}
                           className="w-full h-56 object-cover hover:scale-105 hover:opacity-90 transition-transform duration-300 object-center"
                         />
-                      ) : interview.slug === "chris-welch-global-health-operations-expert" ? (
+                      ) : interview.slug ===
+                        "chris-welch-global-health-operations-expert" ? (
                         <Image
                           src={interview.image}
                           alt={interview.title}
                           width={500}
                           height={300}
                           className="w-full h-56 object-cover hover:scale-105 hover:opacity-90 transition-transform duration-300"
-                          style={{ objectPosition: 'center 20%' }}
+                          style={{ objectPosition: "center 20%" }}
                         />
-                      ) : interview.slug === "prof-barbara-gastel-biomedical-writing-storytelling-health-communication" ? (
+                      ) : interview.slug ===
+                        "prof-barbara-gastel-biomedical-writing-storytelling-health-communication" ? (
                         <Image
                           src={interview.image}
                           alt={interview.title}
                           width={500}
                           height={300}
                           className="w-full h-56 object-cover hover:scale-105 hover:opacity-90 transition-transform duration-300"
-                          style={{ objectPosition: 'center 5%' }}
+                          style={{ objectPosition: "center 5%" }}
                         />
-                      ) : interview.slug === "leading-with-heart-and-purpose-almeer-ahsan" ? (
+                      ) : interview.slug ===
+                        "leading-with-heart-and-purpose-almeer-ahsan" ? (
                         <Image
                           src={interview.image}
                           alt={interview.title}
                           width={500}
                           height={300}
                           className="w-full h-56 object-cover hover:scale-105 hover:opacity-90 transition-transform duration-300"
-                          style={{ objectPosition: 'center 30%' }}
+                          style={{ objectPosition: "center 30%" }}
                         />
                       ) : (
                         <Image
@@ -395,7 +427,7 @@ const InterviewPage = () => {
                       </div>
                       {/* Serial number pill */}
                       <div className="absolute top-0 right-0 z-20 bg-[#FFCE00] px-3 py-1 rounded-full text-xs font-medium text-black shadow-md backdrop-blur-sm mt-4 mr-4">
-                        Interview #{(index + 1).toString().padStart(2, '0')}
+                        Interview #{(index + 1).toString().padStart(2, "0")}
                       </div>
                       <div className="relative flex flex-col flex-1 p-6">
                         {/* Content */}
@@ -432,7 +464,7 @@ const InterviewPage = () => {
                 "w-2 h-2 rounded-full transition-all duration-300",
                 current === index
                   ? "bg-[#1E60AC] w-6"
-                  : "bg-gray-300 dark:bg-gray-700 hover:bg-gray-400 dark:hover:bg-gray-600"
+                  : "bg-gray-300 dark:bg-gray-700 hover:bg-gray-400 dark:hover:bg-gray-600",
               )}
               onClick={() => api?.scrollTo(index)}
             />

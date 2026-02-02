@@ -9,7 +9,7 @@ const DelayedGiftModal = () => {
     useEffect(() => {
         const timer = setTimeout(() => {
             setShow(true);
-        }, 3000); // 30 seconds
+        }, 3000); 
 
         return () => clearTimeout(timer);
     }, []);
