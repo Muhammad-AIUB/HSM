@@ -33,21 +33,18 @@ const DrLuchuoBainInterview = () => {
           <div className="max-w-7xl mx-auto flex flex-col items-stretch gap-6">
             <div className="bg-[#FFCE00] w-full text-black p-6 md:p-8 rounded-md shadow-md relative">
               {/* Title and LinkedIn */}
-              <div className="flex items-start justify-between mb-4">
-                <h2 className="text-lg md:text-xl font-extrabold text-gray-900">
-                  — Dr. Luchuo Engelbert Bain, Global Health Activist &
-                  Researcher
-                </h2>
+              <p className="text-xl font-semibold text-gray-800 mb-3 flex items-center gap-4">
+                — Dr. Luchuo Engelbert Bain, Global Health Activist & Researcher
                 <a
                   href="https://www.linkedin.com/in/luchuo-bain-a0a17161/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="ml-4 p-2 rounded-md bg-black text-white inline-flex items-center justify-center shadow-sm"
+                  className=""
                   aria-label="Dr. Luchuo Bain on LinkedIn"
                 >
-                  <LinkedInLogo size={20} variant="white" />
+                  <LinkedInLogo size={24} />
                 </a>
-              </div>
+              </p>
 
               {/* Centered quote with constrained width for better line breaks */}
               <blockquote className="max-w-3xl mx-auto text-center text-lg md:text-[20px] leading-relaxed">
