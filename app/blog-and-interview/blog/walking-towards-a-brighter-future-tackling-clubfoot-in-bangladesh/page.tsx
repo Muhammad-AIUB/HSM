@@ -101,7 +101,7 @@ const ClubfootBlogPage = () => {
             <div className="p-3 bg-green-500 rounded-xl mr-4">
               <Shield className="w-8 h-8 text-white" />
             </div>
-            <h2 className="text-3xl font-bold text-green-600">National Response: <a href="https://walkforlife.org.bd/en/" target="_blank" rel="noopener noreferrer" className="text-[#2D8CBB] bg-yellow-100 underline decoration-2 underline-offset-2 px-1 rounded-sm">Walk for Life</a> and Beyond</h2>
+            <h2 className="text-3xl font-bold text-green-600">National Response: Walk for Life and Beyond</h2>
           </div>
 
           <div className="space-y-4 text-gray-800 leading-relaxed">
