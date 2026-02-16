@@ -157,6 +157,17 @@ const BlogPage = () => {
         />
 
         <BlogCard
+          item={{
+            title: "Walking Towards a Brighter Future: Tackling Clubfoot in Bangladesh",
+            description:
+              "Every year nearly 4,000 children in Bangladesh are born with clubfoot — a highly treatable condition. This piece explains Walk for Life, community outreach, and why early detection matters.",
+            date: "19 February, 2026",
+            type: "blog",
+            thumbnail: "/images/blog-interview/Sumit Banik.JPG",
+          }}
+        />
+
+        <BlogCard
           key="strengthening-postnatal-care"
           item={{
             title:

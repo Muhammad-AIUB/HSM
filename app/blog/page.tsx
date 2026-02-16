@@ -13,6 +13,7 @@ import {
 } from "@/components/ui/carousel";
 
 import Image from "next/image";
+import { blogOrder } from "../blog-and-interview/blog/blogOrder";
 
 import FlanneryImage from "@/public/images/blog-interview/Flannery.png";
 import Himika from "@/public/images/blog-interview/Himika.jpg";
@@ -111,6 +112,14 @@ const blogs = [
     type: "blog",
     thumbnail: "/images/blog-interview/DrHyder3.jpg",
   },
+  {
+    title: "Walking Towards a Brighter Future: Tackling Clubfoot in Bangladesh",
+    description:
+      "Every year nearly 4,000 children in Bangladesh are born with clubfoot — a highly treatable condition. This piece explains Walk for Life, community outreach, and why early detection matters.",
+    date: "19 February, 2026",
+    type: "blog",
+    thumbnail: "/images/blog-interview/Sumit Banik.JPG",
+  },
 ];
 
 const BlogPage = () => {
@@ -131,6 +140,16 @@ const BlogPage = () => {
       setCurrent(api.selectedScrollSnap());
     });
   }, [api]);
+
+  // derive canonical serial numbers from `blogOrder`
+  const slugify = (title: string) =>
+    title.replace(/[^a-zA-Z0-9\s-]/g, "").replace(/\s+/g, "-").toLowerCase();
+
+  const blogsWithSerial = blogs.map((b) => {
+    const slug = slugify(b.title);
+    const idx = blogOrder.findIndex((x) => x.slug === slug);
+    return { ...b, serialNumber: idx !== -1 ? idx + 1 : undefined };
+  });
 
   if (!mounted) return null;
 
@@ -181,13 +200,13 @@ const BlogPage = () => {
           setApi={setApi}
         >
           <CarouselContent className="-ml-4 pb-10">
-            {blogs.map((item, index) => (
+            {blogsWithSerial.map((item, index) => (
               <CarouselItem
                 key={index}
                 className="pl-4 md:basis-1/2 lg:basis-1/2 pt-1 pb-4"
               >
                 <div className="h-full flex">
-                  <BlogCard item={item} serialNumber={index + 1} />
+                  <BlogCard item={item} serialNumber={item.serialNumber ?? index + 1} />
                 </div>
               </CarouselItem>
             ))}

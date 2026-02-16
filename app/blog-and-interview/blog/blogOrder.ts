@@ -43,5 +43,9 @@ export const blogOrder = [
   {
     slug: "strengthening-postnatal-care-and-tuberculosis-management",
     title: "Strengthening Postnatal Care and Tuberculosis Management"
+  },
+  {
+    slug: "walking-towards-a-brighter-future-tackling-clubfoot-in-bangladesh",
+    title: "Walking Towards a Brighter Future: Tackling Clubfoot in Bangladesh"
   }
 ];
