@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { GoogleAnalytics } from "@next/third-parties/google";
+import Script from "next/script";
 import "./globals.css";
 import SocialShare from "@/components/Shared/Social/SocialShare";
 import Navbar from "@/components/Shared/Navbar";
@@ -21,7 +22,17 @@ export default function RootLayout({
 }>) {
     return (
         <html className="scroll-smooth" lang="en">
-            <body className={`antialiased`}>
+            <body className="antialiased" suppressHydrationWarning>
+                <Script id="sanitize-body-attrs" strategy="beforeInteractive">
+                    {`(() => {
+                        try {
+                            const attrs = Array.from(document.body?.attributes || []);
+                            attrs
+                                .filter(a => a.name.startsWith('cz-'))
+                                .forEach(a => document.body.removeAttribute(a.name));
+                        } catch (e) { /* noop */ }
+                    })()`}
+                </Script>
                 <SocialShare />
                 <GiftButton />
                 <Navbar />
