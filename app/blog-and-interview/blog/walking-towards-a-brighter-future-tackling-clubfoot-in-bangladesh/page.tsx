@@ -24,7 +24,7 @@ const ClubfootBlogPage = () => {
             <div className="bg-white border-4 border-[#FFCE00] rounded-3xl p-8 shadow-2xl">
               <div className="flex flex-col lg:flex-row items-center gap-8">
                 <div className="relative group">
-                  <div className="relative w-20 h-20 md:w-24 md:h-24 rounded-full overflow-hidden border-4 border-[#FFCE00]">
+                  <div className="relative w-28 h-28 md:w-32 md:h-32 rounded-full overflow-hidden border-4 border-[#FFCE00]">
                     <Image
                       src="/images/blog-interview/Sumit Banik.JPG"
                       alt="Sumit Banik"
