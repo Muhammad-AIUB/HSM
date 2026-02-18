@@ -109,12 +109,12 @@ const ClubfootBlogPage = () => {
               Bangladesh has responded decisively to this challenge through <a href="https://walkforlife.org.bd/en/" target="_blank" rel="noopener noreferrer" className="text-[#2D8CBB] bg-yellow-100 underline decoration-2 underline-offset-2 px-1 rounded-sm">Walk for Life</a>, the national clubfoot program established in 2009. Initially supported by The Glencoe Foundation and later partnering with <a href="https://www.miraclefeet.org/countries/bangladesh" target="_blank" rel="noopener noreferrer" className="text-[#2D8CBB] bg-yellow-100 underline decoration-2 underline-offset-2 px-1 rounded-sm">MiracleFeet</a>, <a href="https://walkforlife.org.bd/en/" target="_blank" rel="noopener noreferrer" className="text-[#2D8CBB] bg-yellow-100 underline decoration-2 underline-offset-2 px-1 rounded-sm">Walk for Life</a> has evolved into a comprehensive, nationwide initiative dedicated to providing effective, low-cost, and sustainable treatment for children across the country. The program utilizes the globally recognized Ponseti Method, a non-surgical technique that involves gentle serial casting, limited tendon release, and long-term bracing.
             </p>
 
-            <div className="rounded-lg overflow-hidden border mt-4 w-56 md:w-72 mx-auto">
+            <div className="rounded-lg overflow-hidden border mt-4 w-72 md:w-[480px] mx-auto">
               <Image
                 src="/images/blog-interview/Clubfoot_Photo Credit-Sumit.png"
                 alt="Children receiving clubfoot care"
-                width={200}
-                height={200}
+                width={480}
+                height={480}
                 className="w-full h-auto object-cover"
               />
               <div className="p-3 text-sm text-gray-500">Photo credit: Sumit Banik</div>
