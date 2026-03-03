@@ -92,32 +92,50 @@ const MalabikaSarkerInterview = () => {
           </p>
           <ol className="mt-3 leading-relaxed text-justify list-decimal list-inside space-y-2">
             <li>
-              Joined WHDP (Women Health &amp; Development Program) at BRAC in
-              Dinajpur in 1991 because of my longtime friend, Dr.
-              Shahaduzzaman, who was working as a community-based physician
+              Joined WHDP (Women Health &amp; Development Program) at{' '}
+              <a href="https://www.brac.net/" target="_blank" rel="noopener noreferrer" className="underline text-[#2D8CBB]">
+                BRAC
+              </a>{' '}in
+              Dinajpur in 1991 because of my longtime friend,{' '}
+              <a href="https://www.bsms.ac.uk/about/contact-us/staff/professor-shahaduz-zaman.aspx" target="_blank" rel="noopener noreferrer" className="underline text-[#2D8CBB]">
+                Dr. Shahaduzzaman
+              </a>, who was working as a community-based physician
               there, which led me to abandon my plan to pursue a clinical career
               in obstetrics and gynecology.
             </li>
             <li>
-              Meeting the late Professor Richard Cash, pioneer of oral
+              Meeting the late{' '}
+              <a href="https://hsph.harvard.edu/news/richard-cash-remembered-as-public-health-pioneer-inspirational-educator/" target="_blank" rel="noopener noreferrer" className="underline text-[#2D8CBB]">
+                Professor Richard Cash
+              </a>, pioneer of oral
               rehydration therapy in 1993 was another defining moment; he became
               my lifelong mentor.
             </li>
             <li>
-              My decision to leave Heidelberg University to join the BRAC James
-              P. Grant School of Public Health in 2011 was facilitated by Dr.
-              Tim Evans (then Dean of BRAC JPGSPH) and was also motivated by the
+              My decision to leave Heidelberg University to join the{' '}
+              <a href="https://www.bracu.ac.bd/academics/schools-and-departments/james-p-grant-school-public-health" target="_blank" rel="noopener noreferrer" className="underline text-[#2D8CBB]">
+                BRAC James P. Grant School of Public Health
+              </a>{' '}in 2011 was facilitated by{' '}
+              <a href="https://www.bracu.ac.bd/news/farewell-sph-dean-timothy-g-evans" target="_blank" rel="noopener noreferrer" className="underline text-[#2D8CBB]">
+                Dr. Tim Evans
+              </a> (then Dean of BRAC JPGSPH) and was also motivated by the
               need to look after my parents.
             </li>
             <li>
               Transitioned to implementation research in 2015 as a result of a
-              discussion with Carlos Acosta Bermudez, then Chief of Social
+              discussion with{' '}
+              <a href="https://www.linkedin.com/in/carlosacostaber/" target="_blank" rel="noopener noreferrer" className="underline text-[#2D8CBB]">
+                Carlos Acosta Bermudez
+              </a>, then Chief of Social
               Policy, Evaluation, Analytics, and Research at UNICEF Bangladesh.
               With generous support from UNICEF, I established the Center of
               Excellence for Implementation Research at BRAC JPGSPH.
             </li>
             <li>
-              Received an email from Prof. Andrew Foster, Economics Department,
+              Received an email from{' '}
+              <a href="https://vivo.brown.edu/display/afoster" target="_blank" rel="noopener noreferrer" className="underline text-[#2D8CBB]">
+                Prof. Andrew Foster
+              </a>, Economics Department,
               Brown University, USA, who was the chair of the search committee
               for Brown SPH, requesting that I share my CV.
             </li>
@@ -150,6 +168,18 @@ const MalabikaSarkerInterview = () => {
             strategy without contextual adaptation often results in ineffective
             interventions and limited health improvements.
           </p>
+        </div>
+
+        {/* Centered secondary photo */}
+        <div className="w-full flex flex-col items-center my-8">
+          <Image
+            src="/images/blog-interview/interview/1741960412448.jpg"
+            alt="Dr. Malabika Sarker"
+            width={480}
+            height={320}
+            className="object-cover rounded-md shadow-md"
+          />
+          <p className="mt-2 text-sm text-gray-600">Dr. Malabika Sarker</p>
         </div>
 
         {/* Question 3 */}
@@ -324,7 +354,7 @@ const MalabikaSarkerInterview = () => {
           <p className="mt-2 leading-relaxed text-justify">
             <span className="font-bold">Malabika Sarker:</span> Yes. I am
             actively contributing to my country through teaching, research, and
-            advisory roles at BRAC JPGSPH and Sajida Foundation, and I am always
+            advisory roles at BRAC JPGSPH and <a href="https://www.sajida.org/" target="_blank" rel="noopener noreferrer" className="underline text-[#2D8CBB]">Sajida Foundation</a>, and I am always
             available to mentor and support anyone interested in Public Health in
             any way I can.
           </p>
