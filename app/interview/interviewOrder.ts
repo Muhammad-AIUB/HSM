@@ -82,4 +82,9 @@ export const interviewOrder = [
     title:
       "In Conversation with Dr. Luchuo Engelbert Bain: Insights from A Global Health Leader",
   },
+  {
+    slug: "exploring-impact-in-global-health-conversation-with-dr-malabika-sarker",
+    title:
+      "Exploring Impact in Global Health: Conversation with Dr. Malabika Sarker",
+  },
 ];

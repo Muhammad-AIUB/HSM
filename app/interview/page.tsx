@@ -266,6 +266,16 @@ const interviews = [
     image: "/images/blog-interview/interview/dr_luchuo.jpg",
     slug: "in-conversation-with-dr-luchuo-engelbert-bain",
   },
+  {
+    id: 24,
+    title:
+      "Exploring Impact in Global Health: Conversation with Dr. Malabika Sarker on Implementation Research and Career",
+    date: "March 06, 2026",
+    description:
+      "Dr. Malabika Sarker, an implementation scientist at Brown University, shares insights on implementation research, mentoring young professionals, and strengthening primary health care.",
+    image: "/images/blog-interview/interview/IMG_0823.jpeg",
+    slug: "exploring-impact-in-global-health-conversation-with-dr-malabika-sarker",
+  },
 ];
 
 const InterviewPage = () => {
