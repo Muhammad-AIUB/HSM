@@ -569,56 +569,17 @@ const InsightsFromDrAhmedMushtaqueRazaChowdhury = () => {
           <p className="mt-2 leading-relaxed text-justify">
             Dr. Mushtaque Raza Chowdhury is a Bangladeshi researcher, academician, and institution
             builder with over five decades of experience in development and global health. He served as
-            Founding Director of{" "}
-            <a
-              href="https://bigd.bracu.ac.bd/publications/brac-research-and-evaluation-division-red-research-reports-social-studies-1995-2005/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline underline-offset-4 decoration-[#ef4444] font-semibold text-[#0b2545]"
-            >
-              BRAC’s Research and Evaluation Division (RED)
-            </a>
-            , later as Executive Director and Vice Chair of{" "}
-            <a
-              href="https://www.brac.net/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline underline-offset-4 decoration-[#ef4444] font-semibold text-[#0b2545]"
-            >
-              BRAC
-            </a>
-            . He founded{" "}
-            <a
-              href="https://bracjpgsph.org/mph"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline underline-offset-4 decoration-[#ef4444] font-semibold text-[#0b2545]"
-            >
-              the James P. Grant School of Public Health
-            </a>{" "}
-            and helped establish Education Watch and{" "}
-            <a
-              href="https://bangladeshhealthwatch.org/events/bhw-releases-9th-report-on-public-health-education-in-bangladesh-2023-2024"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline underline-offset-4 decoration-[#ef4444] font-semibold text-[#0b2545]"
-            >
-              Bangladesh Health Watch
-            </a>
-            .
-          </p>
-          <p className="mt-4 leading-relaxed text-justify">
-            A Professor of Clinical Population and Family Health at Columbia University and former
-            Senior Adviser at the Rockefeller Foundation, he has contributed to global debates on
-            universal health coverage, health systems strengthening, and educational assessments. He was
-            honored by <span className="italic">The Lancet</span> for his contributions to global health
-            and has received numerous awards including the “Medical Excellence” award from the Ronald
-            McDonald House Charities and “Innovator of the Year” award from Brigham Young University.
-          </p>
-          <p className="mt-4 leading-relaxed text-justify">
-            His work integrates rigorous evidence, institutional integrity, and deep rootedness in
-            Bangladesh, demonstrating how locally grounded leadership can shape global development
-            discourse.
+            Founding Director of BRAC's Research and Evaluation Division (RED), later as Executive
+            Director and Vice Chair of BRAC. He founded the James P. Grant School of Public Health and
+            helped establish Education Watch and Bangladesh Health Watch. A Professor of Clinical
+            Population and Family Health at Columbia University and former Senior Adviser at the
+            Rockefeller Foundation, he has contributed to global debates on universal health coverage,
+            health systems strengthening, and educational assessments. He was honored by{" "}
+            <span className="italic">The Lancet</span> for his contributions to global health and has
+            received numerous awards including the "Medical Excellence" award from the Ronald McDonald
+            House Charities and "Innovator of the Year" award from Brigham Young University. His work
+            integrates rigorous evidence, institutional integrity, and deep rootedness in Bangladesh,
+            demonstrating how locally grounded leadership can shape global development discourse.
           </p>
         </div>
       </div>
