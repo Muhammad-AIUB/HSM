@@ -54,7 +54,7 @@ const InsightsFromDrAhmedMushtaqueRazaChowdhury = () => {
             <div className="bg-[#FFCE00] max-w-5xl text-black p-4 sm:p-6 rounded-md shadow-md">
               <p className="text-xl font-semibold text-gray-800 mb-3 flex items-center gap-2">
                 <span>
-                  — Dr. Ahmed Mushtaque Raza Chowdhury – Academician, Institution Builder and
+                  — Dr. Ahmed Mushtaque Raza Chowdhury: Academician, Institution Builder and
                   Implementation Expert
                 </span>
                 <a
@@ -365,16 +365,20 @@ const InsightsFromDrAhmedMushtaqueRazaChowdhury = () => {
         </div>
 
         {/* Academic and Career */}
-        <Heading>Academic and Career</Heading>
         <div className="mt-6 mb-6 flex justify-center">
-          <div className="w-full max-w-xl rounded-xl overflow-hidden shadow-md border border-[#2D8CBB]/40 bg-white">
+          <div className="w-full max-w-xl">
             <Image
               src={AcademicCareerImage}
-              alt="Academic and professional journey"
-              className="w-full h-80 object-cover object-top"
+              alt="Interviewer shares a memory with the interviewee"
+              title="Interviewer shares a memory with the interviewee"
+              className="w-full h-80 object-cover object-top rounded-xl shadow-md border border-[#2D8CBB]/40"
             />
+            <p className="text-center text-sm text-gray-600 mt-2 italic">
+              Interviewer shares a memory with the interviewee
+            </p>
           </div>
         </div>
+        <Heading>Academic and Career</Heading>
 
         {/* Question 4 */}
         <div className="mb-8">
