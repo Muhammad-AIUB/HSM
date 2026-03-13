@@ -5,6 +5,7 @@ import { interviewOrder } from "../interviewOrder";
 import Heading from "../a-leading-voice-in-global-health-systems/components/Heading";
 import { LinkedInLogo } from "@/components/Shared/LinkedInLogo";
 import MushtaqueImage from "@/public/images/blog-interview/interview/mushtaque-raza-chowdhury.webp";
+import AcademicCareerImage from "@/public/images/blog-interview/interview/WhatsApp Image 2026-03-13 at 1.54.50 PM.jpeg";
 
 const InsightsFromDrAhmedMushtaqueRazaChowdhury = () => {
   const currentSlug = "insights-from-dr-ahmed-mushtaque-raza-chowdhury";
@@ -365,6 +366,15 @@ const InsightsFromDrAhmedMushtaqueRazaChowdhury = () => {
 
         {/* Academic and Career */}
         <Heading>Academic and Career</Heading>
+        <div className="mt-6 mb-6 flex justify-center">
+          <div className="w-full max-w-xl rounded-xl overflow-hidden shadow-md border border-[#2D8CBB]/40 bg-white">
+            <Image
+              src={AcademicCareerImage}
+              alt="Academic and professional journey"
+              className="w-full h-80 object-cover object-top"
+            />
+          </div>
+        </div>
 
         {/* Question 4 */}
         <div className="mb-8">
