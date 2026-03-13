@@ -276,6 +276,16 @@ const interviews = [
     image: "/images/blog-interview/interview/IMG_0823.jpeg",
     slug: "exploring-impact-in-global-health-conversation-with-dr-malabika-sarker",
   },
+  {
+    id: 25,
+    title:
+      "Insights from Dr. Ahmed Mushtaque Raza Chowdhury: Academic Visionary and Development Practitioner",
+    date: "March 18, 2026",
+    description:
+      "Dr. Mushtaque Raza Chowdhury, Bangladeshi researcher, academician, and institution builder, reflects on five decades of work in development and global health, BRAC, public health education, and building institutions that enhance dignity.",
+    image: "/images/blog-interview/interview/mushtaque-raza-chowdhury.webp",
+    slug: "insights-from-dr-ahmed-mushtaque-raza-chowdhury",
+  },
 ];
 
 const InterviewPage = () => {
