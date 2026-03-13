@@ -130,23 +130,66 @@ const InsightsFromDrAhmedMushtaqueRazaChowdhury = () => {
             </p>
           </div>
           <p className="mt-2 leading-relaxed text-justify">
-            When I joined BRAC in 1977, I was a young statistician with more confidence in regression
+            When I joined{" "}
+            <a
+              href="https://www.brac.net/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline underline-offset-4 decoration-[#ef4444] font-semibold text-[#0b2545]"
+            >
+              BRAC
+            </a>{" "}
+            in 1977, I was a young statistician with more confidence in regression
             models than in rural conversations. My first assignment was to assess a vegetable
             cultivation program. Sitting on mud floors, listening to farmers describe crop failures and
             credit burdens, I quickly realized that survey tools alone could not capture lived
             realities. Numbers needed narrative.
           </p>
           <p className="mt-2 leading-relaxed text-justify">
-            One of my earliest and most formative engagements was the Oral Therapy Extension Program
-            (OTEP), through which BRAC trained over 12 million mothers across rural Bangladesh in the
-            preparation and use of oral rehydration therapy (ORT). I visited villages where mothers
+            One of my earliest and most formative engagements was the{" "}
+            <a
+              href="https://prezi.com/p/vovtnevx9grc/development-communication-in-action-lessons-from-bracs-oral-therapy-extension-programme-otep/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline underline-offset-4 decoration-[#ef4444] font-semibold text-[#0b2545]"
+            >
+              Oral Therapy Extension Program (OTEP)
+            </a>
+            , through which{" "}
+            <a
+              href="https://www.brac.net/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline underline-offset-4 decoration-[#ef4444] font-semibold text-[#0b2545]"
+            >
+              BRAC
+            </a>{" "}
+            trained over 12 million mothers across rural Bangladesh in the preparation and use of{" "}
+            <a
+              href="https://www.sciencedirect.com/topics/medicine-and-dentistry/oral-rehydration-therapy"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline underline-offset-4 decoration-[#ef4444] font-semibold text-[#0b2545]"
+            >
+              oral rehydration therapy (ORT)
+            </a>
+            . I visited villages where mothers
             demonstrated, with confidence, how to mix salt, sugar, and water correctly. It was
             profoundly moving to see scientific knowledge become household practice. Scores of studies
             were conducted to refine delivery and safety. That experience reinforced a lifelong lesson:
             simple solutions, when scaled systematically, can transform a nation’s health trajectory.
           </p>
           <p className="mt-2 leading-relaxed text-justify">
-            As Founding Director of BRAC’s Research and Evaluation Division (RED), I worked to
+            As Founding Director of{" "}
+            <a
+              href="https://bigd.bracu.ac.bd/publications/brac-research-and-evaluation-division-red-research-reports-social-studies-1995-2005/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline underline-offset-4 decoration-[#ef4444] font-semibold text-[#0b2545]"
+            >
+              BRAC’s Research and Evaluation Division (RED)
+            </a>
+            , I worked to
             institutionalize rigorous monitoring and mixed-methods research across programs including
             health, education, microfinance, extreme/ultra poverty, gender, and environment. We
             conducted baseline surveys in places like Manikganj, introduced competency assessments in
@@ -157,8 +200,16 @@ const InsightsFromDrAhmedMushtaqueRazaChowdhury = () => {
             I have always been deeply committed to publishing. Research that remains unpublished rarely
             influences policy. Whether through peer-reviewed journals, books, monographs, or national
             reports, I have believed that evidence must enter public discourse. In 2013, I co-led a
-            landmark series in <span className="italic">The Lancet</span> on what came to be known as
-            the “Bangladesh Paradox.” The series demonstrated how Bangladesh achieved remarkable gains
+            landmark{" "}
+            <a
+              href="https://www.thelancet.com/series-do/bangladesh"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline underline-offset-4 decoration-[#ef4444] font-semibold text-[#0b2545]"
+            >
+              series in <span className="italic">The Lancet</span>
+            </a>{" "}
+            on what came to be known as the “Bangladesh Paradox.” The series demonstrated how Bangladesh achieved remarkable gains
             in child survival, immunization, fertility reduction, and life expectancy despite modest
             income levels and persistent inequalities. It was deeply gratifying to see Bangladesh
             discussed not as a symbol of deprivation, but as a case of resilience and innovation. That
@@ -188,18 +239,54 @@ const InsightsFromDrAhmedMushtaqueRazaChowdhury = () => {
             Q. What does BRAC mean to you after spending four decades with the organization?
           </h2>
           <p className="mt-2 leading-relaxed text-justify">
-            <span className="font-bold">Mushtaque Chowdhury:</span> BRAC shaped my professional
+            <span className="font-bold">Mushtaque Chowdhury:</span>{" "}
+            <a
+              href="https://www.brac.net/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline underline-offset-4 decoration-[#ef4444] font-semibold text-[#0b2545]"
+            >
+              BRAC
+            </a>{" "}
+            shaped my professional
             identity and my ethical compass. I remember monthly meetings in modest bamboo-walled halls
             in Sulla, where field workers debated program challenges late into the evening. There was no
             hierarchy in those discussions, only a shared commitment to solving problems.
           </p>
           <p className="mt-2 leading-relaxed text-justify">
-            Under the leadership of Sir Fazle Hasan Abed, BRAC combined compassion with discipline and
+            Under the leadership of{" "}
+            <a
+              href="https://www.brac.net/about-us/a-visionary-pragmatist-our-founder/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline underline-offset-4 decoration-[#ef4444] font-semibold text-[#0b2545]"
+            >
+              Sir Fazle Hasan Abed
+            </a>
+            ,{" "}
+            <a
+              href="https://www.brac.net/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline underline-offset-4 decoration-[#ef4444] font-semibold text-[#0b2545]"
+            >
+              BRAC
+            </a>{" "}
+            combined compassion with discipline and
             ambition with humility. He trusted young professionals with responsibility. That trust
             shaped my confidence and my sense of obligation.
           </p>
           <p className="mt-2 leading-relaxed text-justify">
-            Over four decades, I witnessed BRAC evolve from a post-war rehabilitation initiative into a
+            Over four decades, I witnessed{" "}
+            <a
+              href="https://www.brac.net/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline underline-offset-4 decoration-[#ef4444] font-semibold text-[#0b2545]"
+            >
+              BRAC
+            </a>{" "}
+            evolve from a post-war rehabilitation initiative into a
             global organization operating across Asia and Africa. Along the way, BRAC pioneered
             microfinance at scale, community health worker networks, non-formal education, the
             graduation approach for ultra-poor families, and social enterprises such as BRAC Bank and
@@ -219,7 +306,15 @@ const InsightsFromDrAhmedMushtaqueRazaChowdhury = () => {
             correction → scale.
           </p>
           <p className="mt-2 leading-relaxed text-justify">
-            BRAC demonstrated that institutions from Bangladesh and other resource-poor countries can
+            <a
+              href="https://www.brac.net/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline underline-offset-4 decoration-[#ef4444] font-semibold text-[#0b2545]"
+            >
+              BRAC
+            </a>{" "}
+            demonstrated that institutions from Bangladesh and other resource-poor countries can
             influence global conversations without abandoning their roots.
           </p>
         </div>
@@ -231,15 +326,31 @@ const InsightsFromDrAhmedMushtaqueRazaChowdhury = () => {
             Bangladesh Health Watch?
           </h2>
           <p className="mt-2 leading-relaxed text-justify">
-            <span className="font-bold">Mushtaque Chowdhury:</span> Founding the James P. Grant
-            School of Public Health in 2004 was exhilarating and deeply personal. We wanted to create a
+            <span className="font-bold">Mushtaque Chowdhury:</span> Founding{" "}
+            <a
+              href="https://bracjpgsph.org/mph"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline underline-offset-4 decoration-[#ef4444] font-semibold text-[#0b2545]"
+            >
+              the James P. Grant School of Public Health
+            </a>{" "}
+            in 2004 was exhilarating and deeply personal. We wanted to create a
             school that would produce reflective practitioners, not detached technocrats. I personally
             accompanied students to rural placements in Savar and urban settlements such as Korail.
             Watching them confront sanitation gaps, maternal health challenges, and urban vulnerabilities
             reaffirmed my belief that public health must be experienced before it is theorized.
           </p>
           <p className="mt-2 leading-relaxed text-justify">
-            Bangladesh Health Watch, launched in 2006, emerged from a similar conviction: progress must
+            <a
+              href="https://bangladeshhealthwatch.org/events/bhw-releases-9th-report-on-public-health-education-in-bangladesh-2023-2024"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline underline-offset-4 decoration-[#ef4444] font-semibold text-[#0b2545]"
+            >
+              Bangladesh Health Watch
+            </a>
+            , launched in 2006, emerged from a similar conviction: progress must
             be independently monitored. Inspired by Education Watch (which we began in 1998), we
             produced annual evidence-based reports examining equity, governance, human resources for
             health, and UHC. I recall the first public launch, where policymakers, civil society
@@ -263,7 +374,15 @@ const InsightsFromDrAhmedMushtaqueRazaChowdhury = () => {
           <p className="mt-2 leading-relaxed text-justify">
             <span className="font-bold">Mushtaque Chowdhury:</span> At the London School of Hygiene
             and Tropical Medicine, following earlier studies at the London School of Economics and
-            Dhaka University, I learned intellectual discipline. My supervisor Professor Patrick Vaughan
+            Dhaka University, I learned intellectual discipline. My supervisor{" "}
+            <a
+              href="https://www.theguardian.com/science/2025/sep/29/patrick-vaughan-obituary"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline underline-offset-4 decoration-[#ef4444] font-semibold text-[#0b2545]"
+            >
+              Professor Patrick Vaughan
+            </a>{" "}
             made immense impact on my career and its progression.
           </p>
           <p className="mt-2 leading-relaxed text-justify">
@@ -273,8 +392,16 @@ const InsightsFromDrAhmedMushtaqueRazaChowdhury = () => {
           </p>
           <p className="mt-2 leading-relaxed text-justify">
             Later, as a MacArthur Fellow at Harvard’s Center for Population and Development Studies, I
-            experienced the value of interdisciplinary thinking and reflective solitude. At Columbia
-            University, mentoring students from across continents continues to nourish me. When a
+            experienced the value of interdisciplinary thinking and reflective solitude. At{" "}
+            <a
+              href="https://www.publichealth.columbia.edu/profile/mushtaque-chowdhury-phd"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline underline-offset-4 decoration-[#ef4444] font-semibold text-[#0b2545]"
+            >
+              Columbia University
+            </a>
+            , mentoring students from across continents continues to nourish me. When a
             student from Africa or Latin America draws parallels with Bangladesh’s experience, I am
             reminded that ideas travel when rooted in authenticity.
           </p>
@@ -287,7 +414,16 @@ const InsightsFromDrAhmedMushtaqueRazaChowdhury = () => {
           </h2>
           <p className="mt-2 leading-relaxed text-justify">
             <span className="font-bold">Mushtaque Chowdhury:</span> I see them as a continuum. My
-            affiliation with Columbia University allows me to translate field experiences into
+            affiliation with{" "}
+            <a
+              href="https://www.publichealth.columbia.edu/profile/mushtaque-chowdhury-phd"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline underline-offset-4 decoration-[#ef4444] font-semibold text-[#0b2545]"
+            >
+              Columbia University
+            </a>{" "}
+            allows me to translate field experiences into
             scholarship. My time at the Rockefeller Foundation taught me how global policy change
             requires strategic convening.
           </p>
@@ -403,18 +539,65 @@ const InsightsFromDrAhmedMushtaqueRazaChowdhury = () => {
           </p>
         </div>
 
-        {/* About section */}
-        <Heading>About Dr. Mushtaque Chowdhury</Heading>
+        {/* Interview conducted by – placed before About section like reference layout */}
+        <div className="mt-6 mb-8 flex justify-center">
+          <p className="text-[#001844] text-lg md:text-xl leading-relaxed text-center font-semibold bg-[#FFF3A3] px-6 py-2 rounded-md shadow-sm">
+            Interview conducted by{" "}
+            <Link href="/sizear" className="text-blue-700 font-bold hover:underline">
+              Monaemul Islam Sizear
+            </Link>
+          </p>
+        </div>
 
-        <div className="mb-8">
+        {/* About section – redesigned panel */}
+        <div className="mb-10 rounded-md bg-[#BFEFF3] px-6 md:px-10 py-8 shadow-sm">
+          <h2 className="text-2xl md:text-3xl font-extrabold text-[#001844] text-center">
+            About Dr. Mushtaque Chowdhury
+          </h2>
+          <div className="mt-2 mb-6 h-1 w-20 bg-[#FFCE00] mx-auto rounded-full" />
+
           <p className="mt-2 leading-relaxed text-justify">
             Dr. Mushtaque Raza Chowdhury is a Bangladeshi researcher, academician, and institution
             builder with over five decades of experience in development and global health. He served as
-            Founding Director of BRAC’s Research and Evaluation Division, later as Executive Director
-            and Vice Chair of BRAC. He founded the James P. Grant School of Public Health and helped
-            establish Education Watch and Bangladesh Health Watch.
+            Founding Director of{" "}
+            <a
+              href="https://bigd.bracu.ac.bd/publications/brac-research-and-evaluation-division-red-research-reports-social-studies-1995-2005/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline underline-offset-4 decoration-[#ef4444] font-semibold text-[#0b2545]"
+            >
+              BRAC’s Research and Evaluation Division (RED)
+            </a>
+            , later as Executive Director and Vice Chair of{" "}
+            <a
+              href="https://www.brac.net/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline underline-offset-4 decoration-[#ef4444] font-semibold text-[#0b2545]"
+            >
+              BRAC
+            </a>
+            . He founded{" "}
+            <a
+              href="https://bracjpgsph.org/mph"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline underline-offset-4 decoration-[#ef4444] font-semibold text-[#0b2545]"
+            >
+              the James P. Grant School of Public Health
+            </a>{" "}
+            and helped establish Education Watch and{" "}
+            <a
+              href="https://bangladeshhealthwatch.org/events/bhw-releases-9th-report-on-public-health-education-in-bangladesh-2023-2024"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline underline-offset-4 decoration-[#ef4444] font-semibold text-[#0b2545]"
+            >
+              Bangladesh Health Watch
+            </a>
+            .
           </p>
-          <p className="mt-2 leading-relaxed text-justify">
+          <p className="mt-4 leading-relaxed text-justify">
             A Professor of Clinical Population and Family Health at Columbia University and former
             Senior Adviser at the Rockefeller Foundation, he has contributed to global debates on
             universal health coverage, health systems strengthening, and educational assessments. He was
@@ -422,20 +605,12 @@ const InsightsFromDrAhmedMushtaqueRazaChowdhury = () => {
             and has received numerous awards including the “Medical Excellence” award from the Ronald
             McDonald House Charities and “Innovator of the Year” award from Brigham Young University.
           </p>
-          <p className="mt-2 leading-relaxed text-justify">
+          <p className="mt-4 leading-relaxed text-justify">
             His work integrates rigorous evidence, institutional integrity, and deep rootedness in
             Bangladesh, demonstrating how locally grounded leadership can shape global development
             discourse.
           </p>
         </div>
-
-        {/* Interview conducted by */}
-        <p className="text-[#001844] text-2xl mt-4 leading-relaxed text-center font-semibold bg-yellow-200 p-2 rounded-md">
-          Interview conducted by{" "}
-          <Link href="/sizear" className="text-blue-700 font-bold hover:underline">
-            Monaemul Islam Sizear
-          </Link>
-        </p>
       </div>
 
       {/* Next interview button – same pattern as Jahangir page */}
