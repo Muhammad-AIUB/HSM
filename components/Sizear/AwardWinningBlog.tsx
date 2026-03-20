@@ -32,27 +32,27 @@ const AwardWinningBlog = () => {
         className="max-w-5xl mx-auto"
       >
         <motion.div className="flex flex-col space-x-6 bg-white shadow-sm rounded-lg p-5 border-l-4 border-blue-500 transition-all duration-300 group hover:bg-red-300">
-          <div className="flex flex-wrap gap-6 items-start">
+          <div className="flex flex-nowrap gap-6 items-start justify-center">
             <a
               href={BLOG_LINK}
               target="_blank"
               rel="noopener noreferrer"
-              className="block shrink-0 w-[520px] h-[390px] overflow-hidden rounded-md border border-gray-200 bg-gray-100 hover:opacity-90 transition-opacity flex items-center justify-center"
+              className="block shrink-0 w-[380px] h-[285px] overflow-hidden rounded-md border border-gray-200 bg-gray-100 hover:opacity-90 transition-opacity flex items-center justify-center"
             >
               <Image
                 src={award.image}
                 alt="Healing Bangladesh's Health Sector - Blog Article"
-                width={520}
-                height={390}
+                width={380}
+                height={285}
                 className="w-full h-full object-contain brightness-90 hover:brightness-100 transition-all duration-300"
               />
             </a>
-            <div className="shrink-0 w-[520px] h-[390px] overflow-hidden rounded-md border border-gray-200 bg-gray-100 flex items-center justify-center">
+            <div className="shrink-0 w-[380px] h-[285px] overflow-hidden rounded-md border border-gray-200 bg-gray-100 flex items-center justify-center">
               <Image
                 src={award.certificateImage}
                 alt="Certificate"
-                width={520}
-                height={390}
+                width={380}
+                height={285}
                 className="w-full h-full object-contain"
               />
             </div>
