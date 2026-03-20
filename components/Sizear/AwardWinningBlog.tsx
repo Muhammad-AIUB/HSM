@@ -3,10 +3,14 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { FaMedal } from "react-icons/fa";
 
+const BLOG_LINK =
+  "https://gnacta.org/blog/healing-bangladeshs-health-sector-systemic-reform-combat-corruption";
+
 const AwardWinningBlog = () => {
   const award = {
     title: "Award‑Winning Blog",
     image: "/images/sizear/awards/Screenshot (1235).png",
+    certificateImage: "/images/sizear/certificate.jpeg",
     year: "2025",
     description:
       "Recognized as the 2nd Best Blog Article in the 2025 Global Competition organized by Health Systems Global.",
@@ -28,13 +32,31 @@ const AwardWinningBlog = () => {
         className="max-w-3xl mx-auto"
       >
         <motion.div className="flex flex-col space-x-6 bg-white shadow-sm rounded-lg p-5 border-l-4 border-blue-500 transition-all duration-300 group hover:bg-red-300">
-          <Image
-            src={award.image}
-            alt={award.title}
-            width={500}
-            height={400}
-            className="w-full h-96 object-cover brightness-90 hover:scale-105 hover:brightness-100 transition-transform transform duration-300 ease-in-out cursor-pointer"
-          />
+          <div className="flex flex-wrap gap-4 items-start">
+            <a
+              href={BLOG_LINK}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block shrink-0 w-40 h-32 overflow-hidden rounded-md border border-gray-200 hover:opacity-90 transition-opacity"
+            >
+              <Image
+                src={award.image}
+                alt="Healing Bangladesh's Health Sector - Blog Article"
+                width={160}
+                height={128}
+                className="w-full h-full object-cover brightness-90 hover:brightness-100 transition-all duration-300"
+              />
+            </a>
+            <div className="shrink-0 w-40 h-32 overflow-hidden rounded-md border border-gray-200">
+              <Image
+                src={award.certificateImage}
+                alt="Certificate"
+                width={160}
+                height={128}
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
 
           <div className="flex items-center gap-4 mt-4">
             <FaMedal className="text-blue-500 text-4xl flex-shrink-0 mb-2" />
@@ -46,6 +68,14 @@ const AwardWinningBlog = () => {
               <p className="text-sm text-gray-700 italic">
                 {award.description}
               </p>
+              <a
+                href={BLOG_LINK}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block mt-2 text-sm font-medium text-blue-700 underline underline-offset-2 hover:text-blue-900"
+              >
+                Read blog article
+              </a>
             </div>
           </div>
         </motion.div>
