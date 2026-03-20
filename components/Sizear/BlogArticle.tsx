@@ -1,5 +1,6 @@
 "use client";
 import { colors } from "@/lib/utils";
+import { FaMedal } from "react-icons/fa";
 
 export default function BlogArticle() {
     const blogArticles = [
@@ -85,9 +86,16 @@ export default function BlogArticle() {
                         </div>
 
                         {/* Middle: Author / Award Tag */}
-                        <span className="bg-blue-800 text-white px-2 min-w-[10rem] text-center font-bold">
-                            {blogArticle.awardWinningArticle ? "Award Winning Article" : blogArticle.firstAuthor ? "First Author" : ""}
-                        </span>
+                        {blogArticle.awardWinningArticle ? (
+                            <span className="min-w-[10rem] max-w-[11rem] inline-flex flex-col items-center justify-center gap-1.5 text-center rounded-lg px-3 py-2.5 text-xs font-bold uppercase tracking-wide text-[#0c1929] shadow-md ring-1 ring-amber-400/60 bg-gradient-to-br from-amber-100 via-amber-50 to-[#fef3c7] leading-snug">
+                                <FaMedal className="text-xl text-amber-600 shrink-0" aria-hidden />
+                                Award Winning Article
+                            </span>
+                        ) : (
+                            <span className="bg-blue-800 text-white px-2 min-w-[10rem] text-center font-bold">
+                                {blogArticle.firstAuthor ? "First Author" : ""}
+                            </span>
+                        )}
 
                         {/* Right: Title & Link */}
                         <div className="md:w-3/4 break-words">
