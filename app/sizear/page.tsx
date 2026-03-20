@@ -13,6 +13,7 @@ import NewspaperColumns from "@/components/Sizear/NewspaperColumns";
 import ProfessionalJourney from "@/components/Sizear/ProfessionalJourney";
 import ProfessionalMembership from "@/components/Sizear/ProfessionalMembership";
 import ProfessionalTraining from "@/components/Sizear/ProfessionalTraining";
+import Report from "@/components/Sizear/Report";
 import WritingsAndPublications from "@/components/Sizear/WritingsAndPublications";
 
 const Sizear = () => {
@@ -24,6 +25,7 @@ const Sizear = () => {
       <EducationalBackground />
       <AreaOfFocus />
       <WritingsAndPublications />
+      <Report />
       <AwardsandAchievements />
       <ProfessionalTraining />
       <ProfessionalMembership />

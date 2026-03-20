@@ -1,60 +1,61 @@
 "use client";
 import { motion } from "framer-motion";
-import { FaFilePdf } from "react-icons/fa";
+import { colors } from "@/lib/utils";
 
 const Report = () => {
   const reports = [
     {
       title:
-        "Risk and Vulnerability of Waste Workers During COVID-19 Pandemic in Five Major Cities of Bangladesh",
-      year: "2020",
-      link: "https://www.wateraid.org/bd/sites/g/files/jkxoof236/files/2020-09/Risk%20and%20vulnerability%20of%20waste%20workers%20during%20%20COVID-19%20pandemic%20in%20five%20major%20cities%20of%20Bangladesh_V4_16.08.2020%20%281%29%20%281%29%20%281%29.pdf",
+        "Country Report on Health Promotion Situation, Services, Education and Capacity Building Assessment in Bangladesh, 2025",
+      year: "2026",
+      link: "https://bridges.monash.edu/articles/report/Health_Promotion_Situation_Services_Education_and_Capacity_Building_Assessment_in_Bangladesh_2025/31562086/1?file=62488393",
+      source: "Monash Bridges",
     },
   ];
 
   return (
-    <div className="pt-16">
-      <h3 className="text-2xl md:text-2xl font-bold text-gray-600 underline underline-offset-4 mb-8">
-        Report
-      </h3>
+    <div className="pt-10 bg-gradient-to-r from-blue-50 via-white to-blue-50">
+      <div className="max-w-screen-xl mx-auto px-12 lg:px-16 py-16">
+        <h3 className="text-xl font-bold underline underline-offset-[6px] font-roboto text-[#0070c0] decoration-[#ef4444] pb-6">
+          Report
+        </h3>
 
-      {/* content */}
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
-        className="space-y-6 max-w-3xl mx-auto"
-      >
-        {reports.map((report, index) => (
-          <motion.div
-            key={index}
-            whileHover={{ borderColor: "#FFCE00" }}
-            className="flex items-center space-x-8 bg-white shadow-sm rounded-md p-4 border-l-4 border-red-500"
-          >
-            <FaFilePdf className="text-red-500 text-5xl flex-shrink-0" />
-            <div className="w-full">
-              {/* Clickable Title */}
-              <a
-                href={report.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-lg font-semibold text-gray-900 hover:text-blue-600 hover:underline transition duration-200"
-              >
-                {report.title}
-              </a>
-              <p className="text-sm text-gray-600">Published: {report.year}</p>
-              <a
-                href={report.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-600 hover:underline text-sm font-medium"
-              >
-                View Report
-              </a>
-            </div>
-          </motion.div>
-        ))}
-      </motion.div>
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+          className="space-y-6 max-w-3xl"
+        >
+          {reports.map((report, index) => (
+            <motion.div
+              key={index}
+              className={`bg-white border shadow-sm rounded-md p-6 border-l-4 border-blue-500 flex items-start space-x-6 group transition-all duration-300 ${
+                colors[index % colors.length]
+              } border-blue-500`}
+            >
+              <div className="w-1/4 shrink-0">
+                <h3 className="text-lg font-semibold text-gray-900">
+                  {report.year}
+                </h3>
+              </div>
+
+              <div className="w-3/4">
+                <p className="text-md font-semibold text-gray-800">
+                  <a
+                    href={report.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-blue-500 hover:underline text-md transition duration-200"
+                  >
+                    {report.title}
+                  </a>
+                </p>
+                <p className="text-gray-600 text-sm">{report.source}</p>
+              </div>
+            </motion.div>
+          ))}
+        </motion.div>
+      </div>
     </div>
   );
 };
