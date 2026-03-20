@@ -83,7 +83,7 @@ const PublicHealth = () => {
   return (
     <div className="pt-10">
       <h3 className="text-xl font-bold underline underline-offset-[6px] font-roboto text-[#0070c0] decoration-[#ef4444] pb-6">
-        Public Health
+        Public Health and Environment
       </h3>
 
       {/* content */}
