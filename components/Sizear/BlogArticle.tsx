@@ -5,6 +5,15 @@ export default function BlogArticle() {
     const blogArticles = [
         {
             year: "2026",
+            title: "Breathing in Danger: The Twin Threat of Climate Change and Air Pollution in Bangladesh",
+            journal: "Global South",
+            link: "https://globalsouth.org/2026/02/breathing-in-danger-the-twin-threat-of-climate-change-and-air-pollution-in-bangladesh/",
+            titleLink:
+                "https://globalsouth.org/2026/02/breathing-in-danger-the-twin-threat-of-climate-change-and-air-pollution-in-bangladesh/",
+            firstAuthor: false,
+        },
+        {
+            year: "2026",
             title: "From knowledge to practice: Bangladesh's oral rehydration solution legacy",
             journal: "Frontiers in Global Women's Health, Volume 5",
             link: "https://globaldev.blog/from-knowledge-to-practice-bangladeshs-oral-rehydration-solution-legacy/",
