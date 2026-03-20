@@ -29,6 +29,7 @@ export default function BlogArticle() {
             titleLink:
                 "https://gnacta.org/blog/healing-bangladeshs-health-sector-systemic-reform-combat-corruption",
             firstAuthor: false,
+            awardWinningArticle: true,
         },
         {
             year: "2025",
@@ -83,9 +84,9 @@ export default function BlogArticle() {
                             </h3>
                         </div>
 
-                        {/* Middle: Author Tag */}
-                        <span className="bg-blue-800 text-white px-2 w-28 text-center font-bold">
-                            {blogArticle.firstAuthor ? "First Author" : ""}
+                        {/* Middle: Author / Award Tag */}
+                        <span className="bg-blue-800 text-white px-2 min-w-[10rem] text-center font-bold">
+                            {blogArticle.awardWinningArticle ? "Award Winning Article" : blogArticle.firstAuthor ? "First Author" : ""}
                         </span>
 
                         {/* Right: Title & Link */}
