@@ -5,6 +5,12 @@ import { colors } from "@/lib/utils";
 const PublicHealth = () => {
   const articles = [
     {
+      title: "জলবায়ু সংকটে শিশু ও মাতৃস্বাস্থ্য সুরক্ষায় বাংলাদেশের নতুন লড়াই",
+      year: "2026",
+      link: "https://www.jugantor.com/tp-26th-anniversary/1062798",
+      source: "Jugantor",
+    },
+    {
       title: "Clear vision changes lives",
       year: "2025",
       link: "https://thefinancialexpress.com.bd/views/reviews/clear-vision-changes-lives",
