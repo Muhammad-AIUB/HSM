@@ -17,7 +17,7 @@ const BioOfSumitBanik = () => {
                   width={400}
                   height={400}
                   quality={100}
-                  className="object-cover w-full h-full"
+                  className="object-cover object-[62%_center] w-full h-full"
                 />
               </div>
             </div>
