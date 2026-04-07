@@ -47,5 +47,9 @@ export const blogOrder = [
   {
     slug: "walking-towards-a-brighter-future-tackling-clubfoot-in-bangladesh",
     title: "Walking Towards a Brighter Future: Tackling Clubfoot in Bangladesh"
+  },
+  {
+    slug: "world-health-day-2026-together-for-health-standing-with-science",
+    title: "World Health Day 2026: Together for Health, Standing with Science"
   }
 ];

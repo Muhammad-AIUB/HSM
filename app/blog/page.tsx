@@ -120,6 +120,14 @@ const blogs = [
     type: "blog",
     thumbnail: "/images/blog-interview/Sumit Banik.JPG",
   },
+  {
+    title: "World Health Day 2026: Together for Health, Standing with Science",
+    description:
+      "An analysis of Bangladesh's health sector from January to March 2026 highlights a strategic government focus on infectious disease control and large-scale immunization.",
+    date: "07 April, 2026",
+    type: "blog",
+    thumbnail: "/images/blog-interview/Sumit Landscape.png",
+  },
 ];
 
 const BlogPage = () => {
