@@ -36,6 +36,15 @@ interface Interview {
 
 const interviews = [
   {
+    id: 26,
+    title: "From MBA to Public Health: A Conversation with Trushar Parmar",
+    date: "April 16, 2026",
+    description:
+      "Trushar Parmar, Health Policy and Financing & Implementation Expert, reflects on career transitions, strategic purchasing, and global health financing in LMIC contexts.",
+    image: "/images/blog-interview/interview/Trushar.png",
+    slug: "from-mba-to-public-health-a-conversation-with-trushar-parmar",
+  },
+  {
     id: 21,
     title:
       "Finding Purpose in Climate Action: Dr. Khalid Hossain's Career Journey from Bangladesh to Australia",

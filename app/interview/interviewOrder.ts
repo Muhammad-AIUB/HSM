@@ -87,4 +87,8 @@ export const interviewOrder = [
     title:
       "Exploring Impact in Global Health: Conversation with Dr. Malabika Sarker",
   },
+  {
+    slug: "from-mba-to-public-health-a-conversation-with-trushar-parmar",
+    title: "From MBA to Public Health: A Conversation with Trushar Parmar",
+  },
 ];
