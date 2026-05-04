@@ -128,6 +128,14 @@ const blogs = [
     type: "blog",
     thumbnail: "/images/blog-interview/Sumit Landscape.png",
   },
+  {
+    title: "Measles — the Canary in the Coal Mine",
+    description:
+      "Since January 2026 Bangladesh has experienced a sharp rise in measles cases, exposing immunity gaps, service disruptions, and deeper health-system weaknesses that demand urgent action.",
+    date: "04 May, 2026",
+    type: "blog",
+    thumbnail: "/images/blog-interview/islam.jpg",
+  },
 ];
 
 const BlogPage = () => {

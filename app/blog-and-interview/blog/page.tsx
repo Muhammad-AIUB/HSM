@@ -67,6 +67,17 @@ const BlogPage = () => {
       {/* Blog */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 py-20 max-w-screen-xl mx-auto px-8">
         <BlogCard
+          item={{
+            title: "Measles — the Canary in the Coal Mine",
+            description:
+              "Since January 2026 Bangladesh has experienced a sharp rise in measles cases, exposing immunity gaps, service disruptions, and deeper health-system weaknesses that demand urgent action.",
+            date: "04 May, 2026",
+            type: "blog",
+            thumbnail: "/images/blog-interview/islam.jpg",
+          }}
+        />
+
+        <BlogCard
           key="empowered-families"
           item={{
             title: "Empowered Families, Healthier Babies",

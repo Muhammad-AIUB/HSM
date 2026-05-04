@@ -51,5 +51,9 @@ export const blogOrder = [
   {
     slug: "world-health-day-2026-together-for-health-standing-with-science",
     title: "World Health Day 2026: Together for Health, Standing with Science"
+  },
+  {
+    slug: "measles-the-canary-in-the-coal-mine",
+    title: "Measles — the Canary in the Coal Mine"
   }
 ];
