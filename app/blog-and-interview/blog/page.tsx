@@ -202,6 +202,18 @@ const BlogPage = () => {
               "/images/blog-interview/DrHyder3.jpg",
           }}
         />
+
+        <BlogCard
+          item={{
+            title:
+              "The Care Crisis: Why Bangladesh Can't Find the Caregivers It Trains",
+            description:
+              "Bangladesh is aging fast, but certified caregivers are not entering or staying in the workforce. This article explores dignity, career pathways, gender barriers, training gaps, and the urgent need to professionalize care.",
+            date: "25 May, 2026",
+            type: "blog",
+            thumbnail: "/images/blog-interview/Rahat Hossain.png",
+          }}
+        />
       </div>
     </div>
   );

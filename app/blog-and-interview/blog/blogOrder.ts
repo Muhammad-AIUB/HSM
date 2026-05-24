@@ -55,5 +55,9 @@ export const blogOrder = [
   {
     slug: "measles-the-canary-in-the-coal-mine",
     title: "Measles — the Canary in the Coal Mine"
+  },
+  {
+    slug: "the-care-crisis-why-bangladesh-cant-find-the-caregivers-it-trains",
+    title: "The Care Crisis: Why Bangladesh Can't Find the Caregivers It Trains"
   }
 ];

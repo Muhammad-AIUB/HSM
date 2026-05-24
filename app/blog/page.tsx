@@ -22,6 +22,7 @@ import TasdipDip from "@/public/images/blog-interview/TasdikDip.jpg";
 import Zakaria from "@/public/images/blog-interview/Zakaria.jpeg";
 import AlexBerland from "@/public/images/blog-interview/alex-blog.jpg";
 import RezaulKarim from "@/public/images/blog-interview/Rezaul Karim.jpg";
+import RahatHossain from "@/public/images/blog-interview/Rahat Hossain.png";
 
 const blogs = [
   {
@@ -135,6 +136,14 @@ const blogs = [
     date: "04 May, 2026",
     type: "blog",
     thumbnail: "/images/blog-interview/islam.jpg",
+  },
+  {
+    title: "The Care Crisis: Why Bangladesh Can't Find the Caregivers It Trains",
+    description:
+      "Bangladesh is aging fast, but certified caregivers are not entering or staying in the workforce. This article explores dignity, career pathways, gender barriers, training gaps, and the urgent need to professionalize care.",
+    date: "25 May, 2026",
+    type: "blog",
+    thumbnail: RahatHossain,
   },
 ];
 
