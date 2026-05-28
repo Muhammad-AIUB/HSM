@@ -2,7 +2,7 @@ import HSMLogo from "@/public/images/shared/hsm-logo.png";
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import DeveloperLogo from "@/public/images/shared/at-taqwa-logo.jpeg.jpg";
+import DeveloperLogo from "@/public/images/shared/profile.png";
 import NewsletterForm from "@/components/NewsLetterSignup/NewsLetterSignup";
 import ScrollToTop from "../ScrollToTop/ScrollToTop";
 
@@ -140,10 +140,10 @@ const Footer = () => {
           <div className="hidden md:block">
             <p className="text-left mb-1 text-sm">Developed By</p>
             <div className="flex justify-end gap-4">
-              <Link href="https://muhammad-potfolio-51k5.vercel.app/">
+              <Link href="https://www.mjubayer.dev/">
                 <Image
                   src={DeveloperLogo}
-                  alt="Taqwa IT Solutions Logo"
+                  alt="Developer profile"
                   width={90}
                   height={60}
                   className=""
@@ -168,10 +168,10 @@ const Footer = () => {
           <div className="md:hidden">
             <p className="text-center  mt-6 mb-1 text-sm">Developed By</p>
             <div className="flex justify-center gap-4">
-              <Link href="https://muhammad-potfolio-51k5.vercel.app/">
+              <Link href="https://www.mjubayer.dev/">
                 <Image
                   src={DeveloperLogo}
-                  alt="Taqwa IT Solutions Logo"
+                  alt="Developer profile"
                   width={120}
                   height={60}
                   className=""

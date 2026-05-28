@@ -4,7 +4,7 @@ const BioOfRahatHossain = () => {
   return (
     <div className="max-w-screen-lg mx-auto pt-16 py-12 relative bg-[#6BCBD5]/50 px-8 md:px-12">
       <h2 className="text-3xl md:text-4xl font-extrabold text-gray-800 text-center">
-        Bio of Rahat Hossain
+        About Rahat Hossain
         <span className="block w-24 h-1 bg-[#FFCE00] mx-auto mt-2 rounded-full"></span>
       </h2>
 
