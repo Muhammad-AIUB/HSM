@@ -6,6 +6,15 @@ export default function BlogArticle() {
     const blogArticles = [
         {
             year: "2026",
+            title: "Why Are Measles Making a Dangerous Comeback in Bangladesh and Beyond?",
+            journal: "Global South",
+            link: "https://globalsouth.org/2026/05/why-are-measles-making-a-dangerous-comeback-in-bangladesh-and-beyond/",
+            titleLink:
+                "https://globalsouth.org/2026/05/why-are-measles-making-a-dangerous-comeback-in-bangladesh-and-beyond/",
+            firstAuthor: false,
+        },
+        {
+            year: "2026",
             title: "Breathing in Danger: The Twin Threat of Climate Change and Air Pollution in Bangladesh",
             journal: "Global South",
             link: "https://globalsouth.org/2026/02/breathing-in-danger-the-twin-threat-of-climate-change-and-air-pollution-in-bangladesh/",
