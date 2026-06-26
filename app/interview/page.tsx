@@ -36,6 +36,16 @@ interface Interview {
 
 const interviews = [
   {
+    id: 27,
+    title:
+      "An Engaging Conversation with Professor Dr Muhammad Aziz Rahman on Public Health Careers and Contributions",
+    date: "June 26, 2026",
+    description:
+      "Prof. Dr Muhammad Aziz Rahman, Academic and Public Health Researcher and Associate Dean (Research) at Federation University Australia, reflects on global health contributions, career insights across Bangladesh and Australia, and advice for the next generation.",
+    image: "/images/blog-interview/interview/D78_1853 (2).JPG",
+    slug: "an-engaging-conversation-with-prof-muhammad-aziz-rahman",
+  },
+  {
     id: 26,
     title: "From MBA to Public Health: A Conversation with Trushar Parmar",
     date: "April 16, 2026",

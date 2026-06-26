@@ -91,4 +91,9 @@ export const interviewOrder = [
     slug: "from-mba-to-public-health-a-conversation-with-trushar-parmar",
     title: "From MBA to Public Health: A Conversation with Trushar Parmar",
   },
+  {
+    slug: "an-engaging-conversation-with-prof-muhammad-aziz-rahman",
+    title:
+      "An Engaging Conversation with Professor Dr Muhammad Aziz Rahman on Public Health Careers and Contributions",
+  },
 ];
