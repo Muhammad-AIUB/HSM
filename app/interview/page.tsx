@@ -451,6 +451,16 @@ const InterviewPage = () => {
                           className="w-full h-56 object-cover hover:scale-105 hover:opacity-90 transition-transform duration-300"
                           style={{ objectPosition: "center 30%" }}
                         />
+                      ) : interview.slug ===
+                        "an-engaging-conversation-with-prof-muhammad-aziz-rahman" ? (
+                        <Image
+                          src={interview.image}
+                          alt={interview.title}
+                          width={500}
+                          height={300}
+                          className="w-full h-56 object-cover hover:scale-105 hover:opacity-90 transition-transform duration-300"
+                          style={{ objectPosition: "center 20%" }}
+                        />
                       ) : (
                         <Image
                           src={interview.image}
