@@ -145,6 +145,14 @@ const blogs = [
     type: "blog",
     thumbnail: RahatHossain,
   },
+  {
+    title: "Tuberculosis Today: A Global and Regional Perspective",
+    description:
+      "The WHO Global TB Report 2025 brings cautious optimism as global incidence declines, yet South-East Asia and Bangladesh remain front-line hotspots. Dr Hyder examines drug resistance, regional burden, and the key priorities to reach the End TB Strategy targets by 2030.",
+    date: "15 July, 2026",
+    type: "blog",
+    thumbnail: "/images/blog-interview/DrHyder3.jpg",
+  },
 ];
 
 const BlogPage = () => {

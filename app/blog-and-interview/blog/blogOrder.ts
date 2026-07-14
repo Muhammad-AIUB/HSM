@@ -59,5 +59,9 @@ export const blogOrder = [
   {
     slug: "the-care-crisis-why-bangladesh-cant-find-the-caregivers-it-trains",
     title: "The Care Crisis: Why Bangladesh Can't Find the Caregivers It Trains"
+  },
+  {
+    slug: "tuberculosis-today-a-global-and-regional-perspective",
+    title: "Tuberculosis Today: A Global and Regional Perspective"
   }
 ];
