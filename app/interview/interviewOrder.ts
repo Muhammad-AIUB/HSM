@@ -96,4 +96,9 @@ export const interviewOrder = [
     title:
       "An Engaging Conversation with Professor Dr Muhammad Aziz Rahman on Public Health Careers and Contributions",
   },
+  {
+    slug: "in-conversation-with-dr-shashika-bandara",
+    title:
+      "In Conversation with Dr. Shashika Bandara: Advancing Research for Global Health Impact",
+  },
 ];

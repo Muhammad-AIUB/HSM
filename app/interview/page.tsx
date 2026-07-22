@@ -36,6 +36,16 @@ interface Interview {
 
 const interviews = [
   {
+    id: 28,
+    title:
+      "In Conversation with Dr. Shashika Bandara: Advancing Research for Global Health Impact",
+    date: "July 24, 2026",
+    description:
+      "Dr. Shashika Bandara, Academician, Researcher and Global Health Policy Expert at Monash University Malaysia, shares insights on global health governance, equity, decolonizing global health, and strengthening the next generation of global health leaders.",
+    image: "/images/blog-interview/interview/Shashika_Profile.jpg",
+    slug: "in-conversation-with-dr-shashika-bandara",
+  },
+  {
     id: 27,
     title:
       "An Engaging Conversation with Professor Dr Muhammad Aziz Rahman on Public Health Careers and Contributions",
