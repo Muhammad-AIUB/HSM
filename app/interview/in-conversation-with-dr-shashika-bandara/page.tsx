@@ -104,7 +104,7 @@ const InConversationWithDrShashikaBandara = () => {
             These articles and podcast shed light on my positionality and the
             way I view global health:
           </p>
-          <ul className="mt-4 space-y-3 list-disc list-outside pl-8 text-justify">
+          <ul className="mt-4 space-y-3 list-disc list-outside pl-8 text-justify marker:text-[#2D8CBB]">
             <li>
               <a
                 href="https://speakingofmedicine.plos.org/2023/05/18/the-weight-of-my-passport-and-my-place-in-global-health/"
