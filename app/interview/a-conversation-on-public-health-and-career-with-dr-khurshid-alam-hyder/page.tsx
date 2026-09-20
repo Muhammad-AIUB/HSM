@@ -36,17 +36,12 @@ const AConversationOnPublicHealthAndCareerWithDrKhurshidAlamHyder = () => {
           <div className="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-center sm:items-center gap-8">
             <div className="w-52 h-52 shrink-0 rounded-full overflow-hidden">
               <Image
-                src="/images/blog-interview/Hyder Office.jpg"
+                src="/images/blog-interview/DrHyder3.jpg"
                 alt="Dr Md Khurshid Alam Hyder"
-                width={640}
-                height={480}
+                width={400}
+                height={400}
                 quality={100}
                 className="object-cover w-full h-full"
-                style={{
-                  objectPosition: "100% 50%",
-                  transform: "scale(1.9)",
-                  transformOrigin: "55% 49%",
-                }}
               />
             </div>
 

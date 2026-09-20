@@ -42,7 +42,7 @@ const interviews = [
     date: "September 24, 2026",
     description:
       "Dr Md Khurshid Alam Hyder, physician and global health expert, reflects on four decades in tuberculosis control, his path from clinical medicine to WHO leadership, and why public health is ultimately about people, not systems alone.",
-    image: "/images/blog-interview/Hyder Office.jpg",
+    image: "/images/blog-interview/DrHyder3.jpg",
     slug: "a-conversation-on-public-health-and-career-with-dr-khurshid-alam-hyder",
   },
   {
@@ -481,19 +481,6 @@ const InterviewPage = () => {
                           className="w-full h-56 object-cover hover:scale-105 hover:opacity-90 transition-transform duration-300"
                           style={{ objectPosition: "center 20%" }}
                         />
-                      ) : interview.slug ===
-                        "a-conversation-on-public-health-and-career-with-dr-khurshid-alam-hyder" ? (
-                        // Wide office shot: the scale tightens the crop, and this wrapper
-                        // clips it to the h-56 slot so it cannot paint over the title.
-                        <div className="w-full h-56 shrink-0 overflow-hidden">
-                          <Image
-                            src={interview.image}
-                            alt={interview.title}
-                            width={500}
-                            height={300}
-                            className="w-full h-full object-cover scale-[1.75] origin-[90%_48%] hover:scale-[1.84] hover:opacity-90 transition-transform duration-300"
-                          />
-                        </div>
                       ) : (
                         <Image
                           src={interview.image}
