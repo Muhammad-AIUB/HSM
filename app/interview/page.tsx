@@ -36,6 +36,16 @@ interface Interview {
 
 const interviews = [
   {
+    id: 29,
+    title:
+      "A Conversation on Public Health and Career with Dr Md Khurshid Alam Hyder",
+    date: "September 24, 2026",
+    description:
+      "Dr Md Khurshid Alam Hyder, physician and global health expert, reflects on four decades in tuberculosis control, his path from clinical medicine to WHO leadership, and why public health is ultimately about people, not systems alone.",
+    image: "/images/blog-interview/Hyder Office.jpg",
+    slug: "a-conversation-on-public-health-and-career-with-dr-khurshid-alam-hyder",
+  },
+  {
     id: 28,
     title:
       "In Conversation with Dr. Shashika Bandara: Advancing Research for Global Health Impact",
@@ -470,6 +480,15 @@ const InterviewPage = () => {
                           height={300}
                           className="w-full h-56 object-cover hover:scale-105 hover:opacity-90 transition-transform duration-300"
                           style={{ objectPosition: "center 20%" }}
+                        />
+                      ) : interview.slug ===
+                        "a-conversation-on-public-health-and-career-with-dr-khurshid-alam-hyder" ? (
+                        <Image
+                          src={interview.image}
+                          alt={interview.title}
+                          width={500}
+                          height={300}
+                          className="w-full h-56 object-cover scale-[1.75] origin-[90%_48%] hover:scale-[1.84] hover:opacity-90 transition-transform duration-300"
                         />
                       ) : (
                         <Image

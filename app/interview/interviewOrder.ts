@@ -101,4 +101,9 @@ export const interviewOrder = [
     title:
       "In Conversation with Dr. Shashika Bandara: Advancing Research for Global Health Impact",
   },
+  {
+    slug: "a-conversation-on-public-health-and-career-with-dr-khurshid-alam-hyder",
+    title:
+      "A Conversation on Public Health and Career with Dr Md Khurshid Alam Hyder",
+  },
 ];
