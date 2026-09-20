@@ -483,13 +483,17 @@ const InterviewPage = () => {
                         />
                       ) : interview.slug ===
                         "a-conversation-on-public-health-and-career-with-dr-khurshid-alam-hyder" ? (
-                        <Image
-                          src={interview.image}
-                          alt={interview.title}
-                          width={500}
-                          height={300}
-                          className="w-full h-56 object-cover scale-[1.75] origin-[90%_48%] hover:scale-[1.84] hover:opacity-90 transition-transform duration-300"
-                        />
+                        // Wide office shot: the scale tightens the crop, and this wrapper
+                        // clips it to the h-56 slot so it cannot paint over the title.
+                        <div className="w-full h-56 shrink-0 overflow-hidden">
+                          <Image
+                            src={interview.image}
+                            alt={interview.title}
+                            width={500}
+                            height={300}
+                            className="w-full h-full object-cover scale-[1.75] origin-[90%_48%] hover:scale-[1.84] hover:opacity-90 transition-transform duration-300"
+                          />
+                        </div>
                       ) : (
                         <Image
                           src={interview.image}

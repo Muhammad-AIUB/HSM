@@ -104,9 +104,22 @@ tokens for these, so copy the hex codes:
   write `&rsquo; &ldquo; &rdquo; &mdash;`. Match that.
 - Cropping a photo that is not a headshot: `object-fit`/`object-position` can only pan, not
   zoom, and has **no effect on the axis that is not overflowing**. To tighten a wide shot,
-  use `scale-[N] origin-[X%_Y%]`. On the listing cards, an inline `style` transform would
-  silently kill the shared `hover:scale-105`, so express it as Tailwind classes and restate
+  use `scale-[N] origin-[X%_Y%]`.
+- **A scaled image must sit in its own `overflow-hidden` box the same size as the image.**
+  `transform: scale()` does not reflow: the element keeps its layout box, so text below
+  keeps its position while the image *paints* over it. On the interview cards the only
+  `overflow-hidden` is on the `<Link>` wrapping the whole card, which clips at the card's
+  outer edge — far below the title — so a `scale-[1.75]` image painted 63px over its own
+  card title. Every scaled image in this repo is wrapped (`w-52 h-52 rounded-full
+  overflow-hidden` for hero avatars, `w-full h-56 overflow-hidden` for card thumbnails).
+  Verify by asserting the clip box's `bottom` is above the title's `top`, not by eye.
+- Rest-state `scale-*` is the risky case; `hover:scale-105` overflows by ~11px only while
+  hovered, which is why the other cards never showed this. An inline `style` transform also
+  silently kills the shared `hover:scale-105`, so express it as Tailwind classes and restate
   the hover (`hover:scale-[N*1.05]`).
+- Reading a transformed element's computed style right after a synthetic hover returns the
+  value mid-`transition` (300ms here), not the target. Wait before asserting, or you will
+  chase a bug that is not there.
 - `.claude/settings.local.json` is machine-local and gitignored. `.claude/launch.json`
   defines the `hsm-dev` preview server and is committed.
 
