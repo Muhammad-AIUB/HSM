@@ -418,12 +418,8 @@ const AConversationOnPublicHealthAndCareerWithDrKhurshidAlamHyder = () => {
         </div>
 
         <div className="mb-10 rounded-md bg-[#BFEFF3] px-6 md:px-10 py-8 shadow-sm">
-          <h2 className="text-2xl md:text-3xl font-extrabold text-[#001844] text-center">
-            About Dr Md Khurshid Alam Hyder
-          </h2>
-          <div className="mt-2 mb-6 h-1 w-20 bg-[#FFCE00] mx-auto rounded-full" />
-          <div className="flex justify-center mb-6">
-            <div className="relative w-40 h-40 md:w-48 md:h-48 rounded-full overflow-hidden border-4 border-[#FFCE00]">
+          <div className="flex flex-col md:flex-row items-center md:items-start gap-6 md:gap-8">
+            <div className="relative w-40 h-40 md:w-48 md:h-48 shrink-0 rounded-2xl overflow-hidden border-4 border-[#FFCE00]">
               <Image
                 src="/images/blog-interview/Hyder Office.jpg"
                 alt="Dr Md Khurshid Alam Hyder"
@@ -433,20 +429,27 @@ const AConversationOnPublicHealthAndCareerWithDrKhurshidAlamHyder = () => {
                 className="object-cover w-full h-full"
               />
             </div>
+
+            <div className="flex-1">
+              <h2 className="text-2xl md:text-3xl font-extrabold text-[#001844] text-center md:text-left">
+                About Dr Md Khurshid Alam Hyder
+              </h2>
+              <div className="mt-2 mb-6 h-1 w-20 bg-[#FFCE00] mx-auto md:mx-0 rounded-full" />
+              <p className="mt-2 leading-relaxed text-justify">
+                Dr. Hyder is a physician, researcher, and global health leader with over
+                three decades of experience in public health policy and health systems
+                strengthening. He earned his MBBS and PhD in Medical Microbiology from the
+                University of Dhaka and an MPH from the University of Alabama at
+                Birmingham. His career spans national, regional, and global roles with the
+                National Tuberculosis Control Programme, WHO South-East Asia Regional
+                Office, and WHO Nepal. His work has focused on tuberculosis control, health
+                systems, NCDs, RMNCAH, climate change, healthy ageing, and long-term care.
+                Currently, he continues to contribute through international civil society
+                leadership, mentoring, and evidence-informed advocacy, guided by a lifelong
+                commitment to equity, dignity, and meaningful public health impact.
+              </p>
+            </div>
           </div>
-          <p className="mt-2 leading-relaxed text-justify">
-            Dr. Hyder is a physician, researcher, and global health leader with over three
-            decades of experience in public health policy and health systems
-            strengthening. He earned his MBBS and PhD in Medical Microbiology from the
-            University of Dhaka and an MPH from the University of Alabama at Birmingham.
-            His career spans national, regional, and global roles with the National
-            Tuberculosis Control Programme, WHO South-East Asia Regional Office, and WHO
-            Nepal. His work has focused on tuberculosis control, health systems, NCDs,
-            RMNCAH, climate change, healthy ageing, and long-term care. Currently, he
-            continues to contribute through international civil society leadership,
-            mentoring, and evidence-informed advocacy, guided by a lifelong commitment to
-            equity, dignity, and meaningful public health impact.
-          </p>
         </div>
       </div>
 
