@@ -422,6 +422,18 @@ const AConversationOnPublicHealthAndCareerWithDrKhurshidAlamHyder = () => {
             About Dr Md Khurshid Alam Hyder
           </h2>
           <div className="mt-2 mb-6 h-1 w-20 bg-[#FFCE00] mx-auto rounded-full" />
+          <div className="flex justify-center mb-6">
+            <div className="relative w-40 h-40 md:w-48 md:h-48 rounded-full overflow-hidden border-4 border-[#FFCE00]">
+              <Image
+                src="/images/blog-interview/Hyder Office.jpg"
+                alt="Dr Md Khurshid Alam Hyder"
+                width={400}
+                height={400}
+                quality={100}
+                className="object-cover w-full h-full"
+              />
+            </div>
+          </div>
           <p className="mt-2 leading-relaxed text-justify">
             Dr. Hyder is a physician, researcher, and global health leader with over three
             decades of experience in public health policy and health systems
