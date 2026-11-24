@@ -13,8 +13,8 @@ const BookChapterContributions = () => {
             <Image
               src="/images/sizear/book-chapter/biennial-report-launch.webp"
               alt="Biennial Report 2025–2026 launch: Challenging Corruption: Strengthening Governance in Bangladesh’s Health Sector"
-              width={900}
-              height={1200}
+              width={1094}
+              height={1131}
               className="w-full h-full object-cover object-top"
             />
           </div>
