@@ -1,3 +1,4 @@
+import BookChapterContributions from "./BookChapterContributions";
 import CareerAndScholarship from "./CareerAndScholarship";
 import PublicHealth from "./PublicHealth";
 
@@ -16,6 +17,8 @@ const NewspaperColumns = () => {
           published a collection of travel essays in book form. My work spans
           the following categories:
         </p>
+
+        <BookChapterContributions />
 
         <h3 className="text-2xl md:text-2xl font-bold  pt-8 underline underline-offset-[6px] font-roboto text-[#113855] decoration-[#FFCE00]">
           Newspaper Columns
